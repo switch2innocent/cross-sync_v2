@@ -1,33 +1,38 @@
 <?php
 
-class Contacts_tbl {
+class Upload_csv {
     private $conn;
 
     public function __construct($db) {
         $this->conn = $db;        
     }
 
-    public function upload_file() {
+    public function upload_office() {
 
-        $sql = "INSERT INTO contacts (name, email, phone) VALUES (?, ?, ?)";
-        $save = $this->conn->prepare($sql);
+        $sql = "INSERT INTO office (category, description, qty) VALUES (?, ?, ?)";
+        $saveoffice = $this->conn->prepare($sql);
         
-        $save->bindParam(1, $this->name);
-        $save->bindParam(2, $this->email);
-        $save->bindParam(3, $this->phone);
+        $saveoffice->bindParam(1, $this->category_office);
+        $saveoffice->bindParam(2, $this->description_office);
+        $saveoffice->bindParam(3, $this->qty_office);
 
-        return ($save->execute()) ? true : false;
+        return ($saveoffice->execute()) ? true : false;
     }
 
-    public function upload_file_two() {
+    public function upload_onsite() {
 
-        $sql = "INSERT INTO contacttwo (name, email, phone) VALUES (?, ?, ?)";
-        $savetwo = $this->conn->prepare($sql);
+        $sql = "INSERT INTO onsite (category, description, qty) VALUES (?, ?, ?)";
+        $saveonsite = $this->conn->prepare($sql);
 
-        $savetwo->bindParam(1, $this->nametwo);
-        $savetwo->bindParam(2, $this->emailtwo);
-        $savetwo->bindParam(3, $this->phonetwo);
+        $saveonsite->bindParam(1, $this->category_onsite);
+        $saveonsite->bindParam(2, $this->description_onsite);
+        $saveonsite->bindParam(3, $this->qty_onsite);
 
-        return ($savetwo->execute()) ? true : false;
+        return ($saveonsite->execute()) ? true : false;
+    }
+
+    public function view_office_onsite() {
+
+
     }
 }

@@ -2,7 +2,7 @@
 
 class Connection {
     private $host = 'localhost';
-    private $dbname = 'uploaddb';
+    private $dbname = 'csvdb';
     private $username = 'root';
     private $password = '';
 

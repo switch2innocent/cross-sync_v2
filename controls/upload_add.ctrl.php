@@ -6,33 +6,33 @@ require_once '../objects/upload.obj.php';
 $database = new Connection();
 $db = $database->connect();
 
-// For upload 1
-$uploadfile = new Contacts_tbl($db);
+// For upload office
+$uploadoffice = new Upload_csv($db);
 
-if (isset($_FILES['fileUpload']) && $_FILES['fileUpload']['error'] == 0) {
-    $fileImpPath = $_FILES['fileUpload']['tmp_name'];
-    $fileName = $_FILES['fileUpload']['name'];
+if (isset($_FILES['upload-office']) && $_FILES['upload-office']['error'] == 0) {
+    $fileImpPath_office = $_FILES['upload-office']['tmp_name'];
+    $fileName_office = $_FILES['upload-office']['name'];
 
-    $fileExtension = strtolower(pathinfo($fileName, PATHINFO_EXTENSION));
-    if ($fileExtension != 'csv') {
+    $fileExtension_office = strtolower(pathinfo($fileName_office, PATHINFO_EXTENSION));
+    if ($fileExtension_office != 'csv') {
         die("Please upload a CSV file");
     }
 
-    if (($file = fopen($fileImpPath, 'r')) !== false) {
+    if (($file_office = fopen($fileImpPath_office, 'r')) !== false) {
 
-        while (($row = fgetcsv($file)) !== false) {
-            $name = $row[0];
-            $email = $row[1];
-            $phone = $row[2];
+        while (($row_office = fgetcsv($file_office)) !== false) {
+            $categoryoffice = $row_office[0];
+            $descriptionoffice = $row_office[1];
+            $qtyoffice = $row_office[2];
 
-            $uploadfile->name = $name;
-            $uploadfile->email = $email;
-            $uploadfile->phone = $phone;
+            $uploadoffice->category_office = $categoryoffice;
+            $uploadoffice->description_office = $descriptionoffice;
+            $uploadoffice->qty_office = $qtyoffice;
 
-            $execute = $uploadfile->upload_file();
+            $execute_office = $uploadoffice->upload_office();
         }
 
-        fclose($file);
+        fclose($file_office);
         echo "
             <script>
                 alert('Data Uploaded');
@@ -54,33 +54,33 @@ if (isset($_FILES['fileUpload']) && $_FILES['fileUpload']['error'] == 0) {
 }
 
 
-// For upload 2
-$uploadfiletwo = new Contacts_tbl($db);
+// For upload onsite
+$uploadonsite = new Contacts_tbl($db);
 
-if (isset($_FILES['fileUploadtwo']) && $_FILES['fileUploadtwo']['error'] == 0) {
-    $fileImpPathtwo = $_FILES['fileUploadtwo']['tmp_name'];
-    $fileNametwo = $_FILES['fileUploadtwo']['name'];
+if (isset($_FILES['upload-onsite']) && $_FILES['upload-onsite']['error'] == 0) {
+    $fileImpPath_onsite = $_FILES['upload-onsite']['tmp_name'];
+    $fileName_onsite = $_FILES['upload-onsite']['name'];
 
-    $fileExtensiontwo = strtolower(pathinfo($fileNametwo, PATHINFO_EXTENSION));
-    if ($fileExtensiontwo != 'csv') {
+    $fileExtension_onsite = strtolower(pathinfo($fileName_onsite, PATHINFO_EXTENSION));
+    if ($fileExtension_onsite != 'csv') {
         die("Please upload a CSV file");
     }
 
-    if (($filetwo = fopen($fileImpPathtwo, 'r')) !== false) {
+    if (($file_onsite = fopen($fileImpPath_onsite, 'r')) !== false) {
 
-        while (($rowtwo = fgetcsv($filetwo)) !== false) {
-            $nametwo = $rowtwo[0];
-            $emailtwo = $rowtwo[1];
-            $phonetwo = $rowtwo[2];
+        while (($row_onsite = fgetcsv($file_onsite)) !== false) {
+            $category_onsite = $row_onsite[0];
+            $description_onsite = $row_onsite[1];
+            $qty_onsite = $row_onsite[2];
 
-            $uploadfiletwo->nametwo = $nametwo;
-            $uploadfiletwo->emailtwo = $emailtwo;
-            $uploadfiletwo->phonetwo = $phonetwo;
+            $uploadonsite->category_onsite = $category_onsite;
+            $uploadonsite->description_onsite = $description_onsite;
+            $uploadonsite->qty_onsite = $qty_onsite;
 
-            $executetwo = $uploadfiletwo->upload_file_two();
+            $execute_onsite = $uploadonsite->upload_onsite();
         }
 
-        fclose($filetwo);
+        fclose($file_onsite);
         echo "
             <script>
                 alert('Data Uploaded');

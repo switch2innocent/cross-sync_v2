@@ -165,16 +165,16 @@
                 <!-- Modal Body -->
                 <div class="modal-body">
                   <form method="POST" enctype="multipart/form-data" id="upload-form">
-                    <h6>Step 1 : Add First File</h6>
+                    <h6>Step 1 : Upload Office CSV</h6>
                     <div class="form-group">
-                      <input type="file" class="form-control" name="fileUpload" id="fileUpload">
+                      <input type="file" class="form-control" name="upload-office" id="upload-office">
                     </div>
 
                     <br>
 
-                    <h6>Step 2 : Add Second File</h6>
+                    <h6>Step 2 : Upload Onsite CSV</h6>
                     <div class="form-group">
-                      <input type="file" class="form-control" name="fileUploadtwo" id="fileUploadtwo">
+                      <input type="file" class="form-control" name="upload-onsite" id="upload-onsite">
                     </div>
                 </div>
 

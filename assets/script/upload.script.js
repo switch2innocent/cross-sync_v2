@@ -3,18 +3,18 @@ $(document).ready(function () {
     $('#upload-form').on('submit', function (e) {
         e.preventDefault();
 
-        // for upload 1
-        var formData = new FormData();
-        var fileUpload = $('#fileUpload')[0].files[0];
-        formData.append('fileUpload', $('#fileUpload')[0].files[0]);
+        // for upload office
+        var formData_office = new FormData();
+        var fileUpload_office = $('#upload-office')[0].files[0];
+        formData_office.append('upload-office', $('#upload-office')[0].files[0]);
 
-        // for upload 2
-        var formDatatwo = new FormData();
-        var fileUploadTwo = $('#fileUploadtwo')[0].files[0];
-        formDatatwo.append('fileUploadtwo', $('#fileUploadtwo')[0].files[0]);
+        // for upload onsite
+        var formData_onsite = new FormData();
+        var fileUpload_onsite = $('#upload-onsite')[0].files[0];
+        formData_onsite.append('upload-onsite', $('#upload-onsite')[0].files[0]);
 
-        // validate
-        if (fileUpload && fileUploadTwo && fileUpload.name === fileUploadTwo.name) {
+        // validate files
+        if (fileUpload_office && fileUpload_onsite && fileUpload_office.name === fileUpload_onsite.name) {
 
             Swal.fire({
                 icon: 'warning',
@@ -24,7 +24,7 @@ $(document).ready(function () {
             });
             return;
 
-        } else if (!fileUpload || !fileUploadTwo) {
+        } else if (!fileUpload_office || !fileUpload_onsite) {
 
             Swal.fire({
                 icon: 'warning',
@@ -37,14 +37,14 @@ $(document).ready(function () {
         } else {
 
             // Merge data together for ajax request
-            formDatatwo.forEach(function (value, key) {
-                formData.append(key, value);
+            formData_onsite.forEach(function (value, key) {
+                formData_office.append(key, value);
             });
 
             $.ajax({
                 type: 'POST',
                 url: 'controls/upload_add.ctrl.php',
-                data: formData,
+                data: formData_office,
                 processData: false,
                 contentType: false,
                 success: function (responce) {
