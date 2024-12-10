@@ -55,7 +55,7 @@ if (isset($_FILES['upload-office']) && $_FILES['upload-office']['error'] == 0) {
 
 
 // For upload onsite
-$uploadonsite = new Contacts_tbl($db);
+$uploadonsite = new Upload_csv($db);
 
 if (isset($_FILES['upload-onsite']) && $_FILES['upload-onsite']['error'] == 0) {
     $fileImpPath_onsite = $_FILES['upload-onsite']['tmp_name'];
