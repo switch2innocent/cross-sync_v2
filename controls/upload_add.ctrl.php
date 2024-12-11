@@ -73,6 +73,9 @@ if (isset($_FILES['upload-onsite']) && $_FILES['upload-onsite']['error'] == 0) {
             $description_onsite = $row_onsite[1];
             $qty_onsite = $row_onsite[2];
 
+            $office_id = 1;
+
+            $uploadonsite->office_id = $office_id;
             $uploadonsite->category_onsite = $category_onsite;
             $uploadonsite->description_onsite = $description_onsite;
             $uploadonsite->qty_onsite = $qty_onsite;

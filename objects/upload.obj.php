@@ -21,18 +21,19 @@ class Upload_csv {
 
     public function upload_onsite() {
 
-        $sql = "INSERT INTO onsite (category, description, qty) VALUES (?, ?, ?)";
+        $sql = "INSERT INTO onsite (office_id, category, description, qty) VALUES (?, ?, ?, ?)";
         $saveonsite = $this->conn->prepare($sql);
 
-        $saveonsite->bindParam(1, $this->category_onsite);
-        $saveonsite->bindParam(2, $this->description_onsite);
-        $saveonsite->bindParam(3, $this->qty_onsite);
+        $saveonsite->bindParam(1, $this->office_id);
+        $saveonsite->bindParam(2, $this->category_onsite);
+        $saveonsite->bindParam(3, $this->description_onsite);
+        $saveonsite->bindParam(4, $this->qty_onsite);
 
         return ($saveonsite->execute()) ? true : false;
     }
 
-    public function view_office_onsite() {
+    // public function view_office_onsite() {
 
 
-    }
+    // }
 }
