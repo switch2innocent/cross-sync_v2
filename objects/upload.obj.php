@@ -21,19 +21,22 @@ class Upload_csv {
 
     public function upload_onsite() {
 
-        $sql = "INSERT INTO onsite (office_id, category, description, qty) VALUES (?, ?, ?, ?)";
+        $sql = "INSERT INTO onsite (category, description, qty) VALUES (?, ?, ?)";
         $saveonsite = $this->conn->prepare($sql);
 
-        $saveonsite->bindParam(1, $this->office_id);
-        $saveonsite->bindParam(2, $this->category_onsite);
-        $saveonsite->bindParam(3, $this->description_onsite);
-        $saveonsite->bindParam(4, $this->qty_onsite);
+        $saveonsite->bindParam(1, $this->category_onsite);
+        $saveonsite->bindParam(2, $this->description_onsite);
+        $saveonsite->bindParam(3, $this->qty_onsite);
 
         return ($saveonsite->execute()) ? true : false;
     }
 
-    // public function view_office_onsite() {
+    public function view_office_onsite_record() {
 
+        $sql = "SELECT o.description, o.qty AS office_quantity, n.qty AS onsite_quantity, (o.qty - IFNULL(n.qty, 0)) AS quantity_difference FROM office o LEFT JOIN onsite n ON o.description = n.description";
+        $view_office_onsite = $this->conn->prepare($sql);
 
-    // }
+        $view_office_onsite->execute();
+        return $view_office_onsite;
+    }
 }

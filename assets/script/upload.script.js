@@ -75,4 +75,6 @@ $(document).ready(function () {
 
     }); // End of upload form
 
+    $('#upload-datatable').DataTable();
+
 }); // End document ready function

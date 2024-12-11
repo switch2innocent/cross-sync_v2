@@ -1,3 +1,14 @@
+<?php
+
+require_once 'config/dbcon.php';
+require_once 'objects/upload.obj.php';
+
+$database = new Connection();
+$db = $database->connect();
+
+$Viewofficeonsite = new Upload_csv($db);
+
+?>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -84,7 +95,7 @@
         <div class="container-fluid">
           <div class="row mb-2">
             <div class="col-sm-6">
-              <h1 class="m-0">Upload CSV</h1>
+              <h4 class="m-0">Upload CSV</h4>
             </div><!-- /.col -->
           </div><!-- /.row -->
         </div><!-- /.container-fluid -->
@@ -96,34 +107,47 @@
         <div class="container-fluid">
     
           <!-- New Added Content -->
-          <button type="button" class="btn btn-success" data-toggle="modal" data-target="#uploadModal" data-backdrop="static">Add File</button>
-          <table class="table table-bordered text-center mt-3">
+          <button type="button" class="btn btn-success mb-3" data-toggle="modal" data-target="#uploadModal" data-backdrop="static">Add File</button>
+          <table class="table table-bordered text-center mt-3" id="upload-datatable">
             <thead>
               <tr>
-                <th>ID</th>
-                <th>Name</th>
-                <th>Email</th>
-                <th>Phone</th>
-              </tr>
+                <th>Description</th>
+                <th>Office (Quantity)</th>
+                <th>Onsite (Quantity)</th>
+                <th>Difference</th>
+                <th>Status</th>
+                <th>Action</th>
+              </tr>              
             </thead>
             <tbody>
-              <tr>
-                <td>1</td>
-                <td>Rex</td>
-                <td>rex@gmail.com</td>
-                <td>123</td>
-              </tr>
+              <?php
+                $view = $Viewofficeonsite->view_office_onsite_record();
+                while ($row = $view->fetch(PDO::FETCH_ASSOC)) {
+                  if ($row['quantity_difference'] < 0) {
+                    $status = "Low";
+                  } elseif ($row['quantity_difference'] > 0) {
+                    $status = "High";
+                  } else {
+                    $status = "Equal";
+                  }
+
+                  echo '
+                    <tr>
+                      <td>'.$row['description'].'</td>
+                      <td>'.$row['office_quantity'].'</td>
+                      <td>'.$row['onsite_quantity'].'</td>
+                      <td>'.$row['quantity_difference'].'</td>
+                      <td>'.$status.'</td>
+                      <td>
+                        <button type="submit" class="btn btn-primary">Edit</button>
+                        <button type"submit" class="btn btn-danger">Delete</button>
+                      </td>
+                    </tr>
+                  ';
+                }
+              ?>
             </tbody>
           </table>
-
-
-
-
-
-
-
-
-
 
         </div>
         <!--/.container-fluid-->
@@ -135,12 +159,6 @@
       <strong>Copyright &copy; 2024 <a href="#">Innoland</a>.</strong>
       All rights reserved.
     </footer>
-
-
-
-
-
-    
 
     <!-- Control Sidebar -->
     <aside class="control-sidebar control-sidebar-dark">
@@ -231,6 +249,12 @@
 
   <!-- sweetalert2@11.js -->
   <script src="assets/plugins/sweetalert2@11.js"></script>
+
+  <!-- dataTables.js -->
+  <script src="assets/plugins/dataTables.js"></script>
+
+  <!-- dataTables.bootstrap4.js -->
+  <script src="assets/plugins/dataTables.bootstrap4.js"></script>
 
   <!-- Upload SCript -->
   <script src="assets/script/upload.script.js"></script>

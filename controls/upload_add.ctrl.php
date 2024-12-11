@@ -69,16 +69,13 @@ if (isset($_FILES['upload-onsite']) && $_FILES['upload-onsite']['error'] == 0) {
     if (($file_onsite = fopen($fileImpPath_onsite, 'r')) !== false) {
 
         while (($row_onsite = fgetcsv($file_onsite)) !== false) {
-            $category_onsite = $row_onsite[0];
-            $description_onsite = $row_onsite[1];
-            $qty_onsite = $row_onsite[2];
+            $categoryonsite = $row_onsite[0];
+            $descriptiononsite = $row_onsite[1];
+            $qtyonsite = $row_onsite[2];
 
-            $office_id = 1;
-
-            $uploadonsite->office_id = $office_id;
-            $uploadonsite->category_onsite = $category_onsite;
-            $uploadonsite->description_onsite = $description_onsite;
-            $uploadonsite->qty_onsite = $qty_onsite;
+            $uploadonsite->category_onsite = $categoryonsite;
+            $uploadonsite->description_onsite = $descriptiononsite;
+            $uploadonsite->qty_onsite = $qtyonsite;
 
             $execute_onsite = $uploadonsite->upload_onsite();
         }
