@@ -27,11 +27,12 @@ $(document).ready(function () {
         } else if (!fileUpload_office || !fileUpload_onsite) {
 
             Swal.fire({
-                icon: 'warning',
-                title: 'Warning!',
+                icon: 'error',
+                title: 'Error!',
                 text: 'Please select both files for upload.',
                 showConfirmButton: true
             });
+
             return;
 
         } else {
@@ -52,7 +53,11 @@ $(document).ready(function () {
                     Swal.fire({
                         title: "Saved!",
                         text: "Saved successfully!",
-                        icon: "success"
+                        icon: "success",
+                        allowOutsideClick: false,
+                        allowEscapeKey: false
+                    }).then(function() {
+                        window.location.reload();
                     });
 
                     $('#uploadModal').modal('hide');
@@ -78,3 +83,33 @@ $(document).ready(function () {
     $('#upload-datatable').DataTable();
 
 }); // End document ready function
+
+  function exportTableToCSV(filename) {
+    var csv = [];
+    var rows = document.querySelectorAll("#upload-datatable tr");
+
+    // Get headers
+    var headers = document.querySelectorAll("#upload-datatable thead th");
+    var headerRow = [];
+    for (var i = 0; i < headers.length; i++) {
+      headerRow.push(headers[i].innerText.trim());
+    }
+    csv.push(headerRow.join(","));
+
+    // Get rows from tbody
+    rows.forEach(function(row) {
+      var rowData = [];
+      var cols = row.querySelectorAll("td");
+      cols.forEach(function(col) {
+        rowData.push(col.innerText.trim());
+      });
+      csv.push(rowData.join(","));
+    });
+
+    // Create a link and trigger the CSV download
+    var csvFile = new Blob([csv.join("\n")], { type: 'text/csv' });
+    var downloadLink = document.createElement("a");
+    downloadLink.href = URL.createObjectURL(csvFile);
+    downloadLink.download = filename;
+    downloadLink.click();
+  }

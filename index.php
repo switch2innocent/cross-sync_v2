@@ -19,24 +19,13 @@ $Viewofficeonsite = new Upload_csv($db);
 
   <!-- Google Font: Source Sans Pro -->
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700&display=fallback">
+  
   <!-- Font Awesome -->
   <link rel="stylesheet" href="plugins/fontawesome-free/css/all.min.css">
-  <!-- Ionicons -->
-  <link rel="stylesheet" href="https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
-  <!-- Tempusdominus Bootstrap 4 -->
-  <link rel="stylesheet" href="plugins/tempusdominus-bootstrap-4/css/tempusdominus-bootstrap-4.min.css">
-  <!-- iCheck -->
-  <link rel="stylesheet" href="plugins/icheck-bootstrap/icheck-bootstrap.min.css">
-  <!-- JQVMap -->
-  <link rel="stylesheet" href="plugins/jqvmap/jqvmap.min.css">
+
   <!-- Theme style -->
   <link rel="stylesheet" href="dist/css/adminlte.min.css">
-  <!-- overlayScrollbars -->
-  <link rel="stylesheet" href="plugins/overlayScrollbars/css/OverlayScrollbars.min.css">
-  <!-- Daterange picker -->
-  <link rel="stylesheet" href="plugins/daterangepicker/daterangepicker.css">
-  <!-- summernote -->
-  <link rel="stylesheet" href="plugins/summernote/summernote-bs4.min.css">
+
 </head>
 
 <body class="hold-transition sidebar-mini layout-fixed">
@@ -61,7 +50,7 @@ $Viewofficeonsite = new Upload_csv($db);
         <!-- Sidebar user panel (optional) -->
         <div class="user-panel mt-3 pb-3 mb-3 d-flex">
           <div class="image">
-            <img src="dist/img/user2-160x160.jpg" class="img-circle elevation-2" alt="User Image">
+            <img src="dist/img/avatar5.png" class="img-circle elevation-2" alt="User Image">
           </div>
           <div class="info">
             <a href="#" class="d-block">Administrator</a>
@@ -71,13 +60,12 @@ $Viewofficeonsite = new Upload_csv($db);
         <!-- Sidebar Menu -->
         <nav class="mt-2">
           <ul class="nav nav-pills nav-sidebar flex-column" data-widget="treeview" role="menu" data-accordion="false">
-            
+
             <li class="nav-item">
               <a href="#" class="nav-link">
-                <i class="nav-icon fas fa-edit"></i>
+                <i class="fa fa-upload"></i> &nbsp;
                 <p>
                   Upload CSV
-                  <!-- <i class="fas fa-angle-left right"></i> -->
                 </p>
               </a>
             </li>
@@ -95,7 +83,7 @@ $Viewofficeonsite = new Upload_csv($db);
         <div class="container-fluid">
           <div class="row mb-2">
             <div class="col-sm-6">
-              <h4 class="m-0">Upload CSV</h4>
+              <h5 class="m-0 font-weight-bold">Upload CSV</h5> 
             </div><!-- /.col -->
           </div><!-- /.row -->
         </div><!-- /.container-fluid -->
@@ -105,10 +93,14 @@ $Viewofficeonsite = new Upload_csv($db);
       <!-- Main content -->
       <section class="content">
         <div class="container-fluid">
-    
+
+            <!-- Export Button -->
+    <button class="btn btn-primary btn-export" onclick="exportTableToCSV('data-table.csv')">Export to CSV</button>
+
+
           <!-- New Added Content -->
-          <button type="button" class="btn btn-success mb-3" data-toggle="modal" data-target="#uploadModal" data-backdrop="static">Add File</button>
-          <table class="table table-bordered text-center mt-3" id="upload-datatable">
+          <button type="button" class="btn btn-success mb-3" data-toggle="modal" data-target="#uploadModal" data-backdrop="static"><i class="fa fa-plus"></i> &nbsp; Add File</button>
+          <table class="table table-bordered text-center mt-3 table-hover" id="upload-datatable">
             <thead>
               <tr>
                 <th>Description</th>
@@ -116,35 +108,30 @@ $Viewofficeonsite = new Upload_csv($db);
                 <th>Onsite (Quantity)</th>
                 <th>Difference</th>
                 <th>Status</th>
-                <th>Action</th>
-              </tr>              
+              </tr>
             </thead>
             <tbody>
               <?php
-                $view = $Viewofficeonsite->view_office_onsite_record();
-                while ($row = $view->fetch(PDO::FETCH_ASSOC)) {
-                  if ($row['quantity_difference'] < 0) {
-                    $status = "Low";
-                  } elseif ($row['quantity_difference'] > 0) {
-                    $status = "High";
-                  } else {
-                    $status = "Equal";
-                  }
+              $view = $Viewofficeonsite->view_office_onsite_record();
+              while ($row = $view->fetch(PDO::FETCH_ASSOC)) {
+                if ($row['quantity_difference'] < 0) {
+                  $status = "Low";
+                } elseif ($row['quantity_difference'] > 0) {
+                  $status = "High";
+                } else {
+                  $status = "Equal";
+                }
 
-                  echo '
+                echo '
                     <tr>
-                      <td>'.$row['description'].'</td>
-                      <td>'.$row['office_quantity'].'</td>
-                      <td>'.$row['onsite_quantity'].'</td>
-                      <td>'.$row['quantity_difference'].'</td>
-                      <td>'.$status.'</td>
-                      <td>
-                        <button type="submit" class="btn btn-primary">Edit</button>
-                        <button type"submit" class="btn btn-danger">Delete</button>
-                      </td>
+                      <td>' . $row['description'] . '</td>
+                      <td>' . $row['office_quantity'] . '</td>
+                      <td>' . $row['onsite_quantity'] . '</td>
+                      <td>' . $row['quantity_difference'] . '</td>
+                      <td>' . $status . '</td>
                     </tr>
                   ';
-                }
+              }
               ?>
             </tbody>
           </table>
@@ -169,83 +156,54 @@ $Viewofficeonsite = new Upload_csv($db);
   <!-- ./wrapper -->
 
 
-            <!-- Modal for upload -->
-            <div class="modal fade" id="uploadModal">
-            <div class="modal-dialog modal-dialog-centered">
-              <div class="modal-content">
+  <!-- Modal for upload -->
+  <div class="modal fade" id="uploadModal">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content">
 
-                <!-- Modal Header -->
-                <div class="modal-header">
-                  <h4 class="modal-title">Upload CSV</h4>
-                  <button type="button" class="close" data-dismiss="modal">&times;</button>
-                </div>
+        <!-- Modal Header -->
+        <div class="modal-header">
+          <h4 class="modal-title">Upload CSV</h4>
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+        </div>
 
-                <!-- Modal Body -->
-                <div class="modal-body">
-                  <form method="POST" enctype="multipart/form-data" id="upload-form">
-                    <h6>Step 1 : Upload Office CSV</h6>
-                    <div class="form-group">
-                      <input type="file" class="form-control" name="upload-office" id="upload-office">
-                    </div>
-
-                    <br>
-
-                    <h6>Step 2 : Upload Onsite CSV</h6>
-                    <div class="form-group">
-                      <input type="file" class="form-control" name="upload-onsite" id="upload-onsite">
-                    </div>
-                </div>
-
-                <!-- Modal Footer -->
-                <div class="modal-footer">
-                  <button type="submit" class="btn btn-success" value="Upload" id="upload-submit">Upload</button>
-                  </form>
-                  <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                </div>
-
-              </div>
+        <!-- Modal Body -->
+        <div class="modal-body">
+          <form method="POST" enctype="multipart/form-data" id="upload-form">
+            <h6><span class="font-weight-bold">Step 1 :</span> Upload Office CSV</h6>
+            <div class="form-group">
+              <input type="file" class="form-control" name="upload-office" id="upload-office" class="">
             </div>
-          </div>
 
+            <br>
 
+            <h6><span class="font-weight-bold">Step 2 :</span> Upload Onsite CSV</h6>
+            <div class="form-group">
+              <input type="file" class="form-control" name="upload-onsite" id="upload-onsite">
+            </div>
+        </div>
 
+        <!-- Modal Footer -->
+        <div class="modal-footer">
+          <button type="submit" class="btn btn-success" value="Upload" id="upload-submit">Upload</button>
+          </form>
+          <button type="button" class="btn btn-dark" data-dismiss="modal">Close</button>
+        </div>
+
+      </div>
+    </div>
+  </div>
 
 
 
   <!-- jQuery -->
   <script src="plugins/jquery/jquery.min.js"></script>
-  <!-- jQuery UI 1.11.4 -->
-  <script src="plugins/jquery-ui/jquery-ui.min.js"></script>
-  <!-- Resolve conflict in jQuery UI tooltip with Bootstrap tooltip -->
-  <script>
-    $.widget.bridge('uibutton', $.ui.button)
-  </script>
+
   <!-- Bootstrap 4 -->
   <script src="plugins/bootstrap/js/bootstrap.bundle.min.js"></script>
-  <!-- ChartJS -->
-  <script src="plugins/chart.js/Chart.min.js"></script>
-  <!-- Sparkline -->
-  <script src="plugins/sparklines/sparkline.js"></script>
-  <!-- JQVMap 
-<script src="plugins/jqvmap/jquery.vmap.min.js"></script>
-<script src="plugins/jqvmap/maps/jquery.vmap.usa.js"></script>-->
-  <!-- jQuery Knob Chart -->
-  <script src="plugins/jquery-knob/jquery.knob.min.js"></script>
-  <!-- daterangepicker -->
-  <script src="plugins/moment/moment.min.js"></script>
-  <script src="plugins/daterangepicker/daterangepicker.js"></script>
-  <!-- Tempusdominus Bootstrap 4 -->
-  <script src="plugins/tempusdominus-bootstrap-4/js/tempusdominus-bootstrap-4.min.js"></script>
-  <!-- Summernote -->
-  <script src="plugins/summernote/summernote-bs4.min.js"></script>
-  <!-- overlayScrollbars -->
-  <script src="plugins/overlayScrollbars/js/jquery.overlayScrollbars.min.js"></script>
+
   <!-- AdminLTE App -->
   <script src="dist/js/adminlte.js"></script>
-  <!-- AdminLTE for demo purposes 
-<script src="dist/js/demo.js"></script>-->
-  <!-- AdminLTE dashboard demo (This is only for demo purposes) 
-<script src="dist/js/pages/dashboard.js"></script>-->
 
   <!-- sweetalert2@11.js -->
   <script src="assets/plugins/sweetalert2@11.js"></script>
@@ -258,6 +216,13 @@ $Viewofficeonsite = new Upload_csv($db);
 
   <!-- Upload SCript -->
   <script src="assets/script/upload.script.js"></script>
+
+  
+
+
+
+
+
 </body>
 
 </html>
