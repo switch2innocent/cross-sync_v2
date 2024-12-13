@@ -26,6 +26,10 @@ $Viewofficeonsite = new Upload_csv($db);
   <!-- Theme style -->
   <link rel="stylesheet" href="dist/css/adminlte.min.css">
 
+  <!-- Datatable CSS -->
+  <link rel="stylesheet" href="assets/plugins/datatablecss/dataTables.dataTables.css">
+  <link rel="stylesheet" href="assets/plugins/datatablecss/buttons.dataTables.css">
+
 </head>
 
 <body class="hold-transition sidebar-mini layout-fixed">
@@ -81,7 +85,7 @@ $Viewofficeonsite = new Upload_csv($db);
       <!-- Content Header (Page header) -->
       <div class="content-header">
         <div class="container-fluid">
-          <div class="row mb-2">
+          <div class="row">
             <div class="col-sm-6">
               <h5 class="m-0 font-weight-bold">Upload CSV</h5> 
             </div><!-- /.col -->
@@ -94,13 +98,8 @@ $Viewofficeonsite = new Upload_csv($db);
       <section class="content">
         <div class="container-fluid">
 
-            <!-- Export Button -->
-    <button class="btn btn-primary btn-export" onclick="exportTableToCSV('data-table.csv')">Export to CSV</button>
-
-
           <!-- New Added Content -->
-          <button type="button" class="btn btn-success mb-3" data-toggle="modal" data-target="#uploadModal" data-backdrop="static"><i class="fa fa-plus"></i> &nbsp; Add File</button>
-          <table class="table table-bordered text-center mt-3 table-hover" id="upload-datatable">
+          <table class="table table-bordered text-center table-hover" id="upload-datatable">
             <thead>
               <tr>
                 <th>Description</th>
@@ -208,11 +207,15 @@ $Viewofficeonsite = new Upload_csv($db);
   <!-- sweetalert2@11.js -->
   <script src="assets/plugins/sweetalert2@11.js"></script>
 
-  <!-- dataTables.js -->
-  <script src="assets/plugins/dataTables.js"></script>
-
-  <!-- dataTables.bootstrap4.js -->
-  <script src="assets/plugins/dataTables.bootstrap4.js"></script>
+  <!-- Datatable plugins -->
+  <script src="assets/plugins/datatablejs/dataTables.js"></script>
+  <script src="assets/plugins/datatablejs/dataTables.buttons.js"></script>
+  <script src="assets/plugins/datatablejs/buttons.dataTables.js"></script>
+  <script src="assets/plugins/datatablejs/jszip.min.js"></script>
+  <script src="assets/plugins/datatablejs/pdfmake.min.js"></script>
+  <script src="assets/plugins/datatablejs/vfs_fonts.js"></script>
+  <script src="assets/plugins/datatablejs/buttons.html5.min.js"></script>
+  <script src="assets/plugins/datatablejs/buttons.print.min.js"></script>
 
   <!-- Upload SCript -->
   <script src="assets/script/upload.script.js"></script>

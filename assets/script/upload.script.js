@@ -80,36 +80,17 @@ $(document).ready(function () {
 
     }); // End of upload form
 
-    $('#upload-datatable').DataTable();
-
-}); // End document ready function
-
-  function exportTableToCSV(filename) {
-    var csv = [];
-    var rows = document.querySelectorAll("#upload-datatable tr");
-
-    // Get headers
-    var headers = document.querySelectorAll("#upload-datatable thead th");
-    var headerRow = [];
-    for (var i = 0; i < headers.length; i++) {
-      headerRow.push(headers[i].innerText.trim());
-    }
-    csv.push(headerRow.join(","));
-
-    // Get rows from tbody
-    rows.forEach(function(row) {
-      var rowData = [];
-      var cols = row.querySelectorAll("td");
-      cols.forEach(function(col) {
-        rowData.push(col.innerText.trim());
-      });
-      csv.push(rowData.join(","));
+    new DataTable('#upload-datatable', {
+        layout: {
+            topStart: {
+                buttons: [
+                    {
+                    extend: 'csv',
+                    text: '<i class="fas fa-file-csv"></i> &nbsp; Export'
+                    }
+                ]
+            }
+        }
     });
 
-    // Create a link and trigger the CSV download
-    var csvFile = new Blob([csv.join("\n")], { type: 'text/csv' });
-    var downloadLink = document.createElement("a");
-    downloadLink.href = URL.createObjectURL(csvFile);
-    downloadLink.download = filename;
-    downloadLink.click();
-  }
+}); // End document ready function
