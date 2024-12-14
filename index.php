@@ -19,7 +19,7 @@ $Viewofficeonsite = new Upload_csv($db);
 
   <!-- Google Font: Source Sans Pro -->
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700&display=fallback">
-  
+
   <!-- Font Awesome -->
   <link rel="stylesheet" href="plugins/fontawesome-free/css/all.min.css">
 
@@ -87,7 +87,7 @@ $Viewofficeonsite = new Upload_csv($db);
         <div class="container-fluid">
           <div class="row">
             <div class="col-sm-6">
-              <h5 class="m-0 font-weight-bold">Upload CSV</h5> 
+              <h5 class="m-0 font-weight-bold">Upload CSV</h5>
             </div><!-- /.col -->
           </div><!-- /.row -->
         </div><!-- /.container-fluid -->
@@ -97,6 +97,11 @@ $Viewofficeonsite = new Upload_csv($db);
       <!-- Main content -->
       <section class="content">
         <div class="container-fluid">
+
+          <!-- Add file button 
+          <div class="d-flex">
+            <button type="button" class="btn btn-success ml-auto" data-toggle="modal" data-target="#uploadModal" data-backdrop="static"><i class="fa fa-plus"></i> &nbsp; Add File</button>
+          </div> -->
 
           <!-- New Added Content -->
           <table class="table table-bordered text-center table-hover" id="upload-datatable">
@@ -169,14 +174,12 @@ $Viewofficeonsite = new Upload_csv($db);
         <!-- Modal Body -->
         <div class="modal-body">
           <form method="POST" enctype="multipart/form-data" id="upload-form">
-            <h6><span class="font-weight-bold">Step 1 :</span> Upload Office CSV</h6>
+            <h6><span class="font-weight-bold">Step 1:</span> Upload Office CSV</h6>
             <div class="form-group">
               <input type="file" class="form-control" name="upload-office" id="upload-office" class="">
             </div>
 
-            <br>
-
-            <h6><span class="font-weight-bold">Step 2 :</span> Upload Onsite CSV</h6>
+            <h6><span class="font-weight-bold">Step 2:</span> Upload Onsite CSV</h6>
             <div class="form-group">
               <input type="file" class="form-control" name="upload-onsite" id="upload-onsite">
             </div>
@@ -184,9 +187,9 @@ $Viewofficeonsite = new Upload_csv($db);
 
         <!-- Modal Footer -->
         <div class="modal-footer">
-          <button type="submit" class="btn btn-success" value="Upload" id="upload-submit">Upload</button>
+          <button type="submit" class="btn btn-outline-primary" value="Upload" id="upload-submit">Upload</button>
           </form>
-          <button type="button" class="btn btn-dark" data-dismiss="modal">Close</button>
+          <button type="button" class="btn btn-outline-danger" data-dismiss="modal">Close</button>
         </div>
 
       </div>
@@ -220,7 +223,7 @@ $Viewofficeonsite = new Upload_csv($db);
   <!-- Upload SCript -->
   <script src="assets/script/upload.script.js"></script>
 
-  
+
 
 
 

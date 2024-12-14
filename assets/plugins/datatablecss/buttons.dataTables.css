@@ -33,8 +33,7 @@ div.dataTables_wrapper {
 
 div.dt-buttons {
   position: initial;
-  background-color: rgb(13, 110, 253);
-  color: white;
+  color: black;
   border-radius: 5px;
 }
 

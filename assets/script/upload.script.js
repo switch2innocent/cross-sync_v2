@@ -85,8 +85,16 @@ $(document).ready(function () {
             topStart: {
                 buttons: [
                     {
-                    extend: 'csv',
-                    text: '<i class="fas fa-file-csv"></i> &nbsp; Export'
+                        text: '<i class="fas fa-plus"></i> &nbsp; Add File',  // Custom button text
+                        action: function (e, dt, node, config) {
+                            // Trigger the modal to open
+                            var myModal = new bootstrap.Modal(document.getElementById('uploadModal'));
+                            myModal.show();
+                        }
+                    },
+                    {
+                        extend: 'csv',
+                        text: '<i class="fas fa-file-csv"></i> &nbsp; Export'
                     }
                 ]
             }
