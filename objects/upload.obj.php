@@ -59,4 +59,8 @@ class Upload_csv
         $view_office_onsite->execute();
         return $view_office_onsite;
     }
+
+    public function delete_data_onsiteoffice() {
+
+    }
 }
