@@ -176,20 +176,26 @@ $Viewofficeonsite = new Upload_csv($db);
           <form method="POST" enctype="multipart/form-data" id="upload-form">
             <h6><span class="font-weight-bold">Step 1:</span> Upload Office CSV</h6>
             <div class="form-group">
-              <input type="file" class="form-control" name="upload-office" id="upload-office" class="">
+              <div class="custom-file">
+                <input type="file" class="form-control custom-file-input" name="upload-office" id="upload-office" class="">
+                <label for="upload-office" class="custom-file-label">Choose File</label>
+              </div>
             </div>
 
             <h6><span class="font-weight-bold">Step 2:</span> Upload Onsite CSV</h6>
             <div class="form-group">
-              <input type="file" class="form-control" name="upload-onsite" id="upload-onsite">
+              <div class="custom-file">
+                <input type="file" class="form-control custom-file-input" name="upload-onsite" id="upload-onsite">
+                <label for="upload-onsite" class="custom-file-label">Choose file</label>
+              </div>
             </div>
         </div>
 
         <!-- Modal Footer -->
         <div class="modal-footer">
-          <button type="submit" class="btn btn-outline-primary" value="Upload" id="upload-submit">Upload</button>
+          <button type="submit" class="btn btn-success" value="Upload" id="upload-submit">Upload</button>
           </form>
-          <button type="button" class="btn btn-outline-danger" data-dismiss="modal">Close</button>
+          <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
         </div>
 
       </div>

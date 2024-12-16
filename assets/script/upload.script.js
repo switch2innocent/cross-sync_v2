@@ -56,7 +56,7 @@ $(document).ready(function () {
                         icon: "success",
                         allowOutsideClick: false,
                         allowEscapeKey: false
-                    }).then(function() {
+                    }).then(function () {
                         window.location.reload();
                     });
 
@@ -99,6 +99,12 @@ $(document).ready(function () {
                 ]
             }
         }
+    });
+
+    // For input file
+    $(".custom-file-input").on("change", function () {
+        var fileName = $(this).val().split("\\").pop();
+        $(this).siblings(".custom-file-label").addClass("selected").html(fileName);
     });
 
 }); // End document ready function
