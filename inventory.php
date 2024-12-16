@@ -1,12 +1,12 @@
 <?php
 
-require_once 'config/dbcon.php';
-require_once 'objects/upload.obj.php';
+// require_once 'config/dbcon.php';
+// require_once 'objects/upload.obj.php';
 
-$database = new Connection();
-$db = $database->connect();
+// $database = new Connection();
+// $db = $database->connect();
 
-$Viewofficeonsite = new Upload_csv($db);
+// $Viewofficeonsite = new Upload_csv($db);
 
 ?>
 <!DOCTYPE html>
@@ -69,7 +69,7 @@ $Viewofficeonsite = new Upload_csv($db);
               <a href="#" class="nav-link">
                 <i class="fa fa-upload"></i> &nbsp;
                 <p>
-                  Upload CSV
+                  Upload
                 </p>
               </a>
             </li>
@@ -87,7 +87,7 @@ $Viewofficeonsite = new Upload_csv($db);
         <div class="container-fluid">
           <div class="row">
             <div class="col-sm-6">
-              <h5 class="m-0 font-weight-bold">Upload CSV</h5>
+              <h4 class="m-0 font-weight-bold">Upload</h4>
             </div><!-- /.col -->
           </div><!-- /.row -->
         </div><!-- /.container-fluid -->
@@ -98,12 +98,12 @@ $Viewofficeonsite = new Upload_csv($db);
       <section class="content">
         <div class="container-fluid">
 
-          <!-- Add file button 
+          <!-- Add file button -->
           <div class="d-flex">
-            <button type="button" class="btn btn-success ml-auto" data-toggle="modal" data-target="#uploadModal" data-backdrop="static"><i class="fa fa-plus"></i> &nbsp; Add File</button>
-          </div> -->
+            <button type="button" class="btn btn-success btn-sm" data-toggle="modal" data-target="#uploadModal" data-backdrop="static"><i class="fa fa-plus"></i> &nbsp; Add File</button>
+          </div>
 
-          <!-- New Added Content -->
+          <!-- New Added Content
           <table class="table table-bordered text-center table-hover" id="upload-datatable">
             <thead>
               <tr>
@@ -116,29 +116,29 @@ $Viewofficeonsite = new Upload_csv($db);
             </thead>
             <tbody>
               <?php
-              $view = $Viewofficeonsite->view_office_onsite_record();
-              while ($row = $view->fetch(PDO::FETCH_ASSOC)) {
-                if ($row['quantity_difference'] < 0) {
-                  $status = "Low";
-                } elseif ($row['quantity_difference'] > 0) {
-                  $status = "High";
-                } else {
-                  $status = "Equal";
-                }
+              // $view = $Viewofficeonsite->view_office_onsite_record();
+              // while ($row = $view->fetch(PDO::FETCH_ASSOC)) {
+              //   if ($row['quantity_difference'] < 0) {
+              //     $status = "Low";
+              //   } elseif ($row['quantity_difference'] > 0) {
+              //     $status = "High";
+              //   } else {
+              //     $status = "Equal";
+              //   }
 
-                echo '
-                    <tr>
-                      <td>' . $row['description'] . '</td>
-                      <td>' . $row['office_quantity'] . '</td>
-                      <td>' . $row['onsite_quantity'] . '</td>
-                      <td>' . $row['quantity_difference'] . '</td>
-                      <td>' . $status . '</td>
-                    </tr>
-                  ';
-              }
+              //   echo '
+              //       <tr>
+              //         <td>' . $row['description'] . '</td>
+              //         <td>' . $row['office_quantity'] . '</td>
+              //         <td>' . $row['onsite_quantity'] . '</td>
+              //         <td>' . $row['quantity_difference'] . '</td>
+              //         <td>' . $status . '</td>
+              //       </tr>
+              //     ';
+              // }
               ?>
             </tbody>
-          </table>
+          </table> -->
 
         </div>
         <!--/.container-fluid-->
@@ -167,35 +167,43 @@ $Viewofficeonsite = new Upload_csv($db);
 
         <!-- Modal Header -->
         <div class="modal-header">
-          <h4 class="modal-title">Upload CSV</h4>
+          <h4 class="modal-title">Upload</h4>
           <button type="button" class="close" data-dismiss="modal">&times;</button>
         </div>
 
         <!-- Modal Body -->
         <div class="modal-body">
           <form method="POST" enctype="multipart/form-data" id="upload-form">
-            <h6><span class="font-weight-bold">Step 1:</span> Upload Office CSV</h6>
+            <h6>Step 1: Upload Inventory Data</h6>
             <div class="form-group">
               <div class="custom-file">
-                <input type="file" class="form-control custom-file-input" name="upload-office" id="upload-office" class="">
+                <input type="file" class="form-control form-control-sm custom-file-input" id="upload-inventoryData">
                 <label for="upload-office" class="custom-file-label">Choose File</label>
               </div>
             </div>
 
-            <h6><span class="font-weight-bold">Step 2:</span> Upload Onsite CSV</h6>
+            <!-- <h6><span class="font-weight-bold">Step 2:</span> Upload Central Warehouse</h6>
             <div class="form-group">
               <div class="custom-file">
                 <input type="file" class="form-control custom-file-input" name="upload-onsite" id="upload-onsite">
                 <label for="upload-onsite" class="custom-file-label">Choose file</label>
               </div>
-            </div>
+            </div> -->
+
+            <!-- <h6><span class="font-weight-bold">Step 3:</span> Upload BOM Data</h6>
+            <div class="form-group">
+              <div class="custom-file">
+                <input type="file" class="form-control custom-file-input" name="upload-onsite" id="upload-onsite">
+                <label for="upload-onsite" class="custom-file-label">Choose file</label>
+              </div>
+            </div> -->
         </div>
 
         <!-- Modal Footer -->
         <div class="modal-footer">
-          <button type="submit" class="btn btn-success" value="Upload" id="upload-submit">Upload</button>
+          <button type="submit" class="btn btn-success btn-sm" value="Upload" id="upload-submit">Upload</button>
           </form>
-          <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+          <button type="button" class="btn btn-danger btn-sm" data-dismiss="modal">Close</button>
         </div>
 
       </div>

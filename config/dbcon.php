@@ -2,7 +2,7 @@
 
 class Connection {
     private $host = 'localhost';
-    private $dbname = 'csvdb';
+    private $dbname = 'innodb';
     private $username = 'root';
     private $password = '';
 
@@ -21,8 +21,8 @@ class Connection {
         return $this->conn;
     }
 
-    public function disconnect() {
-        $this->conn = null;
-        return $this->conn;
-    }
+    // public function disconnect() {
+    //     $this->conn = null;
+    //     return $this->conn;
+    // }
 }

@@ -6,99 +6,70 @@ require_once '../objects/upload.obj.php';
 $database = new Connection();
 $db = $database->connect();
 
-// For upload office
-$uploadoffice = new Upload_csv($db);
+// Upload Inventory Data
+$uploadinventorydata = new Upload_file($db);
 
-if (isset($_FILES['upload-office']) && $_FILES['upload-office']['error'] == 0) {
-    $fileImpPath_office = $_FILES['upload-office']['tmp_name'];
-    $fileName_office = $_FILES['upload-office']['name'];
+if (isset($_FILES['upload-inventoryData']) && $_FILES['upload-inventoryData']['error'] == 0) {
+    $fileImpPath_inventoryData = $_FILES['upload-inventoryData']['tmp_name'];
+    $fileName_inventoryData = $_FILES['upload-inventoryData']['name'];
 
-    $fileExtension_office = strtolower(pathinfo($fileName_office, PATHINFO_EXTENSION));
-    if ($fileExtension_office != 'csv') {
-        die("Please upload a CSV file");
+    $fileExtension_inventoryData = strtolower(pathinfo($fileName_inventoryData, PATHINFO_EXTENSION));
+    // Check if the uploaded file is a CSV
+    if ($fileExtension_inventoryData != 'csv') {
+        die("<script>alert('Please Select a CSV File');</script>");
     }
 
-    if (($file_office = fopen($fileImpPath_office, 'r')) !== false) {
+    // Open the CSV file for reading
+    if (($file_inventoryData = fopen($fileImpPath_inventoryData, 'r')) !== false) {
 
-        while (($row_office = fgetcsv($file_office)) !== false) {
-            $categoryoffice = $row_office[0];
-            $descriptionoffice = $row_office[1];
-            $qtyoffice = $row_office[2];
+        // Get the header row (first row)
+        $header_inventoryData = fgetcsv($file_inventoryData);
 
-            $uploadoffice->category_office = $categoryoffice;
-            $uploadoffice->description_office = $descriptionoffice;
-            $uploadoffice->qty_office = $qtyoffice;
-
-            $execute_office = $uploadoffice->upload_office();
+        if (!$header_inventoryData) {
+            die("<script>alert('Error reading the header of the CSV file');</script>");
         }
 
-        fclose($file_office);
-        echo "
-            <script>
-                alert('Data Uploaded');
-            </script>
-            ";
+        // Map the header to column names (this depends on your CSV format)
+        // For example: header = ["category", "description", "qty"]
+        $headerMap = array_flip($header_inventoryData); // Maps column names to their index in the CSV
+
+        while (($row_inventoryData = fgetcsv($file_inventoryData)) !== false) {
+            // Skip rows that don't have the expected number of columns
+            if (count($row_inventoryData) != count($header_inventoryData)) {
+                continue; // Skip this row
+            }
+
+            // Dynamically map data from row based on header
+            $dateinventoryData = isset($row_inventoryData[$headerMap['Date']]) ? $row_inventoryData[$headerMap['Date']] : null;
+            $cbscodeinventoryData = isset($row_inventoryData[$headerMap['CBS Code']]) ? $row_inventoryData[$headerMap['CBS Code']] : null;
+            $itemcodeinventoryData = isset($row_inventoryData[$headerMap['Item Code']]) ? (int)$row_inventoryData[$headerMap['Item Code']] : null;
+            $itemdescriptioninventoryData = isset($row_inventoryData[$headerMap['Item Description']]) ? $row_inventoryData[$headerMap['Item Description']] : null;
+            $purchaseuominventoryData = isset($row_inventoryData[$headerMap['Purchase UOM']]) ? $row_inventoryData[$headerMap['Purchase UOM']] : null;
+            $itemclassificationinventoryData = isset($row_inventoryData[$headerMap['Item Classification']]) ? $row_inventoryData[$headerMap['Item Classification']] : null;
+            $tradeclassificationinventoryData = isset($row_inventoryData[$headerMap['Trade Classification']]) ? $row_inventoryData[$headerMap['Trade Classification']] : null;
+            $locationinventoryData = isset($row_inventoryData[$headerMap['Location']]) ? $row_inventoryData[$headerMap['Location']] : null;
+            $onhandqtyinventoryData = isset($row_inventoryData[$headerMap['On Hand Quantity']]) ? $row_inventoryData[$headerMap['On Hand Quantity']] : null;
+
+            // Prepare the data for insertion
+            $uploadinventorydata->date_inventory = $dateinventoryData;
+            $uploadinventorydata->cbs_code = $cbscodeinventoryData;
+            $uploadinventorydata->item_code = $itemcodeinventoryData;
+            $uploadinventorydata->item_description = $itemdescriptioninventoryData;
+            $uploadinventorydata->purchase_uom = $purchaseuominventoryData;
+            $uploadinventorydata->item_classification = $itemclassificationinventoryData;
+            $uploadinventorydata->trade_classification = $tradeclassificationinventoryData;
+            $uploadinventorydata->location = $locationinventoryData;
+            $uploadinventorydata->on_hand_qty = $onhandqtyinventoryData;
+
+            // Call the method to upload data
+            $uploadinventorydata->upload_inventory_data();
+        }
+
+        fclose($file_inventoryData);
+        echo "<script>alert('Data Uploaded Successfully');</script>";
     } else {
-        echo "
-            <script>
-                alert('Error opening the file');
-            </script>
-            ";
-    } 
-} else {
-    echo "
-        <script>
-            alert('No file uploaded or there was an error');
-        </script>
-    ";
-}
-
-
-// For upload onsite
-$uploadonsite = new Upload_csv($db);
-
-if (isset($_FILES['upload-onsite']) && $_FILES['upload-onsite']['error'] == 0) {
-    $fileImpPath_onsite = $_FILES['upload-onsite']['tmp_name'];
-    $fileName_onsite = $_FILES['upload-onsite']['name'];
-
-    $fileExtension_onsite = strtolower(pathinfo($fileName_onsite, PATHINFO_EXTENSION));
-    if ($fileExtension_onsite != 'csv') {
-        die("Please upload a CSV file");
+        echo "<script>alert('Error opening the file');</script>";
     }
-
-    if (($file_onsite = fopen($fileImpPath_onsite, 'r')) !== false) {
-
-        while (($row_onsite = fgetcsv($file_onsite)) !== false) {
-            $categoryonsite = $row_onsite[0];
-            $descriptiononsite = $row_onsite[1];
-            $qtyonsite = $row_onsite[2];
-
-            $uploadonsite->category_onsite = $categoryonsite;
-            $uploadonsite->description_onsite = $descriptiononsite;
-            $uploadonsite->qty_onsite = $qtyonsite;
-
-            $execute_onsite = $uploadonsite->upload_onsite();
-        }
-
-        fclose($file_onsite);
-        echo "
-            <script>
-                alert('Data Uploaded');
-            </script>
-            ";
-    } else {
-        echo "
-            <script>
-                alert('Error opening the file');
-            </script>
-            ";
-    } 
 } else {
-    echo "
-        <script>
-            alert('No file uploaded or there was an error');
-        </script>
-    ";
+    echo "<script>alert('No file uploaded or there was an error');</script>";
 }
-
-?>
