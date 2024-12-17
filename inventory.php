@@ -173,30 +173,30 @@
 
         <!-- Modal Body -->
         <div class="modal-body">
-          <form method="POST" enctype="multipart/form-data" id="upload-form">
-            <h6>Step 1: Upload Inventory Data</h6>
+          <form method="POST" enctype="multipart/form-data" id="upload-form" action="controls/upload_add.ctrl.php">
+            <!-- <h6>Step 1: Upload Inventory Data</h6>
             <div class="form-group">
               <div class="custom-file">
-                <input type="file" class="form-control form-control-sm custom-file-input" id="upload-inventoryData">
+                <input type="file" class="form-control form-control-sm custom-file-input" name="upload-inventoryData" id="upload-inventoryData">
                 <label for="upload-office" class="custom-file-label">Choose File</label>
               </div>
-            </div>
+            </div> -->
 
             <!-- <h6><span class="font-weight-bold">Step 2:</span> Upload Central Warehouse</h6>
             <div class="form-group">
               <div class="custom-file">
-                <input type="file" class="form-control custom-file-input" name="upload-onsite" id="upload-onsite">
-                <label for="upload-onsite" class="custom-file-label">Choose file</label>
+                <input type="file" class="form-control custom-file-input" name="upload-centralWarehouse" id="upload-centralWarehouse">
+                <label for="upload-centralWarehouse" class="custom-file-label">Choose file</label>
               </div>
             </div> -->
 
-            <!-- <h6><span class="font-weight-bold">Step 3:</span> Upload BOM Data</h6>
+            <h6><span class="font-weight-bold">Step 3:</span> Upload BOM Data</h6>
             <div class="form-group">
               <div class="custom-file">
-                <input type="file" class="form-control custom-file-input" name="upload-onsite" id="upload-onsite">
-                <label for="upload-onsite" class="custom-file-label">Choose file</label>
+                <input type="file" class="form-control custom-file-input" name="upload-bomData" id="upload-bomData">
+                <label for="upload-bomData" class="custom-file-label">Choose file</label>
               </div>
-            </div> -->
+            </div>
         </div>
 
         <!-- Modal Footer -->
@@ -235,13 +235,7 @@
   <script src="assets/plugins/datatablejs/buttons.print.min.js"></script>
 
   <!-- Upload SCript -->
-  <script src="assets/script/upload.script.js"></script>
-
-
-
-
-
-
+  <!-- <script src="assets/script/upload.script.js"></script> -->
 
 </body>
 

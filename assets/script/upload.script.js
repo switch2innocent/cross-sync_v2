@@ -3,15 +3,21 @@ $(document).ready(function () {
     $('#upload-form').on('submit', function (e) {
         e.preventDefault();
 
-        // for upload inventory data
-        var formData_inventoryData = new FormData();
-        // var fileUpload_inventoryData = $('#upload-inventoryData')[0].files[0];
-        formData_inventoryData.append('upload-inventoryData', $('#upload-inventoryData')[0].files[0]);
+        // // for upload inventory data
+        // var formData_inventoryData = new FormData();
+        // // var fileUpload_inventoryData = $('#upload-inventoryData')[0].files[0];
+        // formData_inventoryData.append('upload-inventoryData', $('#upload-inventoryData')[0].files[0]);
+
+
+        // for upload central warehouse
+        var formData_centralWarehouse = new FormData();
+        // var fileUpload_centralWarehouse = $('#upload-centralWarehouse')[0].files[0];
+        formData_centralWarehouse.append('upload-centralWarehouse', $('#upload-centralWarehouse')[0].files[0]);
 
         $.ajax({
             type: 'POST',
             url: 'controls/upload_add.ctrl.php',
-            data: formData_inventoryData,
+            data: formData_centralWarehouse,
             processData: false,
             contentType: false,
             success: function (responce) {
@@ -26,7 +32,7 @@ $(document).ready(function () {
                     window.location.reload();
                 });
 
-                $('#uploadModal').modal('hide');
+                $('#uploadModal').modal('hide'); 1
 
             },
             error: function (xhr, status, error) {
@@ -41,6 +47,18 @@ $(document).ready(function () {
             }
 
         }); // End for upload statement
+
+
+
+
+
+
+
+
+
+
+
+
 
         // for upload onsite
         // var formData_onsite = new FormData();

@@ -1,0 +1,975 @@
+WEEKLY MATERIAL INVENTORY,,,,,,,,,,,,,,,,,,,,,,,
+F-IVM-008 || Rev.1 || 10/05/2021,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,
+,Project:,ALTAIRE,,,,,,,,,,,,,,,,,,,,,
+,Subject:,Monthly Inventory Monitoring November 2024,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,, FINAL ,,,,,,,,,,,,,,,,,
+#,NewCoDe,Item Description,UOM, Trade ,Beginning Balance as of 11/3/24, STOCK ON HAND ,,,,,,,,,,,,,,,,,
+,,,,,,11/4/24 - 11/9/24,,,11/11/24 - 11/16/24,,,11/18/24 - 11/23/24,,,11/25/24 - 11/30/24,,,10/28/24 - 11/2/24,,,,,
+,,,,,,10-Nov-24,,,17-Nov-24,,,24-Nov-24,,,01-Dec-24,,,08-Dec-24,,,,,
+,,,,,,IN, OUT , SOH , IN , OUT , SOH , IN , OUT , SOH , IN , OUT , SOH , IN , OUT , SOH , TOTAL RECEIVE , TOTAL ISSUED , STOCK ON HAND 
+,,,,,,TOTAL RECEIVED, TOTAL USAGE ,, TOTAL RECEIVE , TOTAL USAGE ,, TOTAL RECEIVE , TOTAL USAGE ,, TOTAL RECEIVE , TOTAL USAGE ,, TOTAL RECEIVE , TOTAL USAGE ,,,,
+1,0368-034B," DAVCO K11, Slurry Part A 25kg Powder (34kg/set) ", Bag , 0-Architectural ,16,,,16.0,,,16.0,,,16.0,,,16.0,,,16.0,0.0,0.0, 16.0 
+2,0368-034C," DAVCO K11, Slurry Part B 9kg Liquid (34kg/set) ", Pail , 0-Architectural ,16,,,16.0,,,16.0,,,16.0,,,16.0,,,16.0,0.0,0.0, 16.0 
+3,0774-0002, Miscellaneous-Safety Materials-Fire Safety-Personal Equipment-Fire Blanket- , Sheet , 0-Architectural ,24,,,24.0,,,24.0,,,24.0,,,24.0,,,24.0,0.0,0.0, 24.0 
+4, 0A-01-1104 ," Architectural, Ceiling and Drywall Partitions - Boards - Acoustic Boards, Fine Fissured Type60cmx60cmx5/8"" thk. ", Piece , 0-Architectural ,200,,,200.0,,,200.0,,,200.0,,,200.0,,,200.0,0.0,0.0, 200.0 
+4, 0O-02-01110 ," Architectural, Plumbing Fixtures & Accessories - Water Closet, Connecting Pipe for Sensor Toilet, Polished, Chrome Finish ", Piece , 0-Architectural ,5,,,5.0,,,5.0,,,5.0,,,5.0,,,5.0,0.0,0.0, 5.0 
+5,0A-01-3100," Architectural, Ceiling and Drywall Partitions - Boards - Gypsum Boards, MR, 4'x8'x12mm thk. ", Piece , 0-Architectural ,150,,,150.0,,,150.0,,,150.0,,,150.0,,,150.0,0.0,0.0, 150.0 
+6,0A-01-9001," PROMATECT-H Calcium Silicate Board, ( 9mm thick x 1220mm x 2440mm) ", Sheet , 0-Architectural ,300,,,300.0,,,300.0,,,300.0,,,300.0,,,300.0,0.0,0.0, 300.0 
+7, 0B-02-1013 ," Architectural, Ceiling Grid Components and Frames - Channel - Aluminum, Carrying, 12mm x 38mm x 5m (16');Gauge 0.8mm ", Length_5 , 0-Architectural ,0,,,0.0,,,0.0,,,0.0,,,0.0,,,0.0,0.0,0.0, -  
+8, 0B-03-1103 ," Architectural, Ceiling Grid Components and Frames - Furring - Metal, Double19mm x 50mm x 5m;Gauge 0.6mm ", Length , 0-Architectural ,0,,,0.0,,,0.0,,,0.0,,,0.0,,,0.0,0.0,0.0, -  
+9,0B-03-1106," Architectural, Ceiling Grid Components and Frames - Furring - Metal, Double19mm x 50mm x 5m;Gauge 0.4mm ", Length_5 , 0-Architectural ,36,,,36.0,,,36.0,,,36.0,,,36.0,,,36.0,0.0,0.0, 36.0 
+10,0B-05-1001," Architectural, Ceiling Grid Components and Frames - Furring W-Clip - Metal0.40mm ", Piece , 0-Architectural ,387,,,387.0,,,387.0,,,387.0,,,387.0,,,387.0,0.0,0.0, 387.0 
+11,0B-07-0022," Architectural, Ceiling Grid Components and Frames - Wall Angle - White powdercoated, 1""x1""x10' T=0.4mm ", length , 0-Architectural ,22,,,22.0,,,22.0,,,22.0,,,22.0,,,22.0,0.0,0.0, 22.0 
+12, 0B-07-1005 ," Architectural, Ceiling Grid Components and Frames - Wall Angle - Aluminum25mm x 25mm x 3m;Gauge 26 ", Length_3 , 0-Architectural ,162,,,162.0,,,162.0,,,162.0,,,162.0,,,162.0,0.0,0.0, 162.0 
+13, 0B-07-1006 ," Architectural, Ceiling Grid Components and Frames - Wall Angle - Aluminum 1"" x 1"" x 10' ", Piece , 0-Architectural ,0,,,0.0,,,0.0,,,0.0,,,0.0,,,0.0,0.0,0.0, -  
+14,0B-07-1331," Architectural, Ceiling Grid Components and Frames - Wall Angle  - Aluminum, L Type, 0.4mm, 25mm x 50mm x 2.4m ", Piece , 0-Architectural ,0,,,0.0,,,0.0,,,0.0,,,0.0,,,0.0,0.0,0.0, -  
+15,0B-08-0105," Main tee 1 1/2"" x 1"" x 12' ", Meter , 0-Architectural ,34,,,34.0,,,34.0,,,34.0,,,34.0,,,34.0,0.0,0.0, 34.0 
+16,0B-08-0202," Tee - Cross 1"" x 1"" x 2' (25mm x 25mm x 610mm) ", Length_0.6 , 0-Architectural ,0,,,0.0,,,0.0,,,0.0,,,0.0,,,0.0,0.0,0.0, -  
+17, 0B-10-0101 ," Architectural, Ceiling Grid Components and Frames - Hanger Braket - J-type0.4mm x 4"" ", Piece , 0-Architectural ,300,,,300.0,,,300.0,,,300.0,,,300.0,,,300.0,0.0,0.0, 300.0 
+18, 0B-10-0300 ," Architectural, Ceiling Grid Components and Frames - Hanger Braket - Carrying channel ", Piece , 0-Architectural ,0,,,0.0,,,0.0,,,0.0,,,0.0,,,0.0,0.0,0.0, -  
+19,0b-13-2030," Architectural, Ceiling Grid Components and Frames - Aluminum Ceiling Manhole, White, 600mm x 600mm ", Piece , 0-Architectural ,15,,,15.0,,,15.0,,,15.0,,,15.0,,,15.0,0.0,0.0, 15.0 
+20,0C-01-30010," 5400mmL x 2100mmH x 27mm thk Stainless Steel Honeycomb Panel w/ Door (door dimension: 600mm x 1980mm), Inclusion: Top Rails, Hidden-Rails, and Screws ", Set , 0-Architectural ,0,,,0.0,,,0.0,,,0.0,,,0.0,,,0.0,0.0,0.0, -  
+21,0C-01-30011," 4500mmL x 2100mmH x 27mm thk Stainless Steel Honeycomb Panel w/ Door (door dimension: 600mm x 1980mm), Inclusion: Top Rails, Hidden-Rails, and Screws ", Set , 0-Architectural ,0,,,0.0,,,0.0,,,0.0,,,0.0,,,0.0,0.0,0.0, -  
+22,0C-01-30012," 2700mmL x 2100mmH x 27mm thk Stainless Steel Honeycomb Panel w/ Door (door dimension: 600mm x 1980mm), Inclusion: Top Rails, Hidden-Rails, and Screws ", Set , 0-Architectural ,0,,,0.0,,,0.0,,,0.0,,,0.0,,,0.0,0.0,0.0, -  
+23,0C-01-30013," 927mmL x 2100mmH x 27mm thk Stainless Steel Honeycomb Panel w/ Door (door dimension: 600mm x 1980mm), Inclusion: Top Rails, Hidden-Rails, and screws ", Set , 0-Architectural ,0,,,0.0,,,0.0,,,0.0,,,0.0,,,0.0,0.0,0.0, -  
+24,0C-01-3012," 927mmL x 2100mmH x 27mm thk Stainless Steel Honeycomb Panel w/ Door (door dimension: 600mm x 1980mm), Inclusion: Top Rails, Hidden-Rails, and screws ", Set , 0-Architectural ,0,,,0.0,,,0.0,,,0.0,,,0.0,,,0.0,0.0,0.0, -  
+25,0C-01-3022," 5500mL x 3080mmH x 27mm thk MATTE BLACK Stainless Steel Honeycomb Panel w/ fixed panel over door (door dimension: 700mm x 2200mm), Inclusion: Hidden-Rails, and Screws ", Set , 0-Architectural ,0,,,0.0,,,0.0,,,0.0,,,0.0,,,0.0,0.0,0.0, -  
+26,0D-10-1010," Architectural, Door Accessories - HANDLE: JLF79-04, 304 Stainless Steel, Hairline Finish ", Piece , 0-Architectural ,0,,,0.0,,,0.0,,,0.0,,,0.0,,,0.0,0.0,0.0, -  
+27, 0D-11-0003 ," Architectural, Door Accessories - Door Hinges - 4"" x 4"" ", Piece , 0-Architectural ,0,,,0.0,,,0.0,,,0.0,,,0.0,,,0.0,0.0,0.0, -  
+28,0D-12-02400," Architectural, Door Accessories - Door Knob/Lockset - Mortise Lever Lockset ", Set , 0-Architectural ,0,,,0.0,,,0.0,,,0.0,,,0.0,,,0.0,0.0,0.0, -  
+29,0D-12-8004," lOCK:  JLF75-N01,  304  Stainless  Steel,  Hairline Finish ", Piece , 0-Architectural ,0,,,0.0,,,0.0,,,0.0,,,0.0,,,0.0,0.0,0.0, -  
+30,0D-12-8007," LEG: JLF27-1, 304 Stainless Steel, Hairline Finish ", Piece , 0-Architectural ,0,,,0.0,,,0.0,,,0.0,,,0.0,,,0.0,0.0,0.0, -  
+31,0D-12-8008," COAT HOOK: JLF76-05, 304 Stainless Steel, Hairline Finish ", Piece , 0-Architectural ,0,,,0.0,,,0.0,,,0.0,,,0.0,,,0.0,0.0,0.0, -  
+32,0D-12-8009," HINGE: JLF-10 NEW, 304 Stainless Steel, Hairline Finish ", Piece , 0-Architectural ,0,,,0.0,,,0.0,,,0.0,,,0.0,,,0.0,0.0,0.0, -  
+33, 0E-03-8000 ," Architectural, Waterproofing - Cementitious - Rapid Plug K11 ", Buckets_5kg , 0-Architectural ,0,,,0.0,,,0.0,,,0.0,,,0.0,,,0.0,0.0,0.0, -  
+34,0F-04-1001," Architectural, Wall/ Floor Finish - Concrete Adhesive - Epoxy Concrete, Non-sag ", Piece , 0-Architectural ,0,,,0.0,,,0.0,,,0.0,,,0.0,,,0.0,0.0,0.0, -  
+35,0F-04-1200," Epoxy concrete , A&B low viscosity ", Set , 0-Architectural ,45,,,45.0,,,45.0,,,45.0,,,45.0,,,45.0,0.0,0.0, 45.0 
+36,0F-05-001792," Floor Tile - US Black, 1400mm x 950mmx18mm thickness  Process:  Light  Leather  Face  Weight: 329.18 kg Area Coverage: 6.65 sq. m ", Piece , 0-Architectural ,0,,,0.0,,,0.0,,,0.0,,,0.0,,,0.0,0.0,0.0, -  
+37,0F-05-001793," Floor Tile  -  US  Black,  900mm  x  670mmx18mm thickness  Process:  Light  Leather  Face  Weight: 2596.82 kg Area Coverage: 52.461 sq. m ", Piece , 0-Architectural ,0,,,0.0,,,0.0,,,0.0,,,0.0,,,0.0,0.0,0.0, -  
+38,0F-05-001794," Floor Tile  -  US  Black,  800mm  x  600mmx18mm Thickness  Process:  Light  Leather  Face  Weight: 308.88 kg Area Coverage: 6.24 sq. m ", Piece , 0-Architectural ,0,,,0.0,,,0.0,,,0.0,,,0.0,,,0.0,0.0,0.0, -  
+39,0F-05-001802," Wall Tile - Sivec White, 1770mm x 600mmx17.5mm thickness Process: Honed +5 faces Waterproof Weight: 6088.45 kg Area Coverage: 133.812 sq. m ", Piece , 0-Architectural ,0,,,0.0,,,0.0,,,0.0,,,0.0,,,0.0,0.0,0.0, -  
+40,0F-05-001807," Wall Tile - Sivec White, 2500mm x 1300mmx 17.5mm thickness Process: Honed +5 faces Waterproof Weight: 2070.25 kg Area Coverage: 45.5 sq. m ", Piece , 0-Architectural ,0,,,0.0,,,0.0,,,0.0,,,0.0,,,0.0,0.0,0.0, -  
+41,0F-05-00601," Architectural, Wall/ Floor Finish - Tile - , Luxe Zaire;white, 60x60cm ", Piece , 0-Architectural ,584,,,584.0,,,584.0,,,584.0,,,584.0,,,584.0,0.0,0.0, 584.0 
+42,0F-05-0220," Architectural, Wall/ Floor Finish - Tile - MST601202LP, 600mmx1200mm ", Piece , 0-Architectural ,"1,392",,,"1,392.0",,,"1,392.0",,,"1,392.0",,,"1,392.0",,,"1,392.0",0.0,0.0," 1,392.0 "
+43,0F-05-0230," Architectural, Wall/ Floor Finish - Tile - Matte, 600mmx600mm ", Piece , 0-Architectural ,384,,,384.0,,,384.0,,,384.0,,,384.0,,,384.0,0.0,0.0, 384.0 
+44,0F-05-1113," Architectural, Wall/ Floor Finish - Tile -  Porcelain, Model No. 715822,Polished Finish Tile 750mmx1500mm ", Piece , 0-Architectural ,280,,,280.0,,,280.0,,,280.0,,,280.0,,,280.0,0.0,0.0, 280.0 
+45,0F-06-0211," Architectural, Wall/ Floor Finish - Stone - Cobble, Black, 100mm x 100mm ", Piece , 0-Architectural ,0,,,0.0,,,0.0,,,0.0,,,0.0,,,0.0,0.0,0.0, -  
+46,0F-06-0311," Flamed Finish, MG Black A, 1150mm x 700mm x 18mm thk ", Piece , 0-Architectural ,0,,,0.0,,,0.0,,,0.0,,,0.0,,,0.0,0.0,0.0, -  
+47,0F-06-0312," Flamed Finish, MG Black A, 1150mm x 600mm x 18mm thk ", Piece , 0-Architectural ,0,,,0.0,,,0.0,,,0.0,,,0.0,,,0.0,0.0,0.0, -  
+48,0F-06-0313," Flamed Finish, MG Black A, 1250mm x 650mm x 18mm thk ", Piece , 0-Architectural ,0,,,0.0,,,0.0,,,0.0,,,0.0,,,0.0,0.0,0.0, -  
+49,0F-06-0314," Flamed Finish, MG Black A, 1250mm x 440mm x 18mm thk ", Piece , 0-Architectural ,0,,,0.0,,,0.0,,,0.0,,,0.0,,,0.0,0.0,0.0, -  
+50,0F-06-0315," Flamed Finish, MG Black A, 1500mm x 600mm x 18mm thk ", Piece , 0-Architectural ,0,,,0.0,,,0.0,,,0.0,,,0.0,,,0.0,0.0,0.0, -  
+51,0F-06-0316," Flamed Finish, MG Black A, 1500mm x 500mm x 18mm thk ", Piece , 0-Architectural ,0,,,0.0,,,0.0,,,0.0,,,0.0,,,0.0,0.0,0.0, -  
+52,0F-06-0317," Flamed Finish, MG Black A, 1800mm x 500mm x 18mm thk ", Piece , 0-Architectural ,0,,,0.0,,,0.0,,,0.0,,,0.0,,,0.0,0.0,0.0, -  
+53,0F-06-0318," Flamed Finish, MG Black A, 1800mm x 600mm x 18mm thk ", Piece , 0-Architectural ,0,,,0.0,,,0.0,,,0.0,,,0.0,,,0.0,0.0,0.0, -  
+54,0F-06-0319," Flamed Finish, MG Black A, 1800mm x 650mm x 18mm thk ", Piece , 0-Architectural ,0,,,0.0,,,0.0,,,0.0,,,0.0,,,0.0,0.0,0.0, -  
+55,0F-06-0320," Flamed Finish, MG Black A, 1850mm x 500mm x 18mm thk ", Piece , 0-Architectural ,0,,,0.0,,,0.0,,,0.0,,,0.0,,,0.0,0.0,0.0, -  
+56,0F-06-0411," Architectural, Wall/ Floor Finish - Stone - Polished, Black Pearl, 1800mm x 600mm x 18mm thk ", Piece , 0-Architectural ,0,,,0.0,,,0.0,,,0.0,,,0.0,,,0.0,0.0,0.0, -  
+57,0F-06-0511," Architectural, Wall/ Floor Finish - Stone - Honed, Black Pearl, 1800mm x 500mm x 18mm thk ", Piece , 0-Architectural ,0,,,0.0,,,0.0,,,0.0,,,0.0,,,0.0,0.0,0.0, -  
+58,0F-06-0512," Architectural, Wall/ Floor Finish - Stone - Honed, Black Pearl, 1500mm x 500mm x 18mm thk ", Piece , 0-Architectural ,0,,,0.0,,,0.0,,,0.0,,,0.0,,,0.0,0.0,0.0, -  
+59,0F-06-0611," Architectural, Wall/ Floor Finish - Stone - Light Leather(flamed+brush), US Black, 1150mm x 600mm x 18mm thk ", Piece , 0-Architectural ,0,,,0.0,,,0.0,,,0.0,,,0.0,,,0.0,0.0,0.0, -  
+60,0F-06-0612," Architectural, Wall/ Floor Finish - Stone - Light Leather(flamed+brush), US Black, 1150mm x 700mm x 18mm thk ", Piece , 0-Architectural ,0,,,0.0,,,0.0,,,0.0,,,0.0,,,0.0,0.0,0.0, -  
+61,0F-07-00241," Architectural, Wall/ Floor Finishes - Tile Grout - F14 - Grey Ord, 2kg ", Pack , 0-Architectural ,204,,,204.0,,,204.0,,,204.0,,,204.0,,,204.0,0.0,0.0, 204.0 
+62,0F-07-01111," Architectural, Wall/ Floor Finishes - Tile Grout - F13, Anthracite, 2kg ", Pack , 0-Architectural ,91,,,91.0,,,91.0,,,91.0,,,91.0,,,91.0,0.0,0.0, 91.0 
+63,0F-08-0101," Tile Adhesive - Heavy Duty, 25kg ", Bag_25kg , 0-Architectural ,120,,,120.0,,,120.0,,,120.0,,,120.0,,,120.0,0.0,0.0, 120.0 
+64,0F-20-1101," Architectural, Wall/ Floor Finishes - Skirting - Stainless Steel, Hairline Finish, 2mm thk x 50mm depth ", Piece , 0-Architectural ,50,,,50.0,,,50.0,,,50.0,,,50.0,,,50.0,0.0,0.0, 50.0 
+65,0F-21-1111," Architectural, Wall/ Floor Finishes - Gap Trim - Stainless Steel, Hairline Finish, U-Trim, 0.8mm thk x 6mm depth ", Piece , 0-Architectural ,10,,,10.0,,,10.0,,,10.0,,,10.0,,,10.0,0.0,0.0, 10.0 
+66,0G-06-0000, Mop Head - Mop Head w/ handle - , Piece , 0-Architectural ,4,,,4.0,,,4.0,,,4.0,,,4.0,,,4.0,0.0,0.0, 4.0 
+67,0G-07-0000," Architectural, Consumables - Mop Head w/o handle - ", Piece , 0-Architectural ,34,,,34.0,,,34.0,,,34.0,,,34.0,,,34.0,0.0,0.0, 34.0 
+68,0G-07-7000," Architectural, Consumables - Empty Blue Container, 30L ", Piece , 0-Architectural ,0,,,0.0,,,0.0,,,0.0,,,0.0,,,0.0,0.0,0.0, -  
+69,0G-09-0000," Garden Sprayer, (16 Liters Capacity) ", Piece , 0-Architectural ,0,,,0.0,,,0.0,,,0.0,,,0.0,,,0.0,0.0,0.0, -  
+70, 0G-15-0001 ," Cutting Disc - Grinding Disc -  4"" ", Piece , 0-Architectural ,72,,,72.0,,,72.0,,,72.0,,,72.0,,,72.0,0.0,0.0, 72.0 
+71,0G-15-0102," Architectural, Consumables - Grinding Disc - Flexible  4"" ", Piece , 0-Architectural ,37,,,37.0,,,37.0,,,37.0,,,37.0,,,37.0,0.0,0.0, 37.0 
+72,0G-16-0001," Architectural, Consumables - Hacksaw Blade -  12"" ", Piece , 0-Architectural ,260,,,260.0,,,260.0,,,260.0,,,260.0,,,260.0,0.0,0.0, 260.0 
+73,0G-17-0001," Architectural, Consumables - Jigsaw Blade -  Metal No. 1 ", Piece , 0-Architectural ,130,,,130.0,,,130.0,,,130.0,,,130.0,,,130.0,0.0,0.0, 130.0 
+74,0G-17-0100," Architectural, Consumables - Jigsaw Blade - Metal star type screw ", Piece , 0-Architectural ,95,,,95.0,,,95.0,,,95.0,,,95.0,,,95.0,0.0,0.0, 95.0 
+75,0G-17-0200, Blade- Jigsaw Blade -  Wood star type screw , Piece , 0-Architectural ,35,,,35.0,,,35.0,,,35.0,,,35.0,,,35.0,0.0,0.0, 35.0 
+76,0G-18-0001," Architectural, Consumables - Masonry Drill Bit - 1/8"" ", Piece , 0-Architectural ,244,50.00,,294.0,,,294.0,,,294.0,,,294.0,,,294.0,50.0,0.0, 294.0 
+77,0G-18-00011," Architectural, Consumables - Masonry Drill Bit - #2 ", Piece , 0-Architectural ,197,,,197.0,,,197.0,,,197.0,,,197.0,,,197.0,0.0,0.0, 197.0 
+78,0G-18-00012," Architectural, Consumables - Masonry Drill Bit - TE-CX 10/37 (10X300MM) ", Piece , 0-Architectural ,25,,,25.0,,,25.0,,,25.0,,,25.0,,,25.0,0.0,0.0, 25.0 
+79,0G-18-00013," Architectural, Consumables - Masonry Drill Bit - 10mm ", Piece , 0-Architectural ,70,,,70.0,,,70.0,,,70.0,,,70.0,,,70.0,0.0,0.0, 70.0 
+80, 0G-18-00014 , Drill Bit - Masonry Drill Bit - 16mm , Piece , 0-Architectural ,12,,,12.0,,,12.0,,,12.0,,,12.0,,,12.0,0.0,0.0, 12.0 
+81,0G-18-00015," Architectural, Consumables - Masonry Drill Bit - 1/4"" ", Piece , 0-Architectural ,0,30.00,,30.0,,,30.0,,,30.0,,,30.0,,,30.0,30.0,0.0, 30.0 
+82,0G-18-00016," Architectural, Consumables - Masonry Drill Bit - 3/4""Ø ", Piece , 0-Architectural ,3,,,3.0,,,3.0,,,3.0,,,3.0,,,3.0,0.0,0.0, 3.0 
+83,0G-18-00019," Architectural, Consumables - Masonry Drill Bit - TECX  16mm x 17 ", Piece , 0-Architectural ,41,,,41.0,,,41.0,,,41.0,,,41.0,,,41.0,0.0,0.0, 41.0 
+84,0G-18-00020," Architectural, Consumables - Masonry Drill Bit - TECX 12mm X 17 ", Piece , 0-Architectural ,13,,,13.0,,,13.0,,,13.0,,,13.0,,,13.0,0.0,0.0, 13.0 
+85,0G-18-00022," Architectural, Consumables - Masonry Drill Bit - 22mm ", Piece , 0-Architectural ,94,,,94.0,,,94.0,,,94.0,,,94.0,,,94.0,0.0,0.0, 94.0 
+86,0G-18-00025," Drill Bit - Masonry Drill Bit - TE- CX 12/27, 200mm Long ", Piece , 0-Architectural ,7,,,7.0,,,7.0,,,7.0,,,7.0,,,7.0,0.0,0.0, 7.0 
+87,0G-18-0003," Architectural, Consumables - Masonry Drill Bit - 1/2"" 12mm ", Piece , 0-Architectural ,42,,,42.0,,,42.0,,,42.0,,,42.0,,,42.0,0.0,0.0, 42.0 
+88, 0G-18-0004 ," Architectural, Consumables - Masonry Drill Bit - TE-CX - (10mm) 10/17 ", Piece , 0-Architectural ,0,,,0.0,,,0.0,,,0.0,,,0.0,,,0.0,0.0,0.0, -  
+89, 0G-18-0005 ," Architectural, Consumables - Masonry Drill Bit - 3/8"" ", Piece , 0-Architectural ,71,,,71.0,,,71.0,,,71.0,,,71.0,,,71.0,0.0,0.0, 71.0 
+90,0G-18-0006," Architectural, Consumables - Masonry Drill Bit - 3/8"" x 6"" ", Piece , 0-Architectural ,2,,,2.0,,,2.0,,,2.0,,,2.0,,,2.0,0.0,0.0, 2.0 
+91,0G-18-0007," Architectural, Consumables - Masonry Drill Bit - 5/8"" ", Piece , 0-Architectural ,22,,,22.0,,,22.0,,,22.0,,,22.0,,,22.0,0.0,0.0, 22.0 
+92, 0G-18-0009 , Drill Bit - Masonry Drill Bit - 6mm x 100 , Piece , 0-Architectural ,25,,,25.0,,,25.0,,,25.0,,,25.0,,,25.0,0.0,0.0, 25.0 
+93, 0G-19-0001 ," Architectural, Consumables - Metal Cutting Disc - 4"" ", Piece , 0-Architectural ,0,50.00,,50.0,,,50.0,,,50.0,,,50.0,,,50.0,50.0,0.0, 50.0 
+94, 0G-19-0004 ," Cutting Disc - Diamond Concrete Cutting Disc - 4"" ", Piece , 0-Architectural ,194,,,194.0,,,194.0,,,194.0,,,194.0,,,194.0,0.0,0.0, 194.0 
+95,0G-19-1001," Architectural, Consumables - Cutting Disc - Diamond Cutting Disc, 4"" ", Piece , 0-Architectural ,10,,,10.0,,,10.0,,,10.0,,,10.0,,,10.0,0.0,0.0, 10.0 
+96,0G-19-2001," Architectural, Consumables - Cutting Disc - Stainless Cutting Disc, 4"" ", Piece , 0-Architectural ,9,50.00,,59.0,,,59.0,,,59.0,,,59.0,,,59.0,50.0,0.0, 59.0 
+97,0G-20-0001," Architectural, Consumables - Metal Drill Bit - 1/2"" ", Piece , 0-Architectural ,8,,,8.0,,,8.0,,,8.0,,,8.0,,,8.0,0.0,0.0, 8.0 
+98,0G-20-0002," Drill Bit - Metal Drill Bit - 1/4"" ( TWIST DRILL BIT 12.0X51mm ""MP5, 1/4"") ", Piece , 0-Architectural ,33,30.00,,63.0,,,63.0,,,63.0,,,63.0,,,63.0,30.0,0.0, 63.0 
+99,0G-20-0003," Architectural, Consumables - Metal Drill Bit - 1/8"" ", Piece , 0-Architectural ,0,50.00,,50.0,,,50.0,,,50.0,,,50.0,,,50.0,50.0,0.0, 50.0 
+100, 0G-20-0004 ," Architectural, Consumables - Metal Drill Bit - 3/8"" ", Piece , 0-Architectural ,393,,,393.0,,,393.0,,,393.0,,,393.0,,,393.0,0.0,0.0, 393.0 
+101,0G-20-0006," Architectural, Consumables - Metal Drill Bit - 3/4""Ø ", Piece , 0-Architectural ,35,,,35.0,,,35.0,,,35.0,,,35.0,,,35.0,0.0,0.0, 35.0 
+102,0G-20-0012, Drill Bit - Metal Drill Bit - 16mm , Piece , 0-Architectural ,26,,,26.0,,,26.0,,,26.0,,,26.0,,,26.0,0.0,0.0, 26.0 
+103,0G-25-0000," Architectural, Consumables - Steel Brush - ", Piece , 0-Architectural ,0,,,0.0,,,0.0,,,0.0,,,0.0,,,0.0,0.0,0.0, -  
+104,0G-25-0101," Architectural, Consumables - Steel Brush - Cap Brush, 4"" ", Piece , 0-Architectural ,92,,,92.0,,,92.0,,,92.0,,,92.0,,,92.0,0.0,0.0, 92.0 
+105,0G-26-2001," Architectural, Consumables - Wood Drill Bit - Auger Bit, 3/4"" x 8"" ", Piece , 0-Architectural ,4,,,4.0,,,4.0,,,4.0,,,4.0,,,4.0,0.0,0.0, 4.0 
+106, 0G-27-0001 ," Architectural, Consumables - Hammer Drill Bit - TE-CX - (16mm) 16/17 ", Piece , 0-Architectural ,4,,,4.0,,,4.0,,,4.0,,,4.0,,,4.0,0.0,0.0, 4.0 
+107,0G-27-0002," Architectural, Consumables - Hammer Drill Bit - TE-C 1/2"" x 6"" ", Piece , 0-Architectural ,17,,,17.0,,,17.0,,,17.0,,,17.0,,,17.0,0.0,0.0, 17.0 
+108,0G-27-0003," Architectural, Consumables - Hammer Drill Bit - TE-C 3/8"" x 6"" ", Piece , 0-Architectural ,0,,,0.0,,,0.0,,,0.0,,,0.0,,,0.0,0.0,0.0, -  
+109,0G-28-0004, Drill Bit - Chipping Gun Bit - (280mmx17mm) , Piece , 0-Architectural ,1,,,1.0,,,1.0,,,1.0,,,1.0,,,1.0,0.0,0.0, 1.0 
+110, 0G-29-0013 ," Architectural, Consumables - Circular Saw Blade - 185mm x 1.6mm x 20mm ", Piece , 0-Architectural ,1,,,1.0,,,1.0,,,1.0,,,1.0,,,1.0,0.0,0.0, 1.0 
+111, 0G-30-0001 ," Architectural, Consumables - Metal Cut-off Wheel - 14"" ", Piece , 0-Architectural ,307,,,307.0,,,307.0,,,307.0,,,307.0,,,307.0,0.0,0.0, 307.0 
+112,0G-31-0001," Architectural, Consumables - Cup Wheel - 4"" Bosun (F1W, F2W, F3W) ", Piece , 0-Architectural ,86,,,86.0,,,86.0,,,86.0,,,86.0,,,86.0,0.0,0.0, 86.0 
+113,0G-31-0012," Cutting Disc - Cup Wheel - Diamond, 4"" ", Piece , 0-Architectural ,0,,,0.0,,,0.0,,,0.0,,,0.0,,,0.0,0.0,0.0, -  
+114,0G-33-1001," Architectural, Consumables - Ceramic Cutting Disc - Diamond Wheel, 4"" ", Piece , 0-Architectural ,47,,,47.0,,,47.0,,,47.0,,,47.0,,,47.0,0.0,0.0, 47.0 
+115,0G-36-0004," Architectural, Consumables - Metal Hole Saw - 54mm ", Piece , 0-Architectural ,12,,,12.0,,,12.0,,,12.0,,,12.0,,,12.0,0.0,0.0, 12.0 
+116,0G-36-0005," Architectural, Consumables - Metal Hole Saw - 64mm ", Piece , 0-Architectural ,19,,,19.0,,,19.0,,,19.0,,,19.0,,,19.0,0.0,0.0, 19.0 
+117, 0G-36-0006 ," Architectural, Consumables - Metal Hole Saw - 70mm ", Piece , 0-Architectural ,2,,,2.0,,,2.0,,,2.0,,,2.0,,,2.0,0.0,0.0, 2.0 
+118,0G-36-0010," Architectural, Consumables - Rubbing Bricks 2""x8"" ", Piece , 0-Architectural ,15,,,15.0,,,15.0,,,15.0,,,15.0,,,15.0,0.0,0.0, 15.0 
+119,0J-10-2001," Architectural, Hardware and Accessories - Corner Bead - Aluminum, 25mm x 25mm x 2.4m ", Piece , 0-Architectural ,0,,,0.0,,,0.0,,,0.0,,,0.0,,,0.0,0.0,0.0, -  
+120,0J-12-11102," Architectural, Hardware and Accessories - Toilet Partition - ALUM U Profile, STP-P33, Silver, 1.85 ", Piece , 0-Architectural ,5,,,5.0,,,5.0,,,5.0,,,5.0,,,5.0,0.0,0.0, 5.0 
+121,0J-12-1333," Architectural, Hardware and Accessories - Toilet Partition - Adjustable Foot - SUS 304, STP.A10, 100mm ", Piece , 0-Architectural ,2,,,2.0,,,2.0,,,2.0,,,2.0,,,2.0,0.0,0.0, 2.0 
+122,0J-12-144," Architectural, Hardware and Accessories - Toilet Partition - Right Rising Hinge - SUS 304, STP.A330 ", Piece , 0-Architectural ,11,,,11.0,,,11.0,,,11.0,,,11.0,,,11.0,0.0,0.0, 11.0 
+123,0J-12-155," Architectural, Hardware and Accessories - Toilet Partition - Door Stopper w/ hook - SUS 304, STP.K41 ", Piece , 0-Architectural ,7,,,7.0,,,7.0,,,7.0,,,7.0,,,7.0,0.0,0.0, 7.0 
+124,0J-12-166," Architectural, Hardware and Accessories - Toilet Partition - Indicator -SUS 304, STP.A25 ", Piece , 0-Architectural ,5,,,5.0,,,5.0,,,5.0,,,5.0,,,5.0,0.0,0.0, 5.0 
+125,0J-12-188," Architectural, Hardware and Accessories - Toilet Partition - Door Handle -SUS 304, STP.A35 ", Piece , 0-Architectural ,21,,,21.0,,,21.0,,,21.0,,,21.0,,,21.0,0.0,0.0, 21.0 
+126,0J-12-1995," Architectural, Hardware and Accessories - Toilet Partition - Stainless Steel - Bracket, STP.A330, 3mm ", Piece , 0-Architectural ,13,,,13.0,,,13.0,,,13.0,,,13.0,,,13.0,0.0,0.0, 13.0 
+127,0J-12-2001," Architectural, Hardware and Accessories - Toilet Partition - H-Profile, 13mm, STP-P21H, 1.85m, Silver ", Meter , 0-Architectural ,200,,,200.0,,,200.0,,,200.0,,,200.0,,,200.0,0.0,0.0, 200.0 
+128,0L-03-0001," Architectural, Carpet - Entrance Mat , 6.4m L x 3.18m W x 19mm T ", m3 , 0-Architectural ,20,,,20.4,,,20.4,,,20.4,,,20.4,,,20.4,0.0,0.0, 20.4 
+129,0M-03-10011," Architectural, Furniture and Fixtures - Mirror - Silver Glass Etched Mirror, Finish Smooth Texture, W: 0.19m, H: 3.2m, 6mmTHK ", Piece , 0-Architectural ,16,,,16.0,,,16.0,,,16.0,,,16.0,,,16.0,0.0,0.0, 16.0 
+130,0N-02-0010," Architectural, Aluminum & Glass Works - Back Painted Glass - Ultra Clear White ", sqm , 0-Architectural ,0,,,0.0,,,0.0,,,0.0,,,0.0,,,0.0,0.0,0.0, 0.0 
+131,0N-02-0111," Architectural, Aluminum & Glass Works - Back Painted Glass - Silver Glass, Mirror finish, Smooth Texture SILVER ACID ETCHED, 1100mW x 2950mmH x 6mmTHK ", Piece , 0-Architectural ,4,,,4.0,,,4.0,,,4.0,,,4.0,,,4.0,0.0,0.0, 4.0 
+132,0N-04-1100," Architectural, Aluminum & Glass Works - Glass Wall- U Profiled Glass, K25/60/7 Low Iron 504 Tempered Opal Heat Soaked ", m2 , 0-Architectural ,0,,,0.0,,,0.0,,,0.0,,,0.0,,,0.0,0.0,0.0, -  
+133,0N-07-1101," Architectural, Aluminum & Glass Works - Accent Wall - Silver Glass Etched, Mirror Finish Smooth Texture, W0.19m x H3.20m x 6mm thk. ", sqm , 0-Architectural ,0,,,0.0,,,0.0,,,0.0,,,0.0,,,0.0,0.0,0.0, -  
+134,0N-07-1102," Architectural, Aluminum & Glass Works - Accent Wall - Silver Glass Etched, Mirror Finish Smooth Texture, W0.19m x H0.96m x 6mm thk. ", sqm , 0-Architectural ,0,,,0.0,,,0.0,,,0.0,,,0.0,,,0.0,0.0,0.0, -  
+135,0N-07-1103," Architectural, Aluminum & Glass Works - Accent Wall - Silver Glass Etched, Mirror Finish Smooth Texture, W0.19m x H0.424m x 6mm thk. ", sqm , 0-Architectural ,0,,,0.0,,,0.0,,,0.0,,,0.0,,,0.0,0.0,0.0, 0.0 
+136,0N-08-10111," Architectural, Aluminum & Glass Works -Glass Cladding - Acid Etched, Silver, 0.6m x 1.3m x 6mm thk. ", sqm , 0-Architectural ,0,,,0.0,,,0.0,,,0.0,,,0.0,,,0.0,0.0,0.0, 0.0 
+137,0O-01-0021," Architectural, Plumbing Fixtures & Accessories - Faucet - Extension Connector, 1/2"" ", Piece , 0-Architectural ,10,,,10.0,,,10.0,,,10.0,,,10.0,,,10.0,0.0,0.0, 10.0 
+138, 0O-01-11100 ," Architectural, Plumbing Fixtures & Accessories - Faucet - Lavatory , Sensor ", Piece , 0-Architectural ,70,,,70.0,,,70.0,,,70.0,,,70.0,,,70.0,0.0,0.0, 70.0 
+139,0O-01-1912," Architectural, Plumbing Fixtures & Accessories - Faucet - Lavatory , Sensor, 98454T-B-CP Looure ", Set , 0-Architectural ,0,,,0.0,,,0.0,,,0.0,,,0.0,,,0.0,0.0,0.0, -  
+140,0O-01-4101," Architectural, Plumbing Fixtures & Accessories - Faucet - Ball Valve , Single Handle Type1/2"" ", Piece , 0-Architectural ,3,,,3.0,,,3.0,,,3.0,,,3.0,,,3.0,0.0,0.0, 3.0 
+141, 0O-01-8124 ," Architectural, Plumbing Fixtures & Accessories - Sink - Angle Valve, 1/2"" x 1/2"" ", Pack , 0-Architectural ,0,,,0.0,,,0.0,,,0.0,,,0.0,,,0.0,0.0,0.0, -  
+142,0O-02-0101," Valve - Water Closet - Angle Valve 1/2"" x 1/2"" ", Piece , 0-Architectural ,0,,,0.0,,,0.0,,,0.0,,,0.0,,,0.0,0.0,0.0, -  
+143, 0O-02-1900 ," Architectural, Plumbing Fixtures & Accessories - Water Closet - Tank Fittings with Push Button (American Standard Brand) ", Set , 0-Architectural ,0,,,0.0,,,0.0,,,0.0,,,0.0,,,0.0,0.0,0.0, -  
+144,0O-02-1920," Architectural, Plumbing Fixtures & Accessories - Water Closet - White, 21297K-SL-0 Veil FS Toilet w/ Slim Seat Sensor Type ", Piece , 0-Architectural ,0,,,0.0,,,0.0,,,0.0,,,0.0,,,0.0,0.0,0.0, -  
+145,0O-02-1931," ""Architectural, Plumbing Fixtures & Accessories - Water Closet - White,  Acacia Supasleek BTW Toilet (Wall Discharge/P-Trap) CL32297-6DAPHCBB Acacia SupaSleek BTW 3/4.5 PH W/SC WT - Cat. Code:CL3229 Acacia  ", Set , 0-Architectural ,60,,,60.0,,,60.0,,,60.0,,,60.0,,,60.0,0.0,0.0, 60.0 
+146, 0O-02-1932 ," ""Architectural, Plumbing Fixtures & Accessories - Water Closet - White, Acacia Supasleek BTW Toilet - Floor Discharge CL32297-6DAPHCBB Acacia SupaSleek BTW 3/4.5 PH W/SC WT - Cat. Code:CL3229 Acacia E Vortex BTW 3/4.5L CBR PHL WT 402 PC CrystalSlee ", Piece , 0-Architectural ,0,,,0.0,,,0.0,,,0.0,,,0.0,,,0.0,0.0,0.0, -  
+147,0O-03-0004," Architectural, Plumbing Fixtures & Accessories - Floor Drain - 2"" (50mm); 4x4"" (100x100mm) ", Piece , 0-Architectural ,10,,,10.0,,,10.0,,,10.0,,,10.0,,,10.0,0.0,0.0, 10.0 
+148,0O-03-0701," Architectural, Plumbing Fixtures & Accessories - Floor Drain - JFD 101, 6"" x 6"" ", Piece , 0-Architectural ,98,,,98.0,,,98.0,,,98.0,,,98.0,,,98.0,0.0,0.0, 98.0 
+149,0O-03-1001," Architectural, Plumbing Fixtures & Accessories - Floor Drain - Brass2"" ", Piece , 0-Architectural ,39,,,39.0,,,39.0,,,39.0,,,39.0,,,39.0,0.0,0.0, 39.0 
+150,0O-03-4100," Architectural, Plumbing Fixtures & Accessories - Floor Drain - Stainless Steel, Concealed Type ", Piece , 0-Architectural ,19,,,19.0,,,19.0,,,19.0,,,19.0,,,19.0,0.0,0.0, 19.0 
+151,0O-06-01200," Architectural, Plumbing Fixtures & Accessories - Urinal  - Patio Touchless Water Saving Urinal, 16321T-MC05-0 ", Set , 0-Architectural ,4,,,4.0,,,4.0,,,4.0,,,4.0,,,4.0,0.0,0.0, 4.0 
+152, 0O-06-0600 ," Architectural, Plumbing Fixtures & Accessories - Urinal - Flush Valve Lever Type ", Piece , 0-Architectural ,0,,,0.0,,,0.0,,,0.0,,,0.0,,,0.0,0.0,0.0, -  
+153, 0O-06-1100 ," Architectural, Plumbing Fixtures & Accessories - Urinal - Stainless, Pushbutton Flush Valve ", Piece , 0-Architectural ,0,,,0.0,,,0.0,,,0.0,,,0.0,,,0.0,0.0,0.0, -  
+154,0O-09-0020," Architectural, Plumbing Fixtures & Accessories - Toilet Bidet Spray - Chrome Finish ", Piece , 0-Architectural ,422,,,422.0,,,422.0,,,422.0,,,422.0,,,422.0,0.0,0.0, 422.0 
+155,0O-10-13121," Architectural, Plumbing Fixtures & Accessories - Lavatory - Undercounter, K-2215X-0 Ladena 21"", L 524mm x W 347mm ", Piece , 0-Architectural ,10,,,10.0,,,10.0,,,10.0,,,10.0,,,10.0,0.0,0.0, 10.0 
+156,0O-10-3101," Architectural, Plumbing Fixtures & Accessories - Lavatory - P-Trap, U-Type, 1 1/4"" ", Piece , 0-Architectural ,13,,,13.0,,,13.0,,,13.0,,,13.0,,,13.0,0.0,0.0, 13.0 
+157,0O-16-1200," Architectural, Plumbing Fixtures & Accessories - Flush Valve - Water Closet ", Piece , 0-Architectural ,1,,,1.0,,,1.0,,,1.0,,,1.0,,,1.0,0.0,0.0, 1.0 
+158,0O-20-1011," Architectural, Plumbing Fixtures & Accessories - Parking Drain - Cast Iron, 4"" Drain, 6"" x 6"" Cover ", Piece , 0-Architectural ,48,,,48.0,,,48.0,,,48.0,,,48.0,,,48.0,0.0,0.0, 48.0 
+159,0O-21-3101," Hot Dip, Galvanized Steel, Concealed Trench Drain, 600mmL X 300mmW X 25mmH X 3mmTHK. ", Piece , 0-Architectural ,54,65.00,,119.0,,,119.0,,,119.0,,,119.0,,,119.0,65.0,0.0, 119.0 
+160,0O-22-2101," Architectural, Plumbing Fixtures & Accessories - Dispenser - Soap Dispenser, Automatic Sensor, 1000mL ", Meter , 0-Architectural ,20,,,20.0,,,20.0,,,20.0,,,20.0,,,20.0,0.0,0.0, 20.0 
+161, 0O-23-0000 ," Architectural, Plumbing Fixtures & Accessories - Soap Pump ", Piece , 5-Piping ,280,,,280.0,,,280.0,,,280.0,,,280.0,,,280.0,0.0,0.0, 280.0 
+162,0P-01-00172," CHB - Concrete Hallow Block - Non-Load Bearing, 650 psi, 6"" ", Piece , 0-Architectural ,800,,,800.0,,,800.0,,,800.0,,,800.0,,,800.0,0.0,0.0, 800.0 
+163,0P-03-0001," Architectural, Masonry - Backer Rod - 12mm x 3.5m ", length_3.5 , 0-Architectural ,850,,,850.0,,,850.0,,,850.0,,,850.0,,,850.0,0.0,0.0, 850.0 
+164, 0P-05-1000 ," Architectural, Masonry - Sand - Vibro ", cm3 , 0-Architectural ,64,,,64.2,,,64.2,,,64.2,,,64.2,,,64.2,0.0,0.0, 64.2 
+165, 0Q-02-00017 ," Architectural, Wall Frames & Component - Metal Stud - 35mm x 76mm x 3m GA 0.6mm ", Meter , 0-Architectural ,30,,,30.0,,,30.0,,,30.0,,,30.0,,,30.0,0.0,0.0, 30.0 
+166, 0Q-03-00013 ," Architectural, Wall Frames & Component - Metal track - 35mm x 76mm x 3m Ga 0.6mm ", Meter , 0-Architectural ,0,,,0.0,,,0.0,,,0.0,,,0.0,,,0.0,0.0,0.0, -  
+167, 0Q-04-0111 ," Architectural, Wall Frames & Component - Metal Furring - Double, 1mm thk., 3/4"" x 2"" ", Length_5 , 0-Architectural ,0,,,0.0,,,0.0,,,0.0,,,0.0,,,0.0,0.0,0.0, -  
+168,0Q-05-1101," Architectural, Wall Frames & Component - Rail - Stainless Steel, U-Rail, 33mm x 3000mm ", Meter , 0-Architectural ,0,,,0.0,,,0.0,,,0.0,,,0.0,,,0.0,0.0,0.0, -  
+169, 1C-01-11301 ," Civil, Hardware & Accessories (Ceiling/Wall) - Screw - Wood Screw, Flat head, 1 1/2"" #8 ", Piece , 1-Civil  ,0,,,0.0,,,0.0,,,0.0,,,0.0,,,0.0,0.0,0.0, -  
+170,1C-01-12001," Screw - Metal Screw, 1"" ", Piece , 1-Civil  ,"46,000",,,"46,000.0",,,"46,000.0",,,"46,000.0",,,"46,000.0",,,"46,000.0",0.0,0.0," 46,000.0 "
+171,1C-01-25000," Civil, Hardware & Accessories (Ceiling/Wall) - Screw - Stainless Screw, Flat head, 1 1/2"" #8 ", Piece , 1-Civil  ,0,,,0.0,,,0.0,,,0.0,,,0.0,,,0.0,0.0,0.0, -  
+172,1C-01-25001," Civil, Hardware & Accessories (Ceiling/Wall) - Screw - Stainless Screw, Flat head, 1"", #8 ", Piece , 1-Civil  ,0,,,0.0,,,0.0,,,0.0,,,0.0,,,0.0,0.0,0.0, -  
+173,1C-01-25002," Civil, Hardware & Accessories (Ceiling/Wall) - Screw - Stainless Screw, Flat head, 5/8"" #10 ", Piece , 1-Civil  ,0,,,0.0,,,0.0,,,0.0,,,0.0,,,0.0,0.0,0.0, -  
+174,1C-01-25003," Civil, Hardware & Accessories (Ceiling/Wall) - Screw - Stainless Screw, Flat Head, 1/2"" #10 ", Piece , 1-Civil  ,0,,,0.0,,,0.0,,,0.0,,,0.0,,,0.0,0.0,0.0, -  
+175,1C-01-26000," Civil, Hardware & Accessories (Ceiling/Wall) - Screw - Stainless Screw, Pan Head, 1"" #10 ", Piece , 1-Civil  ,0,,,0.0,,,0.0,,,0.0,,,0.0,,,0.0,0.0,0.0, -  
+176,1C-01-6101," Civil, Hardware & Accessories (Ceiling/Wall) - Screw - Self Tapping Screw, Ordinary, #8  1"" (25mm) ", Piece , 1-Civil  ,0,,,0.0,,,0.0,,,0.0,,,0.0,,,0.0,0.0,0.0, -  
+177,1C-01-8204," Civil, Hardware & Accessories (Ceiling/Wall) - Screw - Metal, Tek Screw, 2 1/2"" ", Piece , 1-Civil  ,"29,500",,,"29,500.0",,,"29,500.0",,,"29,500.0",,,"29,500.0",,,"29,500.0",0.0,0.0," 29,500.0 "
+178, 1D-01-0022 ," Civil, Hardware & Accessories - Bolt - with Nut & Washer, 3/8"" x 1"" ", Set , 0-Architectural ,0,,,0.0,,,0.0,,,0.0,,,0.0,,,0.0,0.0,0.0, -  
+179,1D-01-0111," Civil, Hardware & Accessories - Bolt - GI, w/ Nut & Washer, 3/8"" x 1"" ", Piece , 1-Civil  ,100,,,100.0,,,100.0,,,100.0,,,100.0,,,100.0,0.0,0.0, 100.0 
+180,1D-01-11201," Civil, Hardware & Accessories - Bolt, Stainless Steel, Bolts, Nut & Washer, Size: 1/2"" ", Piece , 1-Civil  ,60,,,60.0,,,60.0,,,60.0,,,60.0,,,60.0,0.0,0.0, 60.0 
+181, 1D-01-16001 ," Civil, Hardware & Accessories - Bolt - Hex Bolt, 1/2 X 2 ", Set , 1-Civil  ,0,,,0.0,,,0.0,,,0.0,,,0.0,,,0.0,0.0,0.0, -  
+182, 1D-01-17405 ," Civil, Hardware & Accessories - Bolt - GI Hex Bolt, GI Nut & Washer, 1/2"" x 1 1/2"" ", Set , 1-Civil  ,0,,,0.0,,,0.0,,,0.0,,,0.0,,,0.0,0.0,0.0, -  
+183, 1D-01-211013 ," Civil, Hardware & Accessories - Bolt - U-Bolt, Nut & Washer, 6"" x 3/8"" ", Set , 0-Architectural ,0,,,0.0,,,0.0,,,0.0,,,0.0,,,0.0,0.0,0.0, -  
+184,1D-01-21111," Civil, Hardware & Accessories  - Bolt - Flush Anchor. HKD, m10 x 40 ", Set , 1-Civil  ,120,,,120.0,,,120.0,,,120.0,,,120.0,,,120.0,0.0,0.0, 120.0 
+185, 1D-01-21112 ," Civil, Hardware & Accessories - Bolt - U-Bolt, Nut & Washer, Stainless, 6"" x 1/2"" ", Piece , 1-Civil  ,0,,,0.0,,,0.0,,,0.0,,,0.0,,,0.0,0.0,0.0, -  
+186, 1D-01-22001 ," Civil, Hardware & Accessories - Bolt - Expansion Bolt, 12mmÃ˜ x 100mm ", Piece , 1-Civil  ,0,,,0.0,,,0.0,,,0.0,,,0.0,,,0.0,0.0,0.0, -  
+187,1D-01-22002," Civil, Hardware & Accessories  - Bolt - Expansion Bolt, M16 5 ", Piece , 1-Civil  ,67,,,67.0,,,67.0,,,67.0,,,67.0,,,67.0,0.0,0.0, 67.0 
+188, 1D-01-23001 ," Bolt - Expansion Shield, 3/8"" ", Piece , 1-Civil  ,300,,,300.0,,,300.0,,,300.0,,,300.0,,,300.0,0.0,0.0, 300.0 
+189, 1D-01-23002 ," Civil, Hardware & Accessories - Bolt - Expansion Shield, 1/2"" ", Piece , 1-Civil  ,0,,,0.0,,,0.0,,,0.0,,,0.0,,,0.0,0.0,0.0, -  
+190,1D-01-23011," Civil, Hardware & Accessories - Bolt - Expansion Shield, Drop in anchor, 3/8"" ", Piece , 1-Civil  ,"1,750",,,"1,750.0",,,"1,750.0",,,"1,750.0",,,"1,750.0",,,"1,750.0",0.0,0.0," 1,750.0 "
+191,1D-01-24101, Bolt - Stud Anchor HSA M12 x 120/25/45 , Piece , 1-Civil  ,0,,,0.0,,,0.0,,,0.0,,,0.0,,,0.0,0.0,0.0, -  
+192,1D-01-26015," Civil, Hardware & Accessories  - Bolt - Anchor Rod, M20 x 300mm ", Piece , 1-Civil  ,55,,,55.0,,,55.0,,,55.0,,,55.0,,,55.0,0.0,0.0, 55.0 
+193,1D-01-27011," Civil, Hardware & Accessories - Bolt - GI, , w/ Nut & Washer, 5/8"" X 3"" ", Piece , 1-Civil  ,250,,,250.0,,,250.0,,,250.0,,,250.0,,,250.0,0.0,0.0, 250.0 
+194,1D-02-2004," Civil, Hardware & Accessories  - Nail - Concrete Nail, 3"" ", Box_20kg , 1-Civil  ,1,,,1.0,,,1.0,,,1.0,,,1.0,,,1.0,0.0,0.0, 1.0 
+195,1D-03-0001," Civil, Hardware & Accessories - Nut - 3/8"" ", Piece , 1-Civil  ,0,,,0.0,,,0.0,,,0.0,,,0.0,,,0.0,0.0,0.0, -  
+196,1D-03-2402," Civil, Hardware & Accessories - Nut - Galvanized Iron, Hex Nut, 5/8"" ", Piece , 1-Civil  ,0,,,0.0,,,0.0,,,0.0,,,0.0,,,0.0,0.0,0.0, -  
+197,1D-04-0001," Civil, Hardware & Accessories - Washer - 3/8"" ", Piece , 1-Civil  ,0,,,0.0,,,0.0,,,0.0,,,0.0,,,0.0,0.0,0.0, -  
+198,1D-04-0002," Washer - 5/8"" GALVANIZED ", Piece , 1-Civil  ,"1,200",,,"1,200.0",,,"1,200.0",,,"1,200.0",,,"1,200.0",,,"1,200.0",0.0,0.0," 1,200.0 "
+199,1D-04-0003," Civil, Hardware & Accessories - Washer - 1/2"" ", Piece , 1-Civil  ,0,,,0.0,,,0.0,,,0.0,,,0.0,,,0.0,0.0,0.0, -  
+200,1D-05-1101," Civil, Hardware & Accessories  - Blind Rivet - Tubular, Stainless, 1/8"" x 1/2"" "," Box_1,000pcs ", 1-Civil  ,35,,,35.0,,,35.0,,,35.0,,,35.0,,,35.0,0.0,0.0, 35.0 
+201,1D-06-10001," Civil, Hardware & Accessories  - Sealant - Fireban, 600ml ", Piece , 1-Civil  ,59,,,59.0,,,59.0,,,59.0,,,59.0,,,59.0,0.0,0.0, 59.0 
+202,1D-06-1010," Civil, Hardware & Accessories  - Sealant - Silicon, Clear ", Piece , 1-Civil  ,144,,,144.0,,,144.0,,,144.0,,,144.0,,,144.0,0.0,0.0, 144.0 
+203,1D-06-15010," Civil, Hardware & Accessories  - Sealant - All purpose , Clear ", Piece , 1-Civil  ,23,,,23.0,,,23.0,,,23.0,,,23.0,,,23.0,0.0,0.0, 23.0 
+204,1D-06-2111," Civil, Hardware & Accessories  - Sealant - Polyurethane, One Component, White, 600mL ", Tube , 1-Civil  ,1,,,1.0,,,1.0,,,1.0,,,1.0,,,1.0,0.0,0.0, 1.0 
+205, 1D-06-8000 ," Civil, Hardware & Accessories - Sealant - Firestop Sealant ", Piece , 1-Civil  ,247,,,247.0,,,247.0,,,247.0,,,247.0,,,247.0,0.0,0.0, 247.0 
+206,1D-07-0002, Rope Nylon - Nylon String - #100 , Length_100 , 1-Civil  ,19,,,19.0,,,19.0,,,19.0,,,19.0,,,19.0,0.0,0.0, 19.0 
+207,1D-08-1002," Civil, Hardware & Accessories  - Wall Plug - Tox Plastic, 6mm ", Piece , 1-Civil  ,"2,200",,,"2,200.0",,,"2,200.0",,,"2,200.0",,,"2,200.0",,,"2,200.0",0.0,0.0," 2,200.0 "
+208, 1D-10-2101 ," Civil, Hardware & Accessories - Grout - Cementious Grout, Non Shrink, 25kg ", bag_20kg , 1-Civil  ,0,,,0.0,,,0.0,,,0.0,,,0.0,,,0.0,0.0,0.0, -  
+209,1D-18-1010," Civil, Hardware & Accessories - Nail & Cartridge - Gas Can, GC 42 ", Piece , 1-Civil  ,0,,,0.0,,,0.0,,,0.0,,,0.0,,,0.0,0.0,0.0, -  
+210,1D-18-1020," Civil, Hardware & Accessories  - Nail & Cartridge - Gas Can, GC21 ", Piece , 1-Civil  ,66,,,66.0,,,66.0,,,66.0,,,66.0,,,66.0,0.0,0.0, 66.0 
+211,1D-18-2010," Nail & Cartridge - Gas Nail, X-C 20 G3 MX ", Piece , 1-Civil  ,0,,,0.0,,,0.0,,,0.0,,,0.0,,,0.0,0.0,0.0, -  
+212,1D-18-3020," Nail & Cartridge - Nail, bx3, X-P 20 ", Piece , 1-Civil  ,"2,000",,,"2,000.0",,,"2,000.0",,,"2,000.0",,,"2,000.0",,,"2,000.0",0.0,0.0," 2,000.0 "
+213,1D-25-0002," Civil, Hardware and Accessories - Nut & Washer - 3/8"" ", Set , 1-Civil  ,"3,156",,,"3,156.0",,,"3,156.0",,,"3,156.0",,,"3,156.0",,,"3,156.0",0.0,0.0," 3,156.0 "
+214,1D-26-0022," Civil, Hardware and Accessories - Hanger - Clevis Hanger 2 ", Piece ,1-Civil ,10,,,10.0,,,10.0,,,10.0,,,10.0,,,10.0,0.0,0.0, 10.0 
+215,1D-28-0011," Civil, Hardware & Accessories  - Rod - Full Threaded Rod, 3/8 x 10ft ", Piece , 1-Civil  ,"2,427",,,"2,427.0",,,"2,427.0",,,"2,427.0",,,"2,427.0",,,"2,427.0",0.0,0.0," 2,427.0 "
+216,1D-28-0013," Civil, Hardware & Accessories  - Rod - Full Threaded Rod, 1/2"" x 3m ", Piece , 1-Civil  ,367,,,367.0,,,367.0,,,367.0,,,367.0,,,367.0,0.0,0.0, 367.0 
+217,1H-02-1001," Civil, Tool Accessories - Screw Bit - Double Screw, 2"" ", Piece , 1-Civil  ,0,,,0.0,,,0.0,,,0.0,,,0.0,,,0.0,0.0,0.0, -  
+218,1H-03-0002, Sanding Disc - #100 Samding Disc Grit , Piece , 1-Civil  ,5,,,5.0,,,5.0,,,5.0,,,5.0,,,5.0,0.0,0.0, 5.0 
+219,1H-03-1011," Civil, Tool Accessories - Sanding Disc - Flap Sanding Disc, #100, 4"" ", Piece , 1-Civil  ,22,,,22.0,,,22.0,,,22.0,,,22.0,,,22.0,0.0,0.0, 22.0 
+220,1H-03-1021," Flap Sanding Disc, #120, 4"" ", Piece , 1-Civil  ,0,,,0.0,,,0.0,,,0.0,,,0.0,,,0.0,0.0,0.0, -  
+221,1J-04-0001," Civil, Consumables - Rust Converter - 1 Gallon ", Gallon , 1-Civil  ,12,,,12.0,,,12.0,,,12.0,,,12.0,,,12.0,0.0,0.0, 12.0 
+222, 1J-05-2011 ," Civil, Consumables - Welding - Welding Rod, 6011 1/8"", 20kg ", Box_20kg , 1-Civil  ,2,,,2.0,,,2.0,,,2.0,,,2.0,,,2.0,0.0,0.0, 2.0 
+223, 1J-05-2021 ," Civil, Consumables - Welding - Welding Rod, 7018 1/8"", 40kg ", Box_20kg , 1-Civil  ,0,,,0.0,,,0.0,,,0.0,,,0.0,,,0.0,0.0,0.0, -  
+224, 1J-05-2030 ," Civil, Consumables - Welding - Welding Rod, 6013 1/8"" ", Kilogram , 1-Civil  ,0,,,0.0,,,0.0,,,0.0,,,0.0,,,0.0,0.0,0.0, -  
+225,1J-05-2031," Welding - Welding Rod, 6013 1/8"", 20kg ", Box_20kg , 1-Civil  ,14,,,14.0,,,14.0,,,14.0,,,14.0,,,14.0,0.0,0.0, 14.0 
+226,1j-05-2211," Civil, Consumables - Welding - Welding Rod, Stainless Steel, NSS-308, 5/64"" (2mm) ", Pack , 1-Civil  ,0,,,0.0,,,0.0,,,0.0,,,0.0,,,0.0,0.0,0.0, -  
+227, 1J-05-4110 ," Welding - Gas - Industrial Oxygen Gas, Refill, 1800 PSI ", tank , 1-Civil  ,14,,,14.0,,,14.0,,,14.0,,,14.0,,,14.0,0.0,0.0, 14.0 
+228, 1J-05-7110 ," Welding - Gas - Industrial Oxygen Gas, Refill, 1800 PSI ", tank , 1-Civil  ,6,,,6.0,,,6.0,,,6.0,,,6.0,,,6.0,0.0,0.0, 6.0 
+229,1J-05-9000," Civil, Consumables - Welding - Cutting Tip ", Piece , 1-Civil  ,10,,,10.0,,,10.0,,,10.0,,,10.0,,,10.0,0.0,0.0, 10.0 
+230,1J-06-0001," Tape - Teflon Tape - 3/4"" ", Piece , 1-Civil  ,86,,,86.0,,,86.0,,,86.0,,,86.0,,,86.0,0.0,0.0, 86.0 
+231, 1J-06-0002 ," Civil, Consumables - Teflon Tape - 1"" ", Piece , 0-Architectural ,0,,,0.0,,,0.0,,,0.0,,,0.0,,,0.0,0.0,0.0, -  
+232,1J-09-0101," Civil, Consumables - Solvent Cement - PVC Solvent Cement, 400cc ", Piece , 1-Civil  ,569,,,569.0,,,569.0,,,569.0,,,569.0,,,569.0,0.0,0.0, 569.0 
+233,1J-14-0110," Non-Woven Geotextile Filter Fabric membrane, 150GSM ", roll/s , 1-Civil  ,0,,,0.0,,,0.0,,,0.0,,,0.0,,,0.0,0.0,0.0, -  
+234,2A-01-1200," Cement, Portland ", Bag_40kg , 2- Structural ,0,,,0.0,,,0.0,,,0.0,,,0.0,,,0.0,0.0,0.0, -  
+235,2A-01-2103," Gravel, Crushed - 3/8"" ", cm3 , 2- Structural ,0,,,0.0,,,0.0,,,0.0,,,0.0,,,0.0,0.0,0.0, 0.0 
+236,2A-01-3200," Sand, Washed- S1 ", cm3 , 2- Structural ,0,,,0.0,,,0.0,,,0.0,,,0.0,,,0.0,0.0,0.0, 0.0 
+237,2B-01-10126," Structural, Concrete Reinforcement - Reinforcing Steel - Deformed Bar,-Grade 3316mm Ã˜, 6 m ", Length_6 , 2- Structural ,20,,,20.0,,,20.0,,,20.0,,,20.0,,,20.0,0.0,0.0, 20.0 
+238,2B-01-10136," Structural, Concrete Reinforcement - Reinforcing Steel - Deformed Bar,-Grade 3310mm Ã˜, 6 m ", Length_6 , 2- Structural ,556,,,556.0,,,556.0,,,556.0,,,556.0,,,556.0,0.0,0.0, 556.0 
+239,2B-01-10226," Deformed Bar - Grade 40, 16mm x 6 m ", Length_6 , 2- Structural ,0,,,0.0,,,0.0,,,0.0,,,0.0,,,0.0,0.0,0.0, -  
+240,2B-01-10236," Deformed Bar - Grade 40, 10mm x 6 m ", Length_6 , 2- Structural ,0,,,0.0,,,0.0,,,0.0,,,0.0,,,0.0,0.0,0.0, -  
+241,2B-02-1002, GI Wire Tie #18 (35kg per roll) , roll/s , 2- Structural ,1,,,1.0,,,1.0,,,1.0,,,1.0,,,1.0,0.0,0.0, 1.0 
+242,2C-01-1008," Structural, Metal Materials - Steel - Flat Bar,-3 mm x 25 mm x 6m ", Length_6 , 2- Structural ,300,,,300.0,,,300.0,,,300.0,,,300.0,,,300.0,0.0,0.0, 300.0 
+243, 2C-01-11003 ," Structural, Metal Materials - Steel - Tubular, 2x4 x 2.0mm thk. ", Meter , 2- Structural ,0,,,0.0,,,0.0,,,0.0,,,0.0,,,0.0,0.0,0.0, -  
+244,2C-01-5103," Structural, Metal Materials - Steel - Plates,Checkered Plate-4ft. x 8ft. x 1/8"" thk. (3mm) ", Sheet , 0-Architectural ,18,,,18.0,,,18.0,,,18.0,,,18.0,,,18.0,0.0,0.0, 18.0 
+245,2C-01-60018," Structural, Metal Materials - Steel - Angle Bar,-38mm x 38mm x 3.0mm ", Length_6 , 2- Structural ,0,,,0.0,,,0.0,,,0.0,,,0.0,,,0.0,0.0,0.0, -  
+246,2C-01-60046," Structural, Metal Materials - Steel - Angle Bar,-50mm x 50mm x 6.0mm ", Length_6 , 2- Structural ,120,,,120.0,,,120.0,,,120.0,,,120.0,,,120.0,0.0,0.0, 120.0 
+247,2C-01-60057," Structural, Metal Materials - Steel - Angle Bar,-65mm x 65mm x 6.0mm ", Length_6 , 2- Structural ,5,,,5.0,,,5.0,,,5.0,,,5.0,,,5.0,0.0,0.0, 5.0 
+248,2C-03-10112," Structural, Metal Materials - Aluminum - Square Tube, 1""x1""x 2mm thk. ", Length , 2- Structural ,1,,,1.0,,,1.0,,,1.0,,,1.0,,,1.0,0.0,0.0, 1.0 
+249,2C-04-2004," Structural, Metal Materials - Aluminum - Angle Bar,-19mm x 19mm x 3.0mm ", Piece , 2- Structural ,10,,,10.0,,,10.0,,,10.0,,,10.0,,,10.0,0.0,0.0, 10.0 
+250,2C-06-1002," Structural, Metal Materials - Stainless Steel, Flat Bar, 6 mm x 50 mm x 6m ", Meter , 2- Structural ,0,,,0.0,,,0.0,,,0.0,,,0.0,,,0.0,0.0,0.0, -  
+251,2C-06-1003," Structural, Metal Materials - Stainless Steel, Flat Bar, 25 mm x 3mm thk. ", Meter , 2- Structural ,0,,,0.0,,,0.0,,,0.0,,,0.0,,,0.0,0.0,0.0, -  
+252,2C-06-3001," Structural, Metal Materials - Stainless Steel - Round Bar, 20mm thk. ", Length_6 , 2- Structural ,11,,,11.0,,,11.0,,,11.0,,,11.0,,,11.0,0.0,0.0, 11.0 
+253,2C-06-3002," Structural, Metal Materials - Stainless Steel, Round Bar, 16mm ", Length_6 , 2- Structural ,9,,,9.0,,,9.0,,,9.0,,,9.0,,,9.0,0.0,0.0, 9.0 
+254,3B-02-2100," Thermostat Model: BAC-1000ML-BN Wired Controller, BMS Ready and Bacnet Protocol (Color: White) ", Unit ,5-Piping,0,,,0.0,,,0.0,,,0.0,,,0.0,,,0.0,0.0,0.0, -  
+255,3C-02-1021," HVAC, Others - Consumables - Charol Plastic, White, 4'' width ", roll/s , 3-HVAC ,58,,,58.0,,,58.0,,,58.0,,,58.0,,,58.0,0.0,0.0, 58.0 
+256, 4E-02-6001 ," Mechanical, Others - Miscellaneous - Rubber Insulation Tube, 2 1/8"" x 1 x 6 ", Length , 4-Mechanical ,803,,,803.0,,,803.0,,,803.0,,,803.0,,,803.0,0.0,0.0, 803.0 
+257,5A-01-1314," Piping, Plumbing, Sanitary & Drainage - Pipe - GI, Welded, Schedule 40, 6""Ø ", Length_6 , 5-Piping ,8,,,8.0,,,8.0,,,8.0,,,8.0,,,8.0,0.0,0.0, 8.0 
+258,5A-01-1315," Piping, Plumbing, Sanitary & Drainage - Pipe - GI, Welded, Schedule 40, 8""Ø ", Length_6 , 5-Piping ,15,,,15.0,,,15.0,,,15.0,,,15.0,,,15.0,0.0,0.0, 15.0 
+259,5A-01-13213," Piping, Plumbing, Sanitary & Drainage - Pipe - GI,Welded-Schedule 40 12""Ø ", Length_6 , 5-Piping ,1,,,1.0,,,1.0,,,1.0,,,1.0,,,1.0,0.0,0.0, 1.0 
+260,5A-01-1412," Piping, Plumbing, Sanitary & Drainage - Pipe - GI, Flange Type, Schedule 40, 8""Ø ", Length_6 ,5-Piping,116,,,116.0,,,116.0,,,116.0,,,116.0,,,116.0,0.0,0.0, 116.0 
+261,5A-01-1414," Piping, Plumbing, Sanitary & Drainage - Pipe - GI, Flange Type, Schedule 40, 3'' 4HOLES ", Piece , 5-Piping ,0,,,0.0,,,0.0,,,0.0,,,0.0,,,0.0,0.0,0.0, -  
+262, 5A-01-2001 ," Piping, Plumbing, Sanitary & Drainage - Pipe - PPR Pipe 1/2""Ø ", Length , 5-Piping ,0,,,0.0,,,0.0,,,0.0,,,0.0,,,0.0,0.0,0.0, -  
+263, 5A-01-2021 ," Piping, Plumbing, Sanitary & Drainage - Pipe - PPR, PN20, 1/2""Ø ", Piece , 5-Piping ,4,,,4.0,,,4.0,,,4.0,,,4.0,,,4.0,0.0,0.0, 4.0 
+264, 5A-01-2023 ," Piping, Plumbing, Sanitary & Drainage - Pipe - PPR, PN20, 1""Ø ", Piece , 5-Piping ,0,,,0.0,,,0.0,,,0.0,,,0.0,,,0.0,0.0,0.0, -  
+265,5A-01-2025," Piping, Plumbing, Sanitary & Drainage - Pipe - PPR, PN20, 1 1/2""Ø ", Piece , 5-Piping ,0,,,0.0,,,0.0,,,0.0,,,0.0,,,0.0,0.0,0.0, -  
+266,5A-01-2026," Piping, Plumbing, Sanitary & Drainage - Pipe - PPR, PN20, 2""Ø ", Piece , 5-Piping ,0,,,0.0,,,0.0,,,0.0,,,0.0,,,0.0,0.0,0.0, -  
+267, 5A-01-2028 ," Piping, Plumbing, Sanitary & Drainage - Pipe - PPR, PN20, 2 1/2""Ø ", Length_6 , 5-Piping ,0,,,0.0,,,0.0,,,0.0,,,0.0,,,0.0,0.0,0.0, -  
+268,5A-01-2029," Piping, Plumbing, Sanitary & Drainage - Pipe - PPR, PN20, 3""Ø ", Length ,5-Piping,2,,,2.0,,,2.0,,,2.0,,,2.0,,,2.0,0.0,0.0, 2.0 
+269,5A-01-21110," Piping, Plumbing, Sanitary & Drainage - Pipe - PPR, 4m length, PN20, 2 1/2""Ø ", Length_4 ,5-Piping,28,,,28.0,,,28.0,,,28.0,,,28.0,,,28.0,0.0,0.0, 28.0 
+270,5A-01-2112," Piping, Plumbing, Sanitary & Drainage - Pipe - PPR, 4m length, PN20, 1/2""Ø ", Length_4 ,5-Piping,54,,,54.0,,,54.0,,,54.0,,,54.0,,,54.0,0.0,0.0, 54.0 
+271,5A-01-2113," Piping, Plumbing, Sanitary & Drainage - Pipe - PPR, 4m length, PN20, 3/4""Ø ", Length_4 ,5-Piping,58,,,58.0,,,58.0,,,58.0,,,58.0,,,58.0,0.0,0.0, 58.0 
+272,5A-01-2114," Piping, Plumbing, Sanitary & Drainage - Pipe - PPR, 4m length, PN20, 1""Ø ", Length_4 ,5-Piping,33,,,33.0,,,33.0,,,33.0,,,33.0,,,33.0,0.0,0.0, 33.0 
+273,5A-01-2118," Piping, Plumbing, Sanitary & Drainage - Pipe - PPR, 4m length, PN20, 2""Ø ", Length_4 ,5-Piping,13,,,13.0,,,13.0,,,13.0,,,13.0,,,13.0,0.0,0.0, 13.0 
+274, 5A-01-2303 ," Piping, Plumbing, Sanitary & Drainage - Coupling- PPR, Coupling 32mm ", Piece , 5-Piping ,0,,,0.0,,,0.0,,,0.0,,,0.0,,,0.0,0.0,0.0, -  
+275,5A-01-4002," Piping, Plumbing, Sanitary & Drainage - Pipe - HDPE, 4"" x 5m(100mm x 5m) ", Length_5 ,5-Piping,28,,,28.0,,,28.0,,,28.0,,,28.0,,,28.0,0.0,0.0, 28.0 
+276,5A-01-4006," Pipe - HDPE, 8"" 200mm x 5m ", Length_5 , 5-Piping ,0,,,0.0,,,0.0,,,0.0,,,0.0,,,0.0,0.0,0.0, -  
+277,5A-01-4043," Pipe - HDPE, SDR 26, 12"" x 5m(300mm x 5m) ", Length_5 , 5-Piping ,0,,,0.0,,,0.0,,,0.0,,,0.0,,,0.0,0.0,0.0, -  
+278,5A-01-50210," Piping, Plumbing, Sanitary & Drainage - Pipe - PVC, Series 1000, 6"" Ø ", Length_6 , 5-Piping ,7,,,7.0,,,7.0,,,7.0,,,7.0,,,7.0,0.0,0.0, 7.0 
+279,5A-01-5026," Pipe - PVC Pipe - Series 1000, 2""  ", Length_3 , 5-Piping ,"1,340",,,"1,340.0",,,"1,340.0",,,"1,340.0",,,"1,340.0",,,"1,340.0",0.0,0.0," 1,340.0 "
+280,5A-09-1016," Piping, Plumbing, Sanitary & Drainage - P Trap - PVC, S-1000, 2"" Ã ", Piece , 5-Piping ,0,35.00,,35.0,,,35.0,,,35.0,,,35.0,,,35.0,35.0,0.0, 35.0 
+280,5A-01-5029," Piping, Plumbing, Sanitary & Drainage - Pipe - PVC, Series 1000, 4"" Ø ", Length_3 , 5-Piping ,40,50.00,,90.0,,,90.0,,,90.0,,,90.0,,,90.0,50.0,0.0, 90.0 
+281,5A-01-51216," Pipe - PVC Pipe - Series 1000, 2""  ", Length_3 , 5-Piping ,72,,,72.0,,,72.0,,,72.0,,,72.0,,,72.0,0.0,0.0, 72.0 
+282,5A-01-51224," Piping, Plumbing, Sanitary & Drainage - Pipe - PVC, 3m length, Series 1000, 6"" Ø ", Length_3 ,5-Piping,52,,,52.0,,,52.0,,,52.0,,,52.0,,,52.0,0.0,0.0, 52.0 
+283,5A-01-51232," Piping, Plumbing, Sanitary & Drainage - Pipe - PVC, 3m length, Series 1000, 8"" Ø ", Length_3 ,5-Piping,71,,,71.0,,,71.0,,,71.0,,,71.0,,,71.0,0.0,0.0, 71.0 
+284,5A-01-51240," Piping, Plumbing, Sanitary & Drainage - Pipe - PVC, 3m length, Series 1000, 10"" Ø ", Length_3 ,5-Piping,16,,,16.0,,,16.0,,,16.0,,,16.0,,,16.0,0.0,0.0, 16.0 
+285,5A-01-5128," Piping, Plumbing, Sanitary & Drainage - Pipe - PVC, 3m length, Series 1000, 2"" Ø ", Piece , 5-Piping ,15,,,15.0,,,15.0,,,15.0,,,15.0,,,15.0,0.0,0.0, 15.0 
+286,5A-02-11211," Piping, Plumbing, Sanitary & Drainage - Elbow - GI,Elbow 90°-Schedule 406""Ø ", Piece ,5-Piping,12,,,12.0,,,12.0,,,12.0,,,12.0,,,12.0,0.0,0.0, 12.0 
+287,5A-02-11212," Piping, Plumbing, Sanitary & Drainage - Elbow - GI, Elbow 90Ã‚Â°, Schedule 40, 8""Ø ", Piece ,5-Piping,7,,,7.0,,,7.0,,,7.0,,,7.0,,,7.0,0.0,0.0, 7.0 
+288,5A-02-11215," Elbow - GI,Elbow 90°-Schedule 40, 12"" ", Piece ,5-Piping,2,,,2.0,,,2.0,,,2.0,,,2.0,,,2.0,0.0,0.0, 2.0 
+289,5A-02-1125," Piping, Plumbing, Sanitary & Drainage - Elbow - GI, Elbow 90Ã‚Â°, Schedule 40, 2"" Ø ", Piece ,5-Piping,6,,,6.0,,,6.0,,,6.0,,,6.0,,,6.0,0.0,0.0, 6.0 
+290,5A-02-1127," Piping, Plumbing, Sanitary & Drainage - Elbow - GI, Elbow 90Ã‚Â°, Schedule 40, 3""Ø ", Piece ,5-Piping,8,,,8.0,,,8.0,,,8.0,,,8.0,,,8.0,0.0,0.0, 8.0 
+291,5A-02-1129," Elbow - GI, Elbow 90°, Schedule 40, 4"" ", Piece ,5-Piping,200,,,200.0,,,200.0,,,200.0,,,200.0,,,200.0,0.0,0.0, 200.0 
+292,5A-02-1139," Piping, Plumbing, Sanitary & Drainage - Elbow - GI, Elbow 90Ã‚Â°, Schedule 40-Welded, 4"" dia ", Piece ,5-Piping,10,,,10.0,,,10.0,,,10.0,,,10.0,,,10.0,0.0,0.0, 10.0 
+293,5A-02-1142," Elbow - GI, Elbow 90°, Schedule 40 Welded, 2 1/2"" ", Piece , 5-Piping ,3,,,3.0,,,3.0,,,3.0,,,3.0,,,3.0,0.0,0.0, 3.0 
+294, 5A-02-1221 ," Piping, Plumbing, Sanitary & Drainage - Elbow - GI, Elbow Reducer 90Ã‚Â°, Schedule 40, 1""Ø x 3/4""Ø ", Piece , 5-Piping ,0,,,0.0,,,0.0,,,0.0,,,0.0,,,0.0,0.0,0.0, -  
+295,5A-02-1311," Elbow - GI, Elbow 45°, Schedule 40 Welded, 6"" ", Piece , 5-Piping ,2,,,2.0,,,2.0,,,2.0,,,2.0,,,2.0,0.0,0.0, 2.0 
+296,5A-02-2101," Piping, Plumbing, Sanitary & Drainage - Elbow - PPR,Elbow 90 deg 1/2""Ø ", Piece , 5-Piping ,136,,,136.0,,,136.0,,,136.0,,,136.0,,,136.0,0.0,0.0, 136.0 
+297, 5A-02-2113 ," Piping, Plumbing, Sanitary & Drainage - Elbow - PPR, Elbow 90Ã‚Â°, PN25, 1""Ø ", Piece , 5-Piping ,0,,,0.0,,,0.0,,,0.0,,,0.0,,,0.0,0.0,0.0, -  
+298,5A-02-2121," Elbow - PPR, Elbow 90°, PN20, 1/2"" ", Piece ,5-Piping,0,,,0.0,,,0.0,,,0.0,,,0.0,,,0.0,0.0,0.0, -  
+299,5A-02-21211," Piping, Plumbing, Sanitary & Drainage - Elbow - PPR, Elbow 90Â°, PN20, Female Adaptor, 1/2""Ã˜ ", Piece ,5-Piping,69,,,69.0,,,69.0,,,69.0,,,69.0,,,69.0,0.0,0.0, 69.0 
+300, 5A-02-21212 ," Piping, Plumbing, Sanitary & Drainage - Elbow - PPR, Elbow 90Â°, PN20, Female Threaded, 1/2""Ã˜ ", Piece , 5-Piping ,1,,,1.0,,,1.0,,,1.0,,,1.0,,,1.0,0.0,0.0, 1.0 
+301,5A-02-2122," Piping, Plumbing, Sanitary & Drainage - Elbow - PPR, Elbow 90Â°, PN20, 3/4""Ã˜ ", Piece ,5-Piping,34,,,34.0,,,34.0,,,34.0,,,34.0,,,34.0,0.0,0.0, 34.0 
+302,5A-02-2123," Elbow - PPR, Elbow 90°, PN20,  1"" ", Piece , 5-Piping ,50,,,50.0,,,50.0,,,50.0,,,50.0,,,50.0,0.0,0.0, 50.0 
+303,5A-02-2125," Piping, Plumbing, Sanitary & Drainage - Elbow - PPR, Elbow 90Â°, PN20, 1 1/2""Ã˜ ", Piece , 5-Piping ,0,,,0.0,,,0.0,,,0.0,,,0.0,,,0.0,0.0,0.0, -  
+304,5A-02-2126," Piping, Plumbing, Sanitary & Drainage - Elbow - PPR, Elbow 90Â°, PN20, 2""Ã˜ ", Piece ,5-Piping,21,,,21.0,,,21.0,,,21.0,,,21.0,,,21.0,0.0,0.0, 21.0 
+305,5A-02-2127," Piping, Plumbing, Sanitary & Drainage - Elbow - PPR, Elbow 90Â°, PN20, 2 1/2""Ã˜ ", Piece ,5-Piping,37,,,37.0,,,37.0,,,37.0,,,37.0,,,37.0,0.0,0.0, 37.0 
+306,5A-02-2129," Elbow - PPR, Elbow 90°, PN20,  4"" ( LL 110 ELBOW 90 DEGREE) ", Piece , 5-Piping ,3,,,3.0,,,3.0,,,3.0,,,3.0,,,3.0,0.0,0.0, 3.0 
+307, 5A-02-2213 ," Piping, Plumbing, Sanitary & Drainage - Elbow - PPR, Elbow 45Ã‚Â°, PN25, 1""Ø ", Piece , 5-Piping ,0,,,0.0,,,0.0,,,0.0,,,0.0,,,0.0,0.0,0.0, -  
+308, 5A-02-2221 ," Piping, Plumbing, Sanitary & Drainage - Elbow - PPR, Elbow 45Â°, PN20, 1/2""Ã˜ ", Piece , 5-Piping ,2,,,2.0,,,2.0,,,2.0,,,2.0,,,2.0,0.0,0.0, 2.0 
+309,5A-02-2223," Piping, Plumbing, Sanitary & Drainage - Elbow - PPR, Elbow 45Â°, PN20, 1""Ã˜ ", Piece , 5-Piping ,0,,,0.0,,,0.0,,,0.0,,,0.0,,,0.0,0.0,0.0, -  
+310,5A-02-4011," Piping, Plumbing, Sanitary & Drainage - Elbow - HDPE, Elbow 135Â° (45Â°), 110mm Ã˜ ", Piece ,5-Piping,34,,,34.0,,,34.0,,,34.0,,,34.0,,,34.0,0.0,0.0, 34.0 
+311,5A-02-4012," Piping, Plumbing, Sanitary & Drainage - Elbow - HDPE, Elbow 135Â° (45Â°), 160mm Ã˜ ", Piece ,5-Piping,30,,,30.0,,,30.0,,,30.0,,,30.0,,,30.0,0.0,0.0, 30.0 
+312,5A-02-4203," Piping, Plumbing, Sanitary & Drainage - Elbow - HDPE, Elbow 45Ã‚Â°, Double Wall, 400mm Ø ", Piece ,5-Piping,0,,,0.0,,,0.0,,,0.0,,,0.0,,,0.0,0.0,0.0, -  
+313,5A-02-4501," Piping, Plumbing, Sanitary & Drainage - Elbow - HDPE, Elbow 45Â°, Butt Welded Elbow, 200mm Ã˜ ", Piece ,5-Piping,3,,,3.0,,,3.0,,,3.0,,,3.0,,,3.0,0.0,0.0, 3.0 
+314,5A-02-4502," Piping, Plumbing, Sanitary & Drainage - Elbow - HDPE, Elbow 45Â°, Butt Welded Elbow, 250mm Ã˜ ", Piece ,5-Piping,10,,,10.0,,,10.0,,,10.0,,,10.0,,,10.0,0.0,0.0, 10.0 
+315,5A-02-4511," Piping, Plumbing, Sanitary & Drainage - Elbow - HDPE Elbow 2"" x 45deg. (50mm x 45deg.) SDR26 GEBERIT ", Piece ,5-Piping,21,,,21.0,,,21.0,,,21.0,,,21.0,,,21.0,0.0,0.0, 21.0 
+316,5A-02-45113," Piping, Plumbing, Sanitary & Drainage - Elbow - HDPE, Elbow 45°, SDR 26, 4"" (100mm) ", Piece , 5-Piping ,0,,,0.0,,,0.0,,,0.0,,,0.0,,,0.0,0.0,0.0, -  
+317,5A-02-51010," Piping, Plumbing, Sanitary & Drainage - Elbow - PVC, Elbow 90Ã‚Â°, 6""Ø ", Piece ,5-Piping,50,,,50.0,,,50.0,,,50.0,,,50.0,,,50.0,0.0,0.0, 50.0 
+318,5A-02-5106," Piping, Plumbing, Sanitary & Drainage - Elbow - PVC, Elbow 90Ã‚Â°, 2""Ø ", Piece ,5-Piping,343,,,343.0,,,343.0,,,343.0,,,343.0,,,343.0,0.0,0.0, 343.0 
+319,5A-02-5109," Elbow - PVC, Elbow 90°, 4"" ", Piece , 5-Piping ,55,30.00,,85.0,,,85.0,,,85.0,,,85.0,,,85.0,30.0,0.0, 85.0 
+320,5A-02-52010," Piping, Plumbing, Sanitary & Drainage - Elbow - PVC, Elbow 45Ã‚Â°, 6""Ø ", Piece ,5-Piping,5,7.00,,12.0,,,12.0,,,12.0,,,12.0,,,12.0,7.0,0.0, 12.0 
+321,5A-02-52011," Piping, Plumbing, Sanitary & Drainage - Elbow - PVC, Elbow 45Ã‚Â°, 8""Ø ", Piece ,5-Piping,5,7.00,,12.0,,,12.0,,,12.0,,,12.0,,,12.0,7.0,0.0, 12.0 
+322,5A-02-5206," Piping, Plumbing, Sanitary & Drainage - Elbow - PVC, Elbow 45Ã‚Â°, 2""Ø ", Piece ,5-Piping,859,40.00,,899.0,,,899.0,,,899.0,,,899.0,,,899.0,40.0,0.0, 899.0 
+323,5A-02-5208," Piping, Plumbing, Sanitary & Drainage - Elbow - PVC, Elbow 45Ã‚Â°, 3""Ø ", Piece ,5-Piping,33,,,33.0,,,33.0,,,33.0,,,33.0,,,33.0,0.0,0.0, 33.0 
+324,5A-02-5209," Elbow - PVC, Elbow 45°, 4"" ", Piece , 5-Piping ,125,150.00,,275.0,,,275.0,,,275.0,,,275.0,,,275.0,150.0,0.0, 275.0 
+325,5A-03-11211," Tee - GI, Equal Tee, Schedule 40, 6"" ", Piece , 5-Piping ,0,,,0.0,,,0.0,,,0.0,,,0.0,,,0.0,0.0,0.0, -  
+326,5A-03-11212," Piping, Plumbing, Sanitary & Drainage - Tee - GI, Equal Tee, Schedule 40, 8""Ø ", Piece ,5-Piping,8,,,8.0,,,8.0,,,8.0,,,8.0,,,8.0,0.0,0.0, 8.0 
+327,5A-03-1127," Piping, Plumbing, Sanitary & Drainage - Tee - GI, Equal Tee, Schedule 40, 3""Ø ", Piece ,5-Piping,7,,,7.0,,,7.0,,,7.0,,,7.0,,,7.0,0.0,0.0, 7.0 
+328,5A-03-1129," Piping, Plumbing, Sanitary & Drainage - Tee - GI, Equal Tee, Schedule 40, 4""Ø ", Piece ,5-Piping,9,,,9.0,,,9.0,,,9.0,,,9.0,,,9.0,0.0,0.0, 9.0 
+329,5A-03-12227," Piping, Plumbing, Sanitary & Drainage - Tee - GI, Tee Reducer, Schedule 40, 6""Ø x 2 1/2""Ø ", Piece ,5-Piping,3,,,3.0,,,3.0,,,3.0,,,3.0,,,3.0,0.0,0.0, 3.0 
+330,5A-03-12229," Piping, Plumbing, Sanitary & Drainage - Tee - GI, Tee Reducer, Schedule 40, 6""Ø x 4""Ø ", Piece ,5-Piping,5,,,5.0,,,5.0,,,5.0,,,5.0,,,5.0,0.0,0.0, 5.0 
+331,5A-03-12237," Piping, Plumbing, Sanitary & Drainage - Tee - GI, Tee Reducer, Schedule 40, 8""Ø x 6""Ø ", Piece ,5-Piping,3,,,3.0,,,3.0,,,3.0,,,3.0,,,3.0,0.0,0.0, 3.0 
+332, 5A-03-2112 ," Piping, Plumbing, Sanitary & Drainage - Tee - PPR, Equal Tee, PN25, 1""Ø ", Piece , 5-Piping ,0,,,0.0,,,0.0,,,0.0,,,0.0,,,0.0,0.0,0.0, -  
+333,5A-03-2121," Piping, Plumbing, Sanitary & Drainage - Tee - PPR, Equal Tee, PN20, 1/2""Ã˜ ", Piece ,5-Piping,165,,,165.0,,,165.0,,,165.0,,,165.0,,,165.0,0.0,0.0, 165.0 
+334,5A-03-21210," Piping, Plumbing, Sanitary & Drainage - Tee - PPR, Equal Tee, PN20, 4""Ã˜ ", Piece ,5-Piping,1,,,1.0,,,1.0,,,1.0,,,1.0,,,1.0,0.0,0.0, 1.0 
+335,5A-03-2122," Piping, Plumbing, Sanitary & Drainage - Tee - PPR, Equal Tee, PN20, 3/4""Ã˜ ", Piece ,5-Piping,110,,,110.0,,,110.0,,,110.0,,,110.0,,,110.0,0.0,0.0, 110.0 
+336,5A-03-2123," Piping, Plumbing, Sanitary & Drainage - Tee - PPR, Equal Tee, PN20, 1""Ã˜ ", Piece ,5-Piping,120,,,120.0,,,120.0,,,120.0,,,120.0,,,120.0,0.0,0.0, 120.0 
+337,5A-03-2127," Piping, Plumbing, Sanitary & Drainage - Tee - PPR, Equal Tee, PN20, 2 1/2""Ã˜ ", Piece ,5-Piping,6,,,6.0,,,6.0,,,6.0,,,6.0,,,6.0,0.0,0.0, 6.0 
+338,5A-03-2128," Piping, Plumbing, Sanitary & Drainage - Tee - PPR, Equal Tee, PN20, 3""Ã˜ ", Piece , 0-Architectural ,2,,,2.0,,,2.0,,,2.0,,,2.0,,,2.0,0.0,0.0, 2.0 
+339,5A-03-22211," Piping, Plumbing, Sanitary & Drainage - Tee - PPR, Tee Reducer, PN20, 2""Ã˜ x 1/2""Ã˜ ", Piece ,5-Piping,220,,,220.0,,,220.0,,,220.0,,,220.0,,,220.0,0.0,0.0, 220.0 
+340,5A-03-22212," Piping, Plumbing, Sanitary & Drainage - Tee - PPR, Tee Reducer, PN20, 2""Ã˜ x 3/4""Ã˜ ", Piece ,5-Piping,50,,,50.0,,,50.0,,,50.0,,,50.0,,,50.0,0.0,0.0, 50.0 
+341,5A-03-22213," Piping, Plumbing, Sanitary & Drainage - Tee - PPR, Tee Reducer, PN20, 2""Ã˜ x 1""Ã˜ ", Piece ,5-Piping,37,,,37.0,,,37.0,,,37.0,,,37.0,,,37.0,0.0,0.0, 37.0 
+342,5A-03-22215," Piping, Plumbing, Sanitary & Drainage - Tee - PPR, Tee Reducer, PN20, 2""Ã˜ x 1 1/2""Ã˜ ", Piece ,5-Piping,2,,,2.0,,,2.0,,,2.0,,,2.0,,,2.0,0.0,0.0, 2.0 
+343,5A-03-22218," Piping, Plumbing, Sanitary & Drainage - Tee - PPR, Tee Reducer, PN20, 2 1/2""Ã˜ x 1""Ã˜ ", Piece ,5-Piping,12,,,12.0,,,12.0,,,12.0,,,12.0,,,12.0,0.0,0.0, 12.0 
+344,5A-03-22225," Tee - PPR, Tee Reducer, PN20, 3"" x 2"" ( TR 090 063 TEE REDUCER) ", Piece , 5-Piping ,0,,,0.0,,,0.0,,,0.0,,,0.0,,,0.0,0.0,0.0, -  
+345,5A-03-22232," Piping, Plumbing, Sanitary & Drainage - Tee - PPR, Tee Reducer, PN20, 4""Ã˜ x 3""Ã˜ ", Piece ,5-Piping,1,,,1.0,,,1.0,,,1.0,,,1.0,,,1.0,0.0,0.0, 1.0 
+346,5A-03-2224," Piping, Plumbing, Sanitary & Drainage - Tee - PPR, Tee Reducer, PN20, 1 1/4""Ã˜ x 1/2""Ã˜ ", Piece ,5-Piping,9,,,9.0,,,9.0,,,9.0,,,9.0,,,9.0,0.0,0.0, 9.0 
+347,5A-03-2227," Piping, Plumbing, Sanitary & Drainage - Tee - PPR, Tee Reducer, PN20, 1 1/2""Ã˜ x 1/2""Ã˜ ", Piece ,5-Piping,6,,,6.0,,,6.0,,,6.0,,,6.0,,,6.0,0.0,0.0, 6.0 
+348,5A-03-2228," Piping, Plumbing, Sanitary & Drainage - Tee - PPR, Tee Reducer, PN20, 1 1/2""Ã˜ x 3/4""Ã˜ ", Piece ,5-Piping,3,,,3.0,,,3.0,,,3.0,,,3.0,,,3.0,0.0,0.0, 3.0 
+349,5A-03-2411," Piping, Plumbing, Sanitary & Drainage - Tee - PPR, Tee Female Adaptor Threaded, PN20, 20mm Ø ", Piece ,5-Piping,8,,,8.0,,,8.0,,,8.0,,,8.0,,,8.0,0.0,0.0, 8.0 
+350,5A-03-41310," Tee - HDPE, Equal Tee, SDR26, 6"" (150mm) ", Piece ,5-Piping,2,,,2.0,,,2.0,,,2.0,,,2.0,,,2.0,0.0,0.0, 2.0 
+351,5A-03-4507," Piping, Plumbing, Sanitary & Drainage - Tee - HDPE, Tee Reducer, 160mm x 110mm ", Piece ,5-Piping,16,,,16.0,,,16.0,,,16.0,,,16.0,,,16.0,0.0,0.0, 16.0 
+352, 5A-03-5105 ," Piping, Plumbing, Sanitary & Drainage - Tee - PVC,Equal Tee-2"" Ø ", Piece , 5-Piping ,0,,,0.0,,,0.0,,,0.0,,,0.0,,,0.0,0.0,0.0, -  
+353,5A-04-21011," Piping, Plumbing, Sanitary & Drainage - Wye - PVC, Equal Wye, 6""Ø ", Piece , 5-Piping ,3,,,3.0,,,3.0,,,3.0,,,3.0,,,3.0,0.0,0.0, 3.0 
+354,5A-04-2105," Piping, Plumbing, Sanitary & Drainage - Wye - PVC, Equal Wye, 2"" Ø ", Piece ,5-Piping,530,7.00,,537.0,,,537.0,,,537.0,,,537.0,,,537.0,7.0,0.0, 537.0 
+355,5A-04-2109," Wye - PVC, Equal Wye, 4"" ", Piece , 5-Piping ,82,12.00,,94.0,,,94.0,,,94.0,,,94.0,,,94.0,12.0,0.0, 94.0 
+356,5A-04-22020," Piping, Plumbing, Sanitary & Drainage - Wye - PVC, Wye Reducer, 4""Ø x 2""Ø ", Piece , 5-Piping ,0,,,0.0,,,0.0,,,0.0,,,0.0,,,0.0,0.0,0.0, -  
+357,5A-04-22029," Wye - PVC, Wye Reducer, 6"" x 4"" ", Piece , 5-Piping ,8,,,8.0,,,8.0,,,8.0,,,8.0,,,8.0,0.0,0.0, 8.0 
+358,5A-04-22084," Piping, Plumbing, Sanitary & Drainage - Wye - PVC, Wye Reducer, 10""Ã˜ x 6""Ã˜ ", Piece ,5-Piping,6,,,6.0,,,6.0,,,6.0,,,6.0,,,6.0,0.0,0.0, 6.0 
+359,5A-04-22137," PVC, Wye Reducer, S-1000, 8""dia x 6"" dia ", Piece ,5-Piping,40,,,40.0,,,40.0,,,40.0,,,40.0,,,40.0,0.0,0.0, 40.0 
+360,5A-04-4101," Wye - HDPE, Equal Wye, 110mm  ", Piece , 5-Piping ,3,,,3.0,,,3.0,,,3.0,,,3.0,,,3.0,0.0,0.0, 3.0 
+361,5A-04-42110," Wye - HDPE, Wye Reducer, SDR 26, 12""x8"" (315mmx200mm) ", Piece , 5-Piping ,0,,,0.0,,,0.0,,,0.0,,,0.0,,,0.0,0.0,0.0, -  
+362,5A-05-1025," Coupling - GI, Schedule 40, 2""  ", Piece , 5-Piping ,30,,,30.0,,,30.0,,,30.0,,,30.0,,,30.0,0.0,0.0, 30.0 
+363,5A-05-1101," Piping, Plumbing, Sanitary & Drainage - Coupling - GI, France, 1/2"" ", Piece ,5-Piping,4,,,4.0,,,4.0,,,4.0,,,4.0,,,4.0,0.0,0.0, 4.0 
+364,5A-05-11215," Coupling - GI, Coupling Reducer, Schedule 40, 3"" x 2"" ", Piece , 5-Piping ,1,,,1.0,,,1.0,,,1.0,,,1.0,,,1.0,0.0,0.0, 1.0 
+365,5A-05-11220," Piping, Plumbing, Sanitary & Drainage - Coupling - GI, Coupling Reducer, Schedule 40, 4""Ø x 2""Ø ", Piece ,5-Piping,11,,,11.0,,,11.0,,,11.0,,,11.0,,,11.0,0.0,0.0, 11.0 
+366,5A-05-11222," Piping, Plumbing, Sanitary & Drainage - Coupling - GI, Coupling Reducer, Schedule 40, 4""Ø x 3""Ø ", Piece ,5-Piping,12,,,12.0,,,12.0,,,12.0,,,12.0,,,12.0,0.0,0.0, 12.0 
+367,5A-05-11229," Piping, Plumbing, Sanitary & Drainage - Coupling - GI, Coupling Reducer, Schedule 40, 6""Ø x 4""Ø ", Piece ,5-Piping,8,,,8.0,,,8.0,,,8.0,,,8.0,,,8.0,0.0,0.0, 8.0 
+368,5A-05-11236," Piping, Plumbing, Sanitary & Drainage - Coupling - GI, Coupling Reducer, Schedule 40, 8""Ø x 4""Ø ", Piece ,5-Piping,1,,,1.0,,,1.0,,,1.0,,,1.0,,,1.0,0.0,0.0, 1.0 
+369,5A-05-11237," Piping, Plumbing, Sanitary & Drainage - Coupling - GI, Coupling Reducer, Schedule 40, 8""Ø x 6""Ø ", Piece ,5-Piping,0,,,0.0,,,0.0,,,0.0,,,0.0,,,0.0,0.0,0.0, -  
+370,5A-05-1221," Piping, Plumbing, Sanitary & Drainage - Bushing - GI, Bushing Reducer, Schedule 40, 1/2""Ø x 1/4""Ø ", Piece ,5-Piping,0,,,0.0,,,0.0,,,0.0,,,0.0,,,0.0,0.0,0.0, -  
+371, 5A-05-2012 ," Piping, Plumbing, Sanitary & Drainage - Coupling - PPR, PN25, 1""Ø ", Piece , 5-Piping ,0,,,0.0,,,0.0,,,0.0,,,0.0,,,0.0,0.0,0.0, -  
+372,5A-05-2021," Coupling - PPR, PN20, 1/2"" ", Piece , 5-Piping ,84,,,84.0,,,84.0,,,84.0,,,84.0,,,84.0,0.0,0.0, 84.0 
+373, 5A-05-20210 ," Piping, Plumbing, Sanitary & Drainage - Coupling - PPR, PN20, 4""Ã˜ ", Piece , 5-Piping ,0,,,0.0,,,0.0,,,0.0,,,0.0,,,0.0,0.0,0.0, -  
+374,5A-05-2022," Piping, Plumbing, Sanitary & Drainage - Coupling - PPR, PN20, 3/4""Ã˜ ", Piece ,5-Piping,90,,,90.0,,,90.0,,,90.0,,,90.0,,,90.0,0.0,0.0, 90.0 
+375,5A-05-2023," Belden, PPR Coupling 1"" (32mm) PN 20 ", Piece , 5-Piping ,0,,,0.0,,,0.0,,,0.0,,,0.0,,,0.0,0.0,0.0, -  
+376,5A-05-2026," Piping, Plumbing, Sanitary & Drainage - Coupling - PPR, PN20, 2"" Ã˜ ", Piece ,5-Piping,110,,,110.0,,,110.0,,,110.0,,,110.0,,,110.0,0.0,0.0, 110.0 
+377,5A-05-2027," Piping, Plumbing, Sanitary & Drainage - Coupling - PPR, PN20, 2 1/2""Ã˜ ", Piece ,5-Piping,90,,,90.0,,,90.0,,,90.0,,,90.0,,,90.0,0.0,0.0, 90.0 
+378,5A-05-2028," Piping, Plumbing, Sanitary & Drainage - Coupling - PPR, PN20, 3""Ã˜ ", Piece ,5-Piping,46,,,46.0,,,46.0,,,46.0,,,46.0,,,46.0,0.0,0.0, 46.0 
+379,5A-05-2121," Piping, Plumbing, Sanitary & Drainage - Coupling - PPR, Coupling Reducer, PN20, 3/4""Ã˜ x 1/2""Ã˜ ", Piece ,5-Piping,324,,,324.0,,,324.0,,,324.0,,,324.0,,,324.0,0.0,0.0, 324.0 
+380,5A-05-21215," Piping, Plumbing, Sanitary & Drainage - Coupling - PPR, Coupling Reducer, PN20, 2""Ã˜ x 1 1/2""Ã˜ ", Piece ,5-Piping,1,,,1.0,,,1.0,,,1.0,,,1.0,,,1.0,0.0,0.0, 1.0 
+381,5A-05-2122," Piping, Plumbing, Sanitary & Drainage - Coupling - PPR, Coupling Reducer, PN20, 1""Ã˜ x 1/2""Ã˜ ", Piece ,5-Piping,132,,,132.0,,,132.0,,,132.0,,,132.0,,,132.0,0.0,0.0, 132.0 
+382,5A-05-21225," Piping, Plumbing, Sanitary & Drainage - Coupling - PPR, Coupling Reducer, PN20, 3""Ã˜ x 2""Ã˜ ", Piece ,5-Piping,0,,,0.0,,,0.0,,,0.0,,,0.0,,,0.0,0.0,0.0, -  
+383,5A-05-2123," Piping, Plumbing, Sanitary & Drainage - Coupling - PPR, Coupling Reducer, PN20, 1""Ã˜ x 3/4""Ã˜ ", Piece ,5-Piping,140,,,140.0,,,140.0,,,140.0,,,140.0,,,140.0,0.0,0.0, 140.0 
+384,5A-05-21230," Piping, Plumbing, Sanitary & Drainage - Coupling - PPR, Coupling Reducer, PN20, 4""Ã˜ x 2""Ã˜ ", Piece ,5-Piping,0,,,0.0,,,0.0,,,0.0,,,0.0,,,0.0,0.0,0.0, -  
+385,5A-05-21232," Piping, Plumbing, Sanitary & Drainage - Coupling - PPR, Coupling Reducer, PN20, 4""Ã˜ x 3""Ã˜ ", Piece ,5-Piping,0,,,0.0,,,0.0,,,0.0,,,0.0,,,0.0,0.0,0.0, -  
+386,5A-05-2127," Piping, Plumbing, Sanitary & Drainage - Coupling - PPR, Coupling Reducer, PN20, 1 1/2""Ã˜ x 1/2""Ã˜ ", Piece , 5-Piping ,0,,,0.0,,,0.0,,,0.0,,,0.0,,,0.0,0.0,0.0, -  
+387,5A-05-2128," PPR Coupling Reducer 1 1/2"" x 3/4"" (50mm x 25mm), PN 20, Belden ", Piece , 5-Piping ,0,,,0.0,,,0.0,,,0.0,,,0.0,,,0.0,0.0,0.0, -  
+388,5A-05-4001," Piping, Plumbing, Sanitary & Drainage - Coupling - HDPE Coupling Reducer, 12"" x 8"" (300mm x 200mm), SDR 26 ", Piece ,5-Piping,5,,,5.0,,,5.0,,,5.0,,,5.0,,,5.0,0.0,0.0, 5.0 
+389,5A-05-4301," Piping, Plumbing, Sanitary & Drainage - Coupling - HDPE, Stainless Coupling, 2"" Ã˜ ", Piece ,5-Piping,50,,,50.0,,,50.0,,,50.0,,,50.0,,,50.0,0.0,0.0, 50.0 
+390,5A-05-4302," Piping, Plumbing, Sanitary & Drainage - Coupling - HDPE, Stainless Coupling, 4"" Ã˜ ", Piece ,5-Piping,36,,,36.0,,,36.0,,,36.0,,,36.0,,,36.0,0.0,0.0, 36.0 
+391,5A-05-4303," Piping, Plumbing, Sanitary & Drainage - Coupling - HDPE, Stainless Coupling, 6"" Ã˜ ", Piece ,5-Piping,12,,,12.0,,,12.0,,,12.0,,,12.0,,,12.0,0.0,0.0, 12.0 
+392,5A-05-4304," Piping, Plumbing, Sanitary & Drainage - Coupling - HDPE, Stainless Coupling, 8"" Ã˜ ", Piece ,5-Piping,7,,,7.0,,,7.0,,,7.0,,,7.0,,,7.0,0.0,0.0, 7.0 
+393, 5A-05-4401 ," Piping, Plumbing, Sanitary & Drainage - Coupling - HDPE, Eccentric Reducer, 110mm Ã˜ ", Piece , 5-Piping ,0,,,0.0,,,0.0,,,0.0,,,0.0,,,0.0,0.0,0.0, -  
+394,5A-05-4404," Piping, Plumbing, Sanitary & Drainage - Coupling - HDPE, Eccentric Reducer, 200mm x 110mm Ã˜ ", Piece ,5-Piping,0,,,0.0,,,0.0,,,0.0,,,0.0,,,0.0,0.0,0.0, -  
+395,5A-05-51137," Piping, Plumbing, Sanitary & Drainage - Coupling - PVC, coupling reducer,  S-1000,  6""Ã˜ x 4""Ã˜ ", Piece ,5-Piping,0,,,0.0,,,0.0,,,0.0,,,0.0,,,0.0,0.0,0.0, -  
+396,5A-05-51145," Piping, Plumbing, Sanitary & Drainage - Coupling - PVC, coupling reducer,  S-1000,  8""Ã˜ x 6""Ã˜ ", Piece ,5-Piping,5,,,5.0,,,5.0,,,5.0,,,5.0,,,5.0,0.0,0.0, 5.0 
+397, 5A-07-1111 ," Piping, Plumbing, Sanitary & Drainage - Adapter - PPR, Female Thread, PN25, 20mm Ø x 1/2"" Ø ", Piece , 5-Piping ,0,,,0.0,,,0.0,,,0.0,,,0.0,,,0.0,0.0,0.0, -  
+398,5A-07-1122," Adapter - PPR, Female Thread, PN20, 25mm x 3/4""  ", Piece , 5-Piping ,0,,,0.0,,,0.0,,,0.0,,,0.0,,,0.0,0.0,0.0, -  
+399,5A-07-1221," Piping, Plumbing, Sanitary & Drainage - Adapter - PPR, Male Thread, PN20, 1/2"" Ã˜ ", Piece ,5-Piping,73,,,73.0,,,73.0,,,73.0,,,73.0,,,73.0,0.0,0.0, 73.0 
+400,5A-07-1222," Piping, Plumbing, Sanitary & Drainage - Adapter - PPR, Male Thread, PN20, 3/4"" Ã˜ ", Piece ,5-Piping,58,,,58.0,,,58.0,,,58.0,,,58.0,,,58.0,0.0,0.0, 58.0 
+401,5A-07-1223," Adapter - PPR, Male Thread, PN20, 1""  ", Piece , 5-Piping ,0,,,0.0,,,0.0,,,0.0,,,0.0,,,0.0,0.0,0.0, -  
+402,5A-07-1226," Piping, Plumbing, Sanitary & Drainage - Adapter - PPR, Male Thread, PN20, 2"" Ã˜ ", Piece ,5-Piping,34,,,34.0,,,34.0,,,34.0,,,34.0,,,34.0,0.0,0.0, 34.0 
+403,5A-07-1311," Adapter - PPR, Female Elbow 90° Adaptor, PN20, 1/2"" ", Piece , 5-Piping ,0,,,0.0,,,0.0,,,0.0,,,0.0,,,0.0,0.0,0.0, -  
+404,5A-07-1312," Piping, Plumbing, Sanitary & Drainage - Adaptor - PPR, Female Elbow 90Â° Adaptor, PN20, 3/4"" Ã˜ ", Piece ,5-Piping,236,,,236.0,,,236.0,,,236.0,,,236.0,,,236.0,0.0,0.0, 236.0 
+405,5A-07-1313," Adapter - PPR, Female Elbow 90° Adapter, PN20, 1""  ", Piece , 5-Piping ,0,,,0.0,,,0.0,,,0.0,,,0.0,,,0.0,0.0,0.0, -  
+406,5A-07-1316," Piping, Plumbing, Sanitary & Drainage - Adaptor - PPR, Female Elbow 90Â° Adaptor, PN20, 2"" Ã˜ ", Piece ,5-Piping,8,,,8.0,,,8.0,,,8.0,,,8.0,,,8.0,0.0,0.0, 8.0 
+407, 5A-07-1411 ," Piping, Plumbing, Sanitary & Drainage - Adaptor - PPR, Male Elbow 90Â° Adaptor, PN20, 1/2"" Ã˜ ", Piece , 5-Piping ,0,,,0.0,,,0.0,,,0.0,,,0.0,,,0.0,0.0,0.0, -  
+408, 5A-07-1413 ," Piping, Plumbing, Sanitary & Drainage - Adaptor - PPR, Male Elbow 90Â° Adaptor, PN20, 1"" Ã˜ ", Piece , 5-Piping ,0,,,0.0,,,0.0,,,0.0,,,0.0,,,0.0,0.0,0.0, -  
+409,5A-07-1416," Piping, Plumbing, Sanitary & Drainage - Adaptor - PPR, Male Elbow 90Â° Adaptor, PN20, 2"" Ã˜ ", Piece , 5-Piping ,0,,,0.0,,,0.0,,,0.0,,,0.0,,,0.0,0.0,0.0, -  
+410,5A-07-1612," Piping, Plumbing, Sanitary & Drainage - Adaptor - PPR, Male Threaded Adaptor, PN20, 1""Ø ", Piece , 5-Piping ,0,,,0.0,,,0.0,,,0.0,,,0.0,,,0.0,0.0,0.0, -  
+411,5A-07-1614," Piping, Plumbing, Sanitary & Drainage - Adaptor - PPR, Male Threaded Adaptor, PN20, 3""Ø ", Piece , 0-Architectural ,0,,,0.0,,,0.0,,,0.0,,,0.0,,,0.0,0.0,0.0, -  
+412, 5A-07-1622 ," Piping, Plumbing, Sanitary & Drainage - Adaptor - PPR, Male Threaded Adaptor, PN25, 1/2""Ø ", Piece , 5-Piping ,0,,,0.0,,,0.0,,,0.0,,,0.0,,,0.0,0.0,0.0, -  
+413,5A-07-2101," Piping, Plumbing, Sanitary & Drainage - Adaptor - PPR Female Adaptor 4"" P20 ", Piece ,5-Piping,0,,,0.0,,,0.0,,,0.0,,,0.0,,,0.0,0.0,0.0, -  
+414,5A-07-2103," Piping, Plumbing, Sanitary & Drainage - Adaptor - PPR Female Adaptor 3"" (90mm) PN20 Unitec (Belden) ", Piece ,5-Piping,0,,,0.0,,,0.0,,,0.0,,,0.0,,,0.0,0.0,0.0, -  
+415,5A-07-2104," Piping, Plumbing, Sanitary & Drainage - Adaptor - PPR Female Adaptor 2-1/2"" (75mm) PN20 Unitec (Belden) ", Piece , 5-Piping ,0,,,0.0,,,0.0,,,0.0,,,0.0,,,0.0,0.0,0.0, -  
+416, 5A-08-1002 ," Piping, Plumbing, Sanitary & Drainage - End Cap - PPR, 1"" Ø ", Piece , 5-Piping ,0,,,0.0,,,0.0,,,0.0,,,0.0,,,0.0,0.0,0.0, -  
+417,5A-08-1005," End Cap - PPR, 2""  ", Piece , 5-Piping ,0,,,0.0,,,0.0,,,0.0,,,0.0,,,0.0,0.0,0.0, -  
+418,5A-08-1007," End Cap - PPR, 3""  ( CP 090 END CAP) ", Piece , 5-Piping ,0,,,0.0,,,0.0,,,0.0,,,0.0,,,0.0,0.0,0.0, -  
+419,5A-08-1012," Piping, Plumbing, Sanitary & Drainage - End Cap - PPR, PN20, 3/4"" Ã˜ ", Piece ,5-Piping,20,,,20.0,,,20.0,,,20.0,,,20.0,,,20.0,0.0,0.0, 20.0 
+420,5A-08-1013," Piping, Plumbing, Sanitary & Drainage - End Cap - PPR, PN20, 1"" Ã˜ ", Piece ,5-Piping,203,,,203.0,,,203.0,,,203.0,,,203.0,,,203.0,0.0,0.0, 203.0 
+421,5A-08-1016," Piping, Plumbing, Sanitary & Drainage - End Cap - PPR, PN20, 2"" Ã˜ ", Piece ,5-Piping,40,,,40.0,,,40.0,,,40.0,,,40.0,,,40.0,0.0,0.0, 40.0 
+422,5A-08-1018," Piping, Plumbing, Sanitary & Drainage - End Cap - PPR, PN20, 3"" Ã˜ ", Piece , 5-Piping ,0,,,0.0,,,0.0,,,0.0,,,0.0,,,0.0,0.0,0.0, -  
+423,5A-09-1116," Piping, Plumbing, Sanitary & Drainage - P Trap - PVC, with Plug, S-1000, 2"" Ã˜ ", Piece ,5-Piping,92,,,92.0,,,92.0,,,92.0,,,92.0,,,92.0,0.0,0.0, 92.0 
+424,5A-10-0201," Piping, Plumbing, Sanitary & Drainage - Drain - Garden Drain 4"" Pipe dia., (JAMAN) JPB-124 ", Piece ,5-Piping,79,,,79.0,,,79.0,,,79.0,,,79.0,,,79.0,0.0,0.0, 79.0 
+425,5A-10-0401," Piping, Plumbing, Sanitary & Drainage - Drain - Deck Drain 4"" Pipe dia., (JAMAN) JDD-142 ", Piece ,5-Piping,45,,,45.0,,,45.0,,,45.0,,,45.0,,,45.0,0.0,0.0, 45.0 
+426,5A-10-10110," Piping, Plumbing, Sanitary & Drainage - Clean Out - PVC, S-1000, 6"" Ã˜ ", Piece ,5-Piping,25,,,25.0,,,25.0,,,25.0,,,25.0,,,25.0,0.0,0.0, 25.0 
+427,5A-10-1016," Piping, Plumbing, Sanitary & Drainage - Clean Out - PVC, S-1000, 2"" Ã˜ ", Piece ,5-Piping,402,,,402.0,,,402.0,,,402.0,,,402.0,,,402.0,0.0,0.0, 402.0 
+428,5A-10-1018," Piping, Plumbing, Sanitary & Drainage - Clean Out - PVC, S-1000, 3"" Ã˜ ", Piece ,5-Piping,4,,,4.0,,,4.0,,,4.0,,,4.0,,,4.0,0.0,0.0, 4.0 
+429,5A-10-1019," Piping, Plumbing, Sanitary & Drainage - Clean Out - PVC, S-1000, 4"" Ã˜ ", Piece ,5-Piping,90,,,90.0,,,90.0,,,90.0,,,90.0,,,90.0,0.0,0.0, 90.0 
+430,5A-10-2001," Piping, Plumbing, Sanitary & Drainage - Clean Out - HDPE, 4"" Ã˜ ", Piece , 5-Piping ,0,,,0.0,,,0.0,,,0.0,,,0.0,,,0.0,0.0,0.0, -  
+431,5A-10-2111," Piping, Plumbing, Sanitary & Drainage - Clean Out - HDPE, Access Cap, SDR 26, 4""(100mm) ", Piece ,5-Piping,25,,,25.0,,,25.0,,,25.0,,,25.0,,,25.0,0.0,0.0, 25.0 
+432,5A-10-5001," Piping, Plumbing, Sanitary & Drainage - Clean Out - Floor 4"" ", Piece , 5-Piping ,5,,,5.0,,,5.0,,,5.0,,,5.0,,,5.0,0.0,0.0, 5.0 
+433,5A-12-1324," Piping, Plumbing, Sanitary & Drainage - Coupling - GI, France, 1/2"" ", Piece ,5-Piping,12,,,12.0,,,12.0,,,12.0,,,12.0,,,12.0,0.0,0.0, 12.0 
+434,5A-12-4223," Piping, Plumbing, Sanitary & Drainage - Valve - Auto Air Vent, NTP Threaded end, 25mm dia, 232 PSI ""TOZEN"" ", Piece , 5-Piping ,9,,,9.0,,,9.0,,,9.0,,,9.0,,,9.0,0.0,0.0, 9.0 
+435,5A-12-7124," S-05-00.5 ""GALA"" Ball Valve, Bronze, NPT Threaded Ends, 600psi, Lever Handle, Fig.1251, 15mm ", Piece , 5-Piping ,236,,,236.0,,,236.0,,,236.0,,,236.0,,,236.0,0.0,0.0, 236.0 
+436,5A-13-0101," Piping, Plumbing, Sanitary & Drainage - Meter - Water Meter 2 1/2"" Flange Type ", Piece ,5-Piping,7,,,7.0,,,7.0,,,7.0,,,7.0,,,7.0,0.0,0.0, 7.0 
+437,5A-13-0102," Piping, Plumbing, Sanitary & Drainage - Meter - Water Meter 4"" Flange Type ", Piece ,5-Piping,1,,,1.0,,,1.0,,,1.0,,,1.0,,,1.0,0.0,0.0, 1.0 
+438,5A-13-0103," Piping, Plumbing, Sanitary & Drainage - Meter - Water Meter 4"" Flange Type - BMS Ready 16 bar ", Piece ,5-Piping,0,,,0.0,,,0.0,,,0.0,,,0.0,,,0.0,0.0,0.0, -  
+439, 5A-13-1001 ," Piping, Plumbing, Sanitary & Drainage - Bushing Reducer - PVC, 6"" x 4"" ", Piece , 5-Piping ,0,,,0.0,,,0.0,,,0.0,,,0.0,,,0.0,0.0,0.0, -  
+440, 5A-13-1125 ," Piping, Plumbing, Sanitary & Drainage - Bushing Reducer, PVC, S-1000, 8"" x 6"" ", Piece , 5-Piping ,0,,,0.0,,,0.0,,,0.0,,,0.0,,,0.0,0.0,0.0, -  
+441, 5A-14-1101 ," Piping, Plumbing, Sanitary & Drainage - Bushing - G.I. Bushing Reducer 1"" x 1 1/4"" Threaded ", Piece , 5-Piping ,0,,,0.0,,,0.0,,,0.0,,,0.0,,,0.0,0.0,0.0, -  
+442, 5A-16-5623 ," Piping, Plumbing, Sanitary & Drainage - Fittings - ""Steel"" BSP to NTP Adaptor - 32mm Female BSP Thread (G 1-1/4"") Adapted to 32mm Male NTP Thread (1-1/4"") ", Piece , 5-Piping ,173,,,173.0,,,173.0,,,173.0,,,173.0,,,173.0,0.0,0.0, 173.0 
+443,5A-17-0611," Piping, Plumbing, Sanitary & Drainage - JP-BMT2, Jockey pump, Vertical Inline Jockey pump, 50GPM, 1078 ft., 25 Hp,3450 RPM, 400 V/3P/60 Hz ", Unit , 5-Piping ,0,,,0.0,,,0.0,,,0.0,,,0.0,,,0.0,0.0,0.0, -  
+444,5A-18-1123," Piping, Plumbing, Sanitary & Drainage - Bushing Reducer, PVC,S-1000, 4"" x 2"" ", Piece ,5-Piping,267,,,267.0,,,267.0,,,267.0,,,267.0,,,267.0,0.0,0.0, 267.0 
+445,5A-18-2222," Piping, Plumbing, Sanitary & Drainage - Bell Reducer - GI, Threaded, Schedule 40, 1 1/4"" x 1""Ø ", Piece , 5-Piping ,0,,,0.0,,,0.0,,,0.0,,,0.0,,,0.0,0.0,0.0, -  
+446,5A-20-0011," Piping, Plumbing, Sanitary & Drainage - Flange - G.I Flange, 4"", Schedule 40 (ANSI CLASS 300), 8 holes ", Piece ,5-Piping,29,,,29.0,,,29.0,,,29.0,,,29.0,,,29.0,0.0,0.0, 29.0 
+447,5A-20-0012," Piping, Plumbing, Sanitary & Drainage - Flange - G.I Flange, 6"", Schedule 40 (ANSI CLASS 300), 12 holes ", Piece ,5-Piping,2,,,2.0,,,2.0,,,2.0,,,2.0,,,2.0,0.0,0.0, 2.0 
+448,5B-01-11210," Piping, Fire Protection - Pipe - BI, Seamless, Schedule 40, 5""Ã˜ ", Length_6 , 5-Piping ,1,,,1.0,,,1.0,,,1.0,,,1.0,,,1.0,0.0,0.0, 1.0 
+449,5B-01-11219," Piping, Fire Protection - Pipe - BI, Seamless, Schedule 40, 20"" dia (500mm) ", Length_6 , 5-Piping ,1,,,1.0,,,1.0,,,1.0,,,1.0,,,1.0,0.0,0.0, 1.0 
+450,5B-01-1221," Piping, Fire Protection - Pipe - BI, Threaded, Schedule 40,  1""Ã˜ ", Length_6 ,5-Piping,410,,,410.0,,,410.0,,,410.0,,,410.0,,,410.0,0.0,0.0, 410.0 
+451,5B-01-1223," Piping, Fire Protection - Pipe - BI, Threaded, Schedule 40, 1 1/2""Ã˜ ", Length_6 ,5-Piping,403,,,403.0,,,403.0,,,403.0,,,403.0,,,403.0,0.0,0.0, 403.0 
+452,5B-01-1326," Piping, Fire Protection - Pipe - BI, Welded, Schedule 40, 2""Ã˜ ", Length_6 ,5-Piping,34,,,34.0,,,34.0,,,34.0,,,34.0,,,34.0,0.0,0.0, 34.0 
+453, 5B-02-1123 ," Elbow - BI, Elbow 90° 1 1/4"" Threaded - Schedule 40 ", Piece , 5-Piping ,200,,,200.0,,,200.0,,,200.0,,,200.0,,,200.0,0.0,0.0, 200.0 
+454, 5B-02-1124 ," Elbow - BI, Elbow 90° 1 1/2"" Threaded - Schedule 40 ", Piece , 5-Piping ,300,,,300.0,,,300.0,,,300.0,,,300.0,,,300.0,0.0,0.0, 300.0 
+455,5B-02-1125," Piping, Fire Protection - Elbow - BI, Elbow 90Â°, Schedule 40, 2"" Ã˜ ", Piece , 5-Piping ,100,,,100.0,,,100.0,,,100.0,,,100.0,,,100.0,0.0,0.0, 100.0 
+456,5B-02-3132," Stainless Steel Elbow, Threaded 1"" x 90 deg, ASTM A182 / 182M & ASME/ ANSI B16.11.304 / 304L, SCHEDULE 80, 300 PSI ", Piece , 5-Piping ,0,,,0.0,,,0.0,,,0.0,,,0.0,,,0.0,0.0,0.0, -  
+457,5B-02-6111," Stainless Steel, Street Elbow, Threaded 1""x90 deg, ASTM A182/182M & ASME/ANSI B16.11.307/304L, SCHEDULE80, 300 PSI ", Piece , 5-Piping ,0,,,0.0,,,0.0,,,0.0,,,0.0,,,0.0,0.0,0.0, -  
+458,5B-02-6112," Stainless Steel, Street Elbow, Threaded 1/2""x90 deg, ASTM A182/182M & ASME/ANSI B16.11, 304/ 304L, SCHEDULE 80, 300PSI ", Piece , 5-Piping ,0,,,0.0,,,0.0,,,0.0,,,0.0,,,0.0,0.0,0.0, -  
+459,5B-02-6311," Stainless Steel Elbow, Threaded 1/2"" x 45deg, ASTM A182/ 182M & ASME / ANSI B16.11, 304 / 304L, SCHEDULE 80, 300 PSI ", Piece , 5-Piping ,0,,,0.0,,,0.0,,,0.0,,,0.0,,,0.0,0.0,0.0, -  
+460,5B-03-1122," Piping, Fire Protection - Tee - BI, Equal Tee, Schedule 40, 1""Ã˜ ", Piece , 5-Piping ,500,,,500.0,,,500.0,,,500.0,,,500.0,,,500.0,0.0,0.0, 500.0 
+461,5B-03-1124," Tee - BI, Equal Tee, Schedule 40, 1 1/2"" ", Piece , 5-Piping ,0,,,0.0,,,0.0,,,0.0,,,0.0,,,0.0,0.0,0.0, -  
+462,5B-03-1125," Tee - BI, Equal Tee, Schedule 40, 2""  ", Piece , 5-Piping ,0,,,0.0,,,0.0,,,0.0,,,0.0,,,0.0,0.0,0.0, -  
+463, 5B-03-1225 ," Tee - BI, Tee Reducer 2"" x 1"", Schedule 40 ", Piece , 5-Piping ,0,,,0.0,,,0.0,,,0.0,,,0.0,,,0.0,0.0,0.0, -  
+464,5B-03-1321," Piping, Fire Protection - Tee - BI, Tee Reducer Threaded, Schedule 40, 1-1/4""Ø x 1""Ø ", Piece , 5-Piping ,600,,,600.0,,,600.0,,,600.0,,,600.0,,,600.0,0.0,0.0, 600.0 
+465, 5B-03-21413 ," Stainless Steel Tee, Threaded 1/2"" x 1/2"", ASTM A182 / 182M & ASME / ANSI B16.11, 304 / 304L, SCHEDULE 80, 300 PSI ", Piece , 5-Piping ,0,,,0.0,,,0.0,,,0.0,,,0.0,,,0.0,0.0,0.0, -  
+466,5B-04-1222," Piping, Fire Protection - Coupling - BI, Coupling Reducer Threaded, Schedule 40, 1""Ø x 1-1/4""Ø ", Piece , 5-Piping ,300,,,300.0,,,300.0,,,300.0,,,300.0,,,300.0,0.0,0.0, 300.0 
+467,5B-04-1223," Piping, Fire Protection - Coupling - BI, Coupling Reducer Threaded, Schedule 40, 1""Ø x 2""Ø ", Piece , 5-Piping ,150,,,150.0,,,150.0,,,150.0,,,150.0,,,150.0,0.0,0.0, 150.0 
+468,5B-04-1225," Piping, Fire Protection - Coupling - BI, Coupling Reducer Threaded, Schedule 40, 1-1/2""Ø x 1""Ø ", Piece , 5-Piping ,150,,,150.0,,,150.0,,,150.0,,,150.0,,,150.0,0.0,0.0, 150.0 
+469,5B-04-1227," Piping, Fire Protection - Coupling - BI, Coupling Reducer Threaded, Schedule 40, 1-1/2""Ø x 1-1/4""Ø ", Piece , 5-Piping ,300,,,300.0,,,300.0,,,300.0,,,300.0,,,300.0,0.0,0.0, 300.0 
+470,5B-04-1644," Piping, Fire Protection - Coupling - BI, Concentric Reducer, Schedule 40-Threaded, 1 1/2"" dia x 1 1/4"" dia ", Piece ,5-Piping,750,,,750.0,,,750.0,,,750.0,,,750.0,,,750.0,0.0,0.0, 750.0 
+471,5B-04-1902," Piping, Fire Protection - Bushing - BI, Bushing Reducer 40mm x 32mm ", Piece ,5-Piping,"1,590",,,"1,590.0",,,"1,590.0",,,"1,590.0",,,"1,590.0",,,"1,590.0",0.0,0.0," 1,590.0 "
+472, 5B-04-2001 ," Stainless Steel Coupling 1/2"", ASTM A182 / 182M & ASME / ANSI B16.11 304 / 304L, SCHEDULE 80,300 PSI ", Piece , 5-Piping ,0,,,0.0,,,0.0,,,0.0,,,0.0,,,0.0,0.0,0.0, -  
+473, 5B-04-2112 ," Stainless, Coupling Reducer, Threaded, 1"" dia x 1/2"" dia, ASTM A403/A403M & ASME B16.9, SCHEDULE 80, 300 PSI ", Piece , 5-Piping ,0,,,0.0,,,0.0,,,0.0,,,0.0,,,0.0,0.0,0.0, -  
+474,5B-05-1001," Valve - Fire Hose Valve, 2 1/2"" ", Piece ,5-Piping,0,,,0.0,,,0.0,,,0.0,,,0.0,,,0.0,0.0,0.0, -  
+475, 5B-05-1002 ," Piping, Fire Protection - Valve - Fire Hose Valve, 1 1/2"" ", Piece , 5-Piping ,2,,,2.0,,,2.0,,,2.0,,,2.0,,,2.0,0.0,0.0, 2.0 
+476,5B-05-3111," Piping, Fire Protection - Valve, Open Snoot, Female, Brass, with Ball and Chain, 65mm ", Piece , 5-Piping ,2,,,2.0,,,2.0,,,2.0,,,2.0,,,2.0,0.0,0.0, 2.0 
+477,5B-05-3211," Piping, Fire Protection - Valve, Open Snoot Cap, Male, Threaded, with Ball and Chain, 65mm ", Piece , 5-Piping ,2,,,2.0,,,2.0,,,2.0,,,2.0,,,2.0,0.0,0.0, 2.0 
+478, 5B-06-0711 ," Piping, Fire Protection - Sprinkler Heads - Quick Response Domed Concealed Horizontal Sprinkler, 1/2"", Victaulic, K5.6, 175°F, Chrome plated, 175psi, UL/FM Approved ", Piece , 5-Piping ,3,,,3.0,,,3.0,,,3.0,,,3.0,,,3.0,0.0,0.0, 3.0 
+479,5B-06-1462," Piping, Fire Protection - Sprinkler Heads - Victaulic, Pendent, Quick Response, 175 deg ", Piece ,5-Piping,268,,,268.0,,,268.0,,,268.0,,,268.0,,,268.0,0.0,0.0, 268.0 
+480, 5B-06-1563 ," Piping, Fire Protection - Sprinkler Heads - Victaulic,Upright, Standard Response, 175 deg, 1/2"" dia ", Piece ,5-Piping,600,,,600.0,,,600.0,,,600.0,,,600.0,,,600.0,0.0,0.0, 600.0 
+481,5B-08-1201," Piping, Fire Protection - Bell Reducer - BI, Threaded 1/2""Ø x 1""Ø ", Piece , 5-Piping ,800,,,800.0,,,800.0,,,800.0,,,800.0,,,800.0,0.0,0.0, 800.0 
+482, 5C-03-0101 , Plate Heat Exchanger 9th FLOOR: D6300W + ZD6N- S150 (300mm dia. Butterfly Valve) , Unit , 5-Piping ,0,,,0.0,,,0.0,,,0.0,,,0.0,,,0.0,0.0,0.0, -  
+483, 5C-03-0102 , Plate  Heat  Exchanger  29th  FLLOR:  D6250W  + ZD6N-S150 (250mm dia. Butterfly Valve) , Unit , 5-Piping ,12,,,12.0,,,12.0,,,12.0,,,12.0,,,12.0,0.0,0.0, 12.0 
+484, 5C-03-0103 , Chiller: D6350B + ZD6N-S350 (350mm dia. Butterfly Valve - Manual BFV) , Unit , 5-Piping ,0,,,0.0,,,0.0,,,0.0,,,0.0,,,0.0,0.0,0.0, -  
+485, 5C-03-0113 , Chiller :  D6350B  +  SY6-230-3-T  (350mm  dia. Motorized Butterfly Valve - On/Off BFV) , Unit , 5-Piping ,0,,,0.0,,,0.0,,,0.0,,,0.0,,,0.0,0.0,0.0, -  
+486, 5C-03-0200 , OTHER VALVES TO COMPLETE THE SYSTEM: Temperature Sensor (22DT-12) , Piece , 5-Piping ,3,,,3.0,,,3.0,,,3.0,,,3.0,,,3.0,0.0,0.0, 3.0 
+487, 5C-03-0301 , FCU: EPO25R2 + BAC (25mm dia. PICV set) , Set , 5-Piping ,235,,,235.0,,,235.0,,,235.0,,,235.0,,,235.0,0.0,0.0, 235.0 
+488, 5C-03-0701 , Plate Heat Exchanger 9th FLOOR: EV150F + BAC (150mm dia. Energy Valve) , Set , 5-Piping ,0,,,0.0,,,0.0,,,0.0,,,0.0,,,0.0,0.0,0.0, -  
+489, 5C-03-0701A , Plate Heat Exchanger 9th FLOOR: EV150F + BAC (150mm dia. Energy Valve) , Set , 5-Piping ,0,,,0.0,,,0.0,,,0.0,,,0.0,,,0.0,0.0,0.0, -  
+490, 5C-03-0702 , 29F-FAHU-01-04: EV125F  +  KBAC  (125mm  dia. Energy Valve) , Set , 5-Piping ,4,,,4.0,,,4.0,,,4.0,,,4.0,,,4.0,0.0,0.0, 4.0 
+491, 5C-03-0703 , FLOOR BRANCHES HEADER 10th-44th FLOOR: EV100F + KBAC (100mm dia. Energy Valve) , Set , 5-Piping ,0,,,0.0,,,0.0,,,0.0,,,0.0,,,0.0,0.0,0.0, -  
+492, 5C-03-0704 ," STUB-OUT FOR OFFICE 28th, 34th AND 35th FLOOR: EVO50R2 + MID + EXT-EF-50C (50mm dia. Energy Valve) ", Set , 5-Piping ,11,,,11.0,,,11.0,,,11.0,,,11.0,,,11.0,0.0,0.0, 11.0 
+493, 5C-03-0705 , STUB-OUT FOR OFFICE: EV80F + KBAC (80mm dia. Energy Valve) , Set , 5-Piping ,1,,,1.0,,,1.0,,,1.0,,,1.0,,,1.0,0.0,0.0, 1.0 
+494, 5C-03-4106 ," 9F-ET-02 / 9F-AS-02 / 9F-CPF-02: Butterfly Valve, Gear Handle, 500mm dia. (D6500B+ZD6N-S500) ", Piece , 5-Piping ,0,,,0.0,,,0.0,,,0.0,,,0.0,,,0.0,0.0,0.0, -  
+495, 5C-03-4107 , 9F-ET-03 / 9F-AS-03 / 9F-CPF-03: Butterfly 700mm dia. (EXT-HH-D6700D+EXT-HH-9032/4025) , Piece , 5-Piping ,0,,,0.0,,,0.0,,,0.0,,,0.0,,,0.0,0.0,0.0, -  
+496, 5C-03-4108 , 29F-ET-01  /  29F-AS-01  /  29F-CPF-01:  Butterfly 450mm dia. (D6450B+ZD6N-S450) , Piece , 5-Piping ,3,,,3.0,,,3.0,,,3.0,,,3.0,,,3.0,0.0,0.0, 3.0 
+497, 5C-03-4128 ," CT-01 to 04 (Cooling Tower): Butterfly Valve, 150mm dia. (D6150N+ZD6N-H150) ", Piece , 5-Piping ,4,,,4.0,,,4.0,,,4.0,,,4.0,,,4.0,0.0,0.0, 4.0 
+498, 5C-03-4128A ," CT-01 to 04 (Cooling Tower): Butterfly Valve, 150mm dia. (D6150N+ZD6N-H150) ", Piece , 5-Piping ,8,,,8.0,,,8.0,,,8.0,,,8.0,,,8.0,0.0,0.0, 8.0 
+499, 5C-03-4129 , 9F-ET-01 / 9F-AS-01 / 9F-CPF-01: Butterfly 700mm dia. (EXT-HH-D6700D+EXT-HH-9032/4025) , Piece , 5-Piping ,0,,,0.0,,,0.0,,,0.0,,,0.0,,,0.0,0.0,0.0, -  
+500, 5C-03-4130 , OTHER VALVES TO COMPLETE THE SYSTEM: 100mm  dia  Butterfly  Valve  (GF  Isolation  Valve) (D6100N+ZD6N-H100) , Piece , 5-Piping ,2,,,2.0,,,2.0,,,2.0,,,2.0,,,2.0,0.0,0.0, 2.0 
+501, 5C-03-4131 , OTHER VALVES TO COMPLETE THE SYSTEM: 80mm da Butterfly Valve (Filter Port) ( D680N+ZD6N- H100) , Piece , 5-Piping ,2,,,2.0,,,2.0,,,2.0,,,2.0,,,2.0,0.0,0.0, 2.0 
+502, 5C-03-4132 ," OTHER VALVES TO COMPLETE THE SYSTEM 10th to 44th Typical Floors except 28,29,34 & 35F: 150mm dia. Butterfly Valve (D6150N+ZD6N-H150) ", Piece , 5-Piping ,0,,,0.0,,,0.0,,,0.0,,,0.0,,,0.0,0.0,0.0, -  
+503, 5C-03-4133 ," OTHER VALVES TO  COMPLETE THE  SYSTEM Multi-Tenant Floors (28, 34 & 35F): 150mm dia. Butterfly  Valve  (Floor  Isolation  Valve)  (D6150N+ZD6N-H150) ", Piece , 5-Piping ,6,,,6.0,,,6.0,,,6.0,,,6.0,,,6.0,0.0,0.0, 6.0 
+504, 5C-03-4134 ," OTHER VALVES TO  COMPLETE THE  SYSTEM Multi-Tenant  Floors  (28,  34  &  35F): 65mm  dia. Butterfly  Valve  (Tenant  Isolation  Valve)  (D665N+ZD6N-H100) ", Piece , 5-Piping ,0,,,0.0,,,0.0,,,0.0,,,0.0,,,0.0,0.0,0.0, -  
+505, 5C-03-4135 , OTHER VALVES TO COMPLETE THE SYSTEM 29F (Half Floor): 100mm dia. Butterfly Valve (Floor Isolation Valve) (D6100N+ZD6N-H100) , Piece , 5-Piping ,3,,,3.0,,,3.0,,,3.0,,,3.0,,,3.0,0.0,0.0, 3.0 
+506, 5C-03-4141 ," 9F-SCHWP-01 to 05, 29F-SCHWP-01 to 04: Butterfly Valve 250mm dia. (D6250W+ZD6N-S150 BELIMO) ", Piece , 5-Piping ,0,,,0.0,,,0.0,,,0.0,,,0.0,,,0.0,0.0,0.0, -  
+507, 5C-03-4142 ," 29F-PHX-04 to 07: Butterfly Valve, Gear Handle, 300mm  dia.  (Wheel  type)  (D6300W+ZD6N-S150 BELIMO) ", Piece , 5-Piping ,0,,,0.0,,,0.0,,,0.0,,,0.0,,,0.0,0.0,0.0, -  
+508, 5C-03-4143 ," 9F-PCHWP-01 to 05, 9F-PCOWP-01 to 05 & 45F- SCOWP-01 to 05: Butterfly Valve, 350mm dia. (D6350B+ZD6N-S350 BELIMO) ", Piece , 5-Piping ,10,,,10.0,,,10.0,,,10.0,,,10.0,,,10.0,0.0,0.0, 10.0 
+509, 5C-03-4151 ," OTHER VALVES TO COMPLETE THE SYSTEM: Flow Meter (335 L/s, 700mm dia, Line) (FM125F-SZ) ", Piece , 5-Piping ,8,,,8.0,,,8.0,,,8.0,,,8.0,,,8.0,0.0,0.0, 8.0 
+510, 5C-03-4152 ," CT-01 to 04 (Cooling Tower): Butterfly Valve, Modulating Actuator 400mm dia. (D6400B + SY7U230-MF-T + ZSY-721) ", Piece , 5-Piping ,8,,,8.0,,,8.0,,,8.0,,,8.0,,,8.0,0.0,0.0, 8.0 
+511, 5C-03-4161 ," CT-01 to 04 (Cooling Tower): Butterfly Valve, 400 mm dia. (D6400B+ZD6N-S400) ", Piece , 5-Piping ,8,,,8.0,,,8.0,,,8.0,,,8.0,,,8.0,0.0,0.0, 8.0 
+512, 5C-03-4171 ," CT-01 to 04 (Cooling Tower): Butterfly Valve, Gear Handle, 250 mm dia. (D6250W+ZD6N-S150) ", Piece , 5-Piping ,4,,,4.0,,,4.0,,,4.0,,,4.0,,,4.0,0.0,0.0, 4.0 
+513, 5C-03-4181 ," CT-01 to 04 (Cooling Tower): Butterfly Valve, 200 mm dia. (D6200W+ZD6N-S150) ", Piece , 5-Piping ,6,,,6.0,,,6.0,,,6.0,,,6.0,,,6.0,0.0,0.0, 6.0 
+514, 5C-03-4211 , Chiller:  EXT-TI-SBV6350  (350mm  dia.  Balancing Valve) , Unit , 5-Piping ,0,,,0.0,,,0.0,,,0.0,,,0.0,,,0.0,0.0,0.0, -  
+515, 5C-03-4221 ," 29F-PHX-04 to 07: Manual Balancing Valve, 300mm dia. (EXT-TI-SBV6300 BELIMO) ", Unit , 5-Piping ,0,,,0.0,,,0.0,,,0.0,,,0.0,,,0.0,0.0,0.0, -  
+516, 5C-03-4231 ," CT-01 to 04 (Cooling Tower): Balancing Valve, 400 mm dia. (EXT-TI-SBV6400) ", Piece , 5-Piping ,4,,,4.0,,,4.0,,,4.0,,,4.0,,,4.0,0.0,0.0, 4.0 
+517, 5C-03-4401 ," GALA Y-Strainer,  Ductile  Iron,  ANSI150  Flange,Drilling, 240psi, Fig.7201, 350mm ", Piece , 5-Piping ,1,,,1.0,,,1.0,,,1.0,,,1.0,,,1.0,0.0,0.0, 1.0 
+518, 5C-03-4402 ," GALA Y-Strainer,  Ductile  Iron,  ANSI150  Flange,Drilling, 240psi, Fig.7201, 250mm ", Piece , 5-Piping ,0,,,0.0,,,0.0,,,0.0,,,0.0,,,0.0,0.0,0.0, -  
+519, 5C-03-4403 ," GALA Y-Strainer,  Ductile  Iron,  ANSI150  Flange,Drilling, 240psi, Fig.7201, 300mm ", Piece , 5-Piping ,0,,,0.0,,,0.0,,,0.0,,,0.0,,,0.0,0.0,0.0, -  
+520, 5C-03-5103 ," GALA  Flexible  Rubber  Joint,  ANSI150  Flange,Drilling,  150psi,  Double  Bellows,  Fig.GFLAX-F2,300mm ", Piece , 5-Piping ,0,,,0.0,,,0.0,,,0.0,,,0.0,,,0.0,0.0,0.0, -  
+521, 5C-03-5106 ," GALA  Flexible  Rubber  Joint,  ANSI150  Flange,Drilling,  240psi,  Double  Bellows,  Fig.GFLAX-F2,200mm (COWR SIDE ", Piece , 5-Piping ,32,,,32.0,,,32.0,,,32.0,,,32.0,,,32.0,0.0,0.0, 32.0 
+522, 5C-03-5108 ," GALA  Flexible  Rubber  Joint,  ANSI150  Flange,Drilling,  240psi,  Double  Bellows,  Fig.GFLAX-F2,80mm ", Piece , 5-Piping ,0,,,0.0,,,0.0,,,0.0,,,0.0,,,0.0,0.0,0.0, -  
+523, 5C-03-6117 ," WINTERS Liquid Filled Pressure Gauge, 4"" Dial, 1/4"" NPT Bottom, 0-400PSI, PFQ715R1 ", Piece , 5-Piping ,30,,,30.0,,,30.0,,,30.0,,,30.0,,,30.0,0.0,0.0, 30.0 
+524,5C-03-7101," Piping, Mechanical - Valve & Sensor - ""WINTERS"" Industrial 91T Thermometer, 9"", Valox Case, 3/4"" NPT, with Thermowell, TIM102-6 ", Piece , 5-Piping ,3,,,3.0,,,3.0,,,3.0,,,3.0,,,3.0,0.0,0.0, 3.0 
+525, 5C-03-8101 ," GALA Ball Valve, Bronze, NPT Threaded Ends,600psi,  Lever  Handle,  Fig.1251,  25mm  (DRAIN VALVE) ", Piece , 5-Piping ,236,,,236.0,,,236.0,,,236.0,,,236.0,,,236.0,0.0,0.0, 236.0 
+526,5C-03-82010," Piping, Mechanical - Valve & Sensor - Gate Valve, 50 mm dia. ", Piece , 5-Piping ,10,,,10.0,,,10.0,,,10.0,,,10.0,,,10.0,0.0,0.0, 10.0 
+527, 5C-03-9820 ," Piping, Mechanical - Valve & Sensor - Check Valve Flange Type, PN 16 Pressure Rating; 3"" Ø ", Piece , 5-Piping ,4,,,4.0,,,4.0,,,4.0,,,4.0,,,4.0,0.0,0.0, 4.0 
+528, 5D-01-01010 ," Tee - Mechanical Tee, 2 1/2˜ x 1 1/2"" ", Piece , 5-Piping ,0,,,0.0,,,0.0,,,0.0,,,0.0,,,0.0,0.0,0.0, -  
+529, 5D-01-01013 ," Tee - Mechanical Tee, 3"" x 1 1/4"" ", Piece , 5-Piping ,0,,,0.0,,,0.0,,,0.0,,,0.0,,,0.0,0.0,0.0, -  
+530, 5D-01-01015 ," Piping, General - Tee - Mechanical Tee, 3""Ã˜ x 2""Ã˜ ", Piece ,5-Piping,35,,,35.0,,,35.0,,,35.0,,,35.0,,,35.0,0.0,0.0, 35.0 
+531, 5D-01-01019 ," Tee - Mechanical Tee, 4"" x 1 1/2"" ", Piece , 5-Piping ,0,,,0.0,,,0.0,,,0.0,,,0.0,,,0.0,0.0,0.0, -  
+532, 5D-01-01020 ," Tee - Mechanical Tee, 4"" x 2"" ", Piece , 5-Piping ,0,,,0.0,,,0.0,,,0.0,,,0.0,,,0.0,0.0,0.0, -  
+533,5D-03-0101," Piping, General - Flange - Slip-On Type, 2"" Ã˜ ", Piece ,5-Piping,1,,,1.0,,,1.0,,,1.0,,,1.0,,,1.0,0.0,0.0, 1.0 
+534, 5D-03-2024 ," Piping, General - Flange - GI, Welded-Schecule 40, 4"" dia ", Piece ,5-Piping,66,,,66.0,,,66.0,,,66.0,,,66.0,,,66.0,0.0,0.0, 66.0 
+535,5D-03-2025," Piping, General - Flange - GI, Welded-Schecule 40, 6"" dia ", Piece ,5-Piping,297,,,297.0,,,297.0,,,297.0,,,297.0,,,297.0,0.0,0.0, 297.0 
+536, 5D-03-2052 ," Flange - GI, Welded, 2 1/2"" ", Piece , 5-Piping ,6,,,6.0,,,6.0,,,6.0,,,6.0,,,6.0,0.0,0.0, 6.0 
+537,5D-03-2125," Piping, General - Flange - GI, Slip-On,Welded-Schecule 40, 6"" dia ", Piece ,5-Piping,2,,,2.0,,,2.0,,,2.0,,,2.0,,,2.0,0.0,0.0, 2.0 
+538,5D-03-2126," Piping, General - Flange - G.I. Flange 2"" ANSI 150, Schedule 40 Welded ", Piece ,5-Piping,13,,,13.0,,,13.0,,,13.0,,,13.0,,,13.0,0.0,0.0, 13.0 
+539, 5D-03-2127 ," Piping, General - Flange - G.I. Flange 3"" ANSI 150, Schedule 40 Welded ", Piece ,5-Piping,40,,,40.0,,,40.0,,,40.0,,,40.0,,,40.0,0.0,0.0, 40.0 
+540, 5D-05-0201 ," Valve - Gate Valve 4"", OS & Y  ", Piece , 5-Piping ,9,,,9.0,,,9.0,,,9.0,,,9.0,,,9.0,0.0,0.0, 9.0 
+541, 5D-05-0204 ," Valve - Gate Valve 3"", OS & Y ", Piece , 5-Piping ,1,,,1.0,,,1.0,,,1.0,,,1.0,,,1.0,0.0,0.0, 1.0 
+542, 5D-05-03011 ," Valve - Gate Valve 1/2"" ", Piece , 5-Piping ,0,,,0.0,,,0.0,,,0.0,,,0.0,,,0.0,0.0,0.0, -  
+543, 5D-05-0302 ," Valve - Gate Valve 1"" ", Piece , 5-Piping ,0,,,0.0,,,0.0,,,0.0,,,0.0,,,0.0,0.0,0.0, -  
+544, 5D-05-0305 ," Valve - Gate Valve 2""  ", Piece , 5-Piping ,0,,,0.0,,,0.0,,,0.0,,,0.0,,,0.0,0.0,0.0, -  
+545,5D-05-0307," Piping, General - Valve - Gate Valve, 3""Ã˜ ", Piece , 5-Piping ,0,,,0.0,,,0.0,,,0.0,,,0.0,,,0.0,0.0,0.0, -  
+546, 5D-05-0308 ," Piping, General - Valve - Gate Valve, 4""Ã˜ ", Piece , 5-Piping ,0,,,0.0,,,0.0,,,0.0,,,0.0,,,0.0,0.0,0.0, -  
+547, 5D-05-03111 ," Valve - Gate Valve 1/2"", CIM Brass Class 125 ", Piece , 5-Piping ,10,,,10.0,,,10.0,,,10.0,,,10.0,,,10.0,0.0,0.0, 10.0 
+548,5D-05-0321," Piping, General - Valve - ,25mm dia., Gate Valve/Drain Valve, NPT Threaded Ends, Non-Rising, 300 psi ", Piece , 5-Piping ,3,,,3.0,,,3.0,,,3.0,,,3.0,,,3.0,0.0,0.0, 3.0 
+549, 5D-05-0322 ," S-02-01.25 ""GALA"" Gate Valve, Bronze, NPT Threaded Ends, 300psi, Non Rising Stem, Fig.3152, 32mm ", Piece , 5-Piping ,464,,,464.0,,,464.0,,,464.0,,,464.0,,,464.0,0.0,0.0, 464.0 
+550, 5D-05-04011 ," Piping, General - Valve - Check Valve, 1/2""Ø ", Piece , 5-Piping ,0,,,0.0,,,0.0,,,0.0,,,0.0,,,0.0,0.0,0.0, -  
+551, 5D-05-0406 ," Piping, General - Valve - Check Valve, 2 1/2""Ã˜ ", Piece ,5-Piping,3,,,3.0,,,3.0,,,3.0,,,3.0,,,3.0,0.0,0.0, 3.0 
+552, 5D-05-0409 ," Piping, General - Valve - Check Valve, 6""Ã˜ ", Piece ,5-Piping,1,,,1.0,,,1.0,,,1.0,,,1.0,,,1.0,0.0,0.0, 1.0 
+553,5D-05-0508," Piping, General - Valve - Pressure Reducing Valve, 4""Ã˜ ", Piece , 5-Piping ,0,,,0.0,,,0.0,,,0.0,,,0.0,,,0.0,0.0,0.0, -  
+554, 5D-05-0701 ," Valve - Ball Valve, 1"" 600WOG/ 150WSP, 175PSI ", Piece , 5-Piping ,47,,,47.0,,,47.0,,,47.0,,,47.0,,,47.0,0.0,0.0, 47.0 
+555, 5D-05-0702 ," Valve - Ball Valve, 1/2"" ", Piece , 5-Piping ,0,,,0.0,,,0.0,,,0.0,,,0.0,,,0.0,0.0,0.0, -  
+556,5D-05-0743,"  Piping, General - Valve - Ball Valve, NPT Threaded Ends, 8mm, 600 psi ", Piece , 5-Piping ,624,,,624.0,,,624.0,,,624.0,,,624.0,,,624.0,0.0,0.0, 624.0 
+557, 5D-05-10008 , OTHER VALVES TO COMPLETE THE SYSTEM: 250mm dia. Motorized Valve (D6250W+PRCA-BAC- S2-T-250 + ZPR01) , Piece , 5-Piping ,1,,,1.0,,,1.0,,,1.0,,,1.0,,,1.0,0.0,0.0, 1.0 
+558,5D-05-1111," Piping, General - Valve - Float Valve, Mechanical, 150psi, 4""Ø ", Piece , 5-Piping ,0,,,0.0,,,0.0,,,0.0,,,0.0,,,0.0,0.0,0.0, -  
+559, 5D-05-12002 , OTHER VALVES TO COMPLETE THE SYSTEM: Differential Pressure Sensor (for 200mm dia. Pipe) (22ADP-154F) , Piece , 5-Piping ,2,,,2.0,,,2.0,,,2.0,,,2.0,,,2.0,0.0,0.0, 2.0 
+560, 5D-05-12003 , OTHER VALVES TO COMPLETE THE SYSTEM: Differential Pressure Sensor (for 750mm dia. Pipe) (22ADP-154F) , Piece , 5-Piping ,2,,,2.0,,,2.0,,,2.0,,,2.0,,,2.0,0.0,0.0, 2.0 
+561, 5D-05-12004 , OTHER VALVES TO COMPLETE THE SYSTEM: Differential Pressure Sensor (for 450mm dia. Pipe) (22ADP-154F) , Piece , 5-Piping ,1,,,1.0,,,1.0,,,1.0,,,1.0,,,1.0,0.0,0.0, 1.0 
+562, 5D-05-12005 , OTHER VALVES TO COMPLETE THE SYSTEM: Differential Pressure Sensor (for 400mm dia. Pipe) (22ADP-154F) , Piece , 5-Piping ,1,,,1.0,,,1.0,,,1.0,,,1.0,,,1.0,0.0,0.0, 1.0 
+563, 5D-05-1915 ," FLOAT VALVE 3"", Flange type 16 bar ANSI class 150 ", Piece , 5-Piping ,1,,,1.0,,,1.0,,,1.0,,,1.0,,,1.0,0.0,0.0, 1.0 
+564, 5D-05-2801 ," Piping, General - Valve - Brass, Angle Valve, 40mm ", Piece , 5-Piping ,0,,,0.0,,,0.0,,,0.0,,,0.0,,,,0.0,0.0, -  
+565, 5D-05-6003 ," Piping, General - Valve - Surge Anticipating Control Valve, 4"" dia ", Unit ,5-Piping,1,,,1.0,,,1.0,,,1.0,,,1.0,,,1.0,0.0,0.0, 1.0 
+566, 5D-06-0108 ," Strainer - Wye-Strainer, 4"" ", Piece , 1-Civil  ,0,,,0.0,,,0.0,,,0.0,,,0.0,,,0.0,0.0,0.0, -  
+567,5D-06-0113," Piping, General - Strainer - ,25mm dia., Wye-Strainer (for Chilled Water FCUs), NPT Threaded Ends, 300 psi ", Piece , 5-Piping ,5,,,5.0,,,5.0,,,5.0,,,5.0,,,5.0,0.0,0.0, 5.0 
+568, 5D-06-0114 ," Piping, General - Strainer - ,32mm dia., Wye-Strainer (for Chilled Water FCUs), NPT Threaded Ends, 300 psi ", Piece , 5-Piping ,188,,,188.0,,,188.0,,,188.0,,,188.0,,,188.0,0.0,0.0, 188.0 
+569, 5D-07-01016 ," GALA Flexible Rubber Joint, NPT Threaded Ends, 150psi, Double Bellows, Fig.GFLEX-GS, 32mm ", Piece , 5-Piping ,480,,,480.0,,,480.0,,,480.0,,,480.0,,,480.0,0.0,0.0, 480.0 
+570, 5D-07-0102 ," GALA Flexible Rubber Joint, NPT Threaded Ends, 150psi, Double Bellows, Fig.GFLEX-GS, 25mm ", Piece , 5-Piping ,108,,,108.0,,,108.0,,,108.0,,,108.0,,,108.0,0.0,0.0, 108.0 
+571, 5D-07-0108 ," Piping, General - Connector - Flexible Connector, 4""Ã˜ ", Piece ,5-Piping,3,,,3.0,,,3.0,,,3.0,,,3.0,,,3.0,0.0,0.0, 3.0 
+572,5D-08-0409," Piping, General - Gasket - Blind Flange, 200mm Ã˜ ", Piece ,5-Piping,3,,,3.0,,,3.0,,,3.0,,,3.0,,,3.0,0.0,0.0, 3.0 
+573,5D-08-1417," Piping, General - Gasket - GI, Blind Flange, Schedule 40-Welded,  4""Ø ", Piece ,5-Piping,1,,,1.0,,,1.0,,,1.0,,,1.0,,,1.0,0.0,0.0, 1.0 
+574,5D-09-0103," Piping, General -Coupling - Victaulic Rigid, 3""Ã˜ ", Piece , 5-Piping ,30,,,30.0,,,30.0,,,30.0,,,30.0,,,30.0,0.0,0.0, 30.0 
+575,5D-10-10012," Piping, General -Nipple - GI, 1/2"" dia x 5"" length ", Piece , 5-Piping ,19,,,19.0,,,19.0,,,19.0,,,19.0,,,19.0,0.0,0.0, 19.0 
+576, 5D-10-3045 ," Stainless Steel Nipple, Threaded 1"" x 100 mm,ASTM A182/ 182M & ASME /ANSI B16.11,304 /304L, SCHEDULE 80, 300 PSI ", Piece , 5-Piping ,0,,,0.0,,,0.0,,,0.0,,,0.0,,,0.0,0.0,0.0, -  
+577,5D-11-0111," Piping, General - Pressure Gauge - AGF, 300PSI, 3 1/2 X 1/4 ", Piece ,5-Piping,0,,,0.0,,,0.0,,,0.0,,,0.0,,,0.0,0.0,0.0, -  
+578,5D-11-0112," Piping, General - Pressure Gauge - 1/4"" NPT Bottom, 2.5"" dial ", Piece ,5-Piping,0,,,0.0,,,0.0,,,0.0,,,0.0,,,0.0,0.0,0.0, -  
+579, 5D-13-0306 ," OTHER VALVES TO COMPLETE THE SYSTEM: Flow Meter (335 L/s, 700mm dia, Line) (FM125F-SZ) ", Piece , 5-Piping ,2,,,2.0,,,2.0,,,2.0,,,2.0,,,2.0,0.0,0.0, 2.0 
+580,5D-14-0111," Piping, General - Miscellaneous - Air Vent, Automatic Air Vent, NPT Threaded Ends, 15mm, 240 psi ", Piece , 5-Piping ,0,,,0.0,,,0.0,,,0.0,,,0.0,,,0.0,0.0,0.0, -  
+581,5D-14-142110," Piping, General - Miscellaneous - Fire Lock, Cover Plate - White Color - Model V3802 Victaulic Firelock ", Piece , 0-Architectural ,0,,,0.0,,,0.0,,,0.0,,,0.0,,,0.0,0.0,0.0, -  
+582,5D-14-2110," Piping, General - Miscellaneous - Fire Hose Cabinet, 32"" x 27"" x7"" ( Surfaced Type), w/ 1/8"" thick Clear Glass, A. Giacomini Brass Adj. Fog Nozzle 40mm, UL/FM; B. Giacomini Brass Angle Valve 40mm, UL/FM; C.  ", Set ,5-Piping,0,,,0.0,,,0.0,,,0.0,,,0.0,,,0.0,0.0,0.0, -  
+583, 5D-14-2210 ," Piping, General - Miscellaneous - Fire Hose Cabinet,32"" x 27"" x7"" ( Recessed Type), w/ 1/8"" thick Clear Glass, A. Giacomini Brass Adj. Fog Nozzle 40mm, UL/FM; B. Giacomini Brass Angle Valve 40mm, UL/FM; C. Hose Rack Nipple 40mm; D. Fire Axe; E. Firek ", Set , 5-Piping ,0,,,0.0,,,0.0,,,0.0,,,0.0,,,0.0,0.0,0.0, -  
+584, 5D-14-2611 ," Piping, General - Miscellaneous - Fire Hose Cabinet 1.05 x 0.80 x 0.18 Concealed Type, Pull Flush Mounting Door w/ trim for all glass plate shall be gauge #18 w/ note ""BREAK GLASS IN CASE OF FIRE"". with A. ", Set ,5-Piping,3,,,3.0,,,3.0,,,3.0,,,3.0,,,3.0,0.0,0.0, 3.0 
+585,5D-14-5011," Piping, General - Miscellaneous - Rubber Gasket Sheet, 1m width x 10m length, 10mm thickness ", Piece ,5-Piping,5,,,5.0,,,5.0,,,5.0,,,5.0,,,5.0,0.0,0.0, 5.0 
+586, 5D-15-2110 ," Piping, General - Switch - Water Level Indicator (Float & Board), 5 meters ", Piece , 5-Piping ,0,,,0.0,,,0.0,,,0.0,,,0.0,,,0.0,0.0,0.0, -  
+587, 5D-15-3201 , Water level indicator ; Cat and Mouse; 3m , Piece , 5-Piping ,1,,,1.0,,,1.0,,,1.0,,,1.0,,,1.0,0.0,0.0, 1.0 
+588,5D-20-2000," Piping, General - System Sensor - WDP Sensor ", Piece , 5-Piping ,6,,,6.0,,,6.0,,,6.0,,,6.0,,,6.0,0.0,0.0, 6.0 
+589, 5D-21-1111 ," Piping, General - Elbow - G.I. Elbow, 12""x45degree, Sched.40, Welded ", Piece ,5-Piping,2,,,2.0,,,2.0,,,2.0,,,2.0,,,2.0,0.0,0.0, 2.0 
+590,5D-21-1121," Piping, General - Elbow - G.I. Elbow, 12""x90degree, Sched.40, Welded ", Piece ,5-Piping,1,,,1.0,,,1.0,,,1.0,,,1.0,,,1.0,0.0,0.0, 1.0 
+591, 6A-01-1101 ," Wire - Bare Copper Wire, Stranded, 100mm2 ", Length_1 , 6-Electrical ,0,,,0.0,,,0.0,,,0.0,,,0.0,,,0.0,0.0,0.0, -  
+592, 6A-01-1111 ," Wire - THHN Wire - Stranded, Black, 250mm2 ", Length_1 , 6-Electrical ,"1,320",,,"1,320.0",,,"1,320.0",,,"1,320.0",,,"1,320.0",,,"1,320.0",0.0,0.0," 1,320.0 "
+593, 6A-01-11110 ," Electrical, Wires & Cables - Building Wires - THHN Wire, Stranded, Black, 30mm2 ", Length , 6-Electrical ,0,,,0.0,,,0.0,,,0.0,,,0.0,,,0.0,0.0,0.0, -  
+594,6A-01-11111," Electrical, Wires & Cables - Building Wires - THHN Wire, Stranded, Black, 22mm2 ", Length_150 , 6-Electrical ,318,,,318.0,,,318.0,,,318.0,,,318.0,,,318.0,0.0,0.0, 318.0 
+595,6A-01-11112," Electrical, Wires & Cables - Building Wires - THHN Wire, Stranded, Black, 14mm2 ", Length_150 , 6-Electrical ,"1,248",,,"1,247.5",,,"1,247.5",,,"1,247.5",,,"1,247.5",,,"1,247.5",0.0,0.0," 1,247.5 "
+596, 6A-01-11113 ," Wire - THHN Wire - Stranded, Black, 8.0mm2 ", Length_150 ,6-Electrical,8,,,8.0,,,8.0,,,8.0,,,8.0,,,8.0,0.0,0.0, 8.0 
+597,6A-01-11114," Wire - THHN Wire - Stranded, Black, 5.5mm2 ", Length_150 ,6-Electrical,"1,755",,,"1,754.5",,,"1,754.5",,,"1,754.5",,,"1,754.5",,,"1,754.5",0.0,0.0," 1,754.5 "
+598, 6A-01-1112 ," Electrical, Wires & Cables - Building Wires - THHN Wire, Stranded, Black, 200mm2 ", Length_1 , 6-Electrical ,205,,,205.0,,,205.0,,,205.0,,,205.0,,,205.0,0.0,0.0, 205.0 
+599,6A-01-1114," Electrical, Wires & Cables - Building Wires - THHN Wire, Stranded, Black, 125mm2 ", Length_1 , 6-Electrical ,751,,,750.6,,,750.6,,,750.6,,,750.6,,,750.6,0.0,0.0, 750.6 
+600,6A-01-1115," Electrical, Wires & Cables - Building Wires - THHN Wire, Stranded, Black, 100mm2 ", Length_150 , 6-Electrical ,"1,701",,,"1,701.0",,,"1,701.0",,,"1,701.0",,,"1,701.0",,,"1,701.0",0.0,0.0," 1,701.0 "
+601, 6A-01-1116 ," Electrical, Wires & Cables - Building Wires - THHN Wire, Stranded, Black, 80mm2 ", Length_1 , 6-Electrical ,550,,,550.0,,,550.0,,,550.0,,,550.0,,,550.0,0.0,0.0, 550.0 
+602, 6A-01-1118 ," Electrical, Wires & Cables - Building Wires - THHN Wire, Stranded, Black, 50mm2 ", Length_1 , 6-Electrical ,793,,,793.0,,,793.0,,,793.0,,,793.0,,,793.0,0.0,0.0, 793.0 
+603,6A-01-1121," Electrical, Wires & Cables - Building Wires -THHN wire, Stranded, black 250mm2 ", Length_1 , 6-Electrical ,"1,553",,,"1,553.0",,,"1,553.0",,,"1,553.0",,,"1,553.0",,,"1,553.0",0.0,0.0," 1,553.0 "
+604,6A-01-11210," Electrical, Wires & Cables - Building Wires - THHN Wire, Stranded, Red, 30mm2 ", Length_1 , 6-Electrical ,230,,,230.0,,,230.0,,,230.0,,,230.0,,,230.0,0.0,0.0, 230.0 
+605, 6A-01-11211 ," Electrical, Wires & Cables - Building Wires - THHN Wire, Stranded, Red, 22mm2 ", Length_150 , 6-Electrical ,319,,,319.0,,,319.0,,,319.0,,,319.0,,,319.0,0.0,0.0, 319.0 
+606,6A-01-11212," Electrical, Wires & Cables - Building Wires - THHN Wire, Stranded, Red, 14mm2 ", Length_150 , 6-Electrical ,"1,278",,,"1,277.5",,,"1,277.5",,,"1,277.5",,,"1,277.5",,,"1,277.5",0.0,0.0," 1,277.5 "
+607, 6A-01-11213 ," Wire - THHN Wire - Stranded, Red, 8.0mm2 ", Length_150 ,6-Electrical,10,,,10.0,,,10.0,,,10.0,,,10.0,,,10.0,0.0,0.0, 10.0 
+608, 6A-01-11214 ," Wire - THHN Wire - Stranded, Red, 5.5mm2 ", Length_150 ,6-Electrical,0,,,0.0,,,0.0,,,0.0,,,0.0,,,0.0,0.0,0.0, -  
+609, 6A-01-11216 ," Electrical, Wires & Cables - Building Wires - THHN Wire, Stranded, Red, 2.0mm2 ", Length_150 , 6-Electrical ,0,,,0.0,,,0.0,,,0.0,,,0.0,,,0.0,0.0,0.0, -  
+610, 6A-01-1122 ," Wire - THHN Wire - Stranded, Red, 200mm2 ", Length_1 , 6-Electrical ,0,,,0.0,,,0.0,,,0.0,,,0.0,,,0.0,0.0,0.0, -  
+611,6A-01-1124," Electrical, Wires & Cables - Building Wires - THHN Wire, Stranded, Red, 125mm2 ", Length_150 , 6-Electrical ,375,,,375.0,,,375.0,,,375.0,,,375.0,,,375.0,0.0,0.0, 375.0 
+612, 6A-01-1125 ," Electrical, Wires & Cables - Building Wires - THHN Wire, Stranded, Red, 100mm2 ", Length_150 , 6-Electrical ,312,,,312.0,,,312.0,,,312.0,,,312.0,,,312.0,0.0,0.0, 312.0 
+613, 6A-01-1126 ," Electrical, Wires & Cables - Building Wires - THHN Wire, Stranded, Red, 80mm2 ", Length_150 , 6-Electrical ,550,,,550.0,,,550.0,,,550.0,,,550.0,,,550.0,0.0,0.0, 550.0 
+614,6A-01-1128," Electrical, Wires & Cables - Building Wires - THHN Wire, Stranded, Red, 50mm2 ", Length_1 , 6-Electrical ,793,,,793.0,,,793.0,,,793.0,,,793.0,,,793.0,0.0,0.0, 793.0 
+615, 6A-01-1131 ," Electrical, Wires & Cables - Building Wires - THHN Wire, Stranded, Yellow, 250mm2 ", Length_1 , 6-Electrical ,"1,296",,,"1,296.0",,,"1,296.0",,,"1,296.0",,,"1,296.0",,,"1,296.0",0.0,0.0," 1,296.0 "
+616, 6A-01-11310 ," Electrical, Wires & Cables - Building Wires - THHN Wire, Stranded, Yellow, 30mm2 ", Length_1 , 6-Electrical ,227,,,227.0,,,227.0,,,227.0,,,227.0,,,227.0,0.0,0.0, 227.0 
+617, 6A-01-11311 ," Electrical, Wires & Cables - Building Wires - THHN Wire, Stranded, Yellow, 22mm2 ", Length_150 , 6-Electrical ,315,,,315.0,,,315.0,,,315.0,,,315.0,,,315.0,0.0,0.0, 315.0 
+618, 6A-01-11312 ," Electrical, Wires & Cables - Building Wires - THHN Wire, Stranded, Yellow, 14mm2 ", Length_150 , 6-Electrical ,"1,264",,,"1,263.5",,,"1,263.5",,,"1,263.5",,,"1,263.5",,,"1,263.5",0.0,0.0," 1,263.5 "
+619, 6A-01-11313 ," Wire - THHN Wire - Stranded, Yellow, 8.0mm2 ", Length_150 ,6-Electrical,8,,,8.0,,,8.0,,,8.0,,,8.0,,,8.0,0.0,0.0, 8.0 
+620, 6A-01-11314 ," Electrical, Wires & Cables - Building Wires - THHN Wire, Stranded, Yellow, 5.5mm2 ", Length_150 , 6-Electrical ,0,,,0.0,,,0.0,,,0.0,,,0.0,,,0.0,0.0,0.0, -  
+621, 6A-01-1132 ," Electrical, Wires & Cables - Building Wires - THHN Wire, Stranded, Yellow, 200mm2 ", Length_150 , 6-Electrical ,0,,,0.0,,,0.0,,,0.0,,,0.0,,,0.0,0.0,0.0, -  
+622, 6A-01-1134 ," Electrical, Wires & Cables - Building Wires - THHN Wire, Stranded, Yellow, 125mm2 ", Length_1 , 6-Electrical ,378,,,378.0,,,378.0,,,378.0,,,378.0,,,378.0,0.0,0.0, 378.0 
+623, 6A-01-1135 ," Electrical, Wires & Cables - Building Wires - THHN Wire, Stranded, Yellow, 100mm2 ", Length_150 , 6-Electrical ,350,,,350.0,,,350.0,,,350.0,,,350.0,,,350.0,0.0,0.0, 350.0 
+624, 6A-01-1136 ," Electrical, Wires & Cables - Building Wires - THHN Wire, Stranded, Yellow, 80mm2 ", Length_150 , 6-Electrical ,548,,,548.0,,,548.0,,,548.0,,,548.0,,,548.0,0.0,0.0, 548.0 
+625, 6A-01-1138 ," Electrical, Wires & Cables - Building Wires - THHN Wire, Stranded, Yellow, 50mm2 ", Length_150 , 6-Electrical ,500,,,500.0,,,500.0,,,500.0,,,500.0,,,500.0,0.0,0.0, 500.0 
+626, 6A-01-1142 ," Electrical, Wires & Cables - Building Wires - THHN Wire, Stranded, Blue, 200mm2 ", Length_1 , 6-Electrical ,36,,,36.0,,,36.0,,,36.0,,,36.0,,,36.0,0.0,0.0, 36.0 
+627, 6A-01-1151 ," Electrical, Wires & Cables - Building Wires - THHN Wire, Stranded, White, 250mm2 ", Length_1 , 6-Electrical ,"1,427",,,"1,427.0",,,"1,427.0",,,"1,427.0",,,"1,427.0",,,"1,427.0",0.0,0.0," 1,427.0 "
+628, 6A-01-11510 ," Electrical, Wires & Cables - Building Wires - THHN Wire, Stranded, White, 30mm2 ", Length_1 , 6-Electrical ,262,,,262.0,,,262.0,,,262.0,,,262.0,,,262.0,0.0,0.0, 262.0 
+629, 6A-01-11511 ," Electrical, Wires & Cables - Building Wires - THHN Wire, Stranded, White, 22mm2 ", Length_150 , 6-Electrical ,319,,,319.0,,,319.0,,,319.0,,,319.0,,,319.0,0.0,0.0, 319.0 
+630, 6A-01-11512 ," Electrical, Wires & Cables - Building Wires - THHN Wire, Stranded, White, 14mm2 ", Length_150 , 6-Electrical ,"1,131",,,"1,130.5",,,"1,130.5",,,"1,130.5",,,"1,130.5",,,"1,130.5",0.0,0.0," 1,130.5 "
+631, 6A-01-11513 ," Wire - THHN Wire - Stranded, White, 8.0mm2 ", Length_150 ,6-Electrical,6,,,6.0,,,6.0,,,6.0,,,6.0,,,6.0,0.0,0.0, 6.0 
+632, 6A-01-11514 ," Wire - THHN Wire - Stranded, White, 5.5mm2 ", Length_150 , 6-Electrical ,600,,,600.0,,,600.0,,,600.0,,,600.0,,,600.0,0.0,0.0, 600.0 
+633, 6A-01-11516 ," Electrical, Wires & Cables - Building Wires - THHN Wire, Stranded, White, 2.0mm2 ", Length_150 , 6-Electrical ,0,,,0.0,,,0.0,,,0.0,,,0.0,,,0.0,0.0,0.0, -  
+634, 6A-01-1152 ," Electrical, Wires & Cables - Building Wires - THHN Wire, Stranded, White, 200mm2 ", Length_1 , 6-Electrical ,819,,,819.0,,,819.0,,,819.0,,,819.0,,,819.0,0.0,0.0, 819.0 
+635, 6A-01-1154 ," Electrical, Wires & Cables - Building Wires - THHN Wire, Stranded, White, 125mm2 ", Length_1 , 6-Electrical ,384,,,384.0,,,384.0,,,384.0,,,384.0,,,384.0,0.0,0.0, 384.0 
+636, 6A-01-1155 ," Electrical, Wires & Cables - Building Wires - THHN Wire, Stranded, White, 100mm2 ", Length_150 , 6-Electrical ,350,,,350.0,,,350.0,,,350.0,,,350.0,,,350.0,0.0,0.0, 350.0 
+637, 6A-01-1156 ," Electrical, Wires & Cables - Building Wires - THHN Wire, Stranded, White, 80mm2 ", Length_1 , 6-Electrical ,26,,,26.0,,,26.0,,,26.0,,,26.0,,,26.0,0.0,0.0, 26.0 
+638, 6A-01-1158 ," Electrical, Wires & Cables - Building Wires - THHN Wire, Stranded, White, 50mm2 ", Length_1 , 6-Electrical ,700,,,700.0,,,700.0,,,700.0,,,700.0,,,700.0,0.0,0.0, 700.0 
+639, 6A-01-11610 ," Electrical, Wires & Cables - Building Wires - THHN Wire, Stranded, Green, 30mm2 ", Length_1 , 6-Electrical ,983,,,983.0,,,983.0,,,983.0,,,983.0,,,983.0,0.0,0.0, 983.0 
+640,6A-01-11611," Electrical, Wires & Cables - Building Wires - THHN Wire, Stranded, Green, 22mm2 ", Length_150 , 6-Electrical ,618,,,618.0,,,618.0,,,618.0,,,618.0,,,618.0,0.0,0.0, 618.0 
+641, 6A-01-11612 ," Electrical, Wires & Cables - Building Wires - THHN Wire, Stranded, Green, 14mm2 ", Length_150 , 6-Electrical ,993,,,993.0,,,993.0,,,993.0,,,993.0,,,993.0,0.0,0.0, 993.0 
+642, 6A-01-11613 ," Electrical, Wires & Cables - Building Wires - THHN Wire, Stranded, Green, 8.0mm2 ", Length_100 , 6-Electrical ,0,,,0.0,,,0.0,,,0.0,,,0.0,,,0.0,0.0,0.0, -  
+643, 6A-01-11614 ," Wire - THHN Wire - Stranded, Green, 5.5mm2 ", Length_150 ,6-Electrical,7,,,7.0,,,7.0,,,7.0,,,7.0,,,7.0,0.0,0.0, 7.0 
+644,6A-01-11615," Electrical, Wires & Cables - Building Wires - THHN Wire, Stranded, Green, 3.5mm2 ", Length_150 , 6-Electrical ,66,,,66.0,,,66.0,,,66.0,,,66.0,,,66.0,0.0,0.0, 66.0 
+645, 6A-01-1166 ," Electrical, Wires & Cables - Building Wires - THHN Wire, Stranded-Green 80mm2 ", Length_1 , 6-Electrical ,"1,200",,,"1,200.0",,,"1,200.0",,,"1,200.0",,,"1,200.0",,,"1,200.0",0.0,0.0," 1,200.0 "
+646,6A-01-1168," Electrical, Wires & Cables - Building Wires - THHN Wire, Stranded, Green, 50mm2 ", Length_1 , 6-Electrical ,"1,772",,,"1,772.0",,,"1,772.0",,,"1,772.0",,,"1,772.0",,,"1,772.0",0.0,0.0," 1,772.0 "
+647, 6A-01-12116 ," Electrical, Wires & Cables - Building Wires - THHN Wire, Solid-Black 2.0mm ", Length_150 , 6-Electrical ,29,,,29.0,,,29.0,,,29.0,,,29.0,,,29.0,0.0,0.0, 29.0 
+648, 6A-01-12216 ," Electrical, Wires & Cables - Building Wires - THHN Wire, Solid- Red 2.0mm ", Length_150 , 6-Electrical ,28,,,28.0,,,28.0,,,28.0,,,28.0,,,28.0,0.0,0.0, 28.0 
+649, 6A-01-12316 ," Electrical, Wires & Cables - Building Wires - THHN Wire, Solid-Yellow 2.0mm ", Length_150 , 6-Electrical ,29,,,29.0,,,29.0,,,29.0,,,29.0,,,29.0,0.0,0.0, 29.0 
+650, 6A-01-12516 ," Electrical, Wires & Cables - Building Wires - THHN Wire, Solid-White 2.0mm ", Length_150 , 6-Electrical ,29,,,29.0,,,29.0,,,29.0,,,29.0,,,29.0,0.0,0.0, 29.0 
+651, 6A-01-12616 , Wire - THHN Wire - Solid-Green 2.0mm (150M/BOX) , Length_150 , 6-Electrical ,25,,,25.0,,,25.0,,,25.0,,,25.0,,,25.0,0.0,0.0, 25.0 
+652, 6A-01-2116 ," Electrical, Wires & Cables - Building Wires - THW Wire, Stranded, Black, 80mm2 ", Length_150 ,6-Electrical,32,,,32.0,,,32.0,,,32.0,,,32.0,,,32.0,0.0,0.0, 32.0 
+653, 6A-01-2126 ," Electrical, Wires & Cables - Building Wires - THW Wire, Stranded, Red, 80mm2 ", Length_150 ,6-Electrical,32,,,32.0,,,32.0,,,32.0,,,32.0,,,32.0,0.0,0.0, 32.0 
+654, 6A-01-30310 ," Electrical, Wires & Cables - Building Wires - Fire Rated Cable,Single Core 2.5mm2 ", Meter , 6-Electrical ,"9,000",,,"9,000.0",,,"9,000.0",,,"9,000.0",,,"9,000.0",,,"9,000.0",0.0,0.0," 9,000.0 "
+655, 6A-01-3101 ," Electrical, Wires & Cables - Building Wires - Fire Rate Cable, Stranded, 250mm2 ", Length_1 , 6-Electrical ,0,,,0.0,,,0.0,,,0.0,,,0.0,,,0.0,0.0,0.0, -  
+656, 6A-01-31010 ," Wire - Fire Rate Cable, Stranded, 30mm2 ", Length_1 , 6-Electrical ,0,,,0.0,,,0.0,,,0.0,,,0.0,,,0.0,0.0,0.0, -  
+657, 6A-01-31011 ," Electrical, Wires & Cables - Building Wires - Fire Rate Cable, Stranded, 22mm2 ", Length_1 , 6-Electrical ,0,,,0.0,,,0.0,,,0.0,,,0.0,,,0.0,0.0,0.0, -  
+658, 6A-01-31014 ," Electrical, Wires & Cables - Building Wires - Fire Rate Cable, Stranded, 5.5mm2 ", Length_1 , 6-Electrical ,297,,,297.0,,,297.0,,,297.0,,,297.0,,,297.0,0.0,0.0, 297.0 
+659,6A-01-31017," Electrical, Wires & Cables - Building Wires - Fire Rate Cable,Stranded-240mm2 ", Length_1 , 6-Electrical ,0,,,0.0,,,0.0,,,0.0,,,0.0,,,0.0,0.0,0.0, -  
+660,6A-01-31019," Electrical, Wires & Cables - Building Wires - Fire Rate Cable,Stranded-6mm2 ", Length_1 , 6-Electrical ,0,,,0.0,,,0.0,,,0.0,,,0.0,,,0.0,0.0,0.0, -  
+661,6A-01-3102," Electrical, Wires & Cables - Building Wires - Fire Rate Cable, Stranded, 200mm2 ", Length_1 , 6-Electrical ,0,,,0.0,,,0.0,,,0.0,,,0.0,,,0.0,0.0,0.0, -  
+662,6A-01-3108," Electrical, Wires & Cables - Building Wires - Fire Rate Cable, Stranded, 50mm2 ", Length_1 , 6-Electrical ,410,,,410.0,,,410.0,,,410.0,,,410.0,,,410.0,0.0,0.0, 410.0 
+663, 6A-01-5113 ," Royal Cord Wire 5.5mm2 x 75m, 2-Core Philflex ", Rolls ,6-Electrical,1,,,1.0,,,1.0,,,1.0,,,1.0,,,1.0,0.0,0.0, 1.0 
+664, 6A-01-5114 ," Wire - Royal Cord Wire - Stranded, 2 Core, 3.5mm2 ", Length_75 ,6-Electrical,8,,,8.0,,,8.0,,,8.0,,,8.0,,,8.0,0.0,0.0, 8.0 
+665, 6A-02-1111 ," Electrical, Wires & Cables - Power Cable - XLPE Cable, Shielded Copper, 35KV, 60mm2 ", Length_300 , 6-Electrical ,0,,,0.0,,,0.0,,,0.0,,,0.0,,,0.0,0.0,0.0, -  
+666,6A-02-1151," Electrical, Wires & Cables - Power Cable - XLPE Cable,Shielded Copper-35KV50mm2 ", Meter , 6-Electrical ,34,,,34.0,,,34.0,,,34.0,,,34.0,,,34.0,0.0,0.0, 34.0 
+667, 6B-01-1201 ," Electrical, Wiring Devices - Power Outlet - Convenience Outlet, Universal, 1 Gang, 3 Prong, 16A ", Set , 6-Electrical ,117,,,117.0,,,117.0,,,117.0,,,117.0,,,117.0,0.0,0.0, 117.0 
+668, 6B-01-1202 ," Outlet - Power Outlet - Convenience Outlet, Universal, 2 Gang, 3 Prong, 16A ", Set , 6-Electrical ,0,,,0.0,,,0.0,,,0.0,,,0.0,,,0.0,0.0,0.0, -  
+669, 6B-01-1204 ," Electrical, Wiring Devices - Power Outlet - Convenience Outlet, Universal, 2 Gang, 3 Prong, 16A (Plate Cover Only) ", Set , 6-Electrical ,0,,,0.0,,,0.0,,,0.0,,,0.0,,,0.0,0.0,0.0, -  
+670, 6B-01-3001 ," Electrical, Wiring Devices - Power Outlet - GFCI Outlet, 1 Gang, 3 Prong, 16A ", Set , 6-Electrical ,0,,,0.0,,,0.0,,,0.0,,,0.0,,,0.0,0.0,0.0, -  
+671,6B-01-4201," Power Outlet - Aircon Outlet, Universal, 1 Gang, 3 Prong, 16A ", Set ,6-Electrical,4,,,4.0,,,4.0,,,4.0,,,4.0,,,4.0,0.0,0.0, 4.0 
+672, 6B-01-5115 ," Electrical, Wiring Devices - Power Outlet - Twistlock set (Male & Female), National Panasonic, 20A, 250V, 2-wire + ground ", Piece , 6-Electrical ,271,,,271.0,,,271.0,,,271.0,,,271.0,,,271.0,0.0,0.0, 271.0 
+673, 6B-03-1001 ," Ligthing Switch - Switch, 1 Gang, 16A ", Piece , 6-Electrical ,122,,,122.0,,,122.0,,,122.0,,,122.0,,,122.0,0.0,0.0, 122.0 
+674, 6B-03-1002 ," Ligthing Switch - Switch, 2 Gang, 16A ", Piece , 6-Electrical ,47,,,47.0,,,47.0,,,47.0,,,47.0,,,47.0,0.0,0.0, 47.0 
+675, 6B-03-1003 ," Ligthing Switch - Switch, 3 Gang, 16A ", Piece , 6-Electrical ,90,,,90.0,,,90.0,,,90.0,,,90.0,,,90.0,0.0,0.0, 90.0 
+676,6B-04-1100," Electrical, Wiring Devices - Switch Bank - Switch Bank, 6DSB ", Piece , 6-Electrical ,0,,,0.0,,,0.0,,,0.0,,,0.0,,,0.0,0.0,0.0, -  
+677, 6B-05-1111 ," Electrical, Wiring Devices - Wiring Accessories - Electrical Plug, Rubber, Regular, 5A ", Piece , 6-Electrical ,0,,,0.0,,,0.0,,,0.0,,,0.0,,,0.0,0.0,0.0, -  
+678, 6B-05-1122 ," Electrical, Wiring Devices - Wiring Accessories - Electrical Plug, Rubber, Heavy Duty, 15A ", Piece , 6-Electrical ,5,,,5.0,,,5.0,,,5.0,,,5.0,,,5.0,0.0,0.0, 5.0 
+679, 6C-01-1121 ," Electrical, Boxes & Gutters - Boxes, Metal - Junction Box, Metal, w/ cover, 4 x 4, , Gauge 16 ", Piece , 6-Electrical ,0,,,0.0,,,0.0,,,0.0,,,0.0,,,0.0,0.0,0.0, -  
+680,6C-01-2121," Metal - Utility Box, Metal, w/ cover, 2 x 4, Gauge 16 ", Piece , 6-Electrical ,100,,,100.0,,,100.0,,,100.0,,,100.0,,,100.0,0.0,0.0, 100.0 
+681, 6C-01-3121 ," Electrical, Boxes & Gutters - Boxes, Metal - Square Box, Metal, w/ cover, 4 x 11/16"", Gauge 16 ", Piece , 6-Electrical ,0,,,0.0,,,0.0,,,0.0,,,0.0,,,0.0,0.0,0.0, -  
+682, 6C-01-41011 ," Electrical, Boxes & Gutters - Boxes, Metal - Pull box, NEMA 1, 16"" x 16"" x 8"" (400mm x 400mm x 200mm), Gauge 16 ", Piece , 6-Electrical ,12,,,12.0,,,12.0,,,12.0,,,12.0,,,12.0,0.0,0.0, 12.0 
+683,6C-01-41014," Electrical, Boxes & Gutters - Boxes, Metal - Pull box, NEMA 1, 24"" x 24"" x 8"" (600mm x 600mm x 200mm), Gauge 16 ", Piece , 6-Electrical ,7,,,7.0,,,7.0,,,7.0,,,7.0,,,7.0,0.0,0.0, 7.0 
+684, 6C-01-4104 ," Ligthing Switch - Switch, 3 Gang, 16A ", Piece , 6-Electrical ,0,,,0.0,,,0.0,,,0.0,,,0.0,,,0.0,0.0,0.0, -  
+685,6C-01-41110," Electrical, Boxes & Gutters - Boxes, Metal - Pull box, NEMA 1, Hinge Type, 1400mm x 1400mm x 400mm, Gauge 16 ", Piece , 6-Electrical ,2,,,2.0,,,2.0,,,2.0,,,2.0,,,2.0,0.0,0.0, 2.0 
+686, 6D-01-0002 ," Electrical, Terminal Lugs & Connectors - Terminal Lugs - Terminal Lugs, Universal, 14mm ", Piece , 6-Electrical ,98,,,98.0,,,98.0,,,98.0,,,98.0,,,98.0,0.0,0.0, 98.0 
+687,6D-01-11110," Terminal Lugs - Crimp Type, Short Barrel, 1 Hole, 30mm2 ", Piece ,6-Electrical,120,,,120.0,,,120.0,,,120.0,,,120.0,,,120.0,0.0,0.0, 120.0 
+688,6D-01-11111," Terminal Lugs - Crimp Type, Short Barrel, 1 Hole, 22mm2 ", Piece ,6-Electrical,133,,,133.0,,,133.0,,,133.0,,,133.0,,,133.0,0.0,0.0, 133.0 
+689,6D-01-1115," Terminal Lugs - Crimp Type, Short Barrel, 1 Hole, 100mm2 ", Piece ,6-Electrical,111,,,111.0,,,111.0,,,111.0,,,111.0,,,111.0,0.0,0.0, 111.0 
+690, 6D-01-1118 ," Electrical, Terminal Lugs & Connectors - Terminal Lugs - Terminal Lugs, Crimp Type, Short Barrel, 1 Hole, 50mm2 ", Piece , 6-Electrical ,0,,,0.0,,,0.0,,,0.0,,,0.0,,,0.0,0.0,0.0, -  
+691, 6D-01-1218 ," Electrical, Terminal Lugs & Connectors - Terminal Lugs - Terminal Lugs, Crimp Type, Long Barrel, 1 Hole, 50mm2 ", Piece , 6-Electrical ,24,,,24.0,,,24.0,,,24.0,,,24.0,,,24.0,0.0,0.0, 24.0 
+692,6E-01-1011," Clamp - Unstrut Clamp,-4"" ", Unit ,6-Electrical,0,,,0.0,,,0.0,,,0.0,,,0.0,,,0.0,0.0,0.0, -  
+693,6E-01-1101," Electrical, Hanger & Supports - Pipes Supports - Unistrut Channel, Solid, 1-5/8 x 1-5/8 x 3m ", Length_3 , 6-Electrical ,180,,,180.0,,,180.0,,,180.0,,,180.0,,,180.0,0.0,0.0, 180.0 
+694,6E-01-20010," Electrical, Hanger & Supports - Pipes Supports - Unstrut Clamp, 1/2"" ", Piece , 6-Electrical ,"1,734",,,"1,734.0",,,"1,734.0",,,"1,734.0",,,"1,734.0",,,"1,734.0",0.0,0.0," 1,734.0 "
+695,6E-01-2002," Electrical, Hanger & Supports - Pipes Supports - Unstrut Clamp, 3 1/2"" ", Piece , 6-Electrical ,112,,,112.0,,,112.0,,,112.0,,,112.0,,,112.0,0.0,0.0, 112.0 
+696,6E-01-2004," Electrical, Hanger & Supports - Pipes Supports - Unstrut Clamp, 2 1/2"" ", Piece , 6-Electrical ,400,,,400.0,,,400.0,,,400.0,,,400.0,,,400.0,0.0,0.0, 400.0 
+697, 6E-01-2005 ," Electrical, Hanger & Supports - Pipes Supports - Unstrut Clamp, 2"" ", Piece , 6-Electrical ,0,,,0.0,,,0.0,,,0.0,,,0.0,,,0.0,0.0,0.0, -  
+698, 6E-01-2007 ," Clamp - Unstrut Clamp, 1 1/4"" ", Piece , 6-Electrical ,0,,,0.0,,,0.0,,,0.0,,,0.0,,,0.0,0.0,0.0, -  
+699, 6E-01-2008 ," Clamp - Unstrut Clamp, 1"" ", Piece , 6-Electrical ,0,,,0.0,,,0.0,,,0.0,,,0.0,,,0.0,0.0,0.0, -  
+700, 6E-01-2009 ," Clamp - Unstrut Clamp, 3/4"" ", Piece , 6-Electrical ,0,,,0.0,,,0.0,,,0.0,,,0.0,,,0.0,0.0,0.0, -  
+701, 6E-01-4216 ," Electrical, Hanger & Supports - Pipes Supports - Conduit Clamp, Steel, 1 Hole, 1/2"" ", Piece , 6-Electrical ,0,,,0.0,,,0.0,,,0.0,,,0.0,,,0.0,0.0,0.0, -  
+702, 6E-01-42210 ," Electrical, Hanger & Supports - Pipes Supports - Conduit Clamp, Steel, 2 Hole, 1/2"" ", Piece , 6-Electrical ,0,,,0.0,,,0.0,,,0.0,,,0.0,,,0.0,0.0,0.0, -  
+703, 6E-02-1003 ," Electrical, Hanger & Supports - Wire Supports - Cable Tray, Ladder Type,, 300 x 150 x 2400mm ", Assy , 6-Electrical ,0,,,0.0,,,0.0,,,0.0,,,0.0,,,0.0,0.0,0.0, -  
+704,6E-02-10116," Electrical, Hanger & Supports - Wire Supports - Cable Tray, Ladder Type, w/ Cover & Connector, 500 x 150 x 3000mm ", Assy , 6-Electrical ,6,,,6.0,,,6.0,,,6.0,,,6.0,,,6.0,0.0,0.0, 6.0 
+705,6E-02-10119," Electrical, Hanger & Supports - Wire Supports - Cable Tray, Ladder Type, w/ Cover & Connector, 500 x 150 x 3000mm ", Piece , 6-Electrical ,6,,,6.0,,,6.0,,,6.0,,,6.0,,,6.0,0.0,0.0, 6.0 
+706,6E-02-10120," Electrical, Hanger & Supports - Wire Supports - Cable Tray, Ladder Type,-w/ Cover & Connector800 x 150 x 2400mm ", Length , 6-Electrical ,4,,,4.0,,,4.0,,,4.0,,,4.0,,,4.0,0.0,0.0, 4.0 
+707,6E-02-10122," Electrical, Hanger & Supports - Wire Supports - Cable Tray, Ladder Type,-w/ Cover & Connector300 x 100 x 2400mm ", Piece , 6-Electrical ,5,,,5.0,,,5.0,,,5.0,,,5.0,,,5.0,0.0,0.0, 5.0 
+708,6E-02-10123," Electrical, Hanger & Supports - Wire Supports - Cable Tray, Ladder Type,-w/ Cover & Connector250 x 100 x 2400mm ", Piece , 6-Electrical ,68,,,68.0,,,68.0,,,68.0,,,68.0,,,68.0,0.0,0.0, 68.0 
+709,6E-02-10124," Electrical, Hanger & Supports - Wire Supports - Cable Tray, Ladder Type,-w/ Cover & Connector200 x 100 x 2400mm ", Piece , 6-Electrical ,129,,,129.0,,,129.0,,,129.0,,,129.0,,,129.0,0.0,0.0, 129.0 
+710,6E-02-10130," Electrical, Hanger & Supports - Wire Supports - Cable Tray, Ladder Type, w/o Connector, 100 x 100 x 2400mm ", Piece , 6-Electrical ,20,,,20.0,,,20.0,,,20.0,,,20.0,,,20.0,0.0,0.0, 20.0 
+711,6E-02-10230," Electrical, Hanger & Supports - Wire Supports - Cable Tray, Ladder Type, w/ Cover  Connector, 100 x 100 x 2400mm ", Piece , 6-Electrical ,50,,,50.0,,,50.0,,,50.0,,,50.0,,,50.0,0.0,0.0, 50.0 
+712,6F-01-1003," Electrical, Grounding and Lightning Protection - Grounding Accessories - Copper Ground Rod, 3/4"" x 3m ", Piece ,6-Electrical,0,,,0.0,,,0.0,,,0.0,,,0.0,,,0.0,0.0,0.0, -  
+713,6G-01-1029," Electrical, Lightning Fixtures - Bulb - CFL Bulb, Warm White, 18W ", Piece , 6-Electrical ,0,,,0.0,,,0.0,,,0.0,,,0.0,,,0.0,0.0,0.0, -  
+714, 6G-01-2013 ," Electrical, Lightning Fixtures - Bulb - ESL Bulb, Daylight, 18W ", Piece , 6-Electrical ,0,,,0.0,,,0.0,,,0.0,,,0.0,,,0.0,0.0,0.0, -  
+715, 6G-01-3015 ," Electrical, Lightning Fixtures - Bulb - LED Bulb, Daylight, 10W ", Piece , 6-Electrical ,0,,,0.0,,,0.0,,,0.0,,,0.0,,,0.0,0.0,0.0, -  
+716, 6G-01-3016 ," Bulb - LED Bulb, Daylight, 11W ", Piece , 6-Electrical ,25,,,25.0,,,25.0,,,25.0,,,25.0,,,25.0,0.0,0.0, 25.0 
+717, 6G-03-1011 ," Electrical, Lightning Fixtures - Tube - Fluorescent Tube T5, Daylight, 14W ", Piece , 6-Electrical ,681,,,681.0,,,681.0,,,681.0,,,681.0,,,681.0,0.0,0.0, 681.0 
+718, 6G-03-11032 ," Electrical, Lighting Fixtures - Tube - Fluorescent Tube LED, Daylight, 220V, Infinity, 18W ", Piece , 6-Electrical ,90,,,90.0,,,90.0,,,90.0,,,90.0,,,90.0,0.0,0.0, 90.0 
+719, 6G-03-2045 ," Electrical, Lighting Fixtures - Tube - Fluorescent Tube T8, Daylight, 36W ", Piece , 6-Electrical ,18,,,18.0,,,18.0,,,18.0,,,18.0,,,18.0,0.0,0.0, 18.0 
+720,6G-04-2005," Electrical, Lighting Fixtures - Ballast -Metal Halide Ballast 400w ", Piece , 6-Electrical ,10,,,10.0,,,10.0,,,10.0,,,10.0,,,10.0,0.0,0.0, 10.0 
+721, 6G-04-4002 ," Electrical, Lighting Fixtures - Ballast - Metal Halide, 400W ", Piece , 6-Electrical ,10,,,10.0,,,10.0,,,10.0,,,10.0,,,10.0,0.0,0.0, 10.0 
+722,6G-05-3001," Starter - Fluorescent Starter, 4-65W ", Piece ,6-Electrical,15,,,15.0,,,15.0,,,15.0,,,15.0,,,15.0,0.0,0.0, 15.0 
+723, 6G-05-4101 ," Starter - Metal Halide, Electronic Ignitor, 70-400W ", Piece , 6-Electrical ,0,,,0.0,,,0.0,,,0.0,,,0.0,,,0.0,0.0,0.0, -  
+724,6G-06-5411," Electrical, Lighting Fixtures - Indoor Fixtures - Fixed Downlight Round Ceiling-Mounted Luminaires (DLF .6 - H.35) Model No. DOT45-H_835-30H/B; Wattage:6W, Beam: 30°, CCt: 3500K, Driver: DALI, Brand: G-Licht En ", Piece , 6-Electrical ,0,,,0.0,,,0.0,,,0.0,,,0.0,,,0.0,0.0,0.0, -  
+725,6G-06-6111," Electrical, Lighting Fixtures - Indoor Fixtures - Light Box, Enclosure w/ Glass, (NEMA 4X) Surface Mounted, B.I Ga#16, Stainless Steel front frame. B.I. Sheet body, Frosted Glass 1/4"" thk (tempered), L: 2150mm x H: 190mm x D: 100mm ", Assy , 6-Electrical ,1,,,1.0,,,1.0,,,1.0,,,1.0,,,1.0,0.0,0.0, 1.0 
+726, 6G-06-7631 ," Electrical, Lighting Fixtures - Indoor Fixtures - Exterior Fountain Light Type: UNL, Model: OUGE- SPQC-168 w/ 5 meter length wire, Luminaire Colour: Black, LED Module: 12W, 618lm, 30°, LED: 4000K, Brand: G-Licht En ", Piece , 6-Electrical ,2,,,2.0,,,2.0,,,2.0,,,2.0,,,2.0,0.0,0.0, 2.0 
+727, 6G-07-2101 ," Electrical, Lightning Fixtures - Indoor Luminaires - Fluorescent Lamp, T5, Batten, 14W ", Piece , 6-Electrical ,0,,,0.0,,,0.0,,,0.0,,,0.0,,,0.0,0.0,0.0, -  
+728, 6G-07-2111 ," Electrical, Lightning Fixtures - Indoor Luminaires - Fluorescent Lamp, T5,Batten, Warm White-14W ", Piece , 6-Electrical ,134,,,134.0,,,134.0,,,134.0,,,134.0,,,134.0,0.0,0.0, 134.0 
+729,6G-07-2121," Electrical, Lightning Fixtures - Indoor Luminaires - Fluorescent Lamp, T5,Batten, Daylight-14W ", Piece , 6-Electrical ,"1,271",,,"1,271.0",,,"1,271.0",,,"1,271.0",,,"1,271.0",,,"1,271.0",0.0,0.0," 1,271.0 "
+730, 6G-07-31211 ," Electrical, Lighting Fixtures - Indoor Luminaires - Downlight, LED, Surface Mounted Glareless Downlight, (XDL7-WB) Model: VM8-F308 3500K, 20° Beam Angle; with soften Lens; , 3500K; 10W; without driver ", Unit , 6-Electrical ,1,,,1.0,,,1.0,,,1.0,,,1.0,,,1.0,0.0,0.0, 1.0 
+731, 6G-07-3651 ," Electrical, Lighting Fixtures - Indoor Luminaires - Downlight, LED, Surface mounted, Canopy Downlights, Type: DND420H; Model: VM8-F420L8035-20 (BLACK), Luminaire Colour: Black, LED Module: 20W,, Luminaire Size: 154mm x 95mmØ, Light Colour: 3500K; 80 ", Unit , 6-Electrical ,21,,,21.0,,,21.0,,,21.0,,,21.0,,,21.0,0.0,0.0, 21.0 
+732,6G-07-3815," Electrical, Lighting Fixtures - Indoor Luminaires - Downlight, LED, Wall Washer Round Ceiling Recessed-mounted Luminaires (WW) Model: V68W-CB935RWIM-X, Luminaire Size: 100mm x 77mmØ, Luminaire Colour:  ", Piece , 6-Electrical ,11,,,11.0,,,11.0,,,11.0,,,11.0,,,11.0,0.0,0.0, 11.0 
+733, 6G-07-3921 ," Electrical, Lighting Fixtures - Indoor Luminaires - Fixed Downlights Ceiling Recessed-mounted Luminaires (DLR.410) Model: VD1-F312D8035-90, Luminaire Size: 110mm x 53mm, Luminaire Colour: White Trim/White  ", Piece , 6-Electrical ,6,,,6.0,,,6.0,,,6.0,,,6.0,,,6.0,0.0,0.0, 6.0 
+734, 6G-07-3931 ," Electrical, Lighting Fixtures - Indoor Luminaires - Fixed Downlights Ceiling Surface-mounted Luminaires (DLS.410) Model: VM8-F310L8035-20, Luminaire Size: 100mm x 75mmØ, Luminaire Colour: Black Reflector, LED  ", Piece , 6-Electrical ,9,,,9.0,,,9.0,,,9.0,,,9.0,,,9.0,0.0,0.0, 9.0 
+735,6G-07-3941," Electrical, Lighting Fixtures - Indoor Luminaires - Fixed Downlights Round Ceiling Recessed-mounted Luminaires (DLF.6-H.35) Model: DOT45-H-835-30-H/B, Luminaire Size: 62mm x 50.5mmØ, Luminaire Colour:  ", Piece , 6-Electrical ,44,,,44.0,,,44.0,,,44.0,,,44.0,,,44.0,0.0,0.0, 44.0 
+736, 6G-07-3961 ," Electrical, Lighting Fixtures - Indoor Luminaires - Fixed Downlights Round Ceiling-mounted Luminaires (X-DL7.W.B) Model: D75-7.5W-835-50 (Black), Wattage: 7.5W, Beam: 25°, CCT: 3500K, Driver: DALI, Brand: G-Licht En ", Piece , 6-Electrical ,0,,,0.0,,,0.0,,,0.0,,,0.0,,,0.0,0.0,0.0, -  
+737,6G-08-1404," Electrical, Lighting Fixtures - Emergency Light - LED Emergency Downlight Round Ceiling Recessed, Luminaires Type: EM2; Module: 3.5W w/ Driver and LiFEP04; 6.4V Battery; LED: 4000K; 80CRI; RoundBrand; G-Licht En ", Piece , 6-Electrical ,150,,,150.0,,,150.0,,,150.0,,,150.0,,,150.0,0.0,0.0, 150.0 
+738,6G-09-1401," Electrical, Lighting Fixtures - Exit Sign Emergency Light - Exit Light up, 30W, 230V, with Powercraft 3 hours Battery Back-up ", Piece , 9-Miscellaneous ,24,,,24.0,,,24.0,,,24.0,,,24.0,,,24.0,0.0,0.0, 24.0 
+739, 6G-10-1002 ," Lighting Receptacle, 6 Amp, 4""  ", Piece , 6-Electrical ,73,,,73.0,,,73.0,,,73.0,,,73.0,,,73.0,0.0,0.0, 73.0 
+740, 6G-11-2001 ," Exterior Steet Pole Lights Type: POLE-S, Model: ST54-040, Luminaire color: Black, LED Module: 40W 6000lm 220VAC, Light Colour: 3500K 80CRI, Light Distribution: Type III, LED Driver: Relay, Brand: G- Licht En ", Piece , 6-Electrical ,1,,,1.0,,,1.0,,,1.0,,,1.0,,,1.0,0.0,0.0, 1.0 
+741,6G-11-9100," Electrical, Lighting Fixtures - Lighting Accessories - Aluminum Profile, Carrier ", Piece , 6-Electrical ,10,,,10.0,,,10.0,,,10.0,,,10.0,,,10.0,0.0,0.0, 10.0 
+742, 6G-12-1001 ," Exterior Tree Spot Light Stake Mounted Luminaires Type: XSTKUP, Model: SOLA MINI-830-30, Luminaire Color: Metal Gray, LED Module: 5W 500lm 24V, Light Colour: 3000K 80CRI, Light Distribution: 30°, LED Driver:  ", Piece , 6-Electrical ,75,,,75.0,,,75.0,,,75.0,,,75.0,,,75.0,0.0,0.0, 75.0 
+743, 6G-12-1010 ," Exterior Tree Spot Light Stake Mounted Luminaires (Accessories) Type: XSTKUP, Model : Tree Strap, Brand: G-Licht En ", Piece , 6-Electrical ,12,,,12.0,,,12.0,,,12.0,,,12.0,,,12.0,0.0,0.0, 12.0 
+744, 6G-12-1020 ," Exterior Tree Spot Light Stake Mounted Luminaires (Po w er    Supply)    Type:    XSTKU P,    ModeL: HLG-120H-24A, Wattage: 120W, Voltage: 24V, Brand: Meanwel ", Piece , 6-Electrical ,3,,,3.0,,,3.0,,,3.0,,,3.0,,,3.0,0.0,0.0, 3.0 
+745, 6G-12-1112 ," Landscape Pathway Bollard Light Type: XBLD, Model: BL01-014,   Luminaire   Color :  Black  Trim/Black Reflector, LED Module: 14W 1190lm, Light Colour: 3000K 80CRI,LightDistribution: 60°, LED Driver: Relay, Brand: G-Licht En ", Piece , 6-Electrical ,58,,,58.0,,,58.0,,,58.0,,,58.0,,,58.0,0.0,0.0, 58.0 
+746,6G-15-0104," Electrical, Lighting Fixtures - Linear Lighting - Linear lighting, LED Strip, Model: S3030L48V24IP67, 10w/m, Wattage: 14W, Total Wattage: 72W, 2300K ", Meter , 6-Electrical ,0,,,0.0,,,0.0,,,0.0,,,0.0,,,0.0,0.0,0.0, -  
+747, 6G-15-01111 ," Linear Cove Light Niche-mounted Luminaires, LED Strip (LC.3030C) LED Strip Model: DS860/2410NO9PWNDA050WS, Luminaire Colour: Aluminum, LED Module: 4.3w/m, 24V, Light Colour: 3500K, Light Distribution: 123 ", Meter , 6-Electrical ,0,,,0.0,,,0.0,,,0.0,,,0.0,,,0.0,0.0,0.0, -  
+748,6G-15-0181," Electrical, Lighting Fixtures - Linear lighting - Linear Cove Light Niche-mounted Luminaires (LC.3840) LED Strip Model: DS860/2410NO9PWNDA050WS, Wattage: 4.3W/m, Voltage: 24V, Beam: 123°, CCT: 3500K, Brand: G-Licht En C ", Roll , 6-Electrical ,0,,,0.0,,,0.0,,,0.0,,,0.0,,,0.0,0.0,0.0, -  
+749, 6G-15-0191 ," Electrical, Lighting Fixtures - Linear lighting - Linear Cove Light Niche-mounted Luminaires, LED Strip (LC.6935) Model: DS890/2410NO8NWNDA050WS, Wattage: 4.3W/m, Voltage: 24V, Beam: 90°, CCT: 4000K, Driver: On/Off, Brand: G-Licht En C ", Roll , 6-Electrical ,0,,,0.0,,,0.0,,,0.0,,,0.0,,,0.0,0.0,0.0, -  
+750, 6G-15-0251 ," Neon Flex LED Light Niche-mounted Luminaires (LED Strip) Type: X.NL.0612, Model: NMS0612-9- WW-24XDN-200XX-3000-Plus, Luminaire Color: White, LED Module: 5.3W/m 170lm/m 24V, Light Colour: 3000K 90CRI, Light Distribution: 110°, ", Piece , 6-Electrical ,102,,,102.0,,,102.0,,,102.0,,,102.0,,,102.0,0.0,0.0, 102.0 
+751,6G-15-1131," Electrical, Lighting Fixtures - Linear lighting - Linear Cove Light Niche-mounted Luminaires, Aluminum Profile (LC.8.7-1) Model: XQ-259-C8958, Luminaire size: 89mm x 58mm, Luminaire colour: Aluminum, Brand: G-Licht en C, 3meters/length ", Length , 6-Electrical ,12,,,12.0,,,12.0,,,12.0,,,12.0,,,12.0,0.0,0.0, 12.0 
+752,6G-15-1150," Electrical, Lighting Fixtures - Linear lighting - Linear Cove Light Niche-mounted Luminaires (LC.3840) Aluminum Profile Model: XQ-261-C10645, Brand: G-Licht En C ", Meter , 6-Electrical ,0,,,0.0,,,0.0,,,0.0,,,0.0,,,0.0,0.0,0.0, -  
+753,6G-15-1161," Electrical, Lighting Fixtures - Linear lighting - Linear Cove Light Niche-mounted Luminaires,Aluminum Profile (LC.6935) Model: BY-6535 (2500), Luminaire Size: 65mm x 35mm x 2500mm, Luminaire Colour: White, Brand: G-Licht En C ", Length , 6-Electrical ,0,,,0.0,,,0.0,,,0.0,,,0.0,,,0.0,0.0,0.0, -  
+754, 6G-15-1162 ," Electrical, Lighting Fixtures - Linear lighting - Linear Cove Light Niche-mounted Luminaires,Aluminum Profile (LC.6935) Model: BY-6535 (2090), Luminaire Size: 65mm x 35mm x 2090mm, Brand: G-Licht En C ", Length , 6-Electrical ,41,,,41.0,,,41.0,,,41.0,,,41.0,,,41.0,0.0,0.0, 41.0 
+755, 6G-15-1163 ," Electrical, Lighting Fixtures - Linear lighting - Linear Cove Light Niche-mounted Luminaires, Aluminum Profile (LC.6935) Model: BY6535-L90 (corner frame) Luminaire Size: 290mm x 290mm, Brand: G-Licht En C ", Piece , 6-Electrical ,7,,,7.0,,,7.0,,,7.0,,,7.0,,,7.0,0.0,0.0, 7.0 
+756,6G-15-1164," Electrical, Lighting Fixtures - Linear lighting - Linear Cove Light Niche-mounted Luminaires, Aluminum Profile (LC.6935) Model: BY6535-L90 (corner frame) Luminaire Size: 200mm x 290mm, Brand: G-Licht En C ", Piece , 6-Electrical ,22,,,22.0,,,22.0,,,22.0,,,22.0,,,22.0,0.0,0.0, 22.0 
+757, 6G-15-1170 ," Neon Flex LED Light Niche-mounted Luminaires (Aluminum Profile) Type: X.NL.0612, Model: NLS0612-Aluminum Carrier, Brand:G-Licht En C ", Piece , 6-Electrical ,102,,,102.0,,,102.0,,,102.0,,,102.0,,,102.0,0.0,0.0, 102.0 
+758, 6G-15-1180 ," Electrical, Lighting Fixtures - Linear lighting - Aluminum Profile, Linear Cove Light Niche-mounted Luminaires, LC.3030C ", Meter , 6-Electrical ,0,,,0.0,,,0.0,,,0.0,,,0.0,,,0.0,0.0,0.0, -  
+759,6G-15-1230," Electrical, Lighting Fixtures - Linear lighting - Mirror Light Niche-mounted Luminaires (STP.MR) Aluminum Profile Model:GL-212-M1313, Brand: G-Licht En C ", Piece , 6-Electrical ,158,,,158.0,,,158.0,,,158.0,,,158.0,,,158.0,0.0,0.0, 158.0 
+760, 6G-15-1310 ," Electrical, Lighting Fixtures - Linear lighting - Wall Signage Light Niche-mounted Luminaires (LC.WLSG) Aluminum Profile Model: GL-212-M1313, Brand: G-Licht En C, 3meters/length ", Piece , 6-Electrical ,87,,,87.0,,,87.0,,,87.0,,,87.0,,,87.0,0.0,0.0, 87.0 
+761,6G-15-2170," Electrical, Lighting Fixtures - Linear lighting - Linear Cove Light Niche-mounted Luminaires, Diffuser Type: LC.6935; Model: TR-6535-(Diffuser), Luminaire Colour: Milky White, 14meters/roll, Brand: G-Licht En C ", Rolls , 6-Electrical ,34,,,34.0,,,34.0,,,34.0,,,34.0,,,34.0,0.0,0.0, 34.0 
+762, 6G-15-2180 ," Electrical, Lighting Fixtures - Linear lighting - Linear Cove Light Niche-mounted Luminaires, Diffuser Type: LC.6935; Model: TR-6535-(Diffuser), Luminaire Colour: Milky White, 10meters/roll, Brand: G-Licht En C ", Rolls , 6-Electrical ,15,,,15.0,,,15.0,,,15.0,,,15.0,,,15.0,0.0,0.0, 15.0 
+763,6G-15-2230," Electrical, Lighting Fixtures - Linear lighting - Mirror Light Niche-mounted Luminaires (STP.MR) LED STRIP Model: DS860/2410NO9PWNDA050WS, Wattage: 4.3W/m, Voltage: 24V, Beam:123°, CCT: 3500K, Brand: G-Licht En C (3.5meters/roll) ", Roll , 6-Electrical ,0,,,0.0,,,0.0,,,0.0,,,0.0,,,0.0,0.0,0.0, -  
+764, 6G-15-6011 ," Neon Flex LED Light Niche-mounted Luminaires (Power    Supply)    Type:    X.NL.0612,    Model: HLG-240H-24A, Wattage: 240W, Voltage: 24V ", Rolls , 6-Electrical ,6,,,6.0,,,6.0,,,6.0,,,6.0,,,6.0,0.0,0.0, 6.0 
+765, 6G-16-0242 ," Steplight Square Wall Recessed-Mounted Luminaires Type: STPLT, Model: Capetown RS-835-65 (Square), Luminaire Color: Alumini Dark Gray, LED Module: 3W 155lm 220-240V, Light Colour: 3500K 80CRI, Light  ", Rolls , 6-Electrical ,27,,,27.0,,,27.0,,,27.0,,,27.0,,,27.0,0.0,0.0, 27.0 
+766, 6H-01-1151 ," DP-29F-MR: Main: [1200AT/1200AF,  3P,  400VAC,60Hz, 42Kaic MCCB] ", Assy , 6-Electrical ,0,,,0.0,,,0.0,,,0.0,,,0.0,,,0.0,0.0,0.0, -  
+767, 6H-01-1152 ," DP-9F-CHWP: Main: [2000AT/2000AF, 4P, 400VAC,60Hz,  65KAIC],   ", Assy , 6-Electrical ,0,,,0.0,,,0.0,,,0.0,,,0.0,,,0.0,0.0,0.0, -  
+768, 6H-01-1153 ," DP-29F-MR: Main: [1200AT/1200AF,  3P,  400VAC,60Hz, 42Kaic MCCB ", Assy , 6-Electrical ,0,,,0.0,,,0.0,,,0.0,,,0.0,,,0.0,0.0,0.0, -  
+769, 6H-02-2051 ," Electrical, Panelboards & Breakers - Circuit Protection - Enclosed Circuit Breaker, ECB - Chiller Main 1-1600AT/1600AF, 3P, 400VAC, 100kAIC ACB ", Piece , 6-Electrical ,0,,,0.0,,,0.0,,,0.0,,,0.0,,,0.0,0.0,0.0, -  
+770,6H-02-21311," Electrical, Panelboards & Breakers - Circuit Protection - ECB, 50AT/50AF, 1P, 230V, 10Kaic, 60Hz, Nema-1, w/ Ground Terminal and Insulated Neutral Terminal Bus. ", Assy , 6-Electrical ,3,,,3.0,,,3.0,,,3.0,,,3.0,,,3.0,0.0,0.0, 3.0 
+771, 6H-02-21312 ," Electrical, Panelboards & Breakers - Circuit Protection - ECB, 40AT/50AF, 1P, 230V, 10Kaic, 60Hz, Nema-1, w/ Ground Terminal and Insulated Neutral Terminal Bus. ", Assy , 6-Electrical ,6,,,6.0,,,6.0,,,6.0,,,6.0,,,6.0,0.0,0.0, 6.0 
+772, 6H-02-21313 ," Electrical, Panelboards & Breakers - Circuit Protection - ECB, 30AT/50AF, 1P, 230V, 10Kaic, 60Hz, Nema-1, w/ Ground Terminal and Insulated Neutral Terminal Bus. ", Assy , 6-Electrical ,4,,,4.0,,,4.0,,,4.0,,,4.0,,,4.0,0.0,0.0, 4.0 
+773,6H-02-21314," Electrical, Panelboards & Breakers - Circuit Protection - ECB, 20AT/50AF, 1P, 230V, 10Kaic, 60Hz, Nema-1, w/ Ground Terminal and Insulated Neutral Terminal Bus ", Assy , 6-Electrical ,100,,,100.0,,,100.0,,,100.0,,,100.0,,,100.0,0.0,0.0, 100.0 
+774,6H-02-21321," Electrical, Panelboards & Breakers - Circuit Protection - ECB, 225AT/250AF, 3P, 400V, 42Kaic, 60Hz, Nema-1, w/ Ground Terminal and Insulated Neutral Terminal Bus ", Assy , 6-Electrical ,2,,,2.0,,,2.0,,,2.0,,,2.0,,,2.0,0.0,0.0, 2.0 
+775,6H-02-213210," Electrical, Panelboards & Breakers - Circuit Protection - ECB, 20AT/50AF, 3P, 400V, 18Kaic, 60Hz, Nema-1, w/ Ground Terminal and Insulated Neutral Terminal Bus ", Assy , 6-Electrical ,2,,,2.0,,,2.0,,,2.0,,,2.0,,,2.0,0.0,0.0, 2.0 
+776,6H-02-21323," Electrical, Panelboards & Breakers - Circuit Protection - ECB, 70AT/100AF, 3P, 400V, 25Kaic, 60Hz, Nema-1, w/ Ground Terminal and Insulated Neutral Terminal Bus ", Assy , 6-Electrical ,1,,,1.0,,,1.0,,,1.0,,,1.0,,,1.0,0.0,0.0, 1.0 
+777, 6H-02-21325 ," Electrical, Panelboards & Breakers - Circuit Protection - ECB, 50AT/50AF, 3P, 400V, 18Kaic, 60Hz, Nema-1, w/ Ground Terminal and Insulated Neutral Terminal Bus ", Assy , 6-Electrical ,2,,,2.0,,,2.0,,,2.0,,,2.0,,,2.0,0.0,0.0, 2.0 
+778,6H-02-21326," Electrical, Panelboards & Breakers - Circuit Protection - ECB, 40AT/100AF, 3P, 400V, 25Kaic, 60Hz, Nema-1, w/ Ground Terminal and Insulated Neutral Terminal Bus ", Assy , 6-Electrical ,1,,,1.0,,,1.0,,,1.0,,,1.0,,,1.0,0.0,0.0, 1.0 
+779,6H-02-21327," Electrical, Panelboards & Breakers - Circuit Protection - ECB, 30AT/100AF, 3P, 400V, 42Kaic, 60Hz, Nema-1, w/ Ground Terminal and Insulated Neutral Terminal Bus ", Assy , 6-Electrical ,3,,,3.0,,,3.0,,,3.0,,,3.0,,,3.0,0.0,0.0, 3.0 
+780,6H-02-21328," Electrical, Panelboards & Breakers - Circuit Protection - ECB, 30AT/50AF, 3P, 400V, 18Kaic, 60Hz, Nema-1, w/ Ground Terminal and Insulated Neutral Terminal Bus ", Assy , 6-Electrical ,2,,,2.0,,,2.0,,,2.0,,,2.0,,,2.0,0.0,0.0, 2.0 
+781, 6H-02-21329 ," Electrical, Panelboards & Breakers - Circuit Protection - ECB, 20AT/100AF, 3P, 400V, 42Kaic, 60Hz, Nema-1, w/ Ground Terminal and Insulated Neutral Terminal Bus ", Assy , 6-Electrical ,21,,,21.0,,,21.0,,,21.0,,,21.0,,,21.0,0.0,0.0, 21.0 
+782, 6H-02-21411 ," Electrical, Panelboards & Breakers - Circuit Protection - ECB, 20AT/50AF, 1P, 230V, 10Kaic, 60Hz, Nema-3r, w/ Ground Terminal and Insulated Neutral Terminal Bus. ", Assy , 6-Electrical ,4,,,4.0,,,4.0,,,4.0,,,4.0,,,4.0,0.0,0.0, 4.0 
+783, 6H-02-21424 ," Electrical, Panelboards & Breakers - Circuit Protection - ECB, 125AT/250AF, 3P, 400V, 42Kaic, 60Hz, Nema-3r, w/ Ground Terminal and Insulated Neutral Terminal Bus ", Assy , 6-Electrical ,5,,,5.0,,,5.0,,,5.0,,,5.0,,,5.0,0.0,0.0, 5.0 
+784, 6H-02-21426 ," Electrical, Panelboards & Breakers - Circuit Protection - ECB, 70AT/100AF, 3P, 400V, 18Kaic, 60Hz, Nema-3r, w/ Ground Terminal and Insulated Neutral Terminal Bus ", Assy , 6-Electrical ,4,,,4.0,,,4.0,,,4.0,,,4.0,,,4.0,0.0,0.0, 4.0 
+785,6H-03-21151," Electrical, Panelboards & Breakers - Distribution Panel - Power Supply (LC.3840) Model: APV-V24-35, Wattage: 35W, Voltage, 24V, Brand: Meanwell ", Piece , 6-Electrical ,0,,,0.0,,,0.0,,,0.0,,,0.0,,,0.0,0.0,0.0, -  
+786, 6H-03-21152 ," Electrical, Panelboards & Breakers - Distribution Panel - Power Supply (LC.3030C) Model: APV-V24-35, Wattage: 35W, Voltage, 24V, Brand: Meanwell ", Piece , 6-Electrical ,1,,,1.0,,,1.0,,,1.0,,,1.0,,,1.0,0.0,0.0, 1.0 
+787,6H-03-2131," Electrical, Panelboards & Breakers - Distribution Panel - Power Supply (LC.6935) Model: LRS-150-24, Wattage: 150W, Voltage: 24V ", Piece , 6-Electrical ,40,,,40.0,,,40.0,,,40.0,,,40.0,,,40.0,0.0,0.0, 40.0 
+788,6H-03-2141," Electrical, Panelboards & Breakers - Distribution Panel - Power Supply (STP.MR) Model: APV-V24-35, Wattage: 35W, Voltage: 24V ", Piece , 6-Electrical ,0,,,0.0,,,0.0,,,0.0,,,0.0,,,0.0,0.0,0.0, -  
+789,6H-03-2241," Electrical, Panelboards & Breakers - Distribution Panel - Power Supply (LC.6935) Model: BN-24V-100P,  Wattage: 100W,  Voltage: 24V,   Brand: G-Licht En C ", Piece , 6-Electrical ,63,,,63.0,,,63.0,,,63.0,,,63.0,,,63.0,0.0,0.0, 63.0 
+790,6H-03-2301," Electrical, Panelboards & Breakers - Distribution Panel - Power Supply, Meanwell; 100W ", Piece , 6-Electrical ,0,,,0.0,,,0.0,,,0.0,,,0.0,,,0.0,0.0,0.0, -  
+791, 6H-03-3101 ," Automatic Transfer Switch- 1200AT, 4P, 400V : Fabricated and Assembled in Free Standing Enclosure, Nema-3R, Gauge #14 with Neutral Bus, Ground Bus and Terminal Lugs; 1-ATS Rated at 1200A,  4P,  400V,  Change-over  type,  MH;  ", Assy , 6-Electrical ,0,,,0.0,,,0.0,,,0.0,,,0.0,,,0.0,0.0,0.0, -  
+792, 6H-03-4101 ," Manual Transfer Switch- 250Amps, 4P, 400V : Fabricated & Assembled in Surface Mounted Enclosure, Nema-3R, ", Assy , 6-Electrical ,0,,,0.0,,,0.0,,,0.0,,,0.0,,,0.0,0.0,0.0, -  
+793, 6H-03-4201 ," Manual Transfer  Switch  -  400Amps,  4P,  400V  : Fabricated & Assembled in surface mounted enclosure, Nema-3R ", Assy , 6-Electrical ,0,,,0.0,,,0.0,,,0.0,,,0.0,,,0.0,0.0,0.0, -  
+794, 6H-03-4301 ," Manual Transfer Switch- 2000Amps, 4P, 400V: Fabricated & assembled in free standing enclosure, Nema-3R ", Assy , 6-Electrical ,0,,,0.0,,,0.0,,,0.0,,,0.0,,,0.0,0.0,0.0, -  
+795,6I-01-10002," Electrical, Pipes & Fittings - Electrical Pipes - IMC Elbow, 3 1/2""Ã˜ ", Piece , 6-Electrical ,2,,,2.0,,,2.0,,,2.0,,,2.0,,,2.0,0.0,0.0, 2.0 
+796, 6I-01-10004 ," Electrical, Pipes & Fittings - Electrical Pipes - IMC Elbow, 2 1/2""Ã˜ ", Piece , 6-Electrical ,72,,,72.0,,,72.0,,,72.0,,,72.0,,,72.0,0.0,0.0, 72.0 
+797,6I-01-10005," Electrical, Pipes & Fittings - Electrical Pipes - IMC Elbow, 2""Ã˜ ", Piece , 6-Electrical ,37,,,37.0,,,37.0,,,37.0,,,37.0,,,37.0,0.0,0.0, 37.0 
+798,6I-01-1001," Electrical, Pipes & Fittings - Electrical Pipes - PVC Pipe, 110mmÃ˜ ", Length_3 , 6-Electrical ,30,,,30.0,,,30.0,,,30.0,,,30.0,,,30.0,0.0,0.0, 30.0 
+799,6I-01-1007," Electrical, Pipes & Fittings - Electrical Pipes - PVC Pipe, 32mmÃ˜ ", Length_3 , 6-Electrical ,368,,,368.0,,,368.0,,,368.0,,,368.0,,,368.0,0.0,0.0, 368.0 
+800,6I-01-1008," Electrical, Pipes & Fittings - Electrical Pipes - PVC Pipe, 25mmÃ˜ ", Length_3 , 6-Electrical ,34,,,34.0,,,34.0,,,34.0,,,34.0,,,34.0,0.0,0.0, 34.0 
+801,6I-01-1009," Electrical, Pipes & Fittings - Electrical Pipes - PVC Pipe, 20mmÃ˜ ", Length_3 , 6-Electrical ,289,,,289.0,,,289.0,,,289.0,,,289.0,,,289.0,0.0,0.0, 289.0 
+802,6I-01-11003," Electrical, Pipes & Fittings - Electrical Pipes - EMT Pipes, 1 1/4""Ã˜ ", Length_3 , 6-Electrical ,390,,,390.0,,,390.0,,,390.0,,,390.0,,,390.0,0.0,0.0, 390.0 
+803,6I-01-11004," Electrical, Pipes & Fittings - Electrical Pipes - EMT Pipes, 1""Ã˜ ", Length_3 , 6-Electrical ,107,,,107.0,,,107.0,,,107.0,,,107.0,,,107.0,0.0,0.0, 107.0 
+804, 6I-01-11005 ," Electrical, Pipes & Fittings - Electrical Pipes - EMT Pipes, 3/4""Ã˜ ", Length_3 , 6-Electrical ,990,,,990.0,,,990.0,,,990.0,,,990.0,,,990.0,0.0,0.0, 990.0 
+805,6I-01-11006," Electrical, Pipes & Fittings - Electrical Pipes - EMT Pipes, 1/2""Ã˜ ", Length_3 , 6-Electrical ,0,,,0.0,,,0.0,,,0.0,,,0.0,,,0.0,0.0,0.0, -  
+806, 6I-01-13101 ," Electrical, Pipes & Fittings - Electrical Pipes - EMT Coupling, Compression Type, 2""Ã˜ ", Piece , 6-Electrical ,0,,,0.0,,,0.0,,,0.0,,,0.0,,,0.0,0.0,0.0, -  
+807, 6I-01-13103 ," Electrical, Pipes & Fittings - Electrical Pipes - EMT Coupling, Compression Type, 1 1/4""Ã˜ ", Piece , 6-Electrical ,0,,,0.0,,,0.0,,,0.0,,,0.0,,,0.0,0.0,0.0, -  
+808, 6I-01-13104 ," Electrical, Pipes & Fittings - Electrical Pipes - EMT Coupling, Compression Type, 1""Ã˜ ", Piece , 6-Electrical ,0,,,0.0,,,0.0,,,0.0,,,0.0,,,0.0,0.0,0.0, -  
+809, 6I-01-13105 ," Electrical, Pipes & Fittings - Electrical Pipes - EMT Coupling, Compression Type, 3/4""Ã˜ ", Piece , 6-Electrical ,0,,,0.0,,,0.0,,,0.0,,,0.0,,,0.0,0.0,0.0, -  
+810,6I-01-13106," Electrical, Pipes & Fittings - Electrical Pipes - EMT Coupling, Compression Type, 1/2""Ã˜ ", Piece , 6-Electrical ,0,,,0.0,,,0.0,,,0.0,,,0.0,,,0.0,0.0,0.0, -  
+811, 6I-01-14101 ," Electrical, Pipes & Fittings - Electrical Pipes - EMT Adaptor, Compression Type, 2""Ã˜ ", Piece , 6-Electrical ,0,,,0.0,,,0.0,,,0.0,,,0.0,,,0.0,0.0,0.0, -  
+812, 6I-01-14104 ," Electrical, Pipes & Fittings - Electrical Pipes - EMT Adaptor, Compression Type, 1""Ã˜ ", Piece , 6-Electrical ,0,,,0.0,,,0.0,,,0.0,,,0.0,,,0.0,0.0,0.0, -  
+813,6I-01-14106," Electrical, Pipes & Fittings - Electrical Pipes - EMT Adaptor, Compression Type, 1/2""Ã˜ ", Piece , 6-Electrical ,0,,,0.0,,,0.0,,,0.0,,,0.0,,,0.0,0.0,0.0, -  
+814,6I-01-14107," Electrical, Pipes & Fittings - Electrical Pipes - EMT Adaptor, Compression Type, 1 1/4""Ã˜ w/ locknut ", Piece , 6-Electrical ,747,,,747.0,,,747.0,,,747.0,,,747.0,,,747.0,0.0,0.0, 747.0 
+815, 6I-01-14108 ," Electrical, Pipes & Fittings - Electrical Pipes - EMT Adaptor,Compression Type-1/2""Ø w/ locknut & bushing ", Piece , 6-Electrical ,0,,,0.0,,,0.0,,,0.0,,,0.0,,,0.0,0.0,0.0, -  
+816, 6I-01-14109 ," Electrical, Pipes & Fittings - Electrical Pipes - EMT Adaptor,Compression Type-1""Ø w/ locknut & bushing ", Piece , 6-Electrical ,0,,,0.0,,,0.0,,,0.0,,,0.0,,,0.0,0.0,0.0, -  
+817,6I-01-15003," IMC Locknut, 3"" (80mm dia), McGill ", Piece ,6-Electrical,440,,,440.0,,,440.0,,,440.0,,,440.0,,,440.0,0.0,0.0, 440.0 
+818, 6I-01-15004 ," Electrical, Pipes & Fittings - Electrical Pipes - Pipe Locknut, 2 1/2""Ã˜ ", Piece , 6-Electrical ,0,,,0.0,,,0.0,,,0.0,,,0.0,,,0.0,0.0,0.0, -  
+819,6I-01-15101," Electrical, Pipes & Fittings - Electrical Pipes - EMT Connector w/ locknut and bushing 1/2"" (Mc Gill) ", Piece , 6-Electrical ,0,,,0.0,,,0.0,,,0.0,,,0.0,,,0.0,0.0,0.0, -  
+820,6I-01-160010," Electrical, Pipes & Fittings - Electrical Pipes - Pipe Bushing, 1/2""Ã˜ ", Piece , 6-Electrical ,0,,,0.0,,,0.0,,,0.0,,,0.0,,,0.0,0.0,0.0, -  
+821, 6I-01-16004 ," Electrical, Pipes & Fittings - Electrical Pipes - Pipe Bushing, 2 1/2""Ã˜ ", Piece , 6-Electrical ,0,,,0.0,,,0.0,,,0.0,,,0.0,,,0.0,0.0,0.0, -  
+822, 6I-01-16005 ," Bushing - Pipe Bushing, 2"" ", Piece , 6-Electrical ,24,,,24.0,,,24.0,,,24.0,,,24.0,,,24.0,0.0,0.0, 24.0 
+823, 6I-01-16007 ," Electrical, Pipes & Fittings - Electrical Pipes - Pipe Bushing, 1 1/4""Ã˜ ", Piece , 6-Electrical ,0,,,0.0,,,0.0,,,0.0,,,0.0,,,0.0,0.0,0.0, -  
+824, 6I-01-17011 ," Electrical, Pipes & Fittings - Electrical Pipes - IMC Locknut (2""dia) (50 mm dia) ", Piece , 6-Electrical ,0,,,0.0,,,0.0,,,0.0,,,0.0,,,0.0,0.0,0.0, -  
+825,6I-01-4007," Electrical, Pipes & Fittings - Electrical Pipes - PVC Adaptor, 32mmÃ˜ ", Piece ,6-Electrical,0,,,0.0,,,0.0,,,0.0,,,0.0,,,0.0,0.0,0.0, -  
+826,6I-01-4008," Electrical, Pipes & Fittings - Electrical Pipes - PVC Adaptor, 25mmÃ˜ ", Piece ,6-Electrical,85,,,85.0,,,85.0,,,85.0,,,85.0,,,85.0,0.0,0.0, 85.0 
+827,6I-01-8001," Electrical, Pipes & Fittings - Electrical Pipes - IMC Pipes, 4""Ã˜ ", Length_3 , 6-Electrical ,82,,,82.0,,,82.0,,,82.0,,,82.0,,,82.0,0.0,0.0, 82.0 
+828,6I-01-8003," Electrical, Pipes & Fittings - Electrical Pipes - IMC Pipes, 3""Ã˜ ", Length_3 , 6-Electrical ,18,,,18.0,,,18.0,,,18.0,,,18.0,,,18.0,0.0,0.0, 18.0 
+829, 6I-01-8004 ," Electrical, Pipes & Fittings - Electrical Pipes - IMC Pipes, 2 1/2""Ã˜ ", Length_3 , 6-Electrical ,0,,,0.0,,,0.0,,,0.0,,,0.0,,,0.0,0.0,0.0, -  
+830, 6I-01-8005 ," Electrical, Pipes & Fittings - Electrical Pipes - IMC Pipes, 2""Ã˜ ", Piece , 6-Electrical ,0,,,0.0,,,0.0,,,0.0,,,0.0,,,0.0,0.0,0.0, -  
+831,6I-01-8013," Electrical, Pipes & Fittings - Electrical Pipes - IMC Pipes, w/ coupling, 3""Ã˜ ", Length_3 , 6-Electrical ,13,,,13.0,,,13.0,,,13.0,,,13.0,,,13.0,0.0,0.0, 13.0 
+832,6I-01-8014," Electrical, Pipes & Fittings - Electrical Pipes - IMC Pipes, w/ coupling, 2 1/2""Ã˜ ", Length_3 , 6-Electrical ,73,,,73.0,,,73.0,,,73.0,,,73.0,,,73.0,0.0,0.0, 73.0 
+833, 6I-01-8105 ," Electrical, Pipes & Fittings - Electrical Pipes - IMC Pipes, w/ Coupling, 2""Ã˜ ", Length_3 , 6-Electrical ,114,,,114.0,,,114.0,,,114.0,,,114.0,,,114.0,0.0,0.0, 114.0 
+834, 6I-01-9003 ," Electrical, Pipes & Fittings - Electrical Pipes - IMC Coupling, 3""Ã˜ ", Length_3 , 6-Electrical ,78,,,78.0,,,78.0,,,78.0,,,78.0,,,78.0,0.0,0.0, 78.0 
+835, 6I-02-2003 ," Electrical, Pipes & Fittings - Electrical Felxible Hose - Liquidtight Straight Connectotor, 2 1/2""Ã˜ ", Piece , 6-Electrical ,0,,,0.0,,,0.0,,,0.0,,,0.0,,,0.0,0.0,0.0, -  
+836,6I-02-4006," Electrical, Pipes & Fittings - Electrical Felxible Hose - Metal Flexible Conduit, 1/2""Ã˜ ", Meter , 6-Electrical ,311,,,311.0,,,311.0,,,311.0,,,311.0,,,311.0,0.0,0.0, 311.0 
+837, 6I-02-50011 ," Electrical, Pipes & Fittings - Electrical Felxible Hose - Metal Flexible Straight Connector,-1/2""Ø w/locknut & bushing ", Piece , 6-Electrical ,0,,,0.0,,,0.0,,,0.0,,,0.0,,,0.0,0.0,0.0, -  
+838, 6I-02-5004 ," Electrical, Pipes & Fittings - Electrical Felxible Hose - Metal Flexible Straight Connector, 1""Ã˜ ", Piece , 6-Electrical ,0,,,0.0,,,0.0,,,0.0,,,0.0,,,0.0,0.0,0.0, -  
+839,6I-02-5006," Electrical, Pipes & Fittings - Electrical Felxible Hose - Metal Flexible Straight Connector, 1/2""Ã˜ ", Piece , 6-Electrical ,932,,,932.0,,,932.0,,,932.0,,,932.0,,,932.0,0.0,0.0, 932.0 
+840,6I-02-5011," Electrical, Pipes & Fittings - Electrical Felxible Hose - Metal Flexible Straight Connector, 2 1/2"" dia w/ locknut & bushing ", Piece , 6-Electrical ,121,,,121.0,,,121.0,,,121.0,,,121.0,,,121.0,0.0,0.0, 121.0 
+841, 6I-02-9001 ," Electrical, Pipes & Fittings - Electrical Felxible Hose - Circular Loom, 1/2""Ø ", Roll_60mtrs , 6-Electrical ,0,,,0.0,,,0.0,,,0.0,,,0.0,,,0.0,0.0,0.0, -  
+842, 6J-01-1001 ," Electrical, Miscellaneous - Consumables - Cable Tie, 4.8mm x 150mm ", Pack , 6-Electrical ,0,,,0.0,,,0.0,,,0.0,,,0.0,,,0.0,0.0,0.0, -  
+843, 6J-01-10014 ," Electrical, Miscellaneous - Consumables - Cable Tie, 5mm x 400mm ", Pack , 6-Electrical ,0,,,0.0,,,0.0,,,0.0,,,0.0,,,0.0,0.0,0.0, -  
+844, 6J-01-10015 ," Electrical, Miscellaneous - Consumables - Cable Tie, 8mm x 300mm ", Pack , 6-Electrical ,0,,,0.0,,,0.0,,,0.0,,,0.0,,,0.0,0.0,0.0, -  
+845,6J-01-1002," Electrical, Miscellaneous - Consumables - Cable Tie, 4.8mm x 200mm ", Packs_100pcs , 6-Electrical ,20,,,20.0,,,20.0,,,20.0,,,20.0,,,20.0,0.0,0.0, 20.0 
+846,6J-01-1004," Electrical, Miscellaneous - Consumables - Cable Tie, 4.8mm x 300mm ", Pack_100pcs , 6-Electrical ,0,,,0.0,,,0.0,,,0.0,,,0.0,,,0.0,0.0,0.0, -  
+847, 6J-01-11115 , Cable Tie - 7.6mm x 350mm (100 pcs/pack) , Pack , 6-Electrical ,40,,,40.0,,,40.0,,,40.0,,,40.0,,,40.0,0.0,0.0, 40.0 
+848,6J-01-2012," Electrical, Miscellaneous - Consumables - Electrical Tape, Black, 3/4"" ", Piece , 6-Electrical ,130,,,130.0,,,130.0,,,130.0,,,130.0,,,130.0,0.0,0.0, 130.0 
+849,6J-01-3001," Electrical, Miscellaneous - Consumables - Electrical Tape, Rubber, 3/4"" ", Piece , 6-Electrical ,179,,,179.0,,,179.0,,,179.0,,,179.0,,,179.0,0.0,0.0, 179.0 
+850, 6J-01-6000 ," Electrical, Miscellaneous - Consumables - Butane Gas ", Piece , 6-Electrical ,520,,,520.0,,,520.0,,,520.0,,,520.0,,,520.0,0.0,0.0, 520.0 
+851, 6J-01-8100 ," Electrical, Miscellaneous - Consumables - Wire Pulling Lubricant, Gel WL-1 ", Liter_3.78 , 6-Electrical ,7,,,7.0,,,7.0,,,7.0,,,7.0,,,7.0,0.0,0.0, 7.0 
+852, 6J-01-9111 ," Electrical, Miscellaneous - Consumables - Butyl Rubber Tape Self Fusing, 3/4"" Nitto ", Sheet , 6-Electrical ,3,,,3.0,,,3.0,,,3.0,,,3.0,,,3.0,0.0,0.0, 3.0 
+853, 7A-03-1111 ," Terminal Lugs (Insulated Y-Type, Black, Model No. V2-4Y), AWG no. 16-14, 100pcs/pack ", Piece , 7-Contorl System/Instrumentation ,56,,,56.0,,,56.0,,,56.0,,,56.0,,,56.0,0.0,0.0, 56.0 
+854, 7A-03-1121 ," Control Systems/Instrumentation, FDAS - FDAS system - Terminal Lugs (Insulated Y-Type, Blue, Model No. SV2-3.2), 100pcs/pack) ", Pack , 6-Electrical ,0,,,0.0,,,0.0,,,0.0,,,0.0,,,0.0,0.0,0.0, -  
+855,7C-02-5800," ALANTEK 2 CORE SM G657A2 FTTH DROP CABLE, STEEL WIRE MEMBER, LSZH (306- FTH702-SWLS) ", length_0.5 ,7-Contorl System/Instrumentation,"2,000",,,"2,000.0",,,"2,000.0",,,"2,000.0",,,"2,000.0",,,"2,000.0",0.0,0.0," 2,000.0 "
+856,8A-01-10000," Paint/Insulation, Paints - Exterior Applications - Epoxy Primer with Curing Agents ", Liter_3.75 , 8-Paint/Insulation ,8,,,8.0,,,8.0,,,8.0,,,8.0,,,8.0,0.0,0.0, 8.0 
+857, 8A-01-13500 ," Paints - Flat Latex, White B-701, 16L UOM: Liters_16 ", Pail_16L , 8-Paint/Insulation ,0,,,0.0,,,0.0,,,0.0,,,0.0,,,0.0,0.0,0.0, -  
+858, 8A-01-17110 ," Paint/Insulation, Paints - Exterior Applications - Marine Epoxy, Gray, A&B ", Set , 8-Paint/Insulation ,0,,,0.0,,,0.0,,,0.0,,,0.0,,,0.0,0.0,0.0, -  
+859, 8A-01-17210 ," Paint/Insulation, Paints - Exterior Applications - Marine Epoxy, High Viscosity, Cord ", Liter_3.75 , 8-Paint/Insulation ,7,,,7.0,,,7.0,,,7.0,,,7.0,,,7.0,0.0,0.0, 7.0 
+860,8A-01-18310," Paint/Insulation, Paints - Exterior Applications - Metal Primer, Red Oxide, No. 310 ", Gallon , 8-Paint/Insulation ,0,,,0.0,,,0.0,,,0.0,,,0.0,,,0.0,0.0,0.0, -  
+861, 8A-01-19500 ," Paint/Insulation, Paints - Exterior Applications - Permacoat Flat Latex, Black ", Liter , 8-Paint/Insulation ,1,,,1.0,,,1.0,,,1.0,,,1.0,,,1.0,0.0,0.0, 1.0 
+862, 8A-01-9201 ," Epoxy Primer, Gray, 4L ", Gallon , 8-Paint/Insulation ,6,,,6.0,,,6.0,,,6.0,,,6.0,,,6.0,0.0,0.0, 6.0 
+863, 8A-01-9210 ," Paint/Insulation, Paints - Exterior Applications - Epoxy Primer, Gray, with Catalyst ", Liter_3.75 , 8-Paint/Insulation ,0,,,0.0,,,0.0,,,0.0,,,0.0,,,0.0,0.0,0.0, -  
+864,8A-03-15701," Paint/Insulation, Paints - Interior Applications - Permacoat Latex, Porpoise, Semi-Gloss ", Liter_16 , 8-Paint/Insulation ,146,,,146.0,,,146.0,,,146.0,,,146.0,,,146.0,0.0,0.0, 146.0 
+865,8A-05-2006," Paint/Insulation, Paints - Tools - Paint Brush, 2"" ", Piece , 8-Paint/Insulation ,0,,,0.0,,,0.0,,,0.0,,,0.0,,,0.0,0.0,0.0, -  
+866,8A-05-2007," Paint/Insulation, Paints - Tools - Paint Brush, 3"" ", Piece , 8-Paint/Insulation ,2,,,2.0,,,2.0,,,2.0,,,2.0,,,2.0,0.0,0.0, 2.0 
+867,8A-05-2009," Paint/Insulation, Paints - Tools - Paint Brush, 4"" ", Piece , 8-Paint/Insulation ,6,,,6.0,,,6.0,,,6.0,,,6.0,,,6.0,0.0,0.0, 6.0 
+868, 8A-05-3001 ," Paint/Insulation, Paints - Tools - Paint Roller, 4"" ", Piece , 8-Paint/Insulation ,0,,,0.0,,,0.0,,,0.0,,,0.0,,,0.0,0.0,0.0, -  
+869, 8A-05-3002 ," Paints - Tools - Paint Roller, 7"" ", Piece , 8-Paint/Insulation ,0,,,0.0,,,0.0,,,0.0,,,0.0,,,0.0,0.0,0.0, -  
+870, 8A-05-3003 ," Paint/Insulation, Paints - Tools - Paint Roller, 8"" ", Piece , 8-Paint/Insulation ,0,,,0.0,,,0.0,,,0.0,,,0.0,,,0.0,0.0,0.0, -  
+871, 8A-05-3101 ," Paints - Paint Roller, with handle, 4"" ", Piece , 8-Paint/Insulation ,7,,,7.0,,,7.0,,,7.0,,,7.0,,,7.0,0.0,0.0, 7.0 
+872, 8A-05-3103 ," Paints - Paint Roller, with handle, 7"" ", Piece , 8-Paint/Insulation ,3,,,3.0,,,3.0,,,3.0,,,3.0,,,3.0,0.0,0.0, 3.0 
+873, 8A-05-3201 ," Paints - Tools - Paint Roller, Refill, 4"" ", Piece , 8-Paint/Insulation ,19,,,19.0,,,19.0,,,19.0,,,19.0,,,19.0,0.0,0.0, 19.0 
+874, 8A-05-3401 ," Paints - Tools - Paint Roller, Cotton, 4"" ", Piece , 8-Paint/Insulation ,19,,,19.0,,,19.0,,,19.0,,,19.0,,,19.0,0.0,0.0, 19.0 
+875, 8A-05-3904 ," Paint/Insulation, Paints - Tools - Paint Roller, Foam ", Piece , 8-Paint/Insulation ,5,,,5.0,,,5.0,,,5.0,,,5.0,,,5.0,0.0,0.0, 5.0 
+876,8A-06-7000," Paint/Insulation, Paints - Solvents/Thinners - Lacquer Thinner ", Liter_3.75 , 8-Paint/Insulation ,9,,,9.0,,,9.0,,,9.0,,,9.0,,,9.0,0.0,0.0, 9.0 
+877, 8A-06-7001 ," Lacquer Thinner, 3.75L ", Gallon , 8-Paint/Insulation ,11,,,11.0,,,11.0,,,11.0,,,11.0,,,11.0,0.0,0.0, 11.0 
+878, 8A-06-8000 ," Paint/Insulation, Paints - Solvents/Thinners - Muriatic Acid ", Gallon , 8-Paint/Insulation ,13,,,13.0,,,13.0,,,13.0,,,13.0,,,13.0,0.0,0.0, 13.0 
+879, 8A-06-9002 ," Paint/Insulation, Paints - Solvents/Thinners - Paint Thinner, 4L ", Gallon , 8-Paint/Insulation ,0,,,0.0,,,0.0,,,0.0,,,0.0,,,0.0,0.0,0.0, -  
+880, 8A-07-140120 ," Paint/Insulation, Paints - Surface Preparation - SandpaperNo. 1000 ", Sheet , 8-Paint/Insulation ,0,,,0.0,,,0.0,,,0.0,,,0.0,,,0.0,0.0,0.0, -  
+881, 8A-07-14040 , Sandpaper No. 100 , Roll_50mtr , 8-Paint/Insulation ,0,,,0.0,,,0.0,,,0.0,,,0.0,,,0.0,0.0,0.0, -  
+882, 8A-07-17010 ," Skimcoat, Fine Gray ", Bag_25kg , 8-Paint/Insulation ,180,,,180.0,,,180.0,,,180.0,,,180.0,,,180.0,0.0,0.0, 180.0 
+883, 8A-09-11200 ," Paint/Insulation, Paints - Wood/Metal Applications - Quick Drying Enamel, International Red ", Liter_3.75 , 8-Paint/Insulation ,36,,,36.0,,,36.0,,,36.0,,,36.0,,,36.0,0.0,0.0, 36.0 
+884, 8A-09-14101 ," Paint/Insulation, Paints - Wood/Metal Applications - Quick Drying Enamel, International Red , 4L ", Gallon , 8-Paint/Insulation ,201,,,201.0,,,201.0,,,201.0,,,201.0,,,201.0,0.0,0.0, 201.0 
+885,8A-09-14410," Paint/Insulation, Paints - Wood/Metal Applications - Quick Drying Enamel, Royal Blue , B640 ", Liter_3.75 , 8-Paint/Insulation ,7,,,7.0,,,7.0,,,7.0,,,7.0,,,7.0,0.0,0.0, 7.0 
+886, 8B-04-1005 ," Paint/Insulation, Insulation - Mechanical Insulation - Rubber, 2 1/8"" x 3/8"" x 6' (1.8m) ", Piece , 8-Paint/Insulation ,"2,650",,,"2,650.0",,,"2,650.0",,,"2,650.0",,,"2,650.0",,,"2,650.0",0.0,0.0," 2,650.0 "
+887, 9A-01-1301 ," Miscellaneous, PPE - Foot Protection - Steel Toe and Full Metal Sole Safety Shoes, High Cut, Size: 38 ", Pair , 9-Miscellaneous ,0,,,0.0,,,0.0,,,0.0,,,0.0,,,0.0,0.0,0.0, -  
+888, 9A-01-13010 , Miscellaneous-PPE-Foot Protection-Steel Toe and Full Metal Sole Safety Shoes-High Cut-Size: 39 , Pair , 9-Miscellaneous ,0,,,0.0,,,0.0,,,0.0,,,0.0,,,0.0,0.0,0.0, -  
+889, 9A-01-13011 , Miscellaneous-PPE-Foot Protection-Steel Toe and Full Metal Sole Safety Shoes-High Cut-Size: 44 , Pair , 9-Miscellaneous ,0,,,0.0,,,0.0,,,0.0,,,0.0,,,0.0,0.0,0.0, -  
+890, 9A-01-1302 ," Miscellaneous, PPE - Foot Protection - Steel Toe and Full Metal Sole Safety Shoes, High Cut, Size: 40 ", Pair , 9-Miscellaneous ,0,,,0.0,,,0.0,,,0.0,,,0.0,,,0.0,0.0,0.0, -  
+891, 9A-01-1303 ," Miscellaneous, PPE - Foot Protection - Steel Toe and Full Metal Sole Safety Shoes, High Cut, Size: 41 ", Pair , 9-Miscellaneous ,0,,,0.0,,,0.0,,,0.0,,,0.0,,,0.0,0.0,0.0, -  
+892, 9A-01-1304 ," Miscellaneous, PPE - Foot Protection - Steel Toe and Full Metal Sole Safety Shoes, High Cut, Size: 42 ", Pair , 9-Miscellaneous ,0,,,0.0,,,0.0,,,0.0,,,0.0,,,0.0,0.0,0.0, -  
+893, 9A-01-1305 ," Miscellaneous, PPE - Foot Protection - Steel Toe and Full Metal Sole Safety Shoes, High Cut, Size: 43 ", Pair , 9-Miscellaneous ,0,,,0.0,,,0.0,,,0.0,,,0.0,,,0.0,0.0,0.0, -  
+894, 9A-02-2012 ," Miscellaneous, PPE - Head, Face and Eyes Protection - Goggles, Fog Resistance, Larger Lens ", Piece , 9-Miscellaneous ,0,,,0.0,,,0.0,,,0.0,,,0.0,,,0.0,0.0,0.0, -  
+895,9A-02-3113," Miscellaneous, PPE -  Head, Face and Eyes Protection - Hard Hat, General , 2200 Volts Resistance, Size-Large ", Piece , 9-Miscellaneous ,111,,,111.0,,,111.0,,,111.0,,,111.0,,,111.0,0.0,0.0, 111.0 
+896,9A-02-3333," Miscellaneous, PPE -  Head, Face and Eyes Protection - White Hard Hat , Conductive, 0 Volts Resistance, Size-Large ", Piece , 9-Miscellaneous ,57,,,57.0,,,57.0,,,57.0,,,57.0,,,57.0,0.0,0.0, 57.0 
+897,9A-02-3333," Miscellaneous, PPE -  Head, Face and Eyes Protection - White Hard Hat , Conductive, 0 Volts Resistance, Size-Large ", Piece , 9-Miscellaneous ,57,,,57.0,,,57.0,,,57.0,,,57.0,,,57.0,0.0,0.0, 57.0 
+898,9A-02-3333," Miscellaneous, PPE -  Head, Face and Eyes Protection - White Hard Hat , Conductive, 0 Volts Resistance, Size-Large ", Piece , 9-Miscellaneous ,57,,,57.0,,,57.0,,,57.0,,,57.0,,,57.0,0.0,0.0, 57.0 
+899,9A-02-3333," Miscellaneous, PPE -  Head, Face and Eyes Protection - White Hard Hat , Conductive, 0 Volts Resistance, Size-Large ", Piece , 9-Miscellaneous ,57,,,57.0,,,57.0,,,57.0,,,57.0,,,57.0,0.0,0.0, 57.0 
+900,9A-02-3333," Miscellaneous, PPE -  Head, Face and Eyes Protection - White Hard Hat , Conductive, 0 Volts Resistance, Size-Large ", Piece , 9-Miscellaneous ,57,,,57.0,,,57.0,,,57.0,,,57.0,,,57.0,0.0,0.0, 57.0 
+901,9A-02-8001," Miscellaneous-PPE- Head, Face and Eyes Protection-Welding Glass-Dark 2 x 4 ", Piece , 9-Miscellaneous ,41,,,41.0,,,41.0,,,41.0,,,41.0,,,41.0,0.0,0.0, 41.0 
+902,9A-02-8101," Miscellaneous-PPE- Head, Face and Eyes Protection-Welding Glass-Clear No. 10-2.7mm x 2"" x 4.25"" ", Piece , 9-Miscellaneous ,20,,,20.0,,,20.0,,,20.0,,,20.0,,,20.0,0.0,0.0, 20.0 
+903,9A-02-8301," Miscellaneous-PPE- Head, Face and Eyes Protection-Welding Glass-Dark Lens No. 10-2.7mm x 2"" x 4.25"" ", Piece , 9-Miscellaneous ,13,,,13.0,,,13.0,,,13.0,,,13.0,,,13.0,0.0,0.0, 13.0 
+904, 9A-03-1010 ," Miscellaneous, PPE - Nose, Ears and Mouth Protection - Ear Plug, 24 to 25 dB ", Piece , 9-Miscellaneous ,437,,,437.0,,,437.0,,,437.0,,,437.0,,,437.0,0.0,0.0, 437.0 
+905,9A-03-3200," Miscellaneous, PPE - Nose, Ears and Mouth Protection - Mask, Chemical ", Piece , 9-Miscellaneous ,18,,,18.0,,,18.0,,,18.0,,,18.0,,,18.0,0.0,0.0, 18.0 
+906, 9A-03-3300 ," Miscellaneous-PPE-Nose, Ears and Mouth Protection-Mask, Full Respiratory Gas Mask (Respirator) ", Piece , 9-Miscellaneous ,6,,,6.0,,,6.0,,,6.0,,,6.0,,,6.0,0.0,0.0, 6.0 
+907, 9A-03-4100 ," Miscellaneous, PPE - Nose, Ears and Mouth Protection - Cartridge, RC201- Extreme Dust ", Piece , 9-Miscellaneous ,160,,,160.0,,,160.0,,,160.0,,,160.0,,,160.0,0.0,0.0, 160.0 
+908, 9A-04-1700 ," Miscellaneous, PPE - Hand Protection - Hand Gloves, Reflective Traffic ", Piece , 9-Miscellaneous ,25,,,25.0,,,25.0,,,25.0,,,25.0,,,25.0,0.0,0.0, 25.0 
+909, 9A-04-1800 ," Hand Gloves, Welding Gloves ", Pair , 9-Miscellaneous ,8,,,8.0,,,8.0,,,8.0,,,8.0,,,8.0,0.0,0.0, 8.0 
+910, 9A-05-4002 ," Miscellaneous, PPE - Body Protection - Welding Apron, Size-Medium ", Piece , 9-Miscellaneous ,6,,,6.0,,,6.0,,,6.0,,,6.0,,,6.0,0.0,0.0, 6.0 
+911, 9A-05-5004 ," Miscellaneous-PPE-Body Protection-Plain Long Sleeve--White, Size-X-Large ", Piece , 9-Miscellaneous ,0,,,0.0,,,0.0,,,0.0,,,0.0,,,0.0,0.0,0.0, -  
+912, 9A-05-5014 ," Miscellaneous-PPE-Body Protection-Plain Long Sleeve--Yellow, Size-X-Large ", Piece , 9-Miscellaneous ,0,,,0.0,,,0.0,,,0.0,,,0.0,,,0.0,0.0,0.0, -  
+913, 9A-05-5023 ," Miscellaneous-PPE-Body Protection-Plain Long Sleeve--Orange, Size-Large ", Piece , 9-Miscellaneous ,0,,,0.0,,,0.0,,,0.0,,,0.0,,,0.0,0.0,0.0, -  
+914, 9A-05-5024 ," Miscellaneous-PPE-Body Protection-Plain Long Sleeve--Orange, Size-X-Large ", Piece , 9-Miscellaneous ,0,,,0.0,,,0.0,,,0.0,,,0.0,,,0.0,0.0,0.0, -  
+915,9A-05-5034," Miscellaneous-PPE-Body Protection-Plain Long Sleeve--Green, Size-X-Large ", Piece , 9-Miscellaneous ,83,,,83.0,,,83.0,,,83.0,,,83.0,,,83.0,0.0,0.0, 83.0 
+916, 9A-05-5043 ," Miscellaneous-PPE-Body Protection-Plain Long Sleeve--Grey, Size-Large ", Piece , 9-Miscellaneous ,0,,,0.0,,,0.0,,,0.0,,,0.0,,,0.0,0.0,0.0, -  
+917, 9A-05-5044 ," Miscellaneous-PPE-Body Protection-Plain Long Sleeve--Grey, Size-X-Large ", Piece , 9-Miscellaneous ,181,,,181.0,,,181.0,,,181.0,,,181.0,,,181.0,0.0,0.0, 181.0 
+918,9A-05-5053," Miscellaneous-PPE-Body Protection-Plain Long Sleeve--Violet, Size-Large ", Piece , 9-Miscellaneous ,177,,,177.0,,,177.0,,,177.0,,,177.0,,,177.0,0.0,0.0, 177.0 
+919, 9A-05-5073 ," Miscellaneous-PPE-Body Protection-Plain Long Sleeve-Red, Size-Large ", Piece , 9-Miscellaneous ,0,,,0.0,,,0.0,,,0.0,,,0.0,,,0.0,0.0,0.0, -  
+920, 9B-01-51003 ," Trash Bags, ,  XXL ", Pack , 9-Miscellaneous ,2,,,2.0,,,2.0,,,2.0,,,2.0,,,2.0,0.0,0.0, 2.0 
+921, 9B-01-8205 ," Tape - Masking, 3/4"" ", Roll , 9-Miscellaneous ,99,,,99.0,,,99.0,,,99.0,,,99.0,,,99.0,0.0,0.0, 99.0 
+922, 9B-01-8302 ," Miscellaneous, Office Supplies - Consumables - Tape, Packaging, Clear, Size: 3""-Big ", Roll , 9-Miscellaneous ,0,,,0.0,,,0.0,,,0.0,,,0.0,,,0.0,0.0,0.0, -  
+923, 9B-02-19100 ," Miscellaneous, Office Supplies - Non-Consumables - Broom, Tambo ", Piece , 9-Miscellaneous ,109,,,109.0,,,109.0,,,109.0,,,109.0,,,109.0,0.0,0.0, 109.0 
+924,9B-02-19200," Broom,  (walis ting-ting) ", Piece , 9-Miscellaneous ,227,,,227.0,,,227.0,,,227.0,,,227.0,,,227.0,0.0,0.0, 227.0 
+925, 9B-02-23001 ," Miscellaneous, Office Supplies - Non-Consumables - Nitrile Synthetic Rubber Gloves, Medium ", Pair , 9-Miscellaneous ,0,,,0.0,,,0.0,,,0.0,,,0.0,,,0.0,0.0,0.0, -  
+926,9B-02-36000," Miscellaneous, Office Supplies - Non-Consumables - Cotton Rag(White) ", Piece , 9-Miscellaneous ,"1,775",,,"1,775.0",,,"1,775.0",,,"1,775.0",,,"1,775.0",,,"1,775.0",0.0,0.0," 1,775.0 "
+927, 9B-02-38121 ," Miscellaneous, Office Supplies - Non-Consumables - Tape, Fiber Glass Mesh , Polytape , 2"" x 30m ", Roll , 9-Miscellaneous ,228,,,228.0,,,228.0,,,228.0,,,228.0,,,228.0,0.0,0.0, 228.0 
+928, 9B-02-38811 ," Miscellaneous, Office Supplies - Non-Consumables - Tape, Foam, Double-sided , 1"" ", Roll , 9-Miscellaneous ,130,,,130.0,,,130.0,,,130.0,,,130.0,,,130.0,0.0,0.0, 130.0 
+929, 9C-02-4321 ," Miscellaneous, Safety Materials - Fire Extinguisher - HCFC 123- Fire Extinguisher, 10lbs (Refill) ", Piece , 9-Miscellaneous ,32,,,32.0,,,32.0,,,32.0,,,32.0,,,32.0,0.0,0.0, 32.0 
+930, 9C-02-4423 ," Miscellaneous, Safety Materials - Fire Extinguisher - HCFC 123- Portable Wheel Fire Extinguisher, 50lbs (Refill) ", Piece , 9-Miscellaneous ,22,,,22.0,,,22.0,,,22.0,,,22.0,,,22.0,0.0,0.0, 22.0 
+931, 9C-02-5321 ," Miscellaneous, Safety Materials - Fire Extinguisher - Dry Chemical Fire Extinguisher , 10 lbs (Refill) ", Piece , 9-Miscellaneous ,34,,,34.0,,,34.0,,,34.0,,,34.0,,,34.0,0.0,0.0, 34.0 
+932, 9C-02-6432 ," Miscellaneous, Safety Materials - Fire Extinguisher - A-FFF - Portable Wheel Foam Fire Extinguisher, 50 lbs (Refill) ", Piece , 9-Miscellaneous ,21,,,21.0,,,21.0,,,21.0,,,21.0,,,21.0,0.0,0.0, 21.0 
+933,9C-03-3000, Miscellaneous-Furniture and Fixtures-Appliance-Automatic Hand Dryer-- , Unit , 9-Miscellaneous ,1,,,1.0,,,1.0,,,1.0,,,1.0,,,1.0,0.0,0.0, 1.0 
+934,9E-01-8001," Miscellaneous, Accessories - Parts - Water Meter, 3"" ", Piece , 9-Miscellaneous ,0,,,0.0,,,0.0,,,0.0,,,0.0,,,0.0,0.0,0.0, -  
+935, 9G-02-3101 ," Miscellaneous, Kitchen Items - Consumables, Gas, Butane 250 grams ", Piece , 9-Miscellaneous ,0,,,0.0,,,0.0,,,0.0,,,0.0,,,0.0,0.0,0.0, -  
+936, 9G-02-4001 , Cooking Oil- 1 Liter , Liter , 9-Miscellaneous ,0,,,0.0,,,0.0,,,0.0,,,0.0,,,0.0,0.0,0.0, -  
+937,9H-02-1210," Miscellaneous, Work Tools - Consumables - Straw, RopeSoft Twine, Plastic ", Roll , 9-Miscellaneous ,30,,,30.0,,,30.0,,,30.0,,,30.0,,,30.0,0.0,0.0, 30.0 
+938, 9J-01-1212 ," Miscellaneous-Cleaning Supplies-Home-Liquid-Disinfectant-Alcohol,1 Gallon ", Gallon_4L , 9-Miscellaneous ,10,,,10.0,,,10.0,,,10.0,,,10.0,,,10.0,0.0,0.0, 10.0 
+939,9J-01-1230," Miscellaneous, Cleaning Supplies - Home - Liquid, Disinfectant, 12.0PH ", Piece , 9-Miscellaneous ,11,,,11.0,,,11.0,,,11.0,,,11.0,,,11.0,0.0,0.0, 11.0 
+940, 9J-01-1241 , Miscellaneous-Cleaning Supplies-Home-Liquid-Disinfectant-All Purpose Sanitizer-Gallon , Gallon_4L , 9-Miscellaneous ,0,,,0.0,,,0.0,,,0.0,,,0.0,,,0.0,0.0,0.0, -  
+941,9J-01-2221," Miscellaneous, Cleaning Supplies - Home - Spray, Disinfectant, Crisp Linen, 510g ", Piece , 9-Miscellaneous ,22,,,22.0,,,22.0,,,22.0,,,22.0,,,22.0,0.0,0.0, 22.0 
+942,9J-02-1114," Miscellaneous-Cleaning Supplies-Kitchen-Liquid-Cleaner-Hand Soap, 1 Gallon ", Gallon_4L , 9-Miscellaneous ,7,,,7.0,,,7.0,,,7.0,,,7.0,,,7.0,0.0,0.0, 7.0 
+943, 9J-02-1126 ," Miscellaneous-Cleaning Supplies-Kitchen-Liquid-Cleaner-Dish Washing, 1 Gallon ", Gallon_4L , 9-Miscellaneous ,0,,,0.0,,,0.0,,,0.0,,,0.0,,,0.0,0.0,0.0, -  
+944,9J-03-2140," Miscellaneous, Cleaning Supplies - Bathroom - Powder, Multi Purpose Cleaner, Chlorine Granules, ", Pail_16L , 9-Miscellaneous ,1,,,1.0,,,1.0,,,1.0,,,1.0,,,1.0,0.0,0.0, 1.0 
+945,9J-03-3101," Miscellaneous, Cleaning Supplies - Bathroom - Bar, Deodorizer, , Albatross ", Piece , 9-Miscellaneous ,0,,,0.0,,,0.0,,,0.0,,,0.0,,,0.0,0.0,0.0, -  
+946,9J-06-2111," Miscellaneous, Cleaning Supplies - Pool - Powder, Pool Cleaner, Chlorine (Calhypo), Aqua Care (Japan) ", Pail_45kg , 9-Miscellaneous ,1,,,1.0,,,1.0,,,1.0,,,1.0,,,1.0,0.0,0.0, 1.0 
+947, 9J-06-3100 ," Miscellaneous-Cleaning Supplies-Pool-Liquid-Muriatic Acid, ", Gallons_4L , 8-Paint/Insulation ,0,,,0.0,,,0.0,,,0.0,,,0.0,,,0.0,0.0,0.0, -  
+948, 9M-01-3002 ," Miscellaneous, Garden Tools and Supplies - Garden Tool - Garden Rubber Hose 3/4""x6m ", Legth_6 , 9-Miscellaneous ,2,,,2.0,,,2.0,,,2.0,,,2.0,,,2.0,0.0,0.0, 2.0 
+949, 9M-02-2040 ," Miscellaneous-Garden Tools and Supplies-Essentials-Garden Soil, , Sand, ", cm3 , 9-Miscellaneous ,8,,,8.0,,,8.0,,,8.0,,,8.0,,,8.0,0.0,0.0, 8.0 
+950, 9N-01-2138 ," Fire Extinguisher, Chemical, HCFC, 20lbs ", Unit , 9-Miscellaneous ,54,,,54.0,,,54.0,,,54.0,,,54.0,,,54.0,0.0,0.0, 54.0 
+951, 9N-01-2141 ," Fire Safety - Extinguisher, Chemical, HFCF, 10 lbs ", Unit , 9-Miscellaneous ,32,,,32.0,,,32.0,,,32.0,,,32.0,,,32.0,0.0,0.0, 32.0 
+952, 9N-01-2511 ," Extinguisher, Foam, Portable Wheel, 50 lbs ", Unit , 9-Miscellaneous ,18,,,18.0,,,18.0,,,18.0,,,18.0,,,18.0,0.0,0.0, 18.0 
+953, 9N-01-6100 , Miscellaneous-Safety Materials-Fire Safety-Personal Equipment-Fire Blanket- , Piece , 9-Miscellaneous ,4,,,4.0,,,4.0,,,4.0,,,4.0,,,4.0,0.0,0.0, 4.0 
+954,9N-04-6255, Miscellaneous-Safety Materials-Personal Safety-Nylon-Safety Net-3mm-4mm hole8ft x 295ft , Roll_90mtr , 9-Miscellaneous ,6,,,6.0,,,6.0,,,6.0,,,6.0,,,6.0,0.0,0.0, 6.0 
+955, 9N-07-2222 ," Miscellaneous-Safety Materials-Tape-PVC Film-Yellow Tape-Caution-3"" x 1,000 ft. ", Rolls_1mtr , 9-Miscellaneous ,1,,,1.0,,,1.0,,,1.0,,,1.0,,,1.0,0.0,0.0, 1.0 
+,,,,,,,,,,,,,,,,,,,,,,,
+,Prepared By,,Check and Verified by:,,,,,,Noted By,,,,,Noted By:,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,
+,Ryan Maico,,Robin Cancela,,,,,,Engr. Romeo Nuñez,,,,,Engr. Eugenio Riaza,,,,,,,,,
+,Inventory Clerk,,Inventory Officer,,,,,,Construction Manager,,,,,Project Manager,,,,,,,,,

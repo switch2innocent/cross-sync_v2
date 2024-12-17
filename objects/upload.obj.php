@@ -28,18 +28,43 @@ class Upload_file
         return ($save_inventory_data->execute()) ? true : false;
     }
 
-    // public function upload_onsite()
-    // {
+    public function upload_central_warehouse() {
 
-    //     $sql = "INSERT INTO onsite (category, description, qty) VALUES (?, ?, ?)";
-    //     $saveonsite = $this->conn->prepare($sql);
+        $sql = "INSERT INTO central_warehouse (item_code, item_description, trading, uom, soh, qty_received, qty_issued) VALUES (?, ?, ?, ?, ?, ?, ?)";
+        $save_central_warehouse = $this->conn->prepare($sql);
 
-    //     $saveonsite->bindParam(1, $this->category_onsite);
-    //     $saveonsite->bindParam(2, $this->description_onsite);
-    //     $saveonsite->bindParam(3, $this->qty_onsite);
+        $save_central_warehouse->bindParam(1, $this->item_code);
+        $save_central_warehouse->bindParam(2, $this->item_description);
+        $save_central_warehouse->bindParam(3, $this->trading);
+        $save_central_warehouse->bindParam(4, $this->uom);
+        $save_central_warehouse->bindParam(5, $this->soh);
+        $save_central_warehouse->bindParam(6, $this->qty_received);
+        $save_central_warehouse->bindParam(7, $this->qty_issued);
 
-    //     return ($saveonsite->execute()) ? true : false;
-    // }
+        return ($save_central_warehouse->execute()) ? true : false;
+    }
+
+    public function upload_bom_data() {
+
+        $sql = "INSERT INTO bom_data (cbs_code, item_code, item_description, planned_qty, uom, approved_pdn_qty, current_qty, total_po_qty_to_date, total_icto_qty_to_date, remaining_qty_tobe_requested_to_date, total_qty_received_to_date, remaining_qty_tobe_received_to_date, total_qty_issued_to_date) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)";
+        $save_bom_data = $this->conn->prepare($sql);
+
+        $save_bom_data->bindParam(1, $this->cbs_code);
+        $save_bom_data->bindParam(2, $this->item_code);
+        $save_bom_data->bindParam(3, $this->item_description);
+        $save_bom_data->bindParam(4, $this->planned_qty);
+        $save_bom_data->bindParam(5, $this->uom);
+        $save_bom_data->bindParam(6, $this->approved_pdn_qty);
+        $save_bom_data->bindParam(7, $this->current_qty);
+        $save_bom_data->bindParam(8, $this->total_po_qty_to_date);
+        $save_bom_data->bindParam(9, $this->total_icto_qty_to_date);
+        $save_bom_data->bindParam(10, $this->remaining_qty_tobe_requested_to_date);
+        $save_bom_data->bindParam(11, $this->total_qty_received_to_date);
+        $save_bom_data->bindParam(12, $this->remaining_qty_tobe_received_to_date);
+        $save_bom_data->bindParam(13, $this->total_qty_issued_to_date);
+
+        return ($save_bom_data->execute()) ? true : false;
+    }
 
     // public function view_office_onsite_record()
     // {
@@ -64,9 +89,5 @@ class Upload_file
 
     //     $view_office_onsite->execute();
     //     return $view_office_onsite;
-    // }
-
-    // public function delete_data_onsiteoffice() {
-
     // }
 }
