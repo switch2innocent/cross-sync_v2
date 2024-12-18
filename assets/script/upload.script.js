@@ -3,21 +3,21 @@ $(document).ready(function () {
     $('#upload-form').on('submit', function (e) {
         e.preventDefault();
 
-        // // for upload inventory data
-        // var formData_inventoryData = new FormData();
-        // // var fileUpload_inventoryData = $('#upload-inventoryData')[0].files[0];
-        // formData_inventoryData.append('upload-inventoryData', $('#upload-inventoryData')[0].files[0]);
+        // Get file inputs
+        var inventoryData = $('#upload-inventoryData')[0].files[0];
+        var centralWarehouse = $('#upload-centralWarehouse')[0].files[0];
+        var bomData = $('#upload-bomData')[0].files[0];
 
-
-        // for upload central warehouse
-        var formData_centralWarehouse = new FormData();
-        // var fileUpload_centralWarehouse = $('#upload-centralWarehouse')[0].files[0];
-        formData_centralWarehouse.append('upload-centralWarehouse', $('#upload-centralWarehouse')[0].files[0]);
+        // Create FormData object to hold the files
+        var formData = new FormData();
+        formData.append('upload-inventoryData', inventoryData);
+        formData.append('upload-centralWarehouse', centralWarehouse);
+        formData.append('upload-bomData', bomData);
 
         $.ajax({
             type: 'POST',
             url: 'controls/upload_add.ctrl.php',
-            data: formData_centralWarehouse,
+            data: formData,
             processData: false,
             contentType: false,
             success: function (responce) {
@@ -132,26 +132,26 @@ $(document).ready(function () {
 
     }); // End of upload form
 
-    // new DataTable('#upload-datatable', {
-    //     layout: {
-    //         topStart: {
-    //             buttons: [
-    //                 {
-    //                     text: '<i class="fas fa-plus"></i> &nbsp; Add File',  // Custom button text
-    //                     action: function (e, dt, node, config) {
-    //                         // Trigger the modal to open
-    //                         var myModal = new bootstrap.Modal(document.getElementById('uploadModal'));
-    //                         myModal.show();
-    //                     }
-    //                 },
-    //                 {
-    //                     extend: 'csv',
-    //                     text: '<i class="fas fa-file-csv"></i> &nbsp; Export'
-    //                 }
-    //             ]
-    //         }
-    //     }
-    // });
+    new DataTable('#upload-datatable', {
+        layout: {
+            topStart: {
+                buttons: [
+                    {
+                        text: '<i class="fas fa-plus"></i> &nbsp; Add File',  // Custom button text
+                        action: function (e, dt, node, config) {
+                            // Trigger the modal to open
+                            var myModal = new bootstrap.Modal(document.getElementById('uploadModal'));
+                            myModal.show();
+                        }
+                    },
+                    {
+                        extend: 'csv',
+                        text: '<i class="fas fa-file-csv"></i> &nbsp; Export'
+                    }
+                ]
+            }
+        }
+    });
 
     // For input file
     $(".custom-file-input").on("change", function () {

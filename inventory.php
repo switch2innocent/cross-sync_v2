@@ -98,20 +98,25 @@
       <section class="content">
         <div class="container-fluid">
 
-          <!-- Add file button -->
-          <div class="d-flex">
-            <button type="button" class="btn btn-success btn-sm" data-toggle="modal" data-target="#uploadModal" data-backdrop="static"><i class="fa fa-plus"></i> &nbsp; Add File</button>
-          </div>
+          <!-- New Added Content -->
 
-          <!-- New Added Content
+          <!-- Add file button -->
+          <!-- <div class="d-flex">
+            <button type="button" class="btn btn-success btn-sm" data-toggle="modal" data-target="#uploadModal" data-backdrop="static"><i class="fa fa-plus"></i> &nbsp; Add File</button>
+          </div><br> -->
+
           <table class="table table-bordered text-center table-hover" id="upload-datatable">
             <thead>
               <tr>
-                <th>Description</th>
-                <th>Office (Quantity)</th>
-                <th>Onsite (Quantity)</th>
-                <th>Difference</th>
-                <th>Status</th>
+                <th>Item Code</th>
+                <th>Item Description</th>
+                <th>Trading</th>
+                <th>UOM</th>
+                <th>SOH (Warehouse)</th>
+                <th>SOH (Inventory)</th>
+                <th>Quantity Received</th>
+                <th>Quantity Issued</th>
+                <th>SOH Status</th>
               </tr>
             </thead>
             <tbody>
@@ -138,7 +143,7 @@
               // }
               ?>
             </tbody>
-          </table> -->
+          </table>
 
         </div>
         <!--/.container-fluid-->
@@ -167,30 +172,33 @@
 
         <!-- Modal Header -->
         <div class="modal-header">
-          <h4 class="modal-title">Upload</h4>
+          <h4 class="modal-title font-weight-bold">Upload</h4>
           <button type="button" class="close" data-dismiss="modal">&times;</button>
         </div>
 
         <!-- Modal Body -->
         <div class="modal-body">
-          <form method="POST" enctype="multipart/form-data" id="upload-form" action="controls/upload_add.ctrl.php">
-            <!-- <h6>Step 1: Upload Inventory Data</h6>
-            <div class="form-group">
-              <div class="custom-file">
-                <input type="file" class="form-control form-control-sm custom-file-input" name="upload-inventoryData" id="upload-inventoryData">
-                <label for="upload-office" class="custom-file-label">Choose File</label>
-              </div>
-            </div> -->
+          <form method="POST" enctype="multipart/form-data" id="upload-form">
 
-            <!-- <h6><span class="font-weight-bold">Step 2:</span> Upload Central Warehouse</h6>
+            <h6>Upload Central Warehouse</h6>
             <div class="form-group">
               <div class="custom-file">
                 <input type="file" class="form-control custom-file-input" name="upload-centralWarehouse" id="upload-centralWarehouse">
                 <label for="upload-centralWarehouse" class="custom-file-label">Choose file</label>
               </div>
-            </div> -->
+            </div>
+            <hr>
 
-            <h6><span class="font-weight-bold">Step 3:</span> Upload BOM Data</h6>
+            <h6>Upload Inventory Data</h6>
+            <div class="form-group">
+              <div class="custom-file">
+                <input type="file" class="form-control form-control-sm custom-file-input" name="upload-inventoryData" id="upload-inventoryData">
+                <label for="upload-office" class="custom-file-label">Choose File</label>
+              </div>
+            </div>
+            <hr>
+
+            <h6>Upload BOM Data</h6>
             <div class="form-group">
               <div class="custom-file">
                 <input type="file" class="form-control custom-file-input" name="upload-bomData" id="upload-bomData">
@@ -235,7 +243,7 @@
   <script src="assets/plugins/datatablejs/buttons.print.min.js"></script>
 
   <!-- Upload SCript -->
-  <!-- <script src="assets/script/upload.script.js"></script> -->
+  <script src="assets/script/upload.script.js"></script>
 
 </body>
 

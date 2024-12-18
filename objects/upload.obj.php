@@ -66,28 +66,34 @@ class Upload_file
         return ($save_bom_data->execute()) ? true : false;
     }
 
-    // public function view_office_onsite_record()
-    // {
-    //     $sql = "SELECT o.description,
-    //     SUM(o.office_qty) AS office_quantity,
-    //     SUM(IFNULL(n.onsite_qty, 0)) AS onsite_quantity,
-    //     SUM(o.office_qty) - SUM(IFNULL(n.onsite_qty, 0)) AS quantity_difference
-    //     FROM (
-    //         SELECT description, SUM(qty) AS office_qty
-    //         FROM office
-    //         GROUP BY description
-    //     ) o
-    //     LEFT JOIN (
-    //         SELECT description, SUM(qty) AS onsite_qty
-    //         FROM onsite
-    //         GROUP BY description
-    //     ) n
-    //     ON o.description = n.description
-    //     GROUP BY o.description;";
-        
-    //     $view_office_onsite = $this->conn->prepare($sql);
+    public function view_all_uploaded_files() {
 
-    //     $view_office_onsite->execute();
-    //     return $view_office_onsite;
-    // }
+        $sql = "";
+
+    }
+
+    public function view_office_onsite_record()
+    {
+        $sql = "SELECT o.description,
+        SUM(o.office_qty) AS office_quantity,
+        SUM(IFNULL(n.onsite_qty, 0)) AS onsite_quantity,
+        SUM(o.office_qty) - SUM(IFNULL(n.onsite_qty, 0)) AS quantity_difference
+        FROM (
+            SELECT description, SUM(qty) AS office_qty
+            FROM office
+            GROUP BY description
+        ) o
+        LEFT JOIN (
+            SELECT description, SUM(qty) AS onsite_qty
+            FROM onsite
+            GROUP BY description
+        ) n
+        ON o.description = n.description
+        GROUP BY o.description;";
+        
+        $view_office_onsite = $this->conn->prepare($sql);
+
+        $view_office_onsite->execute();
+        return $view_office_onsite;
+    }
 }
