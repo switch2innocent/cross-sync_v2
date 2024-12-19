@@ -6,13 +6,13 @@ $(document).ready(function () {
         // Get file inputs
         var inventoryData = $('#upload-inventoryData')[0].files[0];
         var centralWarehouse = $('#upload-centralWarehouse')[0].files[0];
-        var bomData = $('#upload-bomData')[0].files[0];
+        // var bomData = $('#upload-bomData')[0].files[0];
 
         // Create FormData object to hold the files
         var formData = new FormData();
         formData.append('upload-inventoryData', inventoryData);
         formData.append('upload-centralWarehouse', centralWarehouse);
-        formData.append('upload-bomData', bomData);
+        // formData.append('upload-bomData', bomData);
 
         $.ajax({
             type: 'POST',

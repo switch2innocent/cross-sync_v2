@@ -1,12 +1,12 @@
 <?php
 
-// require_once 'config/dbcon.php';
-// require_once 'objects/upload.obj.php';
+require_once 'config/dbcon.php';
+require_once 'objects/upload.obj.php';
 
-// $database = new Connection();
-// $db = $database->connect();
+$database = new Connection();
+$db = $database->connect();
 
-// $Viewofficeonsite = new Upload_csv($db);
+$viewalluploadedfiles = new Upload_file($db);
 
 ?>
 <!DOCTYPE html>
@@ -114,33 +114,42 @@
                 <th>UOM</th>
                 <th>SOH (Warehouse)</th>
                 <th>SOH (Inventory)</th>
-                <th>Quantity Received</th>
-                <th>Quantity Issued</th>
-                <th>SOH Status</th>
+                <th>Result</th>
+                <th>Status</th>
+                <!-- <th>SOH (Inventory)</th> -->
+                <!-- <th>Quantity Received</th>
+                <th>Quantity Issued</th> -->
+                <!-- <th>SOH Status</th> -->
               </tr>
             </thead>
             <tbody>
               <?php
-              // $view = $Viewofficeonsite->view_office_onsite_record();
-              // while ($row = $view->fetch(PDO::FETCH_ASSOC)) {
-              //   if ($row['quantity_difference'] < 0) {
-              //     $status = "Low";
-              //   } elseif ($row['quantity_difference'] > 0) {
-              //     $status = "High";
-              //   } else {
-              //     $status = "Equal";
-              //   }
+              $view = $viewalluploadedfiles->view_all_uploaded_files();
+              while ($row = $view->fetch(PDO::FETCH_ASSOC)) {
+                
+                // if ($row['quantity_difference'] < 0) {
+                //   $status = "Low";
+                // } elseif ($row['quantity_difference'] > 0) {
+                //   $status = "High";
+                // } else {
+                //   $status = "Equal";
+                // }
 
-              //   echo '
-              //       <tr>
-              //         <td>' . $row['description'] . '</td>
-              //         <td>' . $row['office_quantity'] . '</td>
-              //         <td>' . $row['onsite_quantity'] . '</td>
-              //         <td>' . $row['quantity_difference'] . '</td>
-              //         <td>' . $status . '</td>
-              //       </tr>
-              //     ';
-              // }
+                // <td>' . $row['qty_received'] . '</td>
+                // <td>' . $row['qty_issued'] . '</td>
+                // <td>' . $status . '</td>
+
+                echo '
+                    <tr>
+                      <td>' . $row['item_code'] . '</td>
+                      <td>' . $row['item_description'] . '</td>
+                      <td>' . $row['trading'] . '</td>
+                      <td>' . $row['uom'] . '</td>
+                      <td>' . $row['central_soh'] . '</td>
+                      <td>' . $row['inventory_soh'] . '</td>
+                    </tr>
+                  ';
+              }
               ?>
             </tbody>
           </table>
@@ -196,7 +205,7 @@
                 <label for="upload-office" class="custom-file-label">Choose File</label>
               </div>
             </div>
-            <hr>
+            <!-- <hr>
 
             <h6>Upload BOM Data</h6>
             <div class="form-group">
@@ -204,7 +213,7 @@
                 <input type="file" class="form-control custom-file-input" name="upload-bomData" id="upload-bomData">
                 <label for="upload-bomData" class="custom-file-label">Choose file</label>
               </div>
-            </div>
+            </div> -->
         </div>
 
         <!-- Modal Footer -->

@@ -14,7 +14,7 @@ $uploadinventorydata = new Upload_file($db);
 $uploadcentralwarehouse = new Upload_file($db);
 
 // Upload bom data
-$uploadbomdata = new Upload_file($db);
+// $uploadbomdata = new Upload_file($db);
 
 
 // For Inventory Data
@@ -178,93 +178,93 @@ if (isset($_FILES['upload-centralWarehouse']) && $_FILES['upload-centralWarehous
 
 
 // For bom data
-if (isset($_FILES['upload-bomData']) && $_FILES['upload-bomData']['error'] == 0) {
-    $fileImpPath_bomData = $_FILES['upload-bomData']['tmp_name'];
-    $fileName_bomData = $_FILES['upload-bomData']['name'];
+// if (isset($_FILES['upload-bomData']) && $_FILES['upload-bomData']['error'] == 0) {
+//     $fileImpPath_bomData = $_FILES['upload-bomData']['tmp_name'];
+//     $fileName_bomData = $_FILES['upload-bomData']['name'];
 
-    $fileExtension_bomData = strtolower(pathinfo($fileName_bomData, PATHINFO_EXTENSION));
+//     $fileExtension_bomData = strtolower(pathinfo($fileName_bomData, PATHINFO_EXTENSION));
 
-    // Check if the uploaded file is a CSV
-    if ($fileExtension_bomData != 'csv') {
-        die("<script>alert('Please Select a CSV File');</script>");
-    }
+//     // Check if the uploaded file is a CSV
+//     if ($fileExtension_bomData != 'csv') {
+//         die("<script>alert('Please Select a CSV File');</script>");
+//     }
 
-    // Open the CSV file for reading
-    if (($file_bomData = fopen($fileImpPath_bomData, 'r')) !== false) {
+//     // Open the CSV file for reading
+//     if (($file_bomData = fopen($fileImpPath_bomData, 'r')) !== false) {
 
-        $header_bomData = null;
-        $headerMap = [];
-        $foundHeader = false;
+//         $header_bomData = null;
+//         $headerMap = [];
+//         $foundHeader = false;
 
-        // Loop through rows to find the header row
-        while (($row_bomData = fgetcsv($file_bomData)) !== false) {
-            // Define a set of known column names you're expecting in the header
-            $expectedHeaderColumns = ['CBS Code', 'Item Code', 'Item Description', 'Planned Quantity', 'UOM', 'Approved PDN Quantity', 'Current Quantity', 'Total PO Quantity to-date', 'Total ICTO Quantity to-date', 'Remaining Quantity to be Requested to-date', 'Total Quantity Received to-date', 'Remaining Quantity to be Received to-date', 'Total Quantity Issued to-date'];
+//         // Loop through rows to find the header row
+//         while (($row_bomData = fgetcsv($file_bomData)) !== false) {
+//             // Define a set of known column names you're expecting in the header
+//             $expectedHeaderColumns = ['CBS Code', 'Item Code', 'Item Description', 'Planned Quantity', 'UOM', 'Approved PDN Quantity', 'Current Quantity', 'Total PO Quantity to-date', 'Total ICTO Quantity to-date', 'Remaining Quantity to be Requested to-date', 'Total Quantity Received to-date', 'Remaining Quantity to be Received to-date', 'Total Quantity Issued to-date'];
 
-            // Check if the row contains the expected header columns
-            if (array_intersect($expectedHeaderColumns, $row_bomData)) {
-                // If found, this is your header row
-                $header_bomData = $row_bomData;
-                $headerMap = array_flip($header_bomData);  // Map column names to their index
-                $foundHeader = true;
-                break;  // Stop searching once the header row is found
-            }
-        }
+//             // Check if the row contains the expected header columns
+//             if (array_intersect($expectedHeaderColumns, $row_bomData)) {
+//                 // If found, this is your header row
+//                 $header_bomData = $row_bomData;
+//                 $headerMap = array_flip($header_bomData);  // Map column names to their index
+//                 $foundHeader = true;
+//                 break;  // Stop searching once the header row is found
+//             }
+//         }
 
-        // If the header wasn't found, show an error
-        if (!$foundHeader || !$header_bomData) {
-            die("<script>alert('Error: Could not find the header row in the CSV file');</script>");
-        }
+//         // If the header wasn't found, show an error
+//         if (!$foundHeader || !$header_bomData) {
+//             die("<script>alert('Error: Could not find the header row in the CSV file');</script>");
+//         }
 
-        // Now process the rows after the header
-        while (($row_bomData = fgetcsv($file_bomData)) !== false) {
-            // Skip rows that don't have the expected number of columns
-            if (count($row_bomData) != count($header_bomData)) {
-                continue; // Skip this row if it doesn't have the expected number of columns
-            }
+//         // Now process the rows after the header
+//         while (($row_bomData = fgetcsv($file_bomData)) !== false) {
+//             // Skip rows that don't have the expected number of columns
+//             if (count($row_bomData) != count($header_bomData)) {
+//                 continue; // Skip this row if it doesn't have the expected number of columns
+//             }
 
-            // Dynamically map data from row based on header
-            $cbscodebomdata = isset($row_bomData[$headerMap['CBS Code']]) ? trim($row_bomData[$headerMap['CBS Code']]) : null;
-            $itemcodebomdata = isset($row_bomData[$headerMap['Item Code']]) ? trim($row_bomData[$headerMap['Item Code']]) : null;
-            $itemdescriptionbomdata = isset($row_bomData[$headerMap['Item Description']]) ? trim($row_bomData[$headerMap['Item Description']]) : null;
-            $plannedqtybomdata = isset($row_bomData[$headerMap['Planned Quantity']]) ? trim($row_bomData[$headerMap['Planned Quantity']]) : null;
-            $uombomdata = isset($row_bomData[$headerMap['UOM']]) ? trim($row_bomData[$headerMap['UOM']]) : null;
-            $approvedpdnqtybomdata = isset($row_bomData[$headerMap['Approved PDN Quantity']]) ? trim($row_bomData[$headerMap['Approved PDN Quantity']]) : null;
-            $currentqtybomdata = isset($row_bomData[$headerMap['Current Quantity']]) ? trim($row_bomData[$headerMap['Current Quantity']]) : null;
-            $totalpoqtytodatebomdata = isset($row_bomData[$headerMap['Total PO Quantity to-date']]) ? trim($row_bomData[$headerMap['Total PO Quantity to-date']]) : null;
-            $totalictoqtytodatebomdata = isset($row_bomData[$headerMap['Total ICTO Quantity to-date']]) ? trim($row_bomData[$headerMap['Total ICTO Quantity to-date']]) : null;
-            $remainingqtytoberequestedtodatebomdata = isset($row_bomData[$headerMap['Remaining Quantity to be Requested to-date']]) ? trim($row_bomData[$headerMap['Remaining Quantity to be Requested to-date']]) : null;
-            $totalqtyreceivedtodatebomdata = isset($row_bomData[$headerMap['Total Quantity Received to-date']]) ? trim($row_bomData[$headerMap['Total Quantity Received to-date']]) : null;
-            $remainingqtytobereceivedtodatebomdata = isset($row_bomData[$headerMap['Remaining Quantity to be Received to-date']]) ? trim($row_bomData[$headerMap['Remaining Quantity to be Received to-date']]) : null;
-            $totalqtyissuedtodatebomdata = isset($row_bomData[$headerMap['Total Quantity Issued to-date']]) ? trim($row_bomData[$headerMap['Total Quantity Issued to-date']]) : null;
+//             // Dynamically map data from row based on header
+//             $cbscodebomdata = isset($row_bomData[$headerMap['CBS Code']]) ? trim($row_bomData[$headerMap['CBS Code']]) : null;
+//             $itemcodebomdata = isset($row_bomData[$headerMap['Item Code']]) ? trim($row_bomData[$headerMap['Item Code']]) : null;
+//             $itemdescriptionbomdata = isset($row_bomData[$headerMap['Item Description']]) ? trim($row_bomData[$headerMap['Item Description']]) : null;
+//             $plannedqtybomdata = isset($row_bomData[$headerMap['Planned Quantity']]) ? trim($row_bomData[$headerMap['Planned Quantity']]) : null;
+//             $uombomdata = isset($row_bomData[$headerMap['UOM']]) ? trim($row_bomData[$headerMap['UOM']]) : null;
+//             $approvedpdnqtybomdata = isset($row_bomData[$headerMap['Approved PDN Quantity']]) ? trim($row_bomData[$headerMap['Approved PDN Quantity']]) : null;
+//             $currentqtybomdata = isset($row_bomData[$headerMap['Current Quantity']]) ? trim($row_bomData[$headerMap['Current Quantity']]) : null;
+//             $totalpoqtytodatebomdata = isset($row_bomData[$headerMap['Total PO Quantity to-date']]) ? trim($row_bomData[$headerMap['Total PO Quantity to-date']]) : null;
+//             $totalictoqtytodatebomdata = isset($row_bomData[$headerMap['Total ICTO Quantity to-date']]) ? trim($row_bomData[$headerMap['Total ICTO Quantity to-date']]) : null;
+//             $remainingqtytoberequestedtodatebomdata = isset($row_bomData[$headerMap['Remaining Quantity to be Requested to-date']]) ? trim($row_bomData[$headerMap['Remaining Quantity to be Requested to-date']]) : null;
+//             $totalqtyreceivedtodatebomdata = isset($row_bomData[$headerMap['Total Quantity Received to-date']]) ? trim($row_bomData[$headerMap['Total Quantity Received to-date']]) : null;
+//             $remainingqtytobereceivedtodatebomdata = isset($row_bomData[$headerMap['Remaining Quantity to be Received to-date']]) ? trim($row_bomData[$headerMap['Remaining Quantity to be Received to-date']]) : null;
+//             $totalqtyissuedtodatebomdata = isset($row_bomData[$headerMap['Total Quantity Issued to-date']]) ? trim($row_bomData[$headerMap['Total Quantity Issued to-date']]) : null;
 
-            // Prepare the data for insertion
-            $uploadbomdata->cbs_code = $cbscodebomdata;
-            $uploadbomdata->item_code = $itemcodebomdata;
-            $uploadbomdata->item_description = $itemdescriptionbomdata;
-            $uploadbomdata->planned_qty = $plannedqtybomdata;
-            $uploadbomdata->uom = $uombomdata;
-            $uploadbomdata->approved_pdn_qty = $approvedpdnqtybomdata;
-            $uploadbomdata->current_qty = $currentqtybomdata;
-            $uploadbomdata->total_po_qty_to_date = $totalpoqtytodatebomdata;
-            $uploadbomdata->total_icto_qty_to_date = $totalictoqtytodatebomdata;
-            $uploadbomdata->remaining_qty_tobe_requested_to_date = $remainingqtytoberequestedtodatebomdata;
-            $uploadbomdata->total_qty_received_to_date = $totalqtyreceivedtodatebomdata;
-            $uploadbomdata->remaining_qty_tobe_received_to_date = $remainingqtytobereceivedtodatebomdata;
-            $uploadbomdata->total_qty_issued_to_date = $totalqtyissuedtodatebomdata;
+//             // Prepare the data for insertion
+//             $uploadbomdata->cbs_code = $cbscodebomdata;
+//             $uploadbomdata->item_code = $itemcodebomdata;
+//             $uploadbomdata->item_description = $itemdescriptionbomdata;
+//             $uploadbomdata->planned_qty = $plannedqtybomdata;
+//             $uploadbomdata->uom = $uombomdata;
+//             $uploadbomdata->approved_pdn_qty = $approvedpdnqtybomdata;
+//             $uploadbomdata->current_qty = $currentqtybomdata;
+//             $uploadbomdata->total_po_qty_to_date = $totalpoqtytodatebomdata;
+//             $uploadbomdata->total_icto_qty_to_date = $totalictoqtytodatebomdata;
+//             $uploadbomdata->remaining_qty_tobe_requested_to_date = $remainingqtytoberequestedtodatebomdata;
+//             $uploadbomdata->total_qty_received_to_date = $totalqtyreceivedtodatebomdata;
+//             $uploadbomdata->remaining_qty_tobe_received_to_date = $remainingqtytobereceivedtodatebomdata;
+//             $uploadbomdata->total_qty_issued_to_date = $totalqtyissuedtodatebomdata;
 
 
-            // Call the method to upload data
-            $uploadbomdata->upload_bom_data();
-        }
+//             // Call the method to upload data
+//             $uploadbomdata->upload_bom_data();
+//         }
 
-        fclose($file_bomData);  // Close the file after processing
-        echo "<script>alert('Data Uploaded Successfully');</script>";
-    } else {
-        echo "<script>alert('Error opening the file');</script>";
-    }
-} else {
-    echo "<script>alert('No file uploaded or there was an error');</script>";
-}
+//         fclose($file_bomData);  // Close the file after processing
+//         echo "<script>alert('Data Uploaded Successfully');</script>";
+//     } else {
+//         echo "<script>alert('Error opening the file');</script>";
+//     }
+// } else {
+//     echo "<script>alert('No file uploaded or there was an error');</script>";
+// }
 
 ?>
