@@ -71,68 +71,41 @@ class Upload_file
     public function view_all_uploaded_files()
     {
 
-        // Complete sql with bom table
-        // $sql = "SELECT 
-        // COALESCE(c.item_code, b.item_code, i.item_code) AS item_code,
-        // COALESCE(c.item_description, b.item_description, i.item_description) AS item_description,
-        // COALESCE(c.trading, i.trade_classification) AS trading,
-        // COALESCE(c.uom, b.uom, i.purchase_uom) AS uom,
-        // SUM(COALESCE(c.soh, 0)) AS soh,
-        // SUM(COALESCE(c.qty_received, 0)) AS qty_received,
-        // SUM(COALESCE(c.qty_issued, 0)) AS qty_issued
-        // FROM 
-        // central_warehouse c
-        // LEFT JOIN 
-        // bom_data b ON c.item_code = b.item_code
-        // LEFT JOIN 
-        // inventory_data i ON c.item_code = i.item_code
-        // GROUP BY 
-        // COALESCE(c.item_code, b.item_code, i.item_code),
-        // COALESCE(c.item_description, b.item_description, i.item_description),
-        // COALESCE(c.trading, i.trade_classification),
-        // COALESCE(c.uom, b.uom, i.purchase_uom);";
-
         $sql = "SELECT 
-        COALESCE(c.item_code, i.item_code) AS item_code,
-        COALESCE(c.item_description, i.item_description) AS item_description,
-        COALESCE(c.trading, i.trade_classification) AS trading,
-        COALESCE(c.uom, i.purchase_uom) AS uom,
-        SUM(c.soh) AS central_soh,
-        SUM(i.on_hand_qty) AS inventory_soh,
-        
-
-        
-        ";
+            cw.item_code,
+            cw.item_description,
+            cw.trading,
+            cw.uom,
+            cw.created_at,
+            SUM(cw.soh) AS central_warehouse_soh,
+            SUM(IFNULL(id.on_hand_qty, 0)) AS inventory_data_soh,
+            SUM(cw.soh) - SUM(IFNULL(id.on_hand_qty, 0)) AS soh_difference
+        FROM 
+            (
+                SELECT DISTINCT item_code, item_description, trading, uom, created_at, soh
+                FROM central_warehouse
+            ) cw
+        LEFT JOIN 
+            (
+                SELECT DISTINCT item_code, created_at, on_hand_qty
+                FROM inventory_data
+            ) id
+        ON 
+            cw.item_code = id.item_code 
+            AND cw.created_at = id.created_at
+        GROUP BY 
+            cw.item_code, 
+            cw.item_description, 
+            cw.trading, 
+            cw.uom, 
+            cw.created_at
+        ORDER BY 
+            cw.item_code, cw.created_at;";
 
         $view_all_uploaded_data = $this->conn->prepare($sql);
-        
+
         $view_all_uploaded_data->execute();
         return $view_all_uploaded_data;
-
     }
-
-    public function view_office_onsite_record()
-    {
-        $sql = "SELECT o.description,
-        SUM(o.office_qty) AS office_quantity,
-        SUM(IFNULL(n.onsite_qty, 0)) AS onsite_quantity,
-        SUM(o.office_qty) - SUM(IFNULL(n.onsite_qty, 0)) AS quantity_difference
-        FROM (
-            SELECT description, SUM(qty) AS office_qty
-            FROM office
-            GROUP BY description
-        ) o
-        LEFT JOIN (
-            SELECT description, SUM(qty) AS onsite_qty
-            FROM onsite
-            GROUP BY description
-        ) n
-        ON o.description = n.description
-        GROUP BY o.description;";
-
-        $view_office_onsite = $this->conn->prepare($sql);
-
-        $view_office_onsite->execute();
-        return $view_office_onsite;
-    }
+    
 }

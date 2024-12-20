@@ -105,13 +105,14 @@ $viewalluploadedfiles = new Upload_file($db);
             <button type="button" class="btn btn-success btn-sm" data-toggle="modal" data-target="#uploadModal" data-backdrop="static"><i class="fa fa-plus"></i> &nbsp; Add File</button>
           </div><br> -->
 
-          <table class="table table-bordered text-center table-hover" id="upload-datatable">
+          <table class="table table-responsive table-bordered text-center table-hover" id="upload-datatable">
             <thead>
               <tr>
                 <th>Item Code</th>
                 <th>Item Description</th>
                 <th>Trading</th>
                 <th>UOM</th>
+                <th>Date Created</th>
                 <th>SOH (Warehouse)</th>
                 <th>SOH (Inventory)</th>
                 <th>Result</th>
@@ -124,20 +125,21 @@ $viewalluploadedfiles = new Upload_file($db);
             </thead>
             <tbody>
               <?php
+
               $view = $viewalluploadedfiles->view_all_uploaded_files();
               while ($row = $view->fetch(PDO::FETCH_ASSOC)) {
-                
-                // if ($row['quantity_difference'] < 0) {
-                //   $status = "Low";
-                // } elseif ($row['quantity_difference'] > 0) {
-                //   $status = "High";
-                // } else {
-                //   $status = "Equal";
-                // }
 
-                // <td>' . $row['qty_received'] . '</td>
-                // <td>' . $row['qty_issued'] . '</td>
-                // <td>' . $status . '</td>
+                // = Balance
+                // -+ Found in Netsuite / Found in Actual
+                // x Not found
+
+                if ($row['soh_difference'] < 0) {
+                  $status = "<p class='text-danger'>Low on Warehouse</p>";
+                } elseif ($row['soh_difference'] > 0) {
+                  $status = "<p class='text-success'>High on Warehouse</p>";
+                } else {
+                  $status = "<p claass='text-primary'>Balance</p>";
+                }
 
                 echo '
                     <tr>
@@ -145,8 +147,11 @@ $viewalluploadedfiles = new Upload_file($db);
                       <td>' . $row['item_description'] . '</td>
                       <td>' . $row['trading'] . '</td>
                       <td>' . $row['uom'] . '</td>
-                      <td>' . $row['central_soh'] . '</td>
-                      <td>' . $row['inventory_soh'] . '</td>
+                      <td>' . $row['created_at'] . '</td>
+                      <td>' . $row['central_warehouse_soh'] . '</td>
+                      <td>' . $row['inventory_data_soh'] . '</td>
+                      <td>' . $row['soh_difference'] . '</td>
+                      <td>' . $status . '</td>
                     </tr>
                   ';
               }
