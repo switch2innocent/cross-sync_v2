@@ -5,8 +5,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login</title>
-    <!-- Latest compiled and minified CSS -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
+
+    <!-- CSS Plugins -->
+    <link rel="stylesheet" href="assets/plugins/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/plugins/toastr/toastr.min.css">
 
 </head>
 
@@ -22,15 +24,20 @@
                 <form action="" method="POST" class="mt-4">
                     <div class="form-group">
                         <label for="username">Username: </label>
-                        <input type="text" class="form-control" id="username" placeholder="Enter Username">
+                        <input type="text" class="form-control" id="txtUsername" placeholder="Enter Username">
                     </div>
                     <div class="form-group mt-4">
                         <label for="pwd">Password: </label>
-                        <input type="password" class="form-control" id="pwd" placeholder="Enter Password">
+                        <input type="password" class="form-control" id="txtPassword" placeholder="Enter Password">
                     </div>
-                    <button type="submit" class="btn btn-success mt-4 w-100">Login</button>
+
+                    <div class="custom-control custom-checkbox">
+                        <input type="checkbox" class="custom-control-input" id="customCheck">
+                        <label class="custom-control-label" for="customCheck">Show password</label>
+                    </div>
+                    <input type="submit" class="btn btn-success mt-3 w-100" id="btnLogin" value="Login"">
                     <center>
-                        <p class="mt-4">Don't have an account? <a href="register.view.php" style="text-decoration: none;"> Click here to register account.</a></p>
+                        <p class=" mt-4">Don't have an account? <a href="register.view.php" style="text-decoration: none;"> Click here to register account.</a></p>
                     </center>
                 </form>
             </div>
@@ -38,13 +45,13 @@
     </div>
 
     <!-- jQuery library -->
-    <script src="https://cdn.jsdelivr.net/npm/jquery@3.7.1/dist/jquery.slim.min.js"></script>
-
-    <!-- Popper JS -->
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
-
-    <!-- Latest compiled JavaScript -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="plugins/jquery/jquery.min.js"></script>
+    <script src="assets/plugins/popper.min.js"></script>
+    <script src="plugins/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/plugins/jquery-3.6.0.min.js"></script>
+    <script src="assets/plugins/toastr/toastr.min.js"></script>
+    <script src="assets/plugins/sweetalert2@11.js"></script>
+    <script src="assets/script/login.script.js"></script>
 
 </body>
 

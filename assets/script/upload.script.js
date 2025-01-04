@@ -30,6 +30,7 @@ $(document).ready(function () {
 
       return;
     } else {
+
       // TODO: Create FormData object to hold the files
       var formData = new FormData();
       formData.append("upload-inventoryData", inventoryData);
@@ -43,6 +44,7 @@ $(document).ready(function () {
         processData: false,
         contentType: false,
         success: function (responce) {
+
           Swal.fire({
             title: "Saved!",
             text: "Saved successfully!",
@@ -55,6 +57,7 @@ $(document).ready(function () {
 
           $("#uploadModal").modal("hide");
           1;
+
         },
         error: function (xhr, status, error) {
           Swal.fire({
@@ -100,6 +103,18 @@ $(document).ready(function () {
         ],
       },
     },
+    "order": [[4, 'asc']],  // Set the date column (index 4) to sort ascending by default
+    "columnDefs": [
+      {
+        "targets": 4,  // Date column index
+        "render": function (data, type, row) {
+          if (type === 'sort') {
+            return new Date(data).getTime();
+          }
+          return data;
+        }
+      }
+    ]
   }); // ! End for upload and export button
 
   // TODO: Search datatable by date

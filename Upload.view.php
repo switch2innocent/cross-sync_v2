@@ -1,4 +1,5 @@
 <?php
+session_start();
 
 require_once 'config/dbcon.php';
 require_once 'objects/upload.obj.php';
@@ -8,6 +9,10 @@ $db = $database->connect();
 
 $viewalluploadedfiles = new Upload_file($db);
 
+if (!isset($_SESSION['loggedin']) || $_SESSION['loggedin'] !== true) {
+  header('location: index.php');
+  exit;
+}
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -17,20 +22,12 @@ $viewalluploadedfiles = new Upload_file($db);
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Upload</title>
 
-  <!-- Google Font: Source Sans Pro -->
+  <!-- CSS Plugins -->
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700&display=fallback">
-
-  <!-- Font Awesome -->
   <link rel="stylesheet" href="plugins/fontawesome-free/css/all.min.css">
-
-  <!-- Theme style -->
   <link rel="stylesheet" href="dist/css/adminlte.min.css">
-
-  <!-- Datatable CSS -->
   <link rel="stylesheet" href="assets/plugins/datatablecss/dataTables.dataTables.css">
   <link rel="stylesheet" href="assets/plugins/datatablecss/buttons.dataTables.css">
-
-  <!-- Custom date style -->
   <link rel="stylesheet" href="assets/css/date.style.css">
 
 </head>
@@ -60,7 +57,7 @@ $viewalluploadedfiles = new Upload_file($db);
             <img src="dist/img/avatar5.png" class="img-circle elevation-2" alt="User Image">
           </div>
           <div class="info">
-            <a href="#" class="d-block">Welcome! Rex</a>
+            <a href="#" class="d-block" style="text-transform: capitalize;">Welcome! <?= htmlspecialchars($_SESSION['firstname']); ?></a>
           </div>
         </div>
 
@@ -77,7 +74,7 @@ $viewalluploadedfiles = new Upload_file($db);
               </a>
             </li>
             <li class="nav-item">
-              <a href="index.php" class="nav-link">
+              <a href="controls/logout_user.ctrl.php" class="nav-link">
                 <i class="fa fa-lock"></i> &nbsp;
                 <p>
                   Logout
@@ -151,11 +148,11 @@ $viewalluploadedfiles = new Upload_file($db);
                   } elseif ($inventory == 0) {
                     $status = "Not found on inventory";
                   } elseif ($warehouse === $inventory) {
-                    $status = "Balance";
+                    $status = "<b class='text-primary'>Balance</b>";
                   } elseif ($warehouse > $inventory) {
-                    $status = "Warehouse is greater than inventory";
+                    $status = "<b class='text-success'>High SOH on Warehouse</b>";
                   } elseif ($warehouse < $inventory) {
-                    $status = "Warehouse is less than inventory";
+                    $status = "<b class='text-danger'>Low SOH on Warehouse</b>";
                   }
 
                   echo '
@@ -286,17 +283,9 @@ $viewalluploadedfiles = new Upload_file($db);
 
   <!-- jQuery -->
   <script src="plugins/jquery/jquery.min.js"></script>
-
-  <!-- Bootstrap 4 -->
   <script src="plugins/bootstrap/js/bootstrap.bundle.min.js"></script>
-
-  <!-- AdminLTE App -->
   <script src="dist/js/adminlte.js"></script>
-
-  <!-- sweetalert2@11.js -->
   <script src="assets/plugins/sweetalert2@11.js"></script>
-
-  <!-- Datatable plugins -->
   <script src="assets/plugins/datatablejs/dataTables.js"></script>
   <script src="assets/plugins/datatablejs/dataTables.buttons.js"></script>
   <script src="assets/plugins/datatablejs/buttons.dataTables.js"></script>
@@ -305,8 +294,6 @@ $viewalluploadedfiles = new Upload_file($db);
   <script src="assets/plugins/datatablejs/vfs_fonts.js"></script>
   <script src="assets/plugins/datatablejs/buttons.html5.min.js"></script>
   <script src="assets/plugins/datatablejs/buttons.print.min.js"></script>
-
-  <!-- Upload SCript -->
   <script src="assets/script/upload.script.js"></script>
 
 </body>

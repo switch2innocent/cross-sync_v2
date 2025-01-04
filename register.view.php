@@ -5,13 +5,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Register</title>
-    <!-- Latest compiled and minified CSS -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
 
-    <!-- Select2 CSS -->
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.13/css/select2.min.css" rel="stylesheet" />
+    <!-- CSS Plugins -->
+    <link rel="stylesheet" href="assets/plugins/bootstrap.min.css">
+    <link href="assets/plugins/select2/css/select2.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="assets/plugins/toastr/toastr.min.css">
     <link rel="stylesheet" href="assets/css//select2.style.css">
+    
 </head>
 
 <body>
@@ -25,7 +25,7 @@
 
                 <div class="form-group border shadow-lg bg-white p-4 mt-4 rounded">
 
-                    <h5 class="mb-4">Step 1: User Information</h5>
+                    <h5 class="mb-4">Step 1: Employee Information</h5>
 
                     <label for="firstname">Firstname <i class="color-danger">*</i></label>
                     <input type="text" class="form-control" id="firstname" placeholder="Your firstname">
@@ -83,21 +83,16 @@
         </div>
     </div>
 
-    <!-- jQuery library -->
-    <script src="https://cdn.jsdelivr.net/npm/jquery@3.7.1/dist/jquery.slim.min.js"></script>
-
-    <!-- Popper JS -->
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
-
-    <!-- Latest compiled JavaScript -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
-
-    <!-- Select2 plugin -->
-    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.13/js/select2.min.js"></script>
-
-    <!-- Register Script -->
+     <!-- jQuery library -->
+     <script src="plugins/jquery/jquery.min.js"></script>
+    <script src="assets/plugins/popper.min.js"></script>
+    <script src="plugins/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/plugins/jquery-3.6.0.min.js"></script>
+    <script src="assets/plugins/select2/js/select2.min.js"></script>
+    <script src="assets/plugins/toastr/toastr.min.js"></script>
+    <script src="assets/plugins/sweetalert2@11.js"></script>
     <script src="assets/script//register.script.js"></script>
+
 </body>
 
 </html>

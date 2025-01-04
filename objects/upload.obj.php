@@ -99,8 +99,7 @@ class Upload_file
             cw.trading, 
             cw.uom, 
             cw.created_at
-        ORDER BY 
-            cw.item_code, cw.created_at;";
+        ORDER BY cw.created_at ASC;";
 
         $view_all_uploaded_data = $this->conn->prepare($sql);
 

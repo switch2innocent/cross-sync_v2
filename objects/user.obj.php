@@ -43,6 +43,29 @@ class Users {
 
     }
 
+    public function login_user() {
+
+        $sql = "SELECT * FROM users WHERE username=? AND password=?";
+        $login_user = $this->conn->prepare($sql);
+
+        $login_user->bindParam(1, $this->username);
+        $login_user->bindParam(2, $this->password);
+
+        $login_user->execute();
+        return $login_user;
+    }
+
+    public function logout_user() {
+
+        session_start();
+        if (session_destroy()) {
+            return true;
+            unset($_seession["firstname"]);
+        } else {
+            return false;
+        }
+
+    }
 
 
 }

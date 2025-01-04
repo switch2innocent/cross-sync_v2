@@ -17,7 +17,7 @@ $saveuser->dept = $_POST['dept'];
 $saveuser->unit = $_POST['unit'];
 $saveuser->email = $_POST['email'];
 $saveuser->username = $_POST['username'];
-$saveuser->password = $_POST['password'];
+$saveuser->password = md5($_POST['password']);
 
 $execute = $saveuser->save_user();
 

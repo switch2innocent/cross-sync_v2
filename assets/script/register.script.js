@@ -93,67 +93,67 @@ function save_user() {
 
     if (fname == '') {
 
-        alert("Please enter your first name");
+        toastr["info"]("Firstname is required.", "Info");
         $("#firstname").focus();
 
     } else if (lname == '') {
 
-        alert("Please enter your last name");
+        toastr["info"]("Lastname is required.", "Info");
         $("#lastname").focus();
 
     } else if (pos == '') {
 
-        alert("Please enter your position");
+        toastr["info"]("Position is required.", "Info");
         $("#position").focus();
 
     } else if (proj == '') {
 
-        alert("Please select a project");
+        toastr["info"]("Select a project.", "Info");
         $("#project").focus();
 
     } else if (dateHire == '') {
 
-        alert("Please select a your date hired");
+        toastr["info"]("Select your date hire.", "Info");
         $("#date-hire").focus();
 
     } else if (dept == '') {
 
-        alert("Please select a your department");
+        toastr["info"]("Select your department.", "Info");
         $("#department").focus();
 
     } else if (unit == '') {
 
-        alert("Please enter your unit");
+        toastr["info"]("Unit is required.", "Info");
         $("#unit").focus();
 
     } else if (email == '') {
 
-        alert("Please enter an email");
+        toastr["info"]("Email is required.", "Info");
         $("#email").focus();
 
     } else if (check !== 'innogroup.com.ph' && check !== 'induco.com.ph' && check !== 'citrineland.com.ph' && check !== 'innoland.com.ph' && check !== 'innoprime.com.ph') {
 
-        alert("Please enter a valid company email");
+        toastr["error"]("Please enter valid company domain. (ex. your_email@innogroup.com.ph)", "Error");
         $("#email").focus();
 
     } else if (uname == '') {
 
-        alert("Please enter username");
+        toastr["info"]("Username is required.", "Info");
         $("#username").focus();
 
     } else if (pass == '') {
 
-        alert("Please enter password");
+        toastr["info"]("Password is required.", "Info");
         $("#password").focus();
 
     } else if (conPass == '') {
 
-        alert("Please enter confirm password");
+        toastr["info"]("Confirmation password is required.", "Info");
         $("#con-password").focus();
 
     } else if (pass !== conPass) {
 
-        alert("Password do not match...");
+        toastr["error"]("Password do not match! Please try again.", "Error");
 
     } else {
         $.ajax({
@@ -164,11 +164,19 @@ function save_user() {
                 console.log(responce);
                 if (responce > 0) {
 
-                    alert("Save");
+                    Swal.fire({
+                        title: "Saved!",
+                        text: "Saved successfully!",
+                        icon: "success",
+                        allowOutsideClick: false,
+                        allowEscapeKey: false,
+                      }).then(function () {
+                        location.reload();
+                      });
 
                 } else {
 
-                    alert("Failed to save");
+                    toastr["error"]("Failed to saved.", "Error");
 
                 }
             }
@@ -177,4 +185,21 @@ function save_user() {
     }
 }
 
+toastr.options = {
+    "closeButton": false,
+    "debug": false,
+    "newestOnTop": false,
+    "progressBar": false,
+    "positionClass": "toast-bottom-right",
+    "preventDuplicates": true,
+    "onclick": null,
+    "showDuration": "300",
+    "hideDuration": "1000",
+    "timeOut": "3000",
+    "extendedTimeOut": "1000",
+    "showEasing": "swing",
+    "hideEasing": "linear",
+    "showMethod": "fadeIn",
+    "hideMethod": "fadeOut"
+  }
 
