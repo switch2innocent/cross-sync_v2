@@ -248,11 +248,11 @@ if (!isset($_SESSION['loggedin']) || $_SESSION['loggedin'] !== true) {
           <div class="modal-body">
             <!-- // TODO: Search by date -->
             <div class="form-group">
-              <label for="start-date">Start Date:</label>
+              <label for="start-date">Start Date <i class="text-danger">*</i></label>
               <input type="date" class="custom-date-input" id="start-date">
             </div>
             <div class="form-group">
-              <label for="end-date">End Date:</label>
+              <label for="end-date">End Date <i class="text-danger">*</i></label>
               <input type="date" class="custom-date-input" id="end-date">
             </div>
           </div>

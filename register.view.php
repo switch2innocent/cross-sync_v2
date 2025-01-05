@@ -28,13 +28,13 @@
                     <h5 class="mb-4">Step 1: Employee Information</h5>
 
                     <label for="firstname">Firstname <i class="text-danger">*</i></label>
-                    <input type="text" class="form-control" id="firstname" placeholder="Your firstname" style="text-transform: capitalize;>
+                    <input type="text" class="form-control" id="firstname" placeholder="Your firstname" style="text-transform: capitalize;">
 
                     <label for="lastname" class="mt-2">Lastname <i class="text-danger">*</i></label>
-                    <input type="text" class="form-control" id="lastname" placeholder="Your Lastname" style="text-transform: capitalize;>
+                    <input type="text" class="form-control" id="lastname" placeholder="Your Lastname" style="text-transform: capitalize;">
 
                     <label for="position" class="mt-2">Position <i class="text-danger">*</i></label>
-                    <input type="text" class="form-control" id="position" placeholder="Your Position" style="text-transform: capitalize;>
+                    <input type="text" class="form-control" id="position" placeholder="Your Position" style="text-transform: capitalize;">
 
                     <!-- Project using select2 -->
                     <label for="project" class="mt-2">Project <i class="text-danger">*</i></label>
