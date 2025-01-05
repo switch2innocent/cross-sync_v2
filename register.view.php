@@ -11,87 +11,76 @@
 
     <!-- Select2 CSS -->
     <link href="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.13/css/select2.min.css" rel="stylesheet" />
-
+    <link rel="stylesheet" href="assets/css//select2.style.css">
 </head>
 
 <body>
 
-    <div class="container border shadow-lg bg-white p-4 mt-5 rounded">
-        <div class="d-flex justify-content-start">
-            <a href="index.php" style="text-decoration: none;"><i class="fas fa-arrow-left"></i> Back</a>
-        </div>
-        <div class="d-flex justify-content-center text-success">
-            <h2>Account Registration</h2>
-        </div>
+    <div class="container mt-4">
+        <div class="row justify-content-center">
+            <div class="col-md-6">
+                <div class="text-success text-center">
+                    <h2>Account Registration</h2>
+                </div>
 
-        <form action="/action_page.php">
-            <div class="row mt-5">
-                <div class="col">
-                    <label for="firstname">Firstname:</label>
+                <div class="form-group border shadow-lg bg-white p-4 mt-4 rounded">
+
+                    <h5 class="mb-4">Step 1: User Information</h5>
+
+                    <label for="firstname">Firstname <i class="color-danger">*</i></label>
                     <input type="text" class="form-control" id="firstname" placeholder="Your firstname">
-                </div>
-                <div class="col">
-                    <label for="lastname">Lastname:</label>
-                    <input type="text" class="form-control" id="lastname" placeholder="Your Lastname">
-                </div>
-                <div class="col">
-                    <label for="position">Position:</label>
-                    <input type="text" class="form-control" id="position" placeholder="Your Position">
-                </div>
-            </div>
-            <div class="row mt-2">
-                <div class="col">
-                    <label for="project">Project:</label>
-                    <!-- Select2 Dropdown -->
-                    <select type="text" id="project" class="form-control select2 w-100 js-example-basic-single">
-                        <option class="form-control" value="0" selected disabled>Select a project</option>
-                        <?php
-                            // $get_proj = $project->get_project();
-                            // while ($row = $get_proj->fetch(PDO::FETCH_ASSOC)) {
-                            //    echo '
-                            //    <option value="'.$row['id'].'">'.$row['proj_name'].'</option>
-                            //    ';
-                            // }
-                        ?>
-                    </select>
-                </div>
-                <div class="col">
-                    <label for="date-hire">Date hire:</label>
-                    <input type="date" class="form-control">
-                </div>
-                <div class="col">
-                    <label for="project">Department:</label>
-                    <div class="dropdown">
-                        <button type="button" class="btn dropdown-toggle" data-toggle="dropdown">
-                            Select Department
-                        </button>
-                        <div class="dropdown-menu">
-                            <a class="dropdown-item" href="#">Link 1</a>
-                            <a class="dropdown-item" href="#">Link 2</a>
-                            <a class="dropdown-item" href="#">Link 3</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="row mt-2">
-                <div class="col">
-                    <label for="unit">Unit:</label>
-                    <input type="number" class="form-control" id="number" placeholder="Your Unit">
-                </div>
-                <div class="col">
-                    <label for="email">Email:</label>
-                    <input type="email" class="form-control" id="email" placeholder="Your Eamil">
-                </div>
-                <div class="col">
-                    <label for="username">Username:</label>
-                    <input type="text" class="form-control" id="username" placeholder="Your Username">
-                </div>
-            </div>
-            <div class="d-flex justify-content-end">
-                <button type="submit" class="btn btn-success mt-5">Submit</button>
-            </div>
-        </form>
 
+                    <label for="lastname" class="mt-2">Lastname <i class="color-danger">*</i></label>
+                    <input type="text" class="form-control" id="lastname" placeholder="Your Lastname">
+
+                    <label for="position" class="mt-2">Position <i class="color-danger">*</i></label>
+                    <input type="text" class="form-control" id="position" placeholder="Your Position">
+
+                    <!-- Project using select2 -->
+                    <label for="project" class="mt-2">Project <i class="color-danger">*</i></label>
+                    <select name="" id="project" class="form-control select2">
+                        <option value="">Select a Project</option>
+                    </select>
+
+                    <label for="date-hire" class="mt-2">Date hire <i class="color-danger">*</i></label>
+                    <input type="date" id="date-hire" class="form-control">
+
+                    <!-- Department using select2 -->
+                    <label for="department" class="mt-2">Department <i class="color-danger">*</i></label>
+                    <select name="" id="department" class="form-control select2">
+                        <option value="">Select a Department</option>
+                    </select>
+
+                    <label for="unit" class="mt-2">Unit <i class="color-danger">*</i></label>
+                    <input type="number" class="form-control" id="unit" placeholder="Your Unit">
+
+                    <label for="email" class="mt-2">Email <i class="color-danger">*</i></label>
+                    <input type="email" class="form-control" id="email" placeholder="Your Email">
+
+                </div>
+
+
+                <div class="form-group border shadow-lg bg-white p-4 mt-5 rounded">
+
+                    <h5 class="mb-4">Step 2: Login Information</h5>
+
+                    <label for="username">Username <i class="color-danger">*</i></label>
+                    <input type="text" class="form-control" id="username" placeholder="Your Username">
+
+                    <label for="password" class="mt-2">Password <i class="color-danger">*</i></label>
+                    <input type="password" class="form-control" id="password" placeholder="Your Password">
+
+                    <label for="con-password" class="mt-2">Confirm Password <i class="color-danger">*</i></label>
+                    <input type="password" class="form-control" id="con-password" placeholder="Confirm Password">
+
+                    <div class="text-right mt-4">
+                        <a href="index.php" class="btn btn-primary">Back to Login</a>
+                        <input type="submit" class="btn btn-outline-success" id="save_user" onclick="save_user()">
+                    </div>
+
+                </div>
+            </div>
+        </div>
     </div>
 
     <!-- jQuery library -->
