@@ -75,7 +75,10 @@ function save_user() {
     var email = $("#email").val();
     var uname = $("#username").val();
     var pass = $("#password").val();
-    var allowedCompanyDomains = ["@innogroup.com.ph", "@induco.com.ph", "@citrineland.com.ph", "@innoland.com.ph", "@innoprime.com.ph"];
+    var conPass = $("#con-password").val();
+
+    var check = email.substring(email.lastIndexOf('@') + 1);
+    //var allowedCompanyDomains = ['@innogroup.com.ph', '@induco.com.ph', '@citrineland.com.ph', '@innoland.com.ph', '@innoprime.com.ph'];
 
     var appendAllData = 'firstname=' + fname +
         '&lastname=' + lname +
@@ -93,48 +96,66 @@ function save_user() {
         alert("Please enter your first name");
         $("#firstname").focus();
 
-    } else if(lname == '') {
-            
+    } else if (lname == '') {
+
         alert("Please enter your last name");
         $("#lastname").focus();
-  
-    } else if(pos == '') {
-            
+
+    } else if (pos == '') {
+
         alert("Please enter your position");
         $("#position").focus();
-  
-    } else if(proj == '') {
-            
+
+    } else if (proj == '') {
+
         alert("Please select a project");
         $("#project").focus();
-  
-    } else if(dateHire == '') {
-            
+
+    } else if (dateHire == '') {
+
         alert("Please select a your date hired");
         $("#date-hire").focus();
-  
-    } else if(dept == '') {
-            
+
+    } else if (dept == '') {
+
         alert("Please select a your department");
         $("#department").focus();
-  
-    } else if(unit == '') {
-            
+
+    } else if (unit == '') {
+
         alert("Please enter your unit");
         $("#unit").focus();
-  
-    } else if(email == '') {
-            
+
+    } else if (email == '') {
+
         alert("Please enter an email");
         $("#email").focus();
-  
-    } else if(email.endsWith(allowedCompanyDomains)) {
-            
+
+    } else if (check !== 'innogroup.com.ph' && check !== 'induco.com.ph' && check !== 'citrineland.com.ph' && check !== 'innoland.com.ph' && check !== 'innoprime.com.ph') {
+
         alert("Please enter a valid company email");
         $("#email").focus();
-  
+
+    } else if (uname == '') {
+
+        alert("Please enter username");
+        $("#username").focus();
+
+    } else if (pass == '') {
+
+        alert("Please enter password");
+        $("#password").focus();
+
+    } else if (conPass == '') {
+
+        alert("Please enter confirm password");
+        $("#con-password").focus();
+
+    } else if (pass !== conPass) {
+
+        alert("Password do not match...");
+
     } else {
-        
         $.ajax({
             type: 'POST',
             url: 'controls/add_user.ctrl.php',
