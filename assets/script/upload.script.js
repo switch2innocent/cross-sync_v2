@@ -77,7 +77,7 @@ $(document).ready(function () {
       topStart: {
         buttons: [
           {
-            text: '<i class="fas fa-plus"></i> &nbsp; Upload File',
+            text: '<i class="fas fa-plus"></i> &nbsp; Add File',
             action: function (e, dt, node, config) {
               // ! Trigger the upload modal to open
               var uploadModal = new bootstrap.Modal(

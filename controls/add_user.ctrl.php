@@ -8,14 +8,14 @@ $dbMain = $databaseMain->connect();
 
 $saveuser = new Users($dbMain);
 
-$saveuser->firstname = $_POST['firstname'];
-$saveuser->lastname = $_POST['lastname'];
-$saveuser->position = $_POST['position'];
+$saveuser->firstname = ucwords($_POST['firstname']);
+$saveuser->lastname = ucwords($_POST['lastname']);
+$saveuser->position = ucwords($_POST['position']);
 $saveuser->project = $_POST['project'];
 $saveuser->date_hire = $_POST['date_hire'];
 $saveuser->dept = $_POST['dept'];
 $saveuser->unit = $_POST['unit'];
-$saveuser->email = $_POST['email'];
+$saveuser->email = strtolower($_POST['email']);
 $saveuser->username = $_POST['username'];
 $saveuser->password = md5($_POST['password']);
 

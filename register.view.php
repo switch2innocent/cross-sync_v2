@@ -27,34 +27,34 @@
 
                     <h5 class="mb-4">Step 1: Employee Information</h5>
 
-                    <label for="firstname">Firstname <i class="color-danger">*</i></label>
-                    <input type="text" class="form-control" id="firstname" placeholder="Your firstname">
+                    <label for="firstname">Firstname <i class="text-danger">*</i></label>
+                    <input type="text" class="form-control" id="firstname" placeholder="Your firstname" style="text-transform: capitalize;>
 
-                    <label for="lastname" class="mt-2">Lastname <i class="color-danger">*</i></label>
-                    <input type="text" class="form-control" id="lastname" placeholder="Your Lastname">
+                    <label for="lastname" class="mt-2">Lastname <i class="text-danger">*</i></label>
+                    <input type="text" class="form-control" id="lastname" placeholder="Your Lastname" style="text-transform: capitalize;>
 
-                    <label for="position" class="mt-2">Position <i class="color-danger">*</i></label>
-                    <input type="text" class="form-control" id="position" placeholder="Your Position">
+                    <label for="position" class="mt-2">Position <i class="text-danger">*</i></label>
+                    <input type="text" class="form-control" id="position" placeholder="Your Position" style="text-transform: capitalize;>
 
                     <!-- Project using select2 -->
-                    <label for="project" class="mt-2">Project <i class="color-danger">*</i></label>
+                    <label for="project" class="mt-2">Project <i class="text-danger">*</i></label>
                     <select name="" id="project" class="form-control select2">
                         <option value="">Select a Project</option>
                     </select>
 
-                    <label for="date-hire" class="mt-2">Date hire <i class="color-danger">*</i></label>
+                    <label for="date-hire" class="mt-2">Date hire <i class="text-danger">*</i></label>
                     <input type="date" id="date-hire" class="form-control">
 
                     <!-- Department using select2 -->
-                    <label for="department" class="mt-2">Department <i class="color-danger">*</i></label>
+                    <label for="department" class="mt-2">Department <i class="text-danger">*</i></label>
                     <select name="" id="department" class="form-control select2">
                         <option value="">Select a Department</option>
                     </select>
 
-                    <label for="unit" class="mt-2">Unit <i class="color-danger">*</i></label>
+                    <label for="unit" class="mt-2">Unit <i class="text-danger">*</i></label>
                     <input type="number" class="form-control" id="unit" placeholder="Your Unit">
 
-                    <label for="email" class="mt-2">Email <i class="color-danger">*</i></label>
+                    <label for="email" class="mt-2">Email <i class="text-danger">*</i></label>
                     <input type="email" class="form-control" id="email" placeholder="Your Email">
 
                 </div>
@@ -64,13 +64,13 @@
 
                     <h5 class="mb-4">Step 2: Login Information</h5>
 
-                    <label for="username">Username <i class="color-danger">*</i></label>
-                    <input type="text" class="form-control" id="username" placeholder="Your Username">
+                    <label for="username">Username <i class="text-danger">*</i></label>
+                    <input type="text" class="form-control" id="username" placeholder="Your Username" readonly>
 
-                    <label for="password" class="mt-2">Password <i class="color-danger">*</i></label>
+                    <label for="password" class="mt-2">Password <i class="text-danger">*</i></label>
                     <input type="password" class="form-control" id="password" placeholder="Your Password">
 
-                    <label for="con-password" class="mt-2">Confirm Password <i class="color-danger">*</i></label>
+                    <label for="con-password" class="mt-2">Confirm Password <i class="text-danger">*</i></label>
                     <input type="password" class="form-control" id="con-password" placeholder="Confirm Password">
 
                     <div class="text-right mt-4">

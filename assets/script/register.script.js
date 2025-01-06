@@ -133,7 +133,7 @@ function save_user() {
 
     } else if (check !== 'innogroup.com.ph' && check !== 'induco.com.ph' && check !== 'citrineland.com.ph' && check !== 'innoland.com.ph' && check !== 'innoprime.com.ph') {
 
-        toastr["error"]("Please enter valid company domain. (ex. your_email@innogroup.com.ph)", "Error");
+        toastr["error"]("Enter a valid company domain. (ex. your_email@innogroup.com.ph)", "Error");
         $("#email").focus();
 
     } else if (uname == '') {
@@ -185,6 +185,35 @@ function save_user() {
     }
 }
 
+// Generate username
+$('#firstname').blur(function (e){
+    e.preventDefault();
+        
+    var str = $('#firstname').val();
+    var fname = str.replace(/\s/g, '');
+    var f = fname.toLowerCase();
+    var str1 = $('#lastname').val();
+    var lname = str1.replace(/\s/g, '');
+    var l = lname.toLowerCase();
+    var username = f.concat('.').concat(l);
+    $('#username').val(username);
+
+});
+
+$('#lastname').blur(function (e){
+    e.preventDefault();
+        
+    var str = $('#firstname').val();
+    var fname = str.replace(/\s/g, '');
+    var f = fname.toLowerCase();
+    var str1 = $('#lastname').val();
+    var lname = str1.replace(/\s/g, '');
+    var l = lname.toLowerCase();
+    var username = f.concat('.').concat(l);
+    $('#username').val(username);
+    
+});
+
 toastr.options = {
     "closeButton": false,
     "debug": false,
@@ -195,7 +224,7 @@ toastr.options = {
     "onclick": null,
     "showDuration": "300",
     "hideDuration": "1000",
-    "timeOut": "3000",
+    "timeOut": "5000",
     "extendedTimeOut": "1000",
     "showEasing": "swing",
     "hideEasing": "linear",

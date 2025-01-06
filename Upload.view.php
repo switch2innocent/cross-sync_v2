@@ -187,7 +187,7 @@ if (!isset($_SESSION['loggedin']) || $_SESSION['loggedin'] !== true) {
 
           <!-- Modal Header -->
           <div class="modal-header bg-dark">
-            <h4 class="modal-title font-weight-bold">Upload File</h4>
+            <h4 class="modal-title font-weight-bold">Upload</h4>
             <button type="button" class="close text-white" data-dismiss="modal">&times;</button>
           </div>
 
@@ -195,7 +195,7 @@ if (!isset($_SESSION['loggedin']) || $_SESSION['loggedin'] !== true) {
           <div class="modal-body">
             <form method="POST" enctype="multipart/form-data" id="upload-form">
 
-              <h6 class="font-weight-bold mt-3">Central Warehouse</h6>
+              <h6 class="font-weight-bold mt-3">Central Warehouse <i class="text-danger">*</i></h6>
               <div class="form-group">
                 <div class="custom-file">
                   <input type="file" class="form-control custom-file-input" name="upload-centralWarehouse" id="upload-centralWarehouse">
@@ -204,7 +204,7 @@ if (!isset($_SESSION['loggedin']) || $_SESSION['loggedin'] !== true) {
               </div>
               <hr>
 
-              <h6 class="font-weight-bold">Inventory Data</h6>
+              <h6 class="font-weight-bold">Inventory Data <i class="text-danger">*</i></h6>
               <div class="form-group">
                 <div class="custom-file">
                   <input type="file" class="form-control form-control-sm custom-file-input" name="upload-inventoryData" id="upload-inventoryData">
