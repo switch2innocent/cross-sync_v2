@@ -16,9 +16,9 @@
 
     <div class="container">
         <div class="row justify-content-center mt-5">
-            <div class="col-md-4 border p-4">
+            <div class="col-md-4 border p-4 shadow-lg">
                 <center>
-                    <img class="w-75 mt-4" src="assets/img/Innoland.png" alt="Company Logo">
+                     <img class="w-75 mt-4" src="assets/img/Innoland.png" alt="Company Logo">
                     <h3 class="text-success">Warehouse Inventory System</h3>
                 </center>
                 <form action="" method="POST" class="mt-4">
@@ -35,7 +35,7 @@
                         <input type="checkbox" class="custom-control-input" id="customCheck">
                         <label class="custom-control-label" for="customCheck">Show password</label>
                     </div>
-                    <input type="submit" class="btn btn-success mt-3 w-100" id="btnLogin" value="Login"">
+                    <input type="submit" class="btn mt-3 w-100 text-white" id="btnLogin" value="Login" style="background-color: #343a40">
                     <center>
                         <p class=" mt-4">Don't have an account? <a href="register.view.php" style="text-decoration: none;"> Click here to register account.</a></p>
                     </center>

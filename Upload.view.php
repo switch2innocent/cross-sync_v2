@@ -141,19 +141,19 @@ if (!isset($_SESSION['loggedin']) || $_SESSION['loggedin'] !== true) {
                   $warehouse = $row['central_warehouse_soh'];
                   $inventory = $row['inventory_data_soh'];
 
-                  if ($warehouse == 0 && $inventory == 0) {
-                    $status = "Not found on both";
-                  } elseif ($warehouse == 0) {
-                    $status = "Not found on warehouse";
-                  } elseif ($inventory == 0) {
-                    $status = "Not found on inventory";
-                  } elseif ($warehouse === $inventory) {
-                    $status = "<b class='text-primary'>Balance</b>";
-                  } elseif ($warehouse > $inventory) {
-                    $status = "<b class='text-success'>High SOH on Warehouse</b>";
-                  } elseif ($warehouse < $inventory) {
-                    $status = "<b class='text-danger'>Low SOH on Warehouse</b>";
-                  }
+                    if ($warehouse == 0 && $inventory == 0) {
+                    $status = "Not Found";
+                    } elseif ($warehouse == 0) {
+                    $status = "Found in Inventory";
+                    } elseif ($inventory == 0) {
+                    $status = "Found in Warehouse";
+                    } elseif ($warehouse === $inventory) {
+                    $status = "Balanced";
+                    } elseif ($warehouse > $inventory) {
+                    $status = "High in Warehouse / Low in Inventory";
+                    } elseif ($warehouse < $inventory) {
+                    $status = "Low in Warehouse / High in Inventory";
+                    }
 
                   echo '
                   <tr>
@@ -224,7 +224,7 @@ if (!isset($_SESSION['loggedin']) || $_SESSION['loggedin'] !== true) {
 
           <!-- Modal Footer -->
           <div class="modal-footer">
-            <button type="submit" class="btn btn-outline-success" value="Upload" id="upload-submit">Submit</button>
+            <button type="submit" class="btn btn-success" value="Upload" id="upload-submit">Submit</button>
             </form>
           </div>
 
@@ -259,7 +259,7 @@ if (!isset($_SESSION['loggedin']) || $_SESSION['loggedin'] !== true) {
 
           <!-- Modal footer -->
           <div class="modal-footer">
-            <button type="button" class="btn btn-sm btn-outline-success" data-dismiss="modal">Done</button>
+            <button type="button" class="btn btn-sm btn-success" data-dismiss="modal">Done</button>
           </div>
 
         </div>

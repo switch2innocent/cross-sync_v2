@@ -65,7 +65,7 @@
                     <h5 class="mb-4">Step 2: Login Information</h5>
 
                     <label for="username">Username <i class="text-danger">*</i></label>
-                    <input type="text" class="form-control" id="username" placeholder="Your Username" readonly>
+                    <input type="text" class="form-control" id="username" placeholder="Your Username">
 
                     <label for="password" class="mt-2">Password <i class="text-danger">*</i></label>
                     <input type="password" class="form-control" id="password" placeholder="Your Password">
