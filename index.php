@@ -41,7 +41,7 @@
                         <input type="checkbox" class="custom-control-input" id="customCheck">
                         <label class="custom-control-label" for="customCheck">Show password</label>
                     </div>
-                    <input type="submit" class="btn mt-3 w-100 text-white" id="btnLogin" value="Login" style="background-color: #343a40">
+                    <input type="submit" class="btn btn-primary mt-3 w-100" id="btnLogin" value="Login">
                     <center>
                         <p class=" mt-4">Don't have an account? <a href="register.view.php" style="text-decoration: none;"> Click here to register account.</a></p>
                     </center>
