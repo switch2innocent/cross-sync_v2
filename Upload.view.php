@@ -84,7 +84,7 @@ if (!isset($_SESSION['loggedin']) || $_SESSION['loggedin'] !== true) {
               </a>
             </li>
             <li class="nav-item">
-              <a href="controls/logout_user.ctrl.php" class="nav-link">
+              <a href="controls/logout_user.ctrl.php" class="nav-link logout">
                 <i class="fa fa-lock"></i> &nbsp;
                 <p>
                   Logout
@@ -289,6 +289,13 @@ if (!isset($_SESSION['loggedin']) || $_SESSION['loggedin'] !== true) {
     <!-- /.control-sidebar -->
   </div>
   <!-- ./wrapper -->
+
+  <!-- loader -->
+  <div id="loading-screen" style="display: none; position: fixed; width: 100%; height: 100%; top: 0; left: 0; background: rgba(255, 255, 255, 0.8); z-index: 9999; text-align: center; padding-top: 20%;">
+    <div class="spinner-border text-primary" role="status">
+      <span class="sr-only">Loading...</span>
+    </div>
+  </div>
 
 
   <!-- jQuery -->

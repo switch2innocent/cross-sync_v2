@@ -80,12 +80,19 @@
                     <input type="password" class="form-control" id="con-password" placeholder="Confirm Password">
 
                     <div class="text-right mt-4">
-                        <a href="index.php" class="btn btn-primary">Back to Login</a>
+                        <a href="index.php" class="btn btn-primary" id="backLogin">Back to Login</a>
                         <input type="submit" class="btn btn-outline-success" id="save_user" onclick="save_user()">
                     </div>
 
                 </div>
             </div>
+        </div>
+    </div>
+
+    <!-- loader -->
+    <div id="loading-screen" style="display: none; position: fixed; width: 100%; height: 100%; top: 0; left: 0; background: rgba(255, 255, 255, 0.8); z-index: 9999; text-align: center; padding-top: 20%;">
+        <div class="spinner-border text-primary" role="status">
+            <span class="sr-only">Loading...</span>
         </div>
     </div>
 

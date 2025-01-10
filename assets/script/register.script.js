@@ -60,6 +60,15 @@ $(document).ready(function () {
         }
     });
 
+    // Loader page
+    $('#backLogin').click(function(e) {
+        e.preventDefault();
+        var linkLocation = this.href;
+        $('#loading-screen').fadeIn(500, function() {
+            window.location = linkLocation;
+        });
+    });
+
 });
 
 // Save user

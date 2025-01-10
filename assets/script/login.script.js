@@ -63,6 +63,15 @@ $(document).ready(function () {
             passField.attr('type', 'password');
         }
     });
+
+    // Loader page
+    $('.fade-link').click(function(e) {
+        e.preventDefault();
+        var linkLocation = this.href;
+        $('#loading-screen').fadeIn(500, function() {
+            window.location = linkLocation;
+        });
+    });
     
     toastr.options = {
         "closeButton": false,

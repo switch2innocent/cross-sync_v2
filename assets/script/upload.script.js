@@ -57,7 +57,7 @@ $(document).ready(function () {
 
         },
         complete: function () {
-          
+
           Swal.fire({
             title: "Saved!",
             text: "Saved successfully!",
@@ -80,7 +80,7 @@ $(document).ready(function () {
             text: "There was an error while uploading your file. Please try again.",
             showConfirmButton: true,
           });
-          
+
         },
 
       }); // ! End for upload statement
@@ -164,4 +164,14 @@ $(document).ready(function () {
     var fileName = $(this).val().split("\\").pop();
     $(this).siblings(".custom-file-label").addClass("selected").html(fileName);
   }); // ! End for show file name
+
+  // Loader page
+  $('.logout').click(function (e) {
+    e.preventDefault();
+    var linkLocation = this.href;
+    $('#loading-screen').fadeIn(500, function () {
+      window.location = linkLocation;
+    });
+  });
+
 }); // ! End document ready function
