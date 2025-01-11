@@ -14,24 +14,24 @@
 <body>
 
     <div class="container">
-        <div class="row justify-content-center mt-5">
+        <div class="row justify-content-center mt-4">
             <div class="col-md-4 border p-4 shadow-lg mt-5">
                 <a href="index.php" id="backLogin"><i class="fas fa-arrow-circle-left fa-2x"></i></a>
                 <div class="text-center">
                     <i class="fas fa-unlock fa-5x d-block mb-3"></i>
-                    <h2 class="mt-4">Password Recovery</h2>
-                    <p>Enter your new password to recover your account.</p>
+                    <h2 class="mt-4">Reset Password</h2>
+                    <p>Please enter your new password below.</p>
                 </div>
                 <form action="">
                     <div class="form-group position-relative mt-4">
-                        <input type="password" class="form-control pl-5" placeholder="Enter new password" id="email">
+                        <input type="password" class="form-control pl-5" placeholder="New Password" id="email">
                         <i class="fas fa-lock position-absolute" style="left: 10px; top: 50%; transform: translateY(-50%);"></i>
                     </div>
                     <div class="form-group position-relative mt-4">
-                        <input type="password" class="form-control pl-5" placeholder="Confirm new password" id="email">
+                        <input type="password" class="form-control pl-5" placeholder="Confirm Password" id="email">
                         <i class="fas fa-lock position-absolute" style="left: 10px; top: 50%; transform: translateY(-50%);"></i>
                     </div>
-                    <button class="btn btn-primary w-100 mt-2" type="submit">Submit</button>
+                    <button class="btn btn-primary w-100 mt-2" type="submit">Reset</button>
                 </form>
             </div>
         </div>

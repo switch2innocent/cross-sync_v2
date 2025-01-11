@@ -9,6 +9,7 @@
     <!-- CSS Plugins -->
     <link rel="stylesheet" href="assets/plugins/bootstrap.min.css">
     <link rel="stylesheet" href="assets/plugins/toastr/toastr.min.css">
+    <link rel="stylesheet" href="plugins/fontawesome-free/css/all.min.css">
 
     <style>
         .container {
@@ -22,31 +23,31 @@
 
     <div class="container">
         <div class="row justify-content-center mt-5">
-            <div class="col-md-4 border p-4 shadow-lg">
+            <div class="col-md-4 border p-4 shadow-lg mt-2">
                 <center>
-                    <img class="w-75 mt-4" src="assets/img/Innoland.png" alt="Company Logo">
+                    <img class="w-75 mt-3" src="assets/img/Innoland.png" alt="Company Logo">
                     <h3 class="text-success">Warehouse Inventory System</h3>
                 </center>
                 <form action="" method="POST" class="mt-4">
-                    <div class="form-group">
-                        <label for="username">Username: </label>
-                        <input type="text" class="form-control" id="txtUsername" placeholder="Enter Username">
+                    <div class="form-group position-relative">
+                        <input type="text" class="form-control pl-5" id="txtUsername" placeholder="Username">
+                        <i class="fas fa-user position-absolute" style="left: 10px; top: 50%; transform: translateY(-50%);"></i>
                     </div>
-                    <div class="form-group mt-4">
-                        <label for="pwd">Password: </label>
-                        <input type="password" class="form-control" id="txtPassword" placeholder="Enter Password">
+                    <div class="form-group position-relative mt-4">
+                        <input type="password" class="form-control pl-5" id="txtPassword" placeholder="Password">
+                        <i class="fas fa-lock position-absolute" style="left: 10px; top: 50%; transform: translateY(-50%);"></i>
                     </div>
 
-                    <div class="custom-control custom-checkbox mt-3">
+                    <div class="custom-control custom-checkbox mt-4">
                         <input type="checkbox" class="custom-control-input" id="customCheck">
-                        <label class="custom-control-label" for="customCheck">Show password</label>
+                        <label class="custom-control-label" for="customCheck">Show Password</label>
                     </div>
                     <input type="submit" class="btn btn-primary mt-4 w-100" id="btnLogin" value="Login">
 
                 </form>
                 <div class="d-flex justify-content-between mt-2 p-3" style="background-color: #f8f9fa;">
                     <a href="forgot_pass.view.php" class="fade-link" style="text-decoration: none; color: #007bff;">Forgot Password?</a>
-                    <a href="register.view.php" class="fade-link" style="text-decoration: none; color: #007bff;">Register Account.</a>
+                    <a href="register.view.php" class="fade-link" style="text-decoration: none; color: #007bff;">Create New Account.</a>
                 </div>
             </div>
         </div>

@@ -20,16 +20,15 @@
                 <a href="index.php" id="backLogin"><i class="fas fa-arrow-circle-left fa-2x"></i></a>
                 <div class="text-center">
                     <i class="fas fa-lock fa-5x d-block mb-3"></i>
-                    <h2 class="mt-4">Forgot Password?</h2>
-                    <p>You can reset your password here just enter your IGC email address.</p>
+                    <h2 class="mt-4">Retrieve Password</h2>
+                    <p>Enter your IGC email address, we will send a password resetting link to you.</p>
                 </div>
                 <form action="">
                     <div class="form-group position-relative mt-4">
-                        <input type="email" class="form-control pl-5" placeholder="email address" id="email">
+                        <input type="email" class="form-control pl-5" placeholder="IGC Email Address" id="email">
                         <i class="fas fa-envelope position-absolute" style="left: 10px; top: 50%; transform: translateY(-50%);"></i>
                     </div>
-                    <button class="btn btn-primary w-100" type="submit">Send My
-                        Password</button>
+                    <button class="btn btn-primary w-100" type="submit">Retrieve</button>
                 </form>
             </div>
         </div>
