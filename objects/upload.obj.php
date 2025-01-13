@@ -12,8 +12,10 @@ class Upload_file
     public function upload_inventory_data()
     {
 
-        $sql = "INSERT INTO inventory_data (date_inventory, cbs_code, item_code, item_description, purchase_uom, item_classification, trade_classification, location, on_hand_qty) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?)";
+        $sql = "INSERT INTO inventory_data (date_inventory, cbs_code, item_code, item_description, purchase_uom, item_classification, trade_classification, location, on_hand_qty, created_at) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?)";
         $save_inventory_data = $this->conn->prepare($sql);
+
+        $current_datetime = date('Y-m-d H:i:s');
 
         $save_inventory_data->bindParam(1, $this->date_inventory);
         $save_inventory_data->bindParam(2, $this->cbs_code);
@@ -24,6 +26,7 @@ class Upload_file
         $save_inventory_data->bindParam(7, $this->trade_classification);
         $save_inventory_data->bindParam(8, $this->location);
         $save_inventory_data->bindParam(9, $this->on_hand_qty);
+        $save_inventory_data->bindParam(10, $current_datetime);
 
         return ($save_inventory_data->execute()) ? true : false;
     }
@@ -31,8 +34,10 @@ class Upload_file
     public function upload_central_warehouse()
     {
 
-        $sql = "INSERT INTO central_warehouse (item_code, item_description, trading, uom, soh, qty_received, qty_issued) VALUES (?, ?, ?, ?, ?, ?, ?)";
+        $sql = "INSERT INTO central_warehouse (item_code, item_description, trading, uom, soh, qty_received, qty_issued, created_at) VALUES (?, ?, ?, ?, ?, ?, ?, ?)";
         $save_central_warehouse = $this->conn->prepare($sql);
+
+        $current_datetime = date('Y-m-d H:i:s');
 
         $save_central_warehouse->bindParam(1, $this->item_code);
         $save_central_warehouse->bindParam(2, $this->item_description);
@@ -41,6 +46,7 @@ class Upload_file
         $save_central_warehouse->bindParam(5, $this->soh);
         $save_central_warehouse->bindParam(6, $this->qty_received);
         $save_central_warehouse->bindParam(7, $this->qty_issued);
+        $save_central_warehouse->bindParam(8, $current_datetime);
 
         return ($save_central_warehouse->execute()) ? true : false;
     }

@@ -30,6 +30,16 @@ if (!isset($_SESSION['loggedin']) || $_SESSION['loggedin'] !== true) {
   <link rel="stylesheet" href="assets/plugins/datatablecss/buttons.dataTables.css">
   <link rel="stylesheet" href="assets/css/date.style.css">
 
+  <style>
+    .content {
+      zoom: 70%;
+    }
+
+    .modal-dialog {
+      zoom: 70%;
+    }
+  </style>
+
 </head>
 
 <body class="hold-transition sidebar-mini layout-fixed">
@@ -95,7 +105,7 @@ if (!isset($_SESSION['loggedin']) || $_SESSION['loggedin'] !== true) {
         <div class="container-fluid">
           <div class="row">
             <div class="col-sm-6">
-              <h4 class="m-0 font-weight-bold">Upload</h4>
+              <h5 class="m-0 font-weight-bold">Upload</h5>
             </div><!-- /.col -->
           </div><!-- /.row -->
         </div><!-- /.container-fluid -->
@@ -141,19 +151,19 @@ if (!isset($_SESSION['loggedin']) || $_SESSION['loggedin'] !== true) {
                   $warehouse = $row['central_warehouse_soh'];
                   $inventory = $row['inventory_data_soh'];
 
-                    if ($warehouse == 0 && $inventory == 0) {
+                  if ($warehouse == 0 && $inventory == 0) {
                     $status = "Not Found";
-                    } elseif ($warehouse == 0) {
+                  } elseif ($warehouse == 0) {
                     $status = "Found in Inventory";
-                    } elseif ($inventory == 0) {
+                  } elseif ($inventory == 0) {
                     $status = "Found in Warehouse";
-                    } elseif ($warehouse === $inventory) {
+                  } elseif ($warehouse === $inventory) {
                     $status = "Balanced";
-                    } elseif ($warehouse > $inventory) {
+                  } elseif ($warehouse > $inventory) {
                     $status = "High in Warehouse / Low in Inventory";
-                    } elseif ($warehouse < $inventory) {
+                  } elseif ($warehouse < $inventory) {
                     $status = "Low in Warehouse / High in Inventory";
-                    }
+                  }
 
                   echo '
                   <tr>

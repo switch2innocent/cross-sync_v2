@@ -10,6 +10,12 @@
     <link rel="stylesheet" href="assets/plugins/bootstrap.min.css">
     <link rel="stylesheet" href="assets/plugins/toastr/toastr.min.css">
 
+    <style>
+        .container {
+            zoom: 90%;
+        }
+    </style>
+
 </head>
 
 <body>
@@ -18,7 +24,7 @@
         <div class="row justify-content-center mt-5">
             <div class="col-md-4 border p-4 shadow-lg">
                 <center>
-                     <img class="w-75 mt-4" src="assets/img/Innoland.png" alt="Company Logo">
+                    <img class="w-75 mt-4" src="assets/img/Innoland.png" alt="Company Logo">
                     <h3 class="text-success">Warehouse Inventory System</h3>
                 </center>
                 <form action="" method="POST" class="mt-4">

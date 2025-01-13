@@ -25,7 +25,7 @@ class Users {
     }
 
     public function save_user() {
-        $sql = "INSERT INTO users SET firstname=?, lastname=?, position=?, project=?, date_hire=?, dept=?, unit=?, email=?, username=?, password=?, status=1";
+        $sql = "INSERT INTO users SET firstname=?, lastname=?, position=?, project=?, date_hire=?, dept=?, unit=?, email=?, username=?, password=?, access=1, role=1, logcount=1, status=1";
         $save_user = $this->conn->prepare($sql);
 
         $save_user->bindParam(1, $this->firstname);
@@ -67,5 +67,14 @@ class Users {
 
     }
 
+    public function verify_user_email() {
 
+        $sql = "SELECT COUNT(*) FROM users WHERE email=?";
+        $verify_user_email = $this->conn->prepare($sql);
+
+        $verify_user_email->bindParam(1, $this->email);
+        $verify_user_email->execute();
+
+        return $verify_user_email;
+    }
 }

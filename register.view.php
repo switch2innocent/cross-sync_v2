@@ -11,6 +11,12 @@
     <link href="assets/plugins/select2/css/select2.min.css" rel="stylesheet" />
     <link rel="stylesheet" href="assets/plugins/toastr/toastr.min.css">
     <link rel="stylesheet" href="assets/css//select2.style.css">
+
+    <style>
+        .container {
+            zoom: 90%;
+        }
+    </style>
     
 </head>
 
@@ -65,7 +71,7 @@
                     <h5 class="mb-4">Step 2: Login Information</h5>
 
                     <label for="username">Username <i class="text-danger">*</i></label>
-                    <input type="text" class="form-control" id="username" placeholder="Your Username">
+                    <input type="text" class="form-control" id="username" placeholder="Your Username" readonly>
 
                     <label for="password" class="mt-2">Password <i class="text-danger">*</i></label>
                     <input type="password" class="form-control" id="password" placeholder="Your Password">

@@ -78,7 +78,6 @@ function save_user() {
     var conPass = $("#con-password").val();
 
     var check = email.substring(email.lastIndexOf('@') + 1);
-    //var allowedCompanyDomains = ['@innogroup.com.ph', '@induco.com.ph', '@citrineland.com.ph', '@innoland.com.ph', '@innoprime.com.ph'];
 
     var appendAllData = 'firstname=' + fname +
         '&lastname=' + lname +
@@ -156,6 +155,7 @@ function save_user() {
         toastr["error"]("Password do not match! Please try again.", "Error");
 
     } else {
+
         $.ajax({
             type: 'POST',
             url: 'controls/add_user.ctrl.php',
@@ -170,9 +170,9 @@ function save_user() {
                         icon: "success",
                         allowOutsideClick: false,
                         allowEscapeKey: false,
-                      }).then(function () {
+                    }).then(function () {
                         location.reload();
-                      });
+                    });
 
                 } else {
 
@@ -180,15 +180,39 @@ function save_user() {
 
                 }
             }
-
         });
+
     }
 }
 
-// Generate username
-$('#firstname').blur(function (e){
+// Verify if email already exist on the database
+$("#email").on("blur", function(e) {
     e.preventDefault();
+
+    var email = $(this).val(); 
+
+    if (email !== '') {
         
+        $.ajax({
+            type: 'POST',
+            url: 'controls/verify_user_email.ctrl.php',
+            data: { email: email },
+            success: function(response) {
+
+                if (response > 0) {
+                    toastr["error"]("This email has already been taken.", "Error");
+                    $("#email").focus();
+                }
+                
+            }
+        });
+    }
+});
+
+// Generate username
+$('#firstname').blur(function (e) {
+    e.preventDefault();
+
     var str = $('#firstname').val();
     var fname = str.replace(/\s/g, '');
     var f = fname.toLowerCase();
@@ -200,9 +224,9 @@ $('#firstname').blur(function (e){
 
 });
 
-$('#lastname').blur(function (e){
+$('#lastname').blur(function (e) {
     e.preventDefault();
-        
+
     var str = $('#firstname').val();
     var fname = str.replace(/\s/g, '');
     var f = fname.toLowerCase();
@@ -211,7 +235,7 @@ $('#lastname').blur(function (e){
     var l = lname.toLowerCase();
     var username = f.concat('.').concat(l);
     $('#username').val(username);
-    
+
 });
 
 toastr.options = {
@@ -230,5 +254,5 @@ toastr.options = {
     "hideEasing": "linear",
     "showMethod": "fadeIn",
     "hideMethod": "fadeOut"
-  }
+}
 

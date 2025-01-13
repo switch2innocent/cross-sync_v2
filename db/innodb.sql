@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Dec 20, 2024 at 06:57 AM
+-- Generation Time: Jan 13, 2025 at 08:04 AM
 -- Server version: 10.4.32-MariaDB
 -- PHP Version: 8.2.12
 
@@ -60,7 +60,7 @@ CREATE TABLE `central_warehouse` (
   `soh` int(11) NOT NULL,
   `qty_received` int(11) NOT NULL,
   `qty_issued` int(11) NOT NULL,
-  `created_at` date DEFAULT current_timestamp()
+  `created_at` date NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 
 --
@@ -68,29 +68,42 @@ CREATE TABLE `central_warehouse` (
 --
 
 INSERT INTO `central_warehouse` (`id`, `item_code`, `item_description`, `trading`, `uom`, `soh`, `qty_received`, `qty_issued`, `created_at`) VALUES
-(25781, '2B-01-1035', '36 mm dia. x 12 meters, Grade 60', '2-Structural', 'lengths', 0, 0, 0, '2024-12-20'),
-(25782, '2B-01-10352', '36 mm dia. x 10.5 meters, Grade 60', '2-Structural', 'lengths', 12, 0, 0, '2024-12-20'),
-(25783, '2B-01-1033', '36 mm dia. x 9 meters, Grade 60', '2-Structural', 'lengths', 34, 0, 16, '2024-12-20'),
-(25784, '2B-01-1032', '36 mm dia. x 7.5 meters, Grade 60', '2-Structural', 'lengths', 0, 0, 0, '2024-12-20'),
-(25785, '2B-01-1031', '36 mm dia. x 6 meters, Grade 60', '2-Structural', 'lengths', 207, 0, 60, '2024-12-20'),
-(25786, '2B-01-1031', '36 mm dia. x 6 meters, Grade 60', '2-Structural', 'lengths', 15, 0, 2, '2024-12-20'),
-(25787, '2B-01-1031', '36 mm dia. x 6 meters, Grade 60', '2-Structural', 'lengths', 14, 0, 0, '2024-12-20'),
-(25788, '2B-01-1031', '36 mm dia. x 6 meters, Grade 60', '2-Structural', 'lengths', 0, 0, 0, '2024-12-20'),
-(25789, '2B-01-1031', '36 mm dia. x 6 meters, Grade 60', '2-Structural', 'lengths', 51, 0, 0, '2024-12-20'),
-(25790, '2B-01-1031', '36 mm dia. x 6 meters, Grade 60', '2-Structural', 'lengths', 6, 0, 0, '2024-12-20'),
-(25791, '2B-01-10352', '36 mm dia. x 10.5 meters, Grade 60', '2-Structural', 'lengths', 12, 0, 0, '2024-12-20'),
-(25792, '2B-01-1035', '36 mm dia. x 12 meters, Grade 60', '2-Structural', 'lengths', 0, 0, 0, '2024-12-20'),
-(25793, '2B-01-10352', '36 mm dia. x 10.5 meters, Grade 60', '2-Structural', 'lengths', 12, 0, 0, '2024-12-20'),
-(25794, '2B-01-1033', '36 mm dia. x 9 meters, Grade 60', '2-Structural', 'lengths', 34, 0, 16, '2024-12-20'),
-(25795, '2B-01-1032', '36 mm dia. x 7.5 meters, Grade 60', '2-Structural', 'lengths', 0, 0, 0, '2024-12-20'),
-(25796, '2B-01-1031', '36 mm dia. x 6 meters, Grade 60', '2-Structural', 'lengths', 207, 0, 60, '2024-12-20'),
-(25797, '2B-01-1031', '36 mm dia. x 6 meters, Grade 60', '2-Structural', 'lengths', 15, 0, 2, '2024-12-20'),
-(25798, '2B-01-1031', '36 mm dia. x 6 meters, Grade 60', '2-Structural', 'lengths', 14, 0, 0, '2024-12-20'),
-(25799, '2B-01-1031', '36 mm dia. x 6 meters, Grade 60', '2-Structural', 'lengths', 0, 0, 0, '2024-12-20'),
-(25800, '2B-01-1031', '36 mm dia. x 6 meters, Grade 60', '2-Structural', 'lengths', 51, 0, 0, '2024-12-20'),
-(25801, '2B-01-1031', '36 mm dia. x 6 meters, Grade 60', '2-Structural', 'lengths', 6, 0, 0, '2024-12-20'),
-(25802, '2B-01-10352', '36 mm dia. x 10.5 meters, Grade 60', '2-Structural', 'lengths', 12, 0, 0, '2024-12-20'),
-(25803, '2B-01-1032', '36 mm dia. x 7.5 meters, Grade 60', '2-Structural', 'lengths', 0, 0, 0, '2024-12-20');
+(25840, '2B-01-1035', '36 mm dia. x 12 meters, Grade 60', '2-Structural', 'lengths', 0, 0, 0, '2025-01-08'),
+(25841, '2B-01-10352', '36 mm dia. x 10.5 meters, Grade 60', '2-Structural', 'lengths', 12, 0, 0, '2025-01-08'),
+(25842, '2B-01-1033', '36 mm dia. x 9 meters, Grade 60', '2-Structural', 'lengths', 34, 0, 16, '2025-01-08'),
+(25843, '2B-01-1032', '36 mm dia. x 7.5 meters, Grade 60', '2-Structural', 'lengths', 0, 0, 0, '2025-01-08'),
+(25844, '2B-01-1031', '36 mm dia. x 6 meters, Grade 60', '2-Structural', 'lengths', 207, 0, 60, '2025-01-08'),
+(25845, '2B-01-1031', '36 mm dia. x 6 meters, Grade 60', '2-Structural', 'lengths', 15, 0, 2, '2025-01-08'),
+(25846, '2B-01-1031', '36 mm dia. x 6 meters, Grade 60', '2-Structural', 'lengths', 14, 0, 0, '2025-01-08'),
+(25847, '2B-01-1031', '36 mm dia. x 6 meters, Grade 60', '2-Structural', 'lengths', 0, 0, 0, '2025-01-08'),
+(25848, '2B-01-1031', '36 mm dia. x 6 meters, Grade 60', '2-Structural', 'lengths', 51, 0, 0, '2025-01-08'),
+(25849, '2B-01-1031', '36 mm dia. x 6 meters, Grade 60', '2-Structural', 'lengths', 6, 0, 0, '2025-01-08'),
+(25850, '2B-01-10352', '36 mm dia. x 10.5 meters, Grade 60', '2-Structural', 'lengths', 12, 0, 0, '2025-01-08'),
+(25851, '2B-01-1032', '36 mm dia. x 7.5 meters, Grade 60', '2-Structural', 'lengths', 0, 0, 0, '2025-01-08'),
+(25852, '2B-01-1035', '36 mm dia. x 12 meters, Grade 60', '2-Structural', 'lengths', 0, 0, 0, '2025-01-10'),
+(25853, '2B-01-10352', '36 mm dia. x 10.5 meters, Grade 60', '2-Structural', 'lengths', 12, 0, 0, '2025-01-10'),
+(25854, '2B-01-1033', '36 mm dia. x 9 meters, Grade 60', '2-Structural', 'lengths', 34, 0, 16, '2025-01-10'),
+(25855, '2B-01-1032', '36 mm dia. x 7.5 meters, Grade 60', '2-Structural', 'lengths', 0, 0, 0, '2025-01-10'),
+(25856, '2B-01-1031', '36 mm dia. x 6 meters, Grade 60', '2-Structural', 'lengths', 207, 0, 60, '2025-01-10'),
+(25857, '2B-01-1031', '36 mm dia. x 6 meters, Grade 60', '2-Structural', 'lengths', 15, 0, 2, '2025-01-10'),
+(25858, '2B-01-1031', '36 mm dia. x 6 meters, Grade 60', '2-Structural', 'lengths', 14, 0, 0, '2025-01-10'),
+(25859, '2B-01-1031', '36 mm dia. x 6 meters, Grade 60', '2-Structural', 'lengths', 0, 0, 0, '2025-01-10'),
+(25860, '2B-01-1031', '36 mm dia. x 6 meters, Grade 60', '2-Structural', 'lengths', 51, 0, 0, '2025-01-10'),
+(25861, '2B-01-1031', '36 mm dia. x 6 meters, Grade 60', '2-Structural', 'lengths', 6, 0, 0, '2025-01-10'),
+(25862, '2B-01-10352', '36 mm dia. x 10.5 meters, Grade 60', '2-Structural', 'lengths', 12, 0, 0, '2025-01-10'),
+(25863, '2B-01-1032', '36 mm dia. x 7.5 meters, Grade 60', '2-Structural', 'lengths', 0, 0, 0, '2025-01-10'),
+(25864, '2B-01-1035', '36 mm dia. x 12 meters, Grade 60', '2-Structural', 'lengths', 0, 0, 0, '2025-01-13'),
+(25865, '2B-01-10352', '36 mm dia. x 10.5 meters, Grade 60', '2-Structural', 'lengths', 12, 0, 0, '2025-01-13'),
+(25866, '2B-01-1033', '36 mm dia. x 9 meters, Grade 60', '2-Structural', 'lengths', 34, 0, 16, '2025-01-13'),
+(25867, '2B-01-1032', '36 mm dia. x 7.5 meters, Grade 60', '2-Structural', 'lengths', 0, 0, 0, '2025-01-13'),
+(25868, '2B-01-1031', '36 mm dia. x 6 meters, Grade 60', '2-Structural', 'lengths', 207, 0, 60, '2025-01-13'),
+(25869, '2B-01-1031', '36 mm dia. x 6 meters, Grade 60', '2-Structural', 'lengths', 15, 0, 2, '2025-01-13'),
+(25870, '2B-01-1031', '36 mm dia. x 6 meters, Grade 60', '2-Structural', 'lengths', 14, 0, 0, '2025-01-13'),
+(25871, '2B-01-1031', '36 mm dia. x 6 meters, Grade 60', '2-Structural', 'lengths', 0, 0, 0, '2025-01-13'),
+(25872, '2B-01-1031', '36 mm dia. x 6 meters, Grade 60', '2-Structural', 'lengths', 51, 0, 0, '2025-01-13'),
+(25873, '2B-01-1031', '36 mm dia. x 6 meters, Grade 60', '2-Structural', 'lengths', 6, 0, 0, '2025-01-13'),
+(25874, '2B-01-10352', '36 mm dia. x 10.5 meters, Grade 60', '2-Structural', 'lengths', 12, 0, 0, '2025-01-13'),
+(25875, '2B-01-1032', '36 mm dia. x 7.5 meters, Grade 60', '2-Structural', 'lengths', 0, 0, 0, '2025-01-13');
 
 -- --------------------------------------------------------
 
@@ -109,7 +122,7 @@ CREATE TABLE `inventory_data` (
   `trade_classification` varchar(255) NOT NULL,
   `location` varchar(255) NOT NULL,
   `on_hand_qty` int(11) NOT NULL,
-  `created_at` date DEFAULT current_timestamp()
+  `created_at` date NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 
 --
@@ -117,29 +130,42 @@ CREATE TABLE `inventory_data` (
 --
 
 INSERT INTO `inventory_data` (`id`, `date_inventory`, `cbs_code`, `item_code`, `item_description`, `purchase_uom`, `item_classification`, `trade_classification`, `location`, `on_hand_qty`, `created_at`) VALUES
-(222, '12/16/2024', 'PM2.ST.03.21.MAT', '2B-01-1035', '36 mm dia. x 12 meters, Grade 60', 'lengths', '', 'Structural/Civil', '', 79, '2024-12-20'),
-(223, '12/16/2024', 'PM2.ST.03.21.MAT', '2B-01-10352', '36 mm dia. x 10.5 meters, Grade 60', 'lengths', '', 'Structural/Civil', '', 37, '2024-12-20'),
-(224, '12/16/2024', 'PM2.ST.03.21.MAT', '2B-01-1033', '36 mm dia. x 9 meters, Grade 60', 'lengths', '', 'Structural/Civil', '', 140, '2024-12-20'),
-(225, '12/16/2024', 'PM2.ST.03.21.MAT', '2B-01-1032', '36 mm dia. x 7.5 meters, Grade 60', 'lengths', '', 'Structural/Civil', '', 37, '2024-12-20'),
-(226, '12/16/2024', 'PM2.ST.03.21.MAT', '2B-01-1031', '36 mm dia. x 6 meters, Grade 60', 'lengths', '', 'Structural/Civil', '', 13, '2024-12-20'),
-(227, '12/16/2024', 'PM2.ST.03.21.MAT', '2B-01-1031', '36 mm dia. x 6 meters, Grade 60', 'lengths', '', 'Structural/Civil', '', 13, '2024-12-20'),
-(228, '12/16/2024', 'PM2.ST.03.21.MAT', '2B-01-1031', '36 mm dia. x 6 meters, Grade 60', 'lengths', '', 'Structural/Civil', '', 13, '2024-12-20'),
-(229, '12/16/2024', 'PM2.ST.03.21.MAT', '2B-01-1031', '36 mm dia. x 6 meters, Grade 60', 'lengths', '', 'Structural/Civil', '', 13, '2024-12-20'),
-(230, '12/16/2024', 'PM2.ST.03.21.MAT', '2B-01-1031', '36 mm dia. x 6 meters, Grade 60', 'lengths', '', 'Structural/Civil', '', 13, '2024-12-20'),
-(231, '12/16/2024', 'PM2.ST.03.21.MAT', '2B-01-1031', '36 mm dia. x 6 meters, Grade 60', 'lengths', '', 'Structural/Civil', '', 13, '2024-12-20'),
-(232, '12/16/2024', 'PM2.ST.03.21.MAT', '2B-01-10352', '36 mm dia. x 10.5 meters, Grade 60', 'lengths', '', 'Structural/Civil', '', 37, '2024-12-20'),
-(233, '12/16/2024', 'PM2.ST.03.21.MAT', '2B-01-1035', '36 mm dia. x 12 meters, Grade 60', 'lengths', '', 'Structural/Civil', '', 79, '2024-12-20'),
-(234, '12/16/2024', 'PM2.ST.03.21.MAT', '2B-01-10352', '36 mm dia. x 10.5 meters, Grade 60', 'lengths', '', 'Structural/Civil', '', 37, '2024-12-20'),
-(235, '12/16/2024', 'PM2.ST.03.21.MAT', '2B-01-1033', '36 mm dia. x 9 meters, Grade 60', 'lengths', '', 'Structural/Civil', '', 140, '2024-12-20'),
-(236, '12/16/2024', 'PM2.ST.03.21.MAT', '2B-01-1032', '36 mm dia. x 7.5 meters, Grade 60', 'lengths', '', 'Structural/Civil', '', 37, '2024-12-20'),
-(237, '12/16/2024', 'PM2.ST.03.21.MAT', '2B-01-1031', '36 mm dia. x 6 meters, Grade 60', 'lengths', '', 'Structural/Civil', '', 13, '2024-12-20'),
-(238, '12/16/2024', 'PM2.ST.03.21.MAT', '2B-01-1031', '36 mm dia. x 6 meters, Grade 60', 'lengths', '', 'Structural/Civil', '', 13, '2024-12-20'),
-(239, '12/16/2024', 'PM2.ST.03.21.MAT', '2B-01-1031', '36 mm dia. x 6 meters, Grade 60', 'lengths', '', 'Structural/Civil', '', 13, '2024-12-20'),
-(240, '12/16/2024', 'PM2.ST.03.21.MAT', '2B-01-1031', '36 mm dia. x 6 meters, Grade 60', 'lengths', '', 'Structural/Civil', '', 13, '2024-12-20'),
-(241, '12/16/2024', 'PM2.ST.03.21.MAT', '2B-01-1031', '36 mm dia. x 6 meters, Grade 60', 'lengths', '', 'Structural/Civil', '', 13, '2024-12-20'),
-(242, '12/16/2024', 'PM2.ST.03.21.MAT', '2B-01-1031', '36 mm dia. x 6 meters, Grade 60', 'lengths', '', 'Structural/Civil', '', 13, '2024-12-20'),
-(243, '12/16/2024', 'PM2.ST.03.21.MAT', '2B-01-10352', '36 mm dia. x 10.5 meters, Grade 60', 'lengths', '', 'Structural/Civil', '', 37, '2024-12-20'),
-(244, '12/16/2024', 'PM2.ST.03.21.MAT', '2B-01-1032', '36 mm dia. x 7.5 meters, Grade 60', 'lengths', '', 'Structural/Civil', '', 0, '2024-12-20');
+(269, '12/16/2024', 'PM2.ST.03.21.MAT', '2B-01-1035', '36 mm dia. x 12 meters, Grade 60', 'lengths', '', 'Structural/Civil', '', 79, '2025-01-08'),
+(270, '12/16/2024', 'PM2.ST.03.21.MAT', '2B-01-10352', '36 mm dia. x 10.5 meters, Grade 60', 'lengths', '', 'Structural/Civil', '', 37, '2025-01-08'),
+(271, '12/16/2024', 'PM2.ST.03.21.MAT', '2B-01-1033', '36 mm dia. x 9 meters, Grade 60', 'lengths', '', 'Structural/Civil', '', 140, '2025-01-08'),
+(272, '12/16/2024', 'PM2.ST.03.21.MAT', '2B-01-1032', '36 mm dia. x 7.5 meters, Grade 60', 'lengths', '', 'Structural/Civil', '', 37, '2025-01-08'),
+(273, '12/16/2024', 'PM2.ST.03.21.MAT', '2B-01-1031', '36 mm dia. x 6 meters, Grade 60', 'lengths', '', 'Structural/Civil', '', 13, '2025-01-08'),
+(274, '12/16/2024', 'PM2.ST.03.21.MAT', '2B-01-1031', '36 mm dia. x 6 meters, Grade 60', 'lengths', '', 'Structural/Civil', '', 13, '2025-01-08'),
+(275, '12/16/2024', 'PM2.ST.03.21.MAT', '2B-01-1031', '36 mm dia. x 6 meters, Grade 60', 'lengths', '', 'Structural/Civil', '', 13, '2025-01-08'),
+(276, '12/16/2024', 'PM2.ST.03.21.MAT', '2B-01-1031', '36 mm dia. x 6 meters, Grade 60', 'lengths', '', 'Structural/Civil', '', 13, '2025-01-08'),
+(277, '12/16/2024', 'PM2.ST.03.21.MAT', '2B-01-1031', '36 mm dia. x 6 meters, Grade 60', 'lengths', '', 'Structural/Civil', '', 13, '2025-01-08'),
+(278, '12/16/2024', 'PM2.ST.03.21.MAT', '2B-01-1031', '36 mm dia. x 6 meters, Grade 60', 'lengths', '', 'Structural/Civil', '', 13, '2025-01-08'),
+(279, '12/16/2024', 'PM2.ST.03.21.MAT', '2B-01-10352', '36 mm dia. x 10.5 meters, Grade 60', 'lengths', '', 'Structural/Civil', '', 37, '2025-01-08'),
+(280, '12/16/2024', 'PM2.ST.03.21.MAT', '2B-01-1032', '36 mm dia. x 7.5 meters, Grade 60', 'lengths', '', 'Structural/Civil', '', 0, '2025-01-08'),
+(281, '12/16/2024', 'PM2.ST.03.21.MAT', '2B-01-1035', '36 mm dia. x 12 meters, Grade 60', 'lengths', '', 'Structural/Civil', '', 79, '2025-01-10'),
+(282, '12/16/2024', 'PM2.ST.03.21.MAT', '2B-01-10352', '36 mm dia. x 10.5 meters, Grade 60', 'lengths', '', 'Structural/Civil', '', 37, '2025-01-10'),
+(283, '12/16/2024', 'PM2.ST.03.21.MAT', '2B-01-1033', '36 mm dia. x 9 meters, Grade 60', 'lengths', '', 'Structural/Civil', '', 140, '2025-01-10'),
+(284, '12/16/2024', 'PM2.ST.03.21.MAT', '2B-01-1032', '36 mm dia. x 7.5 meters, Grade 60', 'lengths', '', 'Structural/Civil', '', 37, '2025-01-10'),
+(285, '12/16/2024', 'PM2.ST.03.21.MAT', '2B-01-1031', '36 mm dia. x 6 meters, Grade 60', 'lengths', '', 'Structural/Civil', '', 13, '2025-01-10'),
+(286, '12/16/2024', 'PM2.ST.03.21.MAT', '2B-01-1031', '36 mm dia. x 6 meters, Grade 60', 'lengths', '', 'Structural/Civil', '', 13, '2025-01-10'),
+(287, '12/16/2024', 'PM2.ST.03.21.MAT', '2B-01-1031', '36 mm dia. x 6 meters, Grade 60', 'lengths', '', 'Structural/Civil', '', 13, '2025-01-10'),
+(288, '12/16/2024', 'PM2.ST.03.21.MAT', '2B-01-1031', '36 mm dia. x 6 meters, Grade 60', 'lengths', '', 'Structural/Civil', '', 13, '2025-01-10'),
+(289, '12/16/2024', 'PM2.ST.03.21.MAT', '2B-01-1031', '36 mm dia. x 6 meters, Grade 60', 'lengths', '', 'Structural/Civil', '', 13, '2025-01-10'),
+(290, '12/16/2024', 'PM2.ST.03.21.MAT', '2B-01-1031', '36 mm dia. x 6 meters, Grade 60', 'lengths', '', 'Structural/Civil', '', 13, '2025-01-10'),
+(291, '12/16/2024', 'PM2.ST.03.21.MAT', '2B-01-10352', '36 mm dia. x 10.5 meters, Grade 60', 'lengths', '', 'Structural/Civil', '', 37, '2025-01-10'),
+(292, '12/16/2024', 'PM2.ST.03.21.MAT', '2B-01-1032', '36 mm dia. x 7.5 meters, Grade 60', 'lengths', '', 'Structural/Civil', '', 0, '2025-01-10'),
+(293, '12/16/2024', 'PM2.ST.03.21.MAT', '2B-01-1035', '36 mm dia. x 12 meters, Grade 60', 'lengths', '', 'Structural/Civil', '', 79, '2025-01-13'),
+(294, '12/16/2024', 'PM2.ST.03.21.MAT', '2B-01-10352', '36 mm dia. x 10.5 meters, Grade 60', 'lengths', '', 'Structural/Civil', '', 37, '2025-01-13'),
+(295, '12/16/2024', 'PM2.ST.03.21.MAT', '2B-01-1033', '36 mm dia. x 9 meters, Grade 60', 'lengths', '', 'Structural/Civil', '', 140, '2025-01-13'),
+(296, '12/16/2024', 'PM2.ST.03.21.MAT', '2B-01-1032', '36 mm dia. x 7.5 meters, Grade 60', 'lengths', '', 'Structural/Civil', '', 37, '2025-01-13'),
+(297, '12/16/2024', 'PM2.ST.03.21.MAT', '2B-01-1031', '36 mm dia. x 6 meters, Grade 60', 'lengths', '', 'Structural/Civil', '', 13, '2025-01-13'),
+(298, '12/16/2024', 'PM2.ST.03.21.MAT', '2B-01-1031', '36 mm dia. x 6 meters, Grade 60', 'lengths', '', 'Structural/Civil', '', 13, '2025-01-13'),
+(299, '12/16/2024', 'PM2.ST.03.21.MAT', '2B-01-1031', '36 mm dia. x 6 meters, Grade 60', 'lengths', '', 'Structural/Civil', '', 13, '2025-01-13'),
+(300, '12/16/2024', 'PM2.ST.03.21.MAT', '2B-01-1031', '36 mm dia. x 6 meters, Grade 60', 'lengths', '', 'Structural/Civil', '', 13, '2025-01-13'),
+(301, '12/16/2024', 'PM2.ST.03.21.MAT', '2B-01-1031', '36 mm dia. x 6 meters, Grade 60', 'lengths', '', 'Structural/Civil', '', 13, '2025-01-13'),
+(302, '12/16/2024', 'PM2.ST.03.21.MAT', '2B-01-1031', '36 mm dia. x 6 meters, Grade 60', 'lengths', '', 'Structural/Civil', '', 13, '2025-01-13'),
+(303, '12/16/2024', 'PM2.ST.03.21.MAT', '2B-01-10352', '36 mm dia. x 10.5 meters, Grade 60', 'lengths', '', 'Structural/Civil', '', 37, '2025-01-13'),
+(304, '12/16/2024', 'PM2.ST.03.21.MAT', '2B-01-1032', '36 mm dia. x 7.5 meters, Grade 60', 'lengths', '', 'Structural/Civil', '', 0, '2025-01-13');
 
 --
 -- Indexes for dumped tables
@@ -177,13 +203,13 @@ ALTER TABLE `bom_data`
 -- AUTO_INCREMENT for table `central_warehouse`
 --
 ALTER TABLE `central_warehouse`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=25804;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=25876;
 
 --
 -- AUTO_INCREMENT for table `inventory_data`
 --
 ALTER TABLE `inventory_data`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=245;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=305;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
