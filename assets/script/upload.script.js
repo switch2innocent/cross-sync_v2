@@ -43,8 +43,21 @@ $(document).ready(function () {
         data: formData,
         processData: false,
         contentType: false,
-        success: function (responce) {
+        beforeSend: function () {
 
+          Swal.fire({
+            title: "Uploading...",
+            text: "Please wait while your files are being uploaded.",
+            allowOutsideClick: false,
+            allowEscapeKey: false,
+            didOpen: () => {
+              Swal.showLoading();
+            },
+          });
+
+        },
+        complete: function () {
+          
           Swal.fire({
             title: "Saved!",
             text: "Saved successfully!",
@@ -60,13 +73,16 @@ $(document).ready(function () {
 
         },
         error: function (xhr, status, error) {
+
           Swal.fire({
             icon: "error",
             title: "Upload Failed!",
             text: "There was an error while uploading your file. Please try again.",
             showConfirmButton: true,
           });
+          
         },
+
       }); // ! End for upload statement
     } // ! End for validation
   }); // ! End of upload form

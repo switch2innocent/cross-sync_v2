@@ -77,40 +77,155 @@ class Upload_file
     public function view_all_uploaded_files()
     {
 
-        $sql = "SELECT 
-            cw.item_code,
-            cw.item_description,
-            cw.trading,
-            cw.uom,
+        $sql = "SELECT
+            cw.item_code, 
+            cw.item_description, 
+            cw.trading, 
+            cw.uom, 
             cw.created_at,
-            SUM(cw.soh) AS central_warehouse_soh,
+            SUM(IFNULL(cw.soh, 0)) AS central_warehouse_soh,
             SUM(IFNULL(id.on_hand_qty, 0)) AS inventory_data_soh,
-            SUM(cw.soh) - SUM(IFNULL(id.on_hand_qty, 0)) AS soh_difference
-        FROM 
-            (
-                SELECT DISTINCT item_code, item_description, trading, uom, created_at, soh
-                FROM central_warehouse
-            ) cw
+            SUM(IFNULL(cw.soh, 0)) - SUM(IFNULL(id.on_hand_qty, 0)) AS soh_difference
+        FROM
+            (SELECT item_code, item_description, trading, uom, created_at, SUM(soh) AS soh
+            FROM central_warehouse
+            GROUP BY item_code, item_description, trading, uom, created_at) cw
         LEFT JOIN 
-            (
-                SELECT DISTINCT item_code, created_at, on_hand_qty
-                FROM inventory_data
-            ) id
-        ON 
-            cw.item_code = id.item_code 
-            AND cw.created_at = id.created_at
+            (SELECT item_code, item_description, trade_classification, purchase_uom, created_at, SUM(on_hand_qty) AS on_hand_qty
+            FROM inventory_data
+            GROUP BY item_code, item_description, trade_classification, purchase_uom, created_at) id
+        ON cw.item_code = id.item_code
+        AND cw.item_description = id.item_description
+        AND cw.trading = id.trade_classification
+        AND cw.uom = id.purchase_uom
+        AND cw.created_at = id.created_at
         GROUP BY 
             cw.item_code, 
             cw.item_description, 
             cw.trading, 
             cw.uom, 
             cw.created_at
-        ORDER BY cw.created_at ASC;";
+
+        UNION
+
+        SELECT
+            id.item_code, 
+            id.item_description, 
+            id.trade_classification, 
+            id.purchase_uom, 
+            id.created_at,
+            SUM(IFNULL(cw.soh, 0)) AS central_warehouse_soh,
+            SUM(IFNULL(id.on_hand_qty, 0)) AS inventory_data_soh,
+            SUM(IFNULL(cw.soh, 0)) - SUM(IFNULL(id.on_hand_qty, 0)) AS soh_difference
+        FROM 
+            (SELECT item_code, item_description, trading, uom, created_at, SUM(soh) AS soh
+            FROM central_warehouse
+            GROUP BY item_code, item_description, trading, uom, created_at) cw
+        RIGHT JOIN 
+            (SELECT item_code, item_description, trade_classification, purchase_uom, created_at, SUM(on_hand_qty) AS on_hand_qty
+            FROM inventory_data
+            GROUP BY item_code, item_description, trade_classification, purchase_uom, created_at) id
+        ON cw.item_code = id.item_code
+        AND cw.item_description = id.item_description
+        AND cw.trading = id.trade_classification
+        AND cw.uom = id.purchase_uom
+        AND cw.created_at = id.created_at
+        GROUP BY 
+            id.item_code, 
+            id.item_description, 
+            id.trade_classification, 
+            id.purchase_uom, 
+            id.created_at
+
+        ORDER BY 
+            created_at ASC;";
 
         $view_all_uploaded_data = $this->conn->prepare($sql);
 
         $view_all_uploaded_data->execute();
         return $view_all_uploaded_data;
     }
-    
 }
+
+
+// SELECT 
+//     central_warehouse.item_code, 
+//     central_warehouse.item_description, 
+//     central_warehouse.trading, 
+//     central_warehouse.uom, 
+//     central_warehouse.created_at,
+//     SUM(IFNULL(central_warehouse.soh, 0)) AS central_warehouse_soh,
+//     SUM(IFNULL(inventory_data.on_hand_qty, 0)) AS inventory_data_soh,
+//     SUM(IFNULL(central_warehouse.soh, 0)) - SUM(IFNULL(inventory_data.on_hand_qty, 0)) AS soh_difference
+// FROM 
+//     central_warehouse
+// LEFT JOIN 
+//     inventory_data ON central_warehouse.item_code = inventory_data.item_code
+//     AND central_warehouse.item_description = inventory_data.item_description
+//     AND central_warehouse.trading = inventory_data.trade_classification
+//     AND central_warehouse.uom = inventory_data.purchase_uom
+// GROUP BY 
+//     central_warehouse.item_code, 
+//     central_warehouse.item_description, 
+//     central_warehouse.trading, 
+//     central_warehouse.uom, 
+//     central_warehouse.created_at
+
+// UNION
+
+// SELECT 
+//     inventory_data.item_code, 
+//     inventory_data.item_description, 
+//     inventory_data.trade_classification,
+//     inventory_data.purchase_uom, 
+//     inventory_data.created_at,
+//     SUM(IFNULL(central_warehouse.soh, 0)) AS central_warehouse_soh,
+//     SUM(IFNULL(inventory_data.on_hand_qty, 0)) AS inventory_data_soh,
+//     SUM(IFNULL(central_warehouse.soh, 0)) - SUM(IFNULL(inventory_data.on_hand_qty, 0)) AS soh_difference
+// FROM 
+//     central_warehouse
+// RIGHT JOIN 
+//     inventory_data ON central_warehouse.item_code = inventory_data.item_code
+//     AND central_warehouse.item_description = inventory_data.item_description
+//     AND central_warehouse.trading = inventory_data.trade_classification
+//     AND central_warehouse.uom = inventory_data.purchase_uom
+// GROUP BY 
+//     inventory_data.item_code, 
+//     inventory_data.item_description, 
+//     inventory_data.trade_classification, 
+//     inventory_data.purchase_uom, 
+//     inventory_data.created_at
+
+// ORDER BY 
+//     item_code ASC;
+
+
+//     $sql = "SELECT 
+//     cw.item_code,
+//     cw.item_description,
+//     cw.trading,
+//     cw.uom,
+//     cw.created_at,
+//     SUM(cw.soh) AS central_warehouse_soh,
+//     SUM(IFNULL(id.on_hand_qty, 0)) AS inventory_data_soh,
+//     SUM(cw.soh) - SUM(IFNULL(id.on_hand_qty, 0)) AS soh_difference
+// FROM 
+//     (
+//         SELECT DISTINCT item_code, item_description, trading, uom, created_at, soh
+//         FROM central_warehouse
+//     ) cw
+// LEFT JOIN 
+//     (
+//         SELECT DISTINCT item_code, created_at, on_hand_qty
+//         FROM inventory_data
+//     ) id
+// ON 
+//     cw.item_code = id.item_code 
+//     AND cw.created_at = id.created_at
+// GROUP BY 
+//     cw.item_code, 
+//     cw.item_description, 
+//     cw.trading, 
+//     cw.uom, 
+//     cw.created_at
+// ORDER BY cw.created_at ASC;";
