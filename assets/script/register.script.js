@@ -179,6 +179,7 @@ function save_user() {
                         icon: "success",
                         allowOutsideClick: false,
                         allowEscapeKey: false,
+                        confirmButtonColor: "#28a745",
                     }).then(function () {
                         location.reload();
                     });

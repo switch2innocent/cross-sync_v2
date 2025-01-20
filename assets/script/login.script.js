@@ -39,6 +39,7 @@ $(document).ready(function () {
                             icon: "success",
                             allowOutsideClick: false,
                             allowEscapeKey: false,
+                            confirmButtonColor: "#007bff",
                           }).then(function () {
                             window.location.href = 'upload.view.php';
                           });

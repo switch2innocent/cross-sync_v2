@@ -18,6 +18,7 @@ $(document).ready(function () {
         title: "Warning!",
         text: "You have selected the same file for both uploads. Please choose different files.",
         showConfirmButton: true,
+        confirmButtonColor: "#28a745",
       });
       return;
     } else if (!inventoryData || !centralWarehouse) {
@@ -26,6 +27,7 @@ $(document).ready(function () {
         title: "Error!",
         text: "Please select both files for upload.",
         showConfirmButton: true,
+        confirmButtonColor: "#28a745",
       });
 
       return;
@@ -64,6 +66,7 @@ $(document).ready(function () {
             icon: "success",
             allowOutsideClick: false,
             allowEscapeKey: false,
+            confirmButtonColor: "#28a745",
           }).then(function () {
             location.reload();
           });
@@ -79,6 +82,7 @@ $(document).ready(function () {
             title: "Upload Failed!",
             text: "There was an error while uploading your file. Please try again.",
             showConfirmButton: true,
+            confirmButtonColor: "#28a745",
           });
 
         },
