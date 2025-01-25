@@ -26,7 +26,7 @@
             <div class="col-md-4 border p-4 shadow-lg mt-2">
                 <center>
                     <img class="w-75 mt-3" src="assets/img/Innoland.png" alt="Company Logo">
-                    <h3 class="text-success">Warehouse Inventory System</h3>
+                    <h2 class="text-success mt-2">Cross Sync</h2>
                 </center>
                 <form action="" method="POST" class="mt-4">
                     <div class="form-group position-relative">
