@@ -18,6 +18,7 @@ $login = $loginuser->login_user();
 if($row = $login->fetch(PDO::FETCH_ASSOC)) {
     
     $_SESSION["loggedin"] = true;
+    $_SESSION['user_id'] = $row['id'];
     $_SESSION['firstname'] = $row['firstname'];
     
     echo 1;

@@ -13,14 +13,14 @@ $(document).ready(function () {
         if (uname === "") {
 
             toastr["info"]("Username is required.", "Info");
-            $('#txtUsername').focus(); 
+            $('#txtUsername').focus();
             return;
 
         } else if (pass === "") {
 
             toastr["info"]("Password is required.", "Info");
-            $('#txtPassword').focus(); 
-            return; 
+            $('#txtPassword').focus();
+            return;
 
         } else {
 
@@ -28,21 +28,33 @@ $(document).ready(function () {
                 type: 'POST',
                 url: 'controls/login_user.ctrl.php',
                 data: appendData,
-                success: function(response) {
+                success: function (response) {
                     console.log(response);
-                    if(response > 0 ) {
+                    if (response > 0) {
 
-                        // alert('Login successfully');
-                        Swal.fire({
-                            title: "Success!",
-                            text: "Login successfully!",
-                            icon: "success",
-                            allowOutsideClick: false,
-                            allowEscapeKey: false,
-                            confirmButtonColor: "#007bff",
-                          }).then(function () {
-                            window.location.href = 'upload.view.php';
-                          });
+                        $.ajax({
+                            type: 'POST',
+                            url: 'controls/check_user_access.ctrl.php',
+                            success: function (result) {
+                                if (result > 0) {
+
+                                    // alert('Login successfully');
+                                    Swal.fire({
+                                        title: "Success!",
+                                        text: "Login successfully!",
+                                        icon: "success",
+                                        allowOutsideClick: false,
+                                        allowEscapeKey: false,
+                                        confirmButtonColor: "#007bff",
+                                    }).then(function () {
+                                        window.location.href = 'upload.view.php';
+                                    });
+
+                                } else {
+                                    toastr["error"]("Account is not yet activated. Please contact the administrator.", "Error");
+                                }
+                            }
+                        });
 
                     } else {
 
@@ -66,14 +78,14 @@ $(document).ready(function () {
     });
 
     // Loader page
-    $('.fade-link').click(function(e) {
+    $('.fade-link').click(function (e) {
         e.preventDefault();
         var linkLocation = this.href;
-        $('#loading-screen').fadeIn(500, function() {
+        $('#loading-screen').fadeIn(500, function () {
             window.location = linkLocation;
         });
     });
-    
+
     toastr.options = {
         "closeButton": false,
         "debug": false,
@@ -90,5 +102,5 @@ $(document).ready(function () {
         "hideEasing": "linear",
         "showMethod": "fadeIn",
         "hideMethod": "fadeOut"
-      }
+    }
 });

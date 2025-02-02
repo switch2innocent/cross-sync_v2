@@ -67,7 +67,7 @@ if (!isset($_SESSION['loggedin']) || $_SESSION['loggedin'] !== true) {
             <img src="dist/img/avatar5.png" class="img-circle elevation-2" alt="User Image">
           </div>
           <div class="info">
-            <a href="#" class="d-block text-white" style="text-transform: capitalize;">Welcome! <?= htmlspecialchars($_SESSION['firstname']); ?></a>
+            <a href="#" class="d-block text-white" style="text-transform: capitalize;">Welcome! <?php echo htmlspecialchars($_SESSION['firstname']); ?></a>
           </div>
         </div>
 

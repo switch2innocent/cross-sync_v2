@@ -55,6 +55,19 @@ class Users {
         return $login_user;
     }
 
+    public function check_access() {
+
+        $sql = "SELECT count(user_id) AS count FROM access WHERE user_id=? AND system_id=? AND status!=0";
+        $check_access = $this->conn->prepare($sql);
+
+        $check_access->bindParam(1, $this->user_id);
+        $check_access->bindParam(2, $this->system_id);
+
+        $check_access->execute();
+        return $check_access;
+
+    }
+
     public function logout_user() {
 
         session_start();
