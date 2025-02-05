@@ -37,6 +37,7 @@ if (!isset($_SESSION['loggedin']) || $_SESSION['loggedin'] !== true) {
 
     .modal-dialog {
       zoom: 70%;
+      font-family: Arial, sans-serif;
     }
   </style>
 
@@ -53,21 +54,37 @@ if (!isset($_SESSION['loggedin']) || $_SESSION['loggedin'] !== true) {
           <a class="nav-link" data-widget="pushmenu" href="#" role="button"><i class="fas fa-bars"></i></a>
         </li>
       </ul>
+
+      <!-- Right navbar links -->
+      <ul class="navbar-nav ml-auto">
+        <!-- Notifications Dropdown Menu -->
+        <li class="nav-item dropdown">
+          <a class="nav-link" data-toggle="dropdown" href="#">
+            <i class="far fa-user-circle fa-md">&nbsp;</i> <?php echo $_SESSION['firstname'] . " " . $_SESSION['lastname']; ?>
+          </a>
+          <div class="dropdown-menu dropdown-menu-md dropdown-menu-right">
+            <span class="dropdown-item-text dropdown-header">Account Settings</span>
+            <a href="#" class="dropdown-item" id="editProfile">
+              <i class="fas fa-cog mr-2"></i> Edit Profile
+            </a>
+          </div>
+        </li>
+      </ul>
     </nav>
     <!-- /.navbar -->
 
     <!-- Main Sidebar Container -->
     <aside class="main-sidebar sidebar-dark-primary elevation-4">
-
       <!-- Sidebar -->
       <div class="sidebar">
         <!-- Sidebar user panel (optional) -->
         <div class="user-panel mt-3 pb-3 mb-3 d-flex">
+   
           <div class="image">
-            <img src="dist/img/avatar5.png" class="img-circle elevation-2" alt="User Image">
+            <img src="assets/img/innolandlogo.png" class="img-circle elevation-2" alt="User Image">
           </div>
           <div class="info">
-            <a href="#" class="d-block text-white" style="text-transform: capitalize;">Welcome! <?php echo htmlspecialchars($_SESSION['firstname']); ?></a>
+            <a href="upload.view.php" class="d-block text-white" style="text-transform: capitalize;"><b>CROSS SYNC</b></a>
           </div>
         </div>
 
@@ -101,21 +118,23 @@ if (!isset($_SESSION['loggedin']) || $_SESSION['loggedin'] !== true) {
     <!-- Content Wrapper. Contains page content -->
     <div class="content-wrapper">
       <!-- Content Header (Page header) -->
-      <div class="content-header">
+      <section class="content-header">
         <div class="container-fluid">
           <div class="row">
             <div class="col-sm-6">
-              <h5 class="m-0 font-weight-bold">Upload</h5>
-            </div><!-- /.col -->
-          </div><!-- /.row -->
+              <ol class="breadcrumb float-sm-left">
+                <li class="breadcrumb-item"><a href="#">Home</a></li>
+                <li class="breadcrumb-item active">Upload</li>
+              </ol>
+            </div>
+          </div>
         </div><!-- /.container-fluid -->
-      </div>
+      </section>
       <!-- /.content-header -->
 
       <!-- Main content -->
       <section class="content">
         <div class="container-fluid shadow-lg p-3 mb-5 bg-white rounded">
-
           <!-- New Added Content -->
           <div class="table-responsive">
             <table class="table table-bordered text-center table-hover" id="upload-datatable">
@@ -192,12 +211,12 @@ if (!isset($_SESSION['loggedin']) || $_SESSION['loggedin'] !== true) {
 
     <!-- Modal for upload -->
     <div class="modal fade" id="uploadModal">
-      <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-dialog">
         <div class="modal-content">
 
           <!-- Modal Header -->
           <div class="modal-header bg-dark">
-            <h4 class="modal-title font-weight-bold">Upload</h4>
+            <h4 class="modal-title font-weight-bold">Add File</h4>
             <button type="button" class="close text-white" data-dismiss="modal">&times;</button>
           </div>
 
@@ -234,7 +253,8 @@ if (!isset($_SESSION['loggedin']) || $_SESSION['loggedin'] !== true) {
 
           <!-- Modal Footer -->
           <div class="modal-footer">
-            <button type="submit" class="btn btn-success" value="Upload" id="upload-submit">Submit</button>
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+            <button type="submit" class="btn btn-primary" value="Upload" id="upload-submit">Submit</button>
             </form>
           </div>
 
@@ -245,12 +265,12 @@ if (!isset($_SESSION['loggedin']) || $_SESSION['loggedin'] !== true) {
 
     <!-- The Modal -->
     <div class="modal fade" id="searchModal">
-      <div class="modal-dialog modal-sm">
+      <div class="modal-dialog modal-md">
         <div class="modal-content">
 
           <!-- Modal Header -->
           <div class="modal-header bg-dark">
-            <h4 class="modal-title font-weight-bold">Search By Date</h4>
+            <h4 class="modal-title font-weight-bold">Search Date</h4>
             <button type="button" class="close text-white" data-dismiss="modal">&times;</button>
           </div>
 
@@ -269,7 +289,33 @@ if (!isset($_SESSION['loggedin']) || $_SESSION['loggedin'] !== true) {
 
           <!-- Modal footer -->
           <div class="modal-footer">
-            <button type="button" class="btn btn-sm btn-success" data-dismiss="modal">Done</button>
+            <button type="button" class="btn btn-primary" data-dismiss="modal">Done</button>
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+    <!-- Edit Profile Modal -->
+    <div class="modal fade" id="editProfileModal">
+      <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+
+          <!-- Modal Header -->
+          <div class="modal-header bg-dark">
+            <h4 class="modal-title font-weight-bold">Edit Profile</h4>
+            <button type="button" class="close text-white" data-dismiss="modal">&times;</button>
+          </div>
+
+          <!-- Modal body -->
+          <div class="modal-body" id="editProfileBody">
+            <!-- data goes here -->
+          </div>
+
+          <!-- Modal footer -->
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+            <button type="button" class="btn btn-primary" id="up_profile">Save Changes</button>
           </div>
 
         </div>

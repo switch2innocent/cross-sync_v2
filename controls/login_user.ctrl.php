@@ -20,6 +20,8 @@ if($row = $login->fetch(PDO::FETCH_ASSOC)) {
     $_SESSION["loggedin"] = true;
     $_SESSION['user_id'] = $row['id'];
     $_SESSION['firstname'] = $row['firstname'];
+    $_SESSION['lastname'] = $row['lastname'];
+    // $_SESSION['username'] = $row['username'];
     
     echo 1;
 } else {

@@ -45,9 +45,8 @@
                     <input type="submit" class="btn btn-primary mt-4 w-100" id="btnLogin" value="Login">
 
                 </form>
-                <div class="d-flex justify-content-between mt-2 p-3" style="background-color: #f8f9fa;">
-                    <a href="forgot_pass.view.php" class="fade-link" style="text-decoration: none; color: #007bff;">Forgot Password?</a>
-                    <a href="register.view.php" class="fade-link" style="text-decoration: none; color: #007bff;">Create New Account.</a>
+                <div class="text-center mt-4">
+                    <p>Forgot your password?<a href="forgot_pass.view.php" class="fade-link" style="text-decoration: none; color: #007bff;"> Click here to retrieve your password.</a></p>
                 </div>
             </div>
         </div>

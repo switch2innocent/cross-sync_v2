@@ -108,10 +108,10 @@ $(document).ready(function () {
           },
           {
             extend: "csv",
-            text: '<i class="fas fa-file-csv"></i> &nbsp; Export',
+            text: '<i class="fas fa-file-csv"></i> &nbsp; Download',
           },
           {
-            text: '<i class="fas fa-search"></i> &nbsp; Search By Date',
+            text: '<i class="fas fa-search"></i> &nbsp; Search Date',
             action: function (e, dt, node, config) {
               // ! Trigger the search modal to open
               var searchModal = new bootstrap.Modal(
@@ -176,6 +176,100 @@ $(document).ready(function () {
     $('#loading-screen').fadeIn(500, function () {
       window.location = linkLocation;
     });
+  });
+
+  //Get User Profile
+  $('#editProfile').on('click', function (e) {
+    e.preventDefault();
+
+    var id = $(this).val();
+
+    $.ajax({
+      type: 'POST',
+      url: 'controls/edit_profile.ctrl.php',
+      data: { id: id },
+      success: function (response) {
+        $('#editProfileModal').modal('show');
+        $('#editProfileBody').html(response);
+      }
+    });
+  });
+
+  $('#up_profile').on('click', function (e) {
+    e.preventDefault();
+
+    var id = $('#up_id').val();
+    var firstname = $('#up_fname').val();
+    var lastname = $('#up_lname').val();
+    var password = $('#up_pass').val();
+    var conpassword = $('#up_repass').val();
+
+    if (firstname == "" || lastname == "" || password == "" || conpassword == "") {
+
+      Swal.fire({
+        icon: 'error',
+        title: 'Error!',
+        text: 'Please fill all fields!',
+        showConfirmButton: true,
+        confirmButtonColor: '#28a745'
+      });
+
+    } else if (password !== conpassword) {
+
+      Swal.fire({
+        icon: 'error',
+        title: 'Error!',
+        text: 'Password does not match!',
+        showConfirmButton: true,
+        confirmButtonColor: '#28a745'
+      });
+
+    } else {
+
+      $.ajax({
+        type: 'POST',
+        url: 'controls/update_profile.ctrl.php',
+        data: {
+          id: id,
+          firstname: firstname,
+          lastname: lastname,
+          password: password
+        },
+        success: function (r) {
+
+          if (r > 0) {
+            Swal.fire({
+              title: "Profile Updated!",
+              text: "Your profile has been updated successfully. You will be logged out to save changes.",
+              icon: "success",
+              showConfirmButton: true,
+              confirmButtonColor: "#28a745",
+              allowOutsideClick: false
+            }).then(function () {
+              window.location.href = 'controls/logout_user.ctrl.php';
+            });
+          } else {
+            Swal.fire({
+              icon: 'error',
+              title: 'Error!',
+              text: 'Failed to update profile!',
+              showConfirmButton: true,
+              confirmButtonColor: '#28a745'
+            });
+          }
+        },
+        error: function () {
+          Swal.fire({
+            icon: 'error',
+            title: 'Error!',
+            text: 'An error occurred while updating profile!',
+            showConfirmButton: true,
+            confirmButtonColor: '#28a745'
+          });
+        }
+      });
+    }
+
   });
 
 }); // ! End document ready function

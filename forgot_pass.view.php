@@ -28,7 +28,7 @@
                         <input type="email" class="form-control pl-5" placeholder="IGC Email Address" id="email">
                         <i class="fas fa-envelope position-absolute" style="left: 10px; top: 50%; transform: translateY(-50%);"></i>
                     </div>
-                    <button class="btn btn-primary w-100" type="submit">Retrieve</button>
+                    <button class="btn btn-primary w-100" type="submit" id="retrieve">Retrieve</button>
                 </form>
             </div>
         </div>
