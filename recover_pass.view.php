@@ -24,14 +24,14 @@
                 </div>
                 <form action="">
                     <div class="form-group position-relative mt-4">
-                        <input type="password" class="form-control pl-5" placeholder="New Password" id="email">
+                        <input type="password" class="form-control pl-5" placeholder="New Password" id="password">
                         <i class="fas fa-lock position-absolute" style="left: 10px; top: 50%; transform: translateY(-50%);"></i>
                     </div>
                     <div class="form-group position-relative mt-4">
-                        <input type="password" class="form-control pl-5" placeholder="Confirm Password" id="email">
+                        <input type="password" class="form-control pl-5" placeholder="Confirm Password" id="conpassword">
                         <i class="fas fa-lock position-absolute" style="left: 10px; top: 50%; transform: translateY(-50%);"></i>
                     </div>
-                    <button class="btn btn-primary w-100 mt-2" type="submit">Reset</button>
+                    <button class="btn btn-primary w-100 mt-2" type="submit" id="reset">Reset</button>
                 </form>
             </div>
         </div>

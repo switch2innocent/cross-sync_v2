@@ -139,4 +139,20 @@ class Users {
         $email_by_id->execute();
         return $email_by_id;
     }
+
+    public function change_password() {
+
+        $sql = "UPDATE users SET password=? WHERE id=? AND status != 0";
+        $change_password = $this->conn->prepare($sql);
+
+        $change_password->bindParam(1, $this->password);
+        $change_password->bindParam(2, $this->id);
+        
+        if ($change_password->execute()) {
+            return true;
+        } else {
+            return false;
+        }
+
+    }
 }
