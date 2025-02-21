@@ -1,14 +1,6 @@
 <?php
 session_start();
 
-require_once 'config/dbcon.php';
-require_once 'objects/upload.obj.php';
-
-$database = new Connection();
-$db = $database->connect();
-
-$viewalluploadedfiles = new Upload_file($db);
-
 if (!isset($_SESSION['loggedin']) || $_SESSION['loggedin'] !== true) {
   header('location: index.php');
   exit;
@@ -26,18 +18,26 @@ if (!isset($_SESSION['loggedin']) || $_SESSION['loggedin'] !== true) {
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700&display=fallback">
   <link rel="stylesheet" href="plugins/fontawesome-free/css/all.min.css">
   <link rel="stylesheet" href="dist/css/adminlte.min.css">
-  <link rel="stylesheet" href="assets/plugins/datatablecss/dataTables.dataTables.css">
-  <link rel="stylesheet" href="assets/plugins/datatablecss/buttons.dataTables.css">
   <link rel="stylesheet" href="assets/css/date.style.css">
+  <link rel="stylesheet" href="assets/plugins/toastr/toastr.min.css">
+  <link rel="stylesheet" href="assets/bulma/css/bulma.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="assets/bulma/css/dataTables.bulma.css">
+  <link rel="stylesheet" href="assets/bulma/css/buttons.bulma.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
   <style>
-    .content {
-      zoom: 70%;
+    .modal-backdrop {
+      z-index: -1;
     }
 
     .modal-dialog {
-      zoom: 70%;
+      zoom: 80%;
       font-family: Arial, sans-serif;
+    }
+
+    .table {
+      zoom: 80%;
     }
   </style>
 
@@ -60,12 +60,11 @@ if (!isset($_SESSION['loggedin']) || $_SESSION['loggedin'] !== true) {
         <!-- Notifications Dropdown Menu -->
         <li class="nav-item dropdown">
           <a class="nav-link" data-toggle="dropdown" href="#">
-            <i class="far fa-user-circle fa-md">&nbsp;</i> <?php echo $_SESSION['firstname'] . " " . $_SESSION['lastname']; ?>
+            <i class="far fa-user-circle fa-lg" style="color: #007FFF">&nbsp;</i>Welcome! <?php echo $_SESSION['firstname']; ?>
           </a>
           <div class="dropdown-menu dropdown-menu-md dropdown-menu-right">
-            <span class="dropdown-item-text dropdown-header">Account Settings</span>
             <a href="#" class="dropdown-item" id="editProfile">
-              <i class="fas fa-cog mr-2"></i> Edit Profile
+              <i class="fas fa-cog mr-2"></i> Account Settings
             </a>
           </div>
         </li>
@@ -79,17 +78,18 @@ if (!isset($_SESSION['loggedin']) || $_SESSION['loggedin'] !== true) {
       <div class="sidebar">
         <!-- Sidebar user panel (optional) -->
         <div class="user-panel mt-3 pb-3 mb-3 d-flex">
-   
+
           <div class="image">
-            <img src="assets/img/innolandlogo.png" class="img-circle elevation-2" alt="User Image">
+            <a href="upload.view.php"><i class="fa fa-sync text-success fa-3x"></i></a>
           </div>
           <div class="info">
-            <a href="upload.view.php" class="d-block text-white" style="text-transform: capitalize;"><b>CROSS SYNC</b></a>
+            <a href="upload.view.php" class="d-block text-white" style="text-transform: capitalize; font-size: 24px;"><b>CROSS SYNC</b></a>
           </div>
+
         </div>
 
         <!-- Sidebar Menu -->
-        <nav class="mt-2">
+        <nav class="mt-5">
           <ul class="nav nav-pills nav-sidebar flex-column" data-widget="treeview" role="menu" data-accordion="false">
 
             <li class="nav-item">
@@ -137,70 +137,87 @@ if (!isset($_SESSION['loggedin']) || $_SESSION['loggedin'] !== true) {
         <div class="container-fluid shadow-lg p-3 mb-5 bg-white rounded">
           <!-- New Added Content -->
           <div class="table-responsive">
-            <table class="table table-bordered text-center table-hover" id="upload-datatable">
+            <!-- Table to display the data -->
+            <table class="table table-bordered table-hover is-striped mt-3" id="upload-datatable">
               <thead>
                 <tr>
-                  <th>Item Code</th>
-                  <th>Description</th>
-                  <th>Trading</th>
-                  <th>UOM</th>
-                  <th>Date</th>
-                  <th>SOH (Warehouse)</th>
-                  <th>SOH (Inventory)</th>
-                  <th>Difference</th>
-                  <th>Status</th>
-                  <!-- <th>SOH (Inventory)</th> -->
-                  <!-- <th>Quantity Received</th>
-                <th>Quantity Issued</th> -->
-                  <!-- <th>SOH Status</th> -->
+                  <th>
+                    <center>Item Code</center>
+                  </th>
+                  <th>
+                    <center>Description</center>
+                  </th>
+                  <th>
+                    <center>Trading</center>
+                  </th>
+                  <th>
+                    <center>UOM</center>
+                  </th>
+                  <th>
+                    <center>Date Uploaded</center>
+                  </th>
+                  <th>
+                    <center>Project Warehouse SOH</center>
+                  </th>
+                  <th>
+                    <center>Inventory SOH</center>
+                  </th>
+                  <th>
+                    <center>Difference</center>
+                  </th>
+                  <th>
+                    <center>Status</center>
+                  </th>
                 </tr>
               </thead>
               <tbody>
                 <?php
 
-                $view = $viewalluploadedfiles->view_all_uploaded_files();
-                while ($row = $view->fetch(PDO::FETCH_ASSOC)) {
+                require_once 'config/dbcon.php';
+                require_once 'objects/upload.obj.php';
 
-                  // = Balance
-                  // -+ Found in Netsuite / Found in Actual
-                  // x Not found
+                $datebase = new Connection();
+                $db = $datebase->connect();
+
+                $view_uploaded_Bydate = new Upload_file($db);
+
+                $view_uploaded_Bydate->start_date = isset($_POST['start_date']) ? $_POST['start_date'] : null;
+                $view_uploaded_Bydate->end_date = isset($_POST['end_date']) ? $_POST['end_date'] : null;
+
+                $view_upload = $view_uploaded_Bydate->view_all_uploaded_files();
+
+                while ($row = $view_upload->fetch(PDO::FETCH_ASSOC)) {
 
                   $status = '';
-
                   $warehouse = $row['central_warehouse_soh'];
                   $inventory = $row['inventory_data_soh'];
 
-                  if ($warehouse == 0 && $inventory == 0) {
-                    $status = "Not Found";
-                  } elseif ($warehouse == 0) {
-                    $status = "Found in Inventory";
-                  } elseif ($inventory == 0) {
-                    $status = "Found in Warehouse";
-                  } elseif ($warehouse === $inventory) {
-                    $status = "Balanced";
+                  if ($warehouse === $inventory) {
+                    $status = "Items Matched";
                   } elseif ($warehouse > $inventory) {
-                    $status = "High in Warehouse / Low in Inventory";
+                    $status = "Materials not yet IRed";
                   } elseif ($warehouse < $inventory) {
-                    $status = "Low in Warehouse / High in Inventory";
+                    $status = "Materials not yet MIed";
                   }
 
                   echo '
-                  <tr>
-                      <td>' . htmlspecialchars($row['item_code']) . '</td> 
-                      <td>' . htmlspecialchars($row['item_description']) . '</td> 
-                      <td>' . htmlspecialchars($row['trading']) . '</td> 
-                      <td>' . htmlspecialchars($row['uom']) . '</td> 
-                      <td>' . htmlspecialchars($row['created_at']) . '</td>
-                      <td>' . htmlspecialchars($row['central_warehouse_soh']) . '</td>
-                      <td>' . htmlspecialchars($row['inventory_data_soh']) . '</td>
-                      <td>' . htmlspecialchars($row['soh_difference']) . '</td>
-                      <td>' . $status . '</td>
-                  </tr>
-                ';
+                        <tr>
+                            <td>' . htmlspecialchars($row['item_code']) . '</td>
+                            <td>' . htmlspecialchars($row['item_description']) . '</td>
+                            <td>' . htmlspecialchars($row['trading']) . '</td>
+                            <td>' . htmlspecialchars($row['uom']) . '</td>
+                            <td>' . htmlspecialchars($row['created_at']) . '</td>
+                            <td>' . htmlspecialchars($row['central_warehouse_soh']) . '</td>
+                            <td>' . htmlspecialchars($row['inventory_data_soh']) . '</td>
+                            <td>' . htmlspecialchars($row['soh_difference']) . '</td>
+                            <td>' . $status . '</td>
+                        </tr>
+                    ';
                 }
                 ?>
               </tbody>
             </table>
+
           </div>
 
         </div>
@@ -216,7 +233,7 @@ if (!isset($_SESSION['loggedin']) || $_SESSION['loggedin'] !== true) {
 
           <!-- Modal Header -->
           <div class="modal-header bg-dark">
-            <h4 class="modal-title font-weight-bold">Add File</h4>
+            <h4 class="modal-title font-weight-bold"><i class="fas fa-file-csv"></i>&nbsp; Add File</h4>
             <button type="button" class="close text-white" data-dismiss="modal">&times;</button>
           </div>
 
@@ -224,19 +241,19 @@ if (!isset($_SESSION['loggedin']) || $_SESSION['loggedin'] !== true) {
           <div class="modal-body">
             <form method="POST" enctype="multipart/form-data" id="upload-form">
 
-              <h6 class="font-weight-bold mt-3">Central Warehouse <i class="text-danger">*</i></h6>
+              <h6 class="font-weight-bold mt-3">Project Warehouse <i class="text-danger">*</i></h6>
               <div class="form-group">
                 <div class="custom-file">
-                  <input type="file" class="form-control custom-file-input" name="upload-centralWarehouse" id="upload-centralWarehouse">
+                  <input type="file" class="form-control custom-file-input" name="upload-centralWarehouse" id="upload-centralWarehouse" accept=".csv">
                   <label for="upload-centralWarehouse" class="custom-file-label">Choose file</label>
                 </div>
               </div>
               <hr>
 
-              <h6 class="font-weight-bold">Inventory Data <i class="text-danger">*</i></h6>
+              <h6 class="font-weight-bold">Inventory <i class="text-danger">*</i></h6>
               <div class="form-group">
                 <div class="custom-file">
-                  <input type="file" class="form-control form-control-sm custom-file-input" name="upload-inventoryData" id="upload-inventoryData">
+                  <input type="file" class="form-control form-control-sm custom-file-input" name="upload-inventoryData" id="upload-inventoryData" accept=".csv">
                   <label for="upload-inventoryData" class="custom-file-label">Choose File</label>
                 </div>
               </div>
@@ -263,35 +280,33 @@ if (!isset($_SESSION['loggedin']) || $_SESSION['loggedin'] !== true) {
     </div>
 
 
-    <!-- The Modal -->
+    <!-- Search Modal -->
     <div class="modal fade" id="searchModal">
       <div class="modal-dialog modal-md">
         <div class="modal-content">
-
           <!-- Modal Header -->
           <div class="modal-header bg-dark">
-            <h4 class="modal-title font-weight-bold">Search Date</h4>
+            <h4 class="modal-title font-weight-bold"><i class="fa fa-calendar"></i> Search Date</h4>
             <button type="button" class="close text-white" data-dismiss="modal">&times;</button>
           </div>
 
           <!-- Modal body -->
           <div class="modal-body">
-            <!-- // TODO: Search by date -->
-            <div class="form-group">
-              <label for="start-date">Start Date <i class="text-danger">*</i></label>
-              <input type="date" class="custom-date-input" id="start-date">
-            </div>
-            <div class="form-group">
-              <label for="end-date">End Date <i class="text-danger">*</i></label>
-              <input type="date" class="custom-date-input" id="end-date">
-            </div>
+            <form method="POST" action="">
+              <!-- Search by date -->
+              <div class="form-group">
+                <label for="start-date">From: <i class="text-danger">*</i></label>
+                <input type="date" class="custom-date-input form-control" name="start_date" id="start-date">
+              </div>
+              <div class="form-group">
+                <label for="end-date">To: <i class="text-danger">*</i></label>
+                <input type="date" class="custom-date-input form-control" name="end_date" id="end-date">
+              </div>
+              <div class="modal-footer">
+                <button type="submit" class="btn btn-primary" id="searchDate">Search</button>
+              </div>
+            </form>
           </div>
-
-          <!-- Modal footer -->
-          <div class="modal-footer">
-            <button type="button" class="btn btn-primary" data-dismiss="modal">Done</button>
-          </div>
-
         </div>
       </div>
     </div>
@@ -303,7 +318,7 @@ if (!isset($_SESSION['loggedin']) || $_SESSION['loggedin'] !== true) {
 
           <!-- Modal Header -->
           <div class="modal-header bg-dark">
-            <h4 class="modal-title font-weight-bold">Edit Profile</h4>
+            <h4 class="modal-title font-weight-bold"><i class="fa fa-cog fa-lg"></i> Account Settings</h4>
             <button type="button" class="close text-white" data-dismiss="modal">&times;</button>
           </div>
 
@@ -345,18 +360,21 @@ if (!isset($_SESSION['loggedin']) || $_SESSION['loggedin'] !== true) {
 
 
   <!-- jQuery -->
-  <script src="plugins/jquery/jquery.min.js"></script>
+  <script src="assets/bulma/js/jquery-3.7.1.js"></script>
   <script src="plugins/bootstrap/js/bootstrap.bundle.min.js"></script>
   <script src="dist/js/adminlte.js"></script>
   <script src="assets/plugins/sweetalert2@11.js"></script>
-  <script src="assets/plugins/datatablejs/dataTables.js"></script>
-  <script src="assets/plugins/datatablejs/dataTables.buttons.js"></script>
-  <script src="assets/plugins/datatablejs/buttons.dataTables.js"></script>
-  <script src="assets/plugins/datatablejs/jszip.min.js"></script>
-  <script src="assets/plugins/datatablejs/pdfmake.min.js"></script>
-  <script src="assets/plugins/datatablejs/vfs_fonts.js"></script>
-  <script src="assets/plugins/datatablejs/buttons.html5.min.js"></script>
-  <script src="assets/plugins/datatablejs/buttons.print.min.js"></script>
+  <script src="assets/plugins/toastr/toastr.min.js"></script>
+  <script src="assets/bulma/js/dataTables.js"></script>
+  <script src="assets/bulma/js/dataTables.bulma.js"></script>
+  <script src="assets/bulma/js/dataTables.buttons.js"></script>
+  <script src="assets/bulma/js/buttons.bulma.js"></script>
+  <script src="assets/bulma/js//jszip.min.js"></script>
+  <script src="assets/bulma/js/pdfmake.min.js"></script>
+  <script src="assets/bulma/js/vfs_fonts.js"></script>
+  <script src="assets/bulma/js/buttons.html5.min.js"></script>
+  <script src="assets/bulma/js/buttons.print.min.js"></script>
+  <script src="assets/bulma/js/buttons.colVis.min.js"></script>
   <script src="assets/script/upload.script.js"></script>
 
 </body>

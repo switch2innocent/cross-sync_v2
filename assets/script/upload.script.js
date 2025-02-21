@@ -1,43 +1,26 @@
 $(document).ready(function () {
+
   $("#upload-form").on("submit", function (e) {
     e.preventDefault();
 
-    // TODO: Get file inputs
+    //Get file inputs
     var inventoryData = $("#upload-inventoryData")[0].files[0];
     var centralWarehouse = $("#upload-centralWarehouse")[0].files[0];
-    // ? var bomData = $('#upload-bomData')[0].files[0];
+    //var bomData = $('#upload-bomData')[0].files[0];
 
-    // ! validate files
-    if (
-      inventoryData &&
-      centralWarehouse &&
-      inventoryData.name === centralWarehouse.name
-    ) {
-      Swal.fire({
-        icon: "warning",
-        title: "Warning!",
-        text: "You have selected the same file for both uploads. Please choose different files.",
-        showConfirmButton: true,
-        confirmButtonColor: "#28a745",
-      });
+    //validate files
+    if (inventoryData && centralWarehouse && inventoryData.name === centralWarehouse.name) {
+      toastr["error"]("You have selected the same file for both uploads. Please choose different files.", "ERROR");
       return;
     } else if (!inventoryData || !centralWarehouse) {
-      Swal.fire({
-        icon: "error",
-        title: "Error!",
-        text: "Please select both files for upload.",
-        showConfirmButton: true,
-        confirmButtonColor: "#28a745",
-      });
-
+      toastr["error"]("Please select both files for upload.", "ERROR");
       return;
     } else {
-
-      // TODO: Create FormData object to hold the files
+      //Create FormData object to hold the files
       var formData = new FormData();
       formData.append("upload-inventoryData", inventoryData);
       formData.append("upload-centralWarehouse", centralWarehouse);
-      // ? formData.append('upload-bomData', bomData);
+      //formData.append('upload-bomData', bomData);
 
       $.ajax({
         type: "POST",
@@ -56,120 +39,85 @@ $(document).ready(function () {
               Swal.showLoading();
             },
           });
-
         },
         complete: function () {
 
           Swal.fire({
-            title: "Saved!",
-            text: "Saved successfully!",
+            title: "Success!",
+            text: "Uploaded successfully!",
             icon: "success",
             allowOutsideClick: false,
             allowEscapeKey: false,
-            confirmButtonColor: "#28a745",
+            confirmButtonColor: "#007bff",
           }).then(function () {
             location.reload();
           });
 
           $("#uploadModal").modal("hide");
           1;
-
         },
         error: function (xhr, status, error) {
-
-          Swal.fire({
-            icon: "error",
-            title: "Upload Failed!",
-            text: "There was an error while uploading your file. Please try again.",
-            showConfirmButton: true,
-            confirmButtonColor: "#28a745",
-          });
-
+          toastr["error"]("There was an error while uploading your file. Please try again.", "ERROR");
         },
 
-      }); // ! End for upload statement
-    } // ! End for validation
-  }); // ! End of upload form
+      });
+    }
+  });
 
-  // TODO: Create buttons for upload and export
-  new DataTable("#upload-datatable", {
-    layout: {
-      topStart: {
-        buttons: [
-          {
-            text: '<i class="fas fa-plus"></i> &nbsp; Add File',
-            action: function (e, dt, node, config) {
-              // ! Trigger the upload modal to open
-              var uploadModal = new bootstrap.Modal(
-                document.getElementById("uploadModal")
-              );
-              uploadModal.show();
-            },
-          },
-          {
-            extend: "csv",
-            text: '<i class="fas fa-file-csv"></i> &nbsp; Download',
-          },
-          {
-            text: '<i class="fas fa-search"></i> &nbsp; Search Date',
-            action: function (e, dt, node, config) {
-              // ! Trigger the search modal to open
-              var searchModal = new bootstrap.Modal(
-                document.getElementById("searchModal")
-              );
-              searchModal.show();
-            },
-          },
-        ],
-      },
-    },
-    "order": [[4, 'asc']],  // Set the date column (index 4) to sort ascending by default
-    "columnDefs": [
+
+  //Buttons for upload and export
+  let tableData = new DataTable('#upload-datatable');
+  new DataTable.Buttons(tableData, {
+    buttons: [
       {
-        "targets": 4,  // Date column index
-        "render": function (data, type, row) {
-          if (type === 'sort') {
-            return new Date(data).getTime();
-          }
-          return data;
+        text: '<i class="fas fa-plus fa-xs text-success" title="Upload a CSV File">&nbsp; Add File</i>',
+        action: function (e, dt, node, config) {
+          //Trigger Upload Modal
+          var uploadModal = new bootstrap.Modal(
+            document.getElementById("uploadModal")
+          );
+          uploadModal.show();
+        }
+      },
+      {
+        extend: 'pdf',
+        text: '<i class="fas fa-download fa-xs text-danger" title="Download To PDF">&nbsp; Download</i>',
+        customize: function (doc) {
+          doc.content.splice(0, 1, {
+            text: 'Cross Sync (Descripancy Report)',
+            fontSize: 14,
+            alignment: 'center',
+            margin: [0, 0, 0, 12]
+          });
+        }
+      },
+      {
+        text: '<i class="fas fa-search fa-xs text-primary" title="Search By Date">&nbsp; Search Date</i>',
+        action: function (e, dt, node, config) {
+          //Trigger the search modal to open
+          var searchModal = new bootstrap.Modal(
+            document.getElementById("searchModal")
+          );
+          searchModal.show();
         }
       }
     ]
-  }); // ! End for upload and export button
-
-  // TODO: Search datatable by date
-  var table = $("#upload-datatable").DataTable();
-  // ? Date range filter logic
-  $("#start-date, #end-date").change(function () {
-    var startDate = $("#start-date").val();
-    var endDate = $("#end-date").val();
-
-    // ? Perform the search when both dates are provided
-    table.draw();
   });
+  tableData.order([]).draw();  // Disable initial ordering
+  tableData
+    .buttons(0, null)
+    .container()
+    .prependTo(tableData.table().container());
+    
 
-  // ? Custom filter function
-  $.fn.dataTable.ext.search.push(function (settings, data, dataIndex) {
-    var startDate = $("#start-date").val();
-    var endDate = $("#end-date").val();
-    var date = data[4]; // ! Date column (adjust if your date is in a different column)
-
-    if (startDate && endDate) {
-      return (
-        new Date(date) >= new Date(startDate) &&
-        new Date(date) <= new Date(endDate)
-      );
-    }
-    return true; // ! No filter if no date range selected
-  });
-
-  // TODO: Show file name when browse
+  //Show file name when browse
   $(".custom-file-input").on("change", function () {
     var fileName = $(this).val().split("\\").pop();
     $(this).siblings(".custom-file-label").addClass("selected").html(fileName);
-  }); // ! End for show file name
+  });
 
-  // Loader page
+
+  //Loader page
   $('.logout').click(function (e) {
     e.preventDefault();
     var linkLocation = this.href;
@@ -177,6 +125,7 @@ $(document).ready(function () {
       window.location = linkLocation;
     });
   });
+
 
   //Get User Profile
   $('#editProfile').on('click', function (e) {
@@ -206,23 +155,11 @@ $(document).ready(function () {
 
     if (firstname == "" || lastname == "" || password == "" || conpassword == "") {
 
-      Swal.fire({
-        icon: 'error',
-        title: 'Error!',
-        text: 'Please fill all fields!',
-        showConfirmButton: true,
-        confirmButtonColor: '#28a745'
-      });
+      toastr["error"]("Please fill in all fields.", "ERROR");
 
     } else if (password !== conpassword) {
 
-      Swal.fire({
-        icon: 'error',
-        title: 'Error!',
-        text: 'Password does not match!',
-        showConfirmButton: true,
-        confirmButtonColor: '#28a745'
-      });
+      toastr["error"]("Password does not match. Please try again.", "ERROR");
 
     } else {
 
@@ -238,38 +175,50 @@ $(document).ready(function () {
         success: function (r) {
 
           if (r > 0) {
+
             Swal.fire({
               title: "Profile Updated!",
               text: "Your profile has been updated successfully. You will be logged out to save changes.",
               icon: "success",
-              showConfirmButton: true,
-              confirmButtonColor: "#28a745",
-              allowOutsideClick: false
+              allowOutsideClick: false,
+              allowEscapeKey: false,
+              confirmButtonColor: "#007bff",
             }).then(function () {
               window.location.href = 'controls/logout_user.ctrl.php';
             });
+
           } else {
-            Swal.fire({
-              icon: 'error',
-              title: 'Error!',
-              text: 'Failed to update profile!',
-              showConfirmButton: true,
-              confirmButtonColor: '#28a745'
-            });
+
+            toastr["error"]("Failed to update profile!", "ERROR");
+
           }
         },
         error: function () {
-          Swal.fire({
-            icon: 'error',
-            title: 'Error!',
-            text: 'An error occurred while updating profile!',
-            showConfirmButton: true,
-            confirmButtonColor: '#28a745'
-          });
+
+          toastr["error"]("An error occurred while updating profile!", "ERROR");
+
         }
       });
     }
 
   });
 
-}); // ! End document ready function
+  toastr.options = {
+    "closeButton": false,
+    "debug": false,
+    "newestOnTop": false,
+    "progressBar": false,
+    "positionClass": "toast-bottom-right",
+    "preventDuplicates": true,
+    "onclick": null,
+    "showDuration": "300",
+    "hideDuration": "1000",
+    "timeOut": "3000",
+    "extendedTimeOut": "1000",
+    "showEasing": "swing",
+    "hideEasing": "linear",
+    "showMethod": "fadeIn",
+    "hideMethod": "fadeOut"
+  }
+
+});
