@@ -188,4 +188,21 @@ class Upload_file
 
         return ($deleteData_inventory_data->execute()) ? true : false;
     }
+
+    public function deleteData_by_dates() {
+
+        $sql_central_warehouse = "UPDATE central_warehouse SET status = 0 WHERE created_at BETWEEN ? AND ?";
+        $delete_central_warehouse = $this->conn->prepare($sql_central_warehouse);
+        $delete_central_warehouse->bindParam(1, $this->start_date);
+        $delete_central_warehouse->bindParam(2, $this->end_date);
+        $result_central_warehouse = $delete_central_warehouse->execute();
+
+        $sql_inventory_data = "UPDATE inventory_data SET status = 0 WHERE created_at BETWEEN ? AND ?";
+        $delete_inventory_data = $this->conn->prepare($sql_inventory_data);
+        $delete_inventory_data->bindParam(1, $this->start_date);
+        $delete_inventory_data->bindParam(2, $this->end_date);
+        $result_inventory_data = $delete_inventory_data->execute();
+
+        return ($result_central_warehouse && $result_inventory_data) ? true : false;
+    }
 }
