@@ -66,11 +66,26 @@ if (!isset($_SESSION['loggedin']) || $_SESSION['loggedin'] !== true) {
             <a href="#" class="dropdown-item" id="editProfile">
               <i class="fas fa-cog mr-2"></i> Account Settings
             </a>
-            <?php if (isset($_SESSION['user_role']) && $_SESSION['user_role'] === 1) : ?>
-                  <a href="admin_side.view.php" class="dropdown-item" id="">
-                    <i class="fas fa-user-tie mr-2"></i> View as Administrator
-                  </a>
-            <?php endif; ?>
+            <?php
+
+            if (isset($_SESSION['user_role']) && $_SESSION['user_role'] == 1) {
+
+              echo '
+               <a href="admin_side.view.php" class="dropdown-item" id="">
+               <i class="fas fa-user-tie mr-2"></i> View as Administrator
+               </a>
+              ';
+            } else {
+
+              echo '
+               <a href="admin_side.view.php" class="dropdown-item" id="" style="display: none;">
+               <i class="fas fa-user-tie mr-2"></i> View as Administrator
+               </a>
+              ';
+              
+            }
+
+            ?>
           </div>
         </li>
       </ul>
